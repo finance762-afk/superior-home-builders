@@ -45,12 +45,17 @@ $colors = [
     'accent'    => '#f8e568',   // rgb(248, 229, 104)
 ];
 
+// ── Logo URL ─────────────────────────────────────────────────
+$logoUrl = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/logo/1780603633771-ziybvd-ChatGPT_Image_Jun_4__2026__04_07_04_PM.png';
+
 // ── Typography ───────────────────────────────────────────────
-// 3-font system — locked in Phase 2 after logo analysis
+// Premium font pairing — locked in Phase 2
+// Fraunces Variable: elegant serif for headings (premium, warm, architectural)
+// Plus Jakarta Sans Variable: clean premium body (modern, legible)
 $fonts = [
-    'heading' => 'Playfair Display',   // slab/serif display
-    'body'    => 'Inter',              // clean sans-serif
-    'accent'  => 'Caveat',            // script/handwritten accent
+    'heading' => 'Fraunces',         // variable serif display
+    'body'    => 'Plus Jakarta Sans', // variable geometric sans
+    'accent'  => 'Fraunces',         // italic Fraunces for accent phrases
 ];
 
 // ── SEO Keywords ─────────────────────────────────────────────
