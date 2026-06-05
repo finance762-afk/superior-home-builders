@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+          http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- ═══════════════════════════════════════════════════════════
+       Superior Home Builders — Image Sitemap
+       superior-home-builders.pageone.cloud
+       Generated: 2026-06-05
+       ═══════════════════════════════════════════════════════════ -->
+
+  <!-- ── Homepage ──────────────────────────────────────────────── -->
+  <url>
+    <loc>https://superior-home-builders.pageone.cloud/</loc>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604270195-cqt47w-468298780_10161035683197734_2359719916650256082_n.jpg</image:loc>
+      <image:caption>Superior Home Builders custom home construction project in Mount Vernon, Oregon</image:caption>
+      <image:title>Superior Home Builders — Custom Construction in Eastern Oregon</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604270979-4l74wp-468299739_10161024404097734_2434409497451082464_n.jpg</image:loc>
+      <image:caption>Quality home remodeling and construction services in Grant County, Oregon</image:caption>
+      <image:title>Superior Home Builders — Home Remodeling Grant County OR</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604271465-dqvg3l-468352707_10161044504572734_7925629043452829949_n.jpg</image:loc>
+      <image:caption>Residential construction and renovation work by Superior Home Builders</image:caption>
+      <image:title>Superior Home Builders — Residential Construction Mount Vernon OR</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604272736-wpmbnz-468453996_10161079313307734_5962081137845027174_n.jpg</image:loc>
+      <image:caption>Superior Home Builders project showcasing craftsmanship and attention to detail</image:caption>
+      <image:title>Superior Home Builders — Quality Craftsmanship Eastern Oregon</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604273137-ksvcbn-518240531_10161958113367734_8953895085965006897_n.jpg</image:loc>
+      <image:caption>Recent completed home construction project in Mount Vernon, Oregon</image:caption>
+      <image:title>Superior Home Builders — Completed Home Project 2025</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604273571-obykf5-518342600_10161958398292734_1673049660887267998_n.jpg</image:loc>
+      <image:caption>Custom home building in the Blue Mountains foothills near Mount Vernon, OR</image:caption>
+      <image:title>Superior Home Builders — Custom Home Blue Mountains Oregon</image:title>
+    </image:image>
+  </url>
+
+  <!-- ── Services Main ─────────────────────────────────────────── -->
+  <url>
+    <loc>https://superior-home-builders.pageone.cloud/services/</loc>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604089870-onrdei-20220414_073700.jpg</image:loc>
+      <image:caption>Superior Home Builders construction services in Eastern Oregon</image:caption>
+      <image:title>Superior Home Builders Services — Eastern Oregon Contractor</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604094227-1d9fl5-20220724_151623.jpg</image:loc>
+      <image:caption>Home construction and remodeling services available in Grant County, OR</image:caption>
+      <image:title>Home Construction Services — Superior Home Builders</image:title>
+    </image:image>
+  </url>
+
+  <!-- ── Bathroom Remodeling ───────────────────────────────────── -->
+  <url>
+    <loc>https://superior-home-builders.pageone.cloud/services/bathroom-remodeling</loc>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604143637-sycb6k-image.jpg</image:loc>
+      <image:caption>Custom bathroom remodel completed by Superior Home Builders in Oregon</image:caption>
+      <image:title>Bathroom Remodeling — Superior Home Builders Mount Vernon OR</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604145059-2lrm2s-image_1_.jpg</image:loc>
+      <image:caption>Tile work and fixture installation for bathroom renovation in Eastern Oregon</image:caption>
+      <image:title>Bathroom Renovation Tile Work — Superior Home Builders</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604145485-ddn578-image_2_.jpg</image:loc>
+      <image:caption>Completed bathroom remodeling project in Grant County, Oregon</image:caption>
+      <image:title>Completed Bathroom Remodel — Superior Home Builders</image:title>
+    </image:image>
+  </url>
+
+  <!-- ── Kitchen Remodeling ────────────────────────────────────── -->
+  <url>
+    <loc>https://superior-home-builders.pageone.cloud/services/kitchen-remodeling</loc>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604147279-gcsj2m-image_3_.jpg</image:loc>
+      <image:caption>Kitchen remodeling with custom cabinetry by Superior Home Builders in Oregon</image:caption>
+      <image:title>Kitchen Remodeling — Superior Home Builders Mount Vernon OR</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604148523-9gqjfg-image_4_.jpg</image:loc>
+      <image:caption>Custom kitchen renovation with countertop and appliance upgrades in Eastern Oregon</image:caption>
+      <image:title>Kitchen Renovation Countertops — Superior Home Builders</image:title>
+    </image:image>
+  </url>
+
+  <!-- ── Windows and Doors ─────────────────────────────────────── -->
+  <url>
+    <loc>https://superior-home-builders.pageone.cloud/services/windows-and-doors</loc>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604124347-3q5r39-Finished_windows_Southside.jpg</image:loc>
+      <image:caption>Finished window installation on south-facing exterior by Superior Home Builders</image:caption>
+      <image:title>Window Installation — Superior Home Builders Mount Vernon OR</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604139501-amhjvj-Southside_showing_extra_windows.jpg</image:loc>
+      <image:caption>South side of home showing energy-efficient window installation in Oregon</image:caption>
+      <image:title>Energy Efficient Windows Installation — Superior Home Builders</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604127216-zp2jli-20240723_114655.jpg</image:loc>
+      <image:caption>Door and window replacement project completed in Grant County, Oregon</image:caption>
+      <image:title>Door and Window Replacement — Superior Home Builders</image:title>
+    </image:image>
+  </url>
+
+  <!-- ── Decks ─────────────────────────────────────────────────── -->
+  <url>
+    <loc>https://superior-home-builders.pageone.cloud/services/decks</loc>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604152275-c23ksk-image_5_.jpg</image:loc>
+      <image:caption>Custom deck construction by Superior Home Builders in Eastern Oregon</image:caption>
+      <image:title>Deck Building — Superior Home Builders Mount Vernon OR</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604155754-lm8f8x-image_6_.jpg</image:loc>
+      <image:caption>Outdoor deck addition with railings completed in Grant County, Oregon</image:caption>
+      <image:title>Custom Deck Addition — Superior Home Builders</image:title>
+    </image:image>
+  </url>
+
+  <!-- ── Framing ───────────────────────────────────────────────── -->
+  <url>
+    <loc>https://superior-home-builders.pageone.cloud/services/framing</loc>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604096131-uq4fqg-20220724_151821.jpg</image:loc>
+      <image:caption>Residential framing work in progress by Superior Home Builders in Oregon</image:caption>
+      <image:title>Home Framing Services — Superior Home Builders Mount Vernon OR</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604097152-jcl4h7-20220724_152509.jpg</image:loc>
+      <image:caption>Structural framing for new construction in Grant County, Eastern Oregon</image:caption>
+      <image:title>Structural Framing New Construction — Superior Home Builders</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604098293-gywzxu-20220724_152529.jpg</image:loc>
+      <image:caption>Wall framing and structural work by experienced builders in Oregon</image:caption>
+      <image:title>Wall Framing Construction — Superior Home Builders</image:title>
+    </image:image>
+  </url>
+
+  <!-- ── Custom Home Building ──────────────────────────────────── -->
+  <url>
+    <loc>https://superior-home-builders.pageone.cloud/services/custom-home-building</loc>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604304191-9h3673-466678023_10160894523422734_2342757114398857707_n.jpg</image:loc>
+      <image:caption>Custom home build completed by Superior Home Builders in Mount Vernon, Oregon</image:caption>
+      <image:title>Custom Home Building — Superior Home Builders Mount Vernon OR</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604304797-ovpay8-466679242_10160894523457734_3638487413345304516_n.jpg</image:loc>
+      <image:caption>New custom home construction in Eastern Oregon with mountain views</image:caption>
+      <image:title>New Home Construction Eastern Oregon — Superior Home Builders</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604305411-iws3zu-467311955_10160913944502734_1381678653232378695_n.jpg</image:loc>
+      <image:caption>Custom home exterior and siding work in Grant County, Oregon</image:caption>
+      <image:title>Custom Home Exterior — Superior Home Builders</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604306051-1cn5ph-467748149_10161026648862734_1486565757297760050_n.jpg</image:loc>
+      <image:caption>Newly completed custom build near Mount Vernon, Oregon by Superior Home Builders</image:caption>
+      <image:title>Completed Custom Home Build — Superior Home Builders</image:title>
+    </image:image>
+  </url>
+
+  <!-- ── General Remodeling ────────────────────────────────────── -->
+  <url>
+    <loc>https://superior-home-builders.pageone.cloud/services/general-remodeling</loc>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604157333-7yq7b6-image_7_.jpg</image:loc>
+      <image:caption>Home renovation and remodeling work by Superior Home Builders in Oregon</image:caption>
+      <image:title>General Remodeling Services — Superior Home Builders Mount Vernon OR</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604157610-hamrrh-image_8_.jpg</image:loc>
+      <image:caption>Whole-home renovation in progress in Grant County, Eastern Oregon</image:caption>
+      <image:title>Whole Home Renovation — Superior Home Builders</image:title>
+    </image:image>
+  </url>
+
+  <!-- ── Commercial Construction ───────────────────────────────── -->
+  <url>
+    <loc>https://superior-home-builders.pageone.cloud/services/commercial-construction</loc>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604158766-8vgar0-image_9_.jpg</image:loc>
+      <image:caption>Commercial construction project completed by Superior Home Builders in Oregon</image:caption>
+      <image:title>Commercial Construction — Superior Home Builders Mount Vernon OR</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604160341-4mzu4l-image_10_.jpg</image:loc>
+      <image:caption>Commercial building project in Eastern Oregon by Superior Home Builders</image:caption>
+      <image:title>Commercial Building Eastern Oregon — Superior Home Builders</image:title>
+    </image:image>
+  </url>
+
+  <!-- ── Service Areas Overview ───────────────────────────────── -->
+  <url>
+    <loc>https://superior-home-builders.pageone.cloud/service-area/</loc>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604162710-mw6is2-image_11_.jpg</image:loc>
+      <image:caption>Superior Home Builders serves Mount Vernon, John Day, Canyon City, Prairie City, and Salem, Oregon</image:caption>
+      <image:title>Service Areas — Superior Home Builders Eastern Oregon and Willamette Valley</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604164592-w2al1l-image_12_.jpg</image:loc>
+      <image:caption>Construction and remodeling services across Grant County, Oregon</image:caption>
+      <image:title>Grant County Construction Services — Superior Home Builders</image:title>
+    </image:image>
+  </url>
+
+  <!-- ── Mount Vernon ───────────────────────────────────────────── -->
+  <url>
+    <loc>https://superior-home-builders.pageone.cloud/areas/mount-vernon/</loc>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604099376-0r19op-20220724_154635.jpg</image:loc>
+      <image:caption>Home construction and remodeling in Mount Vernon, Oregon near the Blue Mountains</image:caption>
+      <image:title>Home Builder Mount Vernon OR — Superior Home Builders</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604101037-ig7pay-20220727_101642.jpg</image:loc>
+      <image:caption>Residential project on Hwy 395 corridor in Mount Vernon, OR</image:caption>
+      <image:title>Mount Vernon OR Residential Project — Superior Home Builders</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604102234-3xpgf4-20221109_161614.jpg</image:loc>
+      <image:caption>Construction work in the Canyon Creek corridor near Mount Vernon, Oregon</image:caption>
+      <image:title>Canyon Creek Area Construction — Superior Home Builders</image:title>
+    </image:image>
+  </url>
+
+  <!-- ── John Day ───────────────────────────────────────────────── -->
+  <url>
+    <loc>https://superior-home-builders.pageone.cloud/areas/john-day/</loc>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604103182-ak0uqe-20221109_161614_1_.jpg</image:loc>
+      <image:caption>Home remodeling services in John Day, Oregon — Grant County seat</image:caption>
+      <image:title>Home Builder John Day OR — Superior Home Builders</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604104586-837vw8-20221127_142618.jpg</image:loc>
+      <image:caption>Construction project near the John Day River corridor in Grant County, Oregon</image:caption>
+      <image:title>John Day OR Construction Project — Superior Home Builders</image:title>
+    </image:image>
+  </url>
+
+  <!-- ── Canyon City ───────────────────────────────────────────── -->
+  <url>
+    <loc>https://superior-home-builders.pageone.cloud/areas/canyon-city/</loc>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604105979-qifw3f-20230813_180947.jpg</image:loc>
+      <image:caption>Historic home renovation in Canyon City, Oregon — preserving 1860s mining era character</image:caption>
+      <image:title>Home Builder Canyon City OR — Superior Home Builders</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604110512-hpeyxa-20230904_195415.jpg</image:loc>
+      <image:caption>Structural renovation work on a Canyon Creek corridor property in Canyon City, OR</image:caption>
+      <image:title>Canyon City OR Historic Renovation — Superior Home Builders</image:title>
+    </image:image>
+  </url>
+
+  <!-- ── Prairie City ───────────────────────────────────────────── -->
+  <url>
+    <loc>https://superior-home-builders.pageone.cloud/areas/prairie-city/</loc>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604111859-dai6kd-20230910_202910.jpg</image:loc>
+      <image:caption>Home construction in Prairie City, Oregon near Strawberry Mountain Wilderness</image:caption>
+      <image:title>Home Builder Prairie City OR — Superior Home Builders</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604131715-gsv7qf-20250819_192028.jpg</image:loc>
+      <image:caption>High-elevation construction project in Prairie City, OR — built for Grant County snowloads</image:caption>
+      <image:title>Prairie City OR High-Elevation Build — Superior Home Builders</image:title>
+    </image:image>
+  </url>
+
+  <!-- ── Salem ─────────────────────────────────────────────────── -->
+  <url>
+    <loc>https://superior-home-builders.pageone.cloud/areas/salem/</loc>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604136960-eo83ht-20250819_192113.jpg</image:loc>
+      <image:caption>Custom home and remodeling project in the Salem, Oregon area by Superior Home Builders</image:caption>
+      <image:title>Home Builder Salem OR — Superior Home Builders</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604169523-2ffusu-image_13_.jpg</image:loc>
+      <image:caption>Precision remodeling work in the Salem, Oregon Willamette Valley region</image:caption>
+      <image:title>Salem OR Remodeling Project — Superior Home Builders</image:title>
+    </image:image>
+  </url>
+
+  <!-- ── About ─────────────────────────────────────────────────── -->
+  <url>
+    <loc>https://superior-home-builders.pageone.cloud/about/</loc>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604170464-37ufln-image_14_.jpg</image:loc>
+      <image:caption>Superior Home Builders team — over 20 years of construction experience in Eastern Oregon</image:caption>
+      <image:title>About Superior Home Builders — Mount Vernon OR</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604179301-ru0crs-Solar_array_finished.jpg</image:loc>
+      <image:caption>Solar array installation completed by Superior Home Builders — expanding service offerings</image:caption>
+      <image:title>Solar Array Installation — Superior Home Builders</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604179882-as63pf-Solar_array_man_size.jpg</image:loc>
+      <image:caption>Large-scale solar array installation project demonstrating Superior Home Builders' capabilities</image:caption>
+      <image:title>Solar Array Scale — Superior Home Builders Capabilities</image:title>
+    </image:image>
+  </url>
+
+</urlset>

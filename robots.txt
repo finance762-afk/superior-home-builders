@@ -1,0 +1,32 @@
+# robots.txt — Superior Home Builders
+# https://superior-home-builders.pageone.cloud
+
+User-agent: *
+Allow: /
+
+# System directories — not public content
+Disallow: /includes/
+Disallow: /thank-you/
+
+# AI crawlers — allowed to index for AEO/LLM discovery
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Sitemaps
+Sitemap: https://superior-home-builders.pageone.cloud/sitemap.xml
+Sitemap: https://superior-home-builders.pageone.cloud/sitemap-images.xml
