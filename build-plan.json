@@ -1,0 +1,1370 @@
+{
+  "seo": {
+    "target_radius": 100,
+    "primary_keyword": "custom home builders mount vernon or",
+    "secondary_keywords": [
+      "home builders mount vernon or",
+      "bathroom remodeling mount vernon or",
+      "kitchen remodeling mount vernon or",
+      "deck builders mount vernon or",
+      "home remodeling mount vernon or",
+      "custom home builders salem or",
+      "general contractor mount vernon or",
+      "home renovation mount vernon or",
+      "window installation mount vernon or",
+      "kitchen remodel salem or",
+      "bathroom remodeler near me",
+      "commercial construction mount vernon or"
+    ]
+  },
+  "tier": "premium",
+  "email": "",
+  "pages": [
+    {
+      "slug": "bathroom-remodeling",
+      "type": "service",
+      "title": "Bathroom Remodeling in Mount Vernon, OR",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Bathroom Remodeling"
+      ],
+      "primary_keyword": "bathroom remodeling Mount Vernon OR"
+    },
+    {
+      "slug": "kitchen-remodeling",
+      "type": "service",
+      "title": "Kitchen Remodeling in Mount Vernon, OR",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Kitchen Remodeling"
+      ],
+      "primary_keyword": "kitchen remodeling Mount Vernon OR"
+    },
+    {
+      "slug": "windows-and-doors",
+      "type": "service",
+      "title": "Windows and Doors in Mount Vernon, OR",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Windows and Doors"
+      ],
+      "primary_keyword": "windows and doors Mount Vernon OR"
+    },
+    {
+      "slug": "decks",
+      "type": "service",
+      "title": "Decks in Mount Vernon, OR",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Decks"
+      ],
+      "primary_keyword": "decks Mount Vernon OR"
+    },
+    {
+      "slug": "framing",
+      "type": "service",
+      "title": "Framing in Mount Vernon, OR",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Framing"
+      ],
+      "primary_keyword": "framing Mount Vernon OR"
+    },
+    {
+      "slug": "custom-home-building",
+      "type": "service",
+      "title": "Custom Home Building in Mount Vernon, OR",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Custom Home Building"
+      ],
+      "primary_keyword": "custom home building Mount Vernon OR"
+    },
+    {
+      "slug": "general-remodeling",
+      "type": "service",
+      "title": "General Remodeling in Mount Vernon, OR",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "General Remodeling"
+      ],
+      "primary_keyword": "general remodeling Mount Vernon OR"
+    },
+    {
+      "slug": "commercial-construction",
+      "type": "service",
+      "title": "Commercial Construction in Mount Vernon, OR",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Commercial Construction"
+      ],
+      "primary_keyword": "commercial construction Mount Vernon OR"
+    }
+  ],
+  "phone": "",
+  "assets": {
+    "logo": {
+      "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/logo/1780603633771-ziybvd-ChatGPT_Image_Jun_4__2026__04_07_04_PM.png",
+      "storage_path": "superior-home-builders/logo/1780603633771-ziybvd-ChatGPT_Image_Jun_4__2026__04_07_04_PM.png"
+    },
+    "images": [
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/logo/1780603633771-ziybvd-ChatGPT_Image_Jun_4__2026__04_07_04_PM.png",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "logo",
+        "storage_path": "superior-home-builders/logo/1780603633771-ziybvd-ChatGPT_Image_Jun_4__2026__04_07_04_PM.png",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/logo/1780691222373-tha1ul-ChatGPT_Image_Jun_4__2026__04_07_04_PM.png",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "logo",
+        "storage_path": "superior-home-builders/logo/1780691222373-tha1ul-ChatGPT_Image_Jun_4__2026__04_07_04_PM.png",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604088777-d9uiqb-134893.jpeg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604088777-d9uiqb-134893.jpeg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604089870-onrdei-20220414_073700.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604089870-onrdei-20220414_073700.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604094227-1d9fl5-20220724_151623.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604094227-1d9fl5-20220724_151623.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604096131-uq4fqg-20220724_151821.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604096131-uq4fqg-20220724_151821.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604097152-jcl4h7-20220724_152509.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604097152-jcl4h7-20220724_152509.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604098293-gywzxu-20220724_152529.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604098293-gywzxu-20220724_152529.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604099376-0r19op-20220724_154635.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604099376-0r19op-20220724_154635.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604101037-ig7pay-20220727_101642.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604101037-ig7pay-20220727_101642.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604102234-3xpgf4-20221109_161614.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604102234-3xpgf4-20221109_161614.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604103182-ak0uqe-20221109_161614_1_.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604103182-ak0uqe-20221109_161614_1_.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604104586-837vw8-20221127_142618.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604104586-837vw8-20221127_142618.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604105979-qifw3f-20230813_180947.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604105979-qifw3f-20230813_180947.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604110512-hpeyxa-20230904_195415.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604110512-hpeyxa-20230904_195415.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604111859-dai6kd-20230910_202910.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604111859-dai6kd-20230910_202910.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604112550-4m2kee-DSCN0276.JPG",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604112550-4m2kee-DSCN0276.JPG",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604114023-p3lz71-NCM_0009.JPG",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604114023-p3lz71-NCM_0009.JPG",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604114128-ymmogn-20240312_144231.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604114128-ymmogn-20240312_144231.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604114836-wh669q-NCM_0010.JPG",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604114836-wh669q-NCM_0010.JPG",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604115752-bzts5e-NCM_0011.JPG",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604115752-bzts5e-NCM_0011.JPG",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604116033-3a3b9z-20240315_083036.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604116033-3a3b9z-20240315_083036.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604116400-7s5f75-NCM_0012.JPG",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604116400-7s5f75-NCM_0012.JPG",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604117485-jmd410-NCM_0013.JPG",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604117485-jmd410-NCM_0013.JPG",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604118330-p5f5ls-20240324_184157.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604118330-p5f5ls-20240324_184157.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604118382-aggipd-NCM_0014.JPG",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604118382-aggipd-NCM_0014.JPG",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604119890-4kseke-NCM_0015.JPG",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604119890-4kseke-NCM_0015.JPG",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604122459-if8up7-NCM_0016.JPG",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604122459-if8up7-NCM_0016.JPG",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604123422-uthb93-20240420_172332.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604123422-uthb93-20240420_172332.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604124177-vzi3v8-NCM_0021.JPG",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604124177-vzi3v8-NCM_0021.JPG",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604124347-3q5r39-Finished_windows_Southside.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604124347-3q5r39-Finished_windows_Southside.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604125613-kngb97-IMG_0001.JPG",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604125613-kngb97-IMG_0001.JPG",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604126040-ny5cm6-NCM_0022.JPG",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604126040-ny5cm6-NCM_0022.JPG",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604127216-zp2jli-20240723_114655.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604127216-zp2jli-20240723_114655.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604127460-jz0mcq-NCM_0023.JPG",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604127460-jz0mcq-NCM_0023.JPG",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604127799-i1q3b3-IMG_0003.JPG",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604127799-i1q3b3-IMG_0003.JPG",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604129015-m94ui8-NCM_0024.JPG",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604129015-m94ui8-NCM_0024.JPG",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604129735-3f067g-IMG_20200827_221727_939.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604129735-3f067g-IMG_20200827_221727_939.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604130058-n31szj-IMG_20200827_221727_942.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604130058-n31szj-IMG_20200827_221727_942.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604130366-ojb2s9-NCM_0011.JPG",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604130366-ojb2s9-NCM_0011.JPG",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604131343-29nq6p-NCM_0015.JPG",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604131343-29nq6p-NCM_0015.JPG",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604131715-gsv7qf-20250819_192028.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604131715-gsv7qf-20250819_192028.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604131831-5q4xyq-NCM_0023.JPG",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604131831-5q4xyq-NCM_0023.JPG",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604134019-fnvwzw-NCM_0024.JPG",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604134019-fnvwzw-NCM_0024.JPG",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604136960-eo83ht-20250819_192113.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604136960-eo83ht-20250819_192113.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604139501-amhjvj-Southside_showing_extra_windows.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604139501-amhjvj-Southside_showing_extra_windows.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604141365-5iqqre-20251008_115652.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604141365-5iqqre-20251008_115652.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604143637-sycb6k-image.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604143637-sycb6k-image.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604145059-2lrm2s-image_1_.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604145059-2lrm2s-image_1_.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604145485-ddn578-image_2_.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604145485-ddn578-image_2_.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604147279-gcsj2m-image_3_.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604147279-gcsj2m-image_3_.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604148523-9gqjfg-image_4_.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604148523-9gqjfg-image_4_.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604152275-c23ksk-image_5_.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604152275-c23ksk-image_5_.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604155754-lm8f8x-image_6_.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604155754-lm8f8x-image_6_.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604157333-7yq7b6-image_7_.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604157333-7yq7b6-image_7_.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604157610-hamrrh-image_8_.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604157610-hamrrh-image_8_.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604158766-8vgar0-image_9_.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604158766-8vgar0-image_9_.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604160341-4mzu4l-image_10_.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604160341-4mzu4l-image_10_.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604162710-mw6is2-image_11_.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604162710-mw6is2-image_11_.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604164592-w2al1l-image_12_.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604164592-w2al1l-image_12_.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604169523-2ffusu-image_13_.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604169523-2ffusu-image_13_.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604170464-37ufln-image_14_.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604170464-37ufln-image_14_.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604170857-9sysw3-image_15_.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604170857-9sysw3-image_15_.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604172206-lvbida-image_16_.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604172206-lvbida-image_16_.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604173822-zcpe9y-image_17_.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604173822-zcpe9y-image_17_.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604175500-3b5v0z-image_18_.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604175500-3b5v0z-image_18_.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604175855-0lanxo-IMG_20201229_105408028.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604175855-0lanxo-IMG_20201229_105408028.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604176189-rqatid-IMG_20210917_143032574.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604176189-rqatid-IMG_20210917_143032574.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604177454-0g9dth-IMG_20211021_145511212.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604177454-0g9dth-IMG_20211021_145511212.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604179301-ru0crs-Solar_array_finished.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604179301-ru0crs-Solar_array_finished.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604179882-as63pf-Solar_array_man_size.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604179882-as63pf-Solar_array_man_size.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604270195-cqt47w-468298780_10161035683197734_2359719916650256082_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604270195-cqt47w-468298780_10161035683197734_2359719916650256082_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604270979-4l74wp-468299739_10161024404097734_2434409497451082464_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604270979-4l74wp-468299739_10161024404097734_2434409497451082464_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604271465-dqvg3l-468352707_10161044504572734_7925629043452829949_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604271465-dqvg3l-468352707_10161044504572734_7925629043452829949_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604272106-oulfx1-468355941_10161021929292734_4652984945737157402_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604272106-oulfx1-468355941_10161021929292734_4652984945737157402_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604272736-wpmbnz-468453996_10161079313307734_5962081137845027174_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604272736-wpmbnz-468453996_10161079313307734_5962081137845027174_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604273137-ksvcbn-518240531_10161958113367734_8953895085965006897_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604273137-ksvcbn-518240531_10161958113367734_8953895085965006897_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604273571-obykf5-518342600_10161958398292734_1673049660887267998_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604273571-obykf5-518342600_10161958398292734_1673049660887267998_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604274036-c18rjb-552631298_10162253866937734_72222118046938437_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604274036-c18rjb-552631298_10162253866937734_72222118046938437_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604274519-cmj12e-rs_w_370_cg_true.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604274519-cmj12e-rs_w_370_cg_true.webp",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604274976-ullf0g-rs_w_370_cg_true_m__3_.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604274976-ullf0g-rs_w_370_cg_true_m__3_.webp",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604275360-w9kikf-rs_w_370_cg_true_m__4_.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604275360-w9kikf-rs_w_370_cg_true_m__4_.webp",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604275641-0qyflr-rs_w_370_cg_true_m__6_.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604275641-0qyflr-rs_w_370_cg_true_m__6_.webp",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604303627-fuusye-466416686_10160887919582734_2474559299491274054_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604303627-fuusye-466416686_10160887919582734_2474559299491274054_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604304191-9h3673-466678023_10160894523422734_2342757114398857707_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604304191-9h3673-466678023_10160894523422734_2342757114398857707_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604304797-ovpay8-466679242_10160894523457734_3638487413345304516_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604304797-ovpay8-466679242_10160894523457734_3638487413345304516_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604305411-iws3zu-467311955_10160913944502734_1361278653232378695_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604305411-iws3zu-467311955_10160913944502734_1361278653232378695_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604305677-lmh4r4-467727339_10160943929812734_2903503898260537128_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604305677-lmh4r4-467727339_10160943929812734_2903503898260537128_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604306051-1cn5ph-467748149_10161026648862734_1486565757297760050_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604306051-1cn5ph-467748149_10161026648862734_1486565757297760050_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604306308-vf2bli-467983059_10160963176577734_863906500179344595_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604306308-vf2bli-467983059_10160963176577734_863906500179344595_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604306635-5c2m8u-468003257_10160973062432734_9168481609206491837_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604306635-5c2m8u-468003257_10160973062432734_9168481609206491837_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604306896-qfd4c9-468008997_10160968290672734_2603811969587593971_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604306896-qfd4c9-468008997_10160968290672734_2603811969587593971_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604307157-7avz8p-468023253_10160934565362734_5101703548498245771_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780604307157-7avz8p-468023253_10160934565362734_5101703548498245771_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780691433907-9b5dsf-134893.jpeg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780691433907-9b5dsf-134893.jpeg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780691434628-8yo5p1-20220414_073700.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780691434628-8yo5p1-20220414_073700.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780691436070-5vkhbl-20220724_151623.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780691436070-5vkhbl-20220724_151623.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780691437274-54wovo-20220724_151821.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780691437274-54wovo-20220724_151821.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780691439358-h1w11e-20220724_152509.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780691439358-h1w11e-20220724_152509.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780691441724-cjawoe-20220724_152529.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780691441724-cjawoe-20220724_152529.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780691445016-b0tcnx-Finished_windows_Southside.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780691445016-b0tcnx-Finished_windows_Southside.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780691445256-mqzx0f-20220724_154635.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780691445256-mqzx0f-20220724_154635.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780691445689-mfq9f5-IMG_0001.JPG",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "superior-home-builders/photos/1780691445689-mfq9f5-IMG_0001.JPG",
+        "quality_score": null
+      }
+    ],
+    "page_allocations": null,
+    "recommended_hero_image": {
+      "alt": "",
+      "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/logo/1780603633771-ziybvd-ChatGPT_Image_Jun_4__2026__04_07_04_PM.png",
+      "context": "logo",
+      "quality_score": null
+    }
+  },
+  "design": {
+    "fonts": {},
+    "notes": "",
+    "style": "elegant",
+    "colors": {
+      "accent": "#f8e568",
+      "primary": "#0f1219",
+      "secondary": "#072159",
+      "extracted_from_logo": false
+    },
+    "logo_analysis": {}
+  },
+  "domain": "superior-home-builders",
+  "phases": [
+    {
+      "name": "scaffold",
+      "phase": 1,
+      "status": "pending"
+    },
+    {
+      "name": "nav_footer_head",
+      "phase": 2,
+      "status": "pending"
+    },
+    {
+      "name": "homepage",
+      "phase": 3,
+      "status": "pending"
+    },
+    {
+      "name": "inner_pages",
+      "phase": 4,
+      "status": "pending"
+    },
+    {
+      "name": "seo_aeo_deploy",
+      "phase": 5,
+      "status": "pending"
+    }
+  ],
+  "address": {
+    "zip": "97865",
+    "city": "Mount Vernon",
+    "state": "OR",
+    "street": ""
+  },
+  "content": {
+    "usps": [],
+    "years": null,
+    "insurance": "",
+    "description": "Superior Home Builders has been delivering quality construction services throughout Eastern Oregon for over 20 years. From new construction to comprehensive remodeling projects, we bring expertise and commitment to every aspect of the building process, ensuring your vision becomes a reality built to the highest standards.\n\nOur mission is to build your place in the best way possible. We believe in a collaborative approach, working closely with our clients to understand their needs and exceed expectations. Whether your project is large or small, we treat every build with the same dedication and attention to detail.\n\nAt Superior Home Builders, we're committed to being your trusted partner throughout the construction journey. Our extensive experience, combined with our dedication to quality craftsmanship, makes us the preferred choice for homeowners and builders in Eastern Oregon looking for reliable, professional construction services.",
+    "certifications": []
+  },
+  "reviews": [],
+  "tagline": "Superior Homes, Superior Lives",
+  "industry": "home_builder",
+  "services": [
+    {
+      "name": "Bathroom Remodeling",
+      "keywords": [
+        "bathroom remodeling Mount Vernon OR",
+        "bathroom renovation Oregon",
+        "custom bathroom remodel",
+        "bathroom contractor Mount Vernon",
+        "bathroom remodeling services"
+      ],
+      "description": "Superior Home Builders specializes in custom bathroom remodeling that transforms your space with modern fixtures, quality craftsmanship, and attention to detail. From tile work to plumbing upgrades, we handle every aspect of your bathroom renovation."
+    },
+    {
+      "name": "Kitchen Remodeling",
+      "keywords": [
+        "kitchen remodeling Mount Vernon OR",
+        "custom kitchen renovation",
+        "kitchen contractor Oregon",
+        "kitchen remodel Mount Vernon",
+        "kitchen cabinets countertops"
+      ],
+      "description": "Enhance your home's heart with Superior Home Builders' comprehensive kitchen remodeling services, featuring custom cabinetry, countertops, and modern appliances. We design kitchens that combine functionality with beautiful aesthetics."
+    },
+    {
+      "name": "Windows and Doors",
+      "keywords": [
+        "windows doors Mount Vernon OR",
+        "replacement windows Oregon",
+        "door installation Mount Vernon",
+        "energy efficient windows",
+        "home window doors contractor"
+      ],
+      "description": "Upgrade your home's curb appeal and energy efficiency with quality windows and doors installation from Superior Home Builders. We offer a wide selection of styles and materials to suit any home."
+    },
+    {
+      "name": "Decks",
+      "keywords": [
+        "deck building Mount Vernon OR",
+        "custom deck contractor",
+        "deck construction Oregon",
+        "outdoor deck builders",
+        "residential deck installation"
+      ],
+      "description": "Add outdoor living space with custom-built decks by Superior Home Builders, designed for beauty, durability, and safety. From composite to pressure-treated wood, we build decks that enhance your property."
+    },
+    {
+      "name": "Framing",
+      "keywords": [
+        "framing contractor Mount Vernon OR",
+        "home framing services",
+        "custom home framing",
+        "structural framing Oregon",
+        "residential framing Mount Vernon"
+      ],
+      "description": "Superior Home Builders provides expert framing services for new construction and remodeling projects, ensuring structural integrity and quality craftsmanship. Our experienced team handles residential and commercial framing needs."
+    },
+    {
+      "name": "Custom Home Building",
+      "keywords": [
+        "custom home builders Mount Vernon OR",
+        "new home construction Oregon",
+        "residential home builders",
+        "custom home construction Mount Vernon",
+        "dream home builder Oregon"
+      ],
+      "description": "Build your dream home with Superior Home Builders, offering full custom home construction services tailored to your vision and budget. From design to completion, we handle every detail of your new construction project."
+    },
+    {
+      "name": "General Remodeling",
+      "keywords": [
+        "home remodeling Mount Vernon OR",
+        "remodeling contractor Oregon",
+        "house renovation services",
+        "home renovation Mount Vernon",
+        "general remodeling contractor"
+      ],
+      "description": "Superior Home Builders offers comprehensive remodeling services for any room or area of your home, from planning to final touches. Whether it's a single room or whole-house renovation, we deliver quality results."
+    },
+    {
+      "name": "Commercial Construction",
+      "keywords": [
+        "commercial construction Mount Vernon OR",
+        "commercial builder Oregon",
+        "commercial contractor Mount Vernon",
+        "commercial building services",
+        "business construction"
+      ],
+      "description": "Superior Home Builders provides professional commercial construction services for businesses in the Mount Vernon area. We handle projects of any size with reliability, expertise, and attention to deadlines."
+    }
+  ],
+  "owner_name": "",
+  "client_slug": "superior-home-builders",
+  "form_action": "https://design.pageone.cloud/api/leads/superior-home-builders",
+  "github_repo": "",
+  "company_name": "superior-home-builders",
+  "service_areas": [
+    {
+      "zip": "97865",
+      "city": "",
+      "state": "OR",
+      "primary": true
+    }
+  ],
+  "image_curation": null,
+  "research_brief": null,
+  "competitor_urls": [],
+  "phone_secondary": "",
+  "service_grouping": {
+    "cap": 16,
+    "tier": "premium",
+    "groups": [
+      {
+        "page": "Bathroom Remodeling",
+        "solo": true,
+        "services": [
+          "Bathroom Remodeling"
+        ]
+      },
+      {
+        "page": "Kitchen Remodeling",
+        "solo": true,
+        "services": [
+          "Kitchen Remodeling"
+        ]
+      },
+      {
+        "page": "Windows and Doors",
+        "solo": true,
+        "services": [
+          "Windows and Doors"
+        ]
+      },
+      {
+        "page": "Decks",
+        "solo": true,
+        "services": [
+          "Decks"
+        ]
+      },
+      {
+        "page": "Framing",
+        "solo": true,
+        "services": [
+          "Framing"
+        ]
+      },
+      {
+        "page": "Custom Home Building",
+        "solo": true,
+        "services": [
+          "Custom Home Building"
+        ]
+      },
+      {
+        "page": "General Remodeling",
+        "solo": true,
+        "services": [
+          "General Remodeling"
+        ]
+      },
+      {
+        "page": "Commercial Construction",
+        "solo": true,
+        "services": [
+          "Commercial Construction"
+        ]
+      }
+    ],
+    "grouped_count": 8,
+    "original_count": 8
+  },
+  "lead_notification_email": "",
+  "lead_notification_phone": "",
+  "google_business_profile_url": ""
+}
