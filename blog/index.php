@@ -10,6 +10,17 @@ $currentPage     = 'blog';
 
 $blogPosts = [
     [
+        'slug'     => 'off-grid-solar-power-eastern-oregon',
+        'title'    => 'Solar Power for Off-Grid Homes in Eastern Oregon: Panels, Batteries, Generators & Winter Planning',
+        'excerpt'  => 'Off-grid solar is more than panels on a roof. A reliable system includes battery storage, backup generation, proper mechanical space, and a home designed to minimize waste. Here\'s what every off-grid homeowner in Eastern Oregon needs to plan before construction starts — especially for winter.',
+        'image'    => 'https://i.imgur.com/ncxOF1x.jpeg',
+        'alt'      => 'Eastern Oregon high desert terrain near Grant County — planning an off-grid home site with solar exposure, battery storage, generator placement, and mechanical room layout',
+        'date'     => 'June 6, 2026',
+        'dateISO'  => '2026-06-06',
+        'category' => 'Construction & Building Tips',
+        'readtime' => '22 min read',
+    ],
+    [
         'slug'     => 'off-grid-septic-systems-eastern-oregon',
         'title'    => 'Septic Systems for Off-Grid Homes in Eastern Oregon: What to Know Before You Build',
         'excerpt'  => 'The septic system can be one of the biggest factors in whether a rural Eastern Oregon property is practical to build on. The drain field location, soil conditions, required setbacks, and available area affect where the home can sit, where the driveway goes, and where the well needs to be placed. Here\'s what to know before you build.',
