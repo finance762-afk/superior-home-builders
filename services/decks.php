@@ -8,7 +8,7 @@ $pageTitle        = 'Deck Building in Mount Vernon, OR | Superior Home Builders'
 $pageDescription  = 'Custom deck construction in Mount Vernon, OR. Composite and pressure-treated decks built for Eastern Oregon snow loads and freeze-thaw conditions. Licensed contractor serving Grant County since 2004. Free estimates.';
 $canonicalUrl     = $siteUrl . '/services/decks';
 $currentPage      = 'services';
-$heroImage        = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604127216-zp2jli-20240723_114655.jpg';
+$heroImage        = 'https://i.imgur.com/hZ7oAdF.jpeg';
 $heroImagePreload = $heroImage;
 $ogImage          = $heroImage;
 
@@ -905,7 +905,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <!-- Photo left, content right -->
       <div class="sp-expert-grid">
         <div class="sp-expert-photo reveal-scale">
-          <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604160341-4mzu4l-image_10_.jpg"
+          <img src="https://i.imgur.com/Qaz7coi.jpeg"
                alt="Deck framing and construction detail on a Grant County Oregon home built by Superior Home Builders"
                width="420" height="520" loading="lazy">
           <div class="sp-expert-photo-badge">Built for Eastern OR</div>
@@ -1044,13 +1044,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         </div>
       </div>
       <div class="sp-proof-photos reveal-scale">
-        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604127216-zp2jli-20240723_114655.jpg"
+        <img src="https://i.imgur.com/SICcEOp.jpeg"
              alt="Completed custom deck construction in Mount Vernon Oregon by Superior Home Builders showing composite decking and railing"
              width="800" height="500" loading="lazy">
-        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604162710-mw6is2-image_11_.jpg"
+        <img src="https://i.imgur.com/jSCbbkZ.jpeg"
              alt="Deck framing detail showing joist and beam construction by Superior Home Builders in Grant County Oregon"
              width="400" height="220" loading="lazy">
-        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604164592-w2al1l-image_12_.jpg"
+        <img src="https://i.imgur.com/QjTFS3c.jpeg"
              alt="Finished deck railing and stair construction by Superior Home Builders in Eastern Oregon"
              width="400" height="220" loading="lazy">
       </div>
@@ -1183,7 +1183,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="services-grid">
         <article class="service-card-with-image card-tint-1 reveal-up reveal-delay-1">
           <div class="service-card__image">
-            <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604094227-1d9fl5-20220724_151623.jpg"
+            <img src="https://i.imgur.com/P5mpaVS.jpeg"
                  alt="Residential framing construction in Mount Vernon Oregon by Superior Home Builders"
                  width="600" height="360" loading="lazy">
           </div>
@@ -1200,7 +1200,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         </article>
         <article class="service-card-with-image card-tint-2 reveal-up reveal-delay-2">
           <div class="service-card__image">
-            <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604124347-3q5r39-Finished_windows_Southside.jpg"
+            <img src="https://i.imgur.com/WX1olC4.jpeg"
                  alt="Window installation in Mount Vernon Oregon by Superior Home Builders"
                  width="600" height="360" loading="lazy">
           </div>

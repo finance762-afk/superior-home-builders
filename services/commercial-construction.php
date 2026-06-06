@@ -8,7 +8,7 @@ $pageTitle        = 'Commercial Construction in Mount Vernon, OR | Superior Home
 $pageDescription  = 'Commercial construction services in Mount Vernon, OR. Shops, offices, warehouses, and tenant build-outs for Grant County businesses. Licensed contractor since 2004. Free estimates.';
 $canonicalUrl     = $siteUrl . '/services/commercial-construction';
 $currentPage      = 'services';
-$heroImage        = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604101037-ig7pay-20220727_101642.jpg';
+$heroImage        = 'https://i.imgur.com/l0nSXr7.jpeg';
 $heroImagePreload = $heroImage;
 $ogImage          = $heroImage;
 
@@ -1001,7 +1001,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <div class="container">
       <div class="sp-expert-grid">
         <div class="sp-expert-photo reveal-scale">
-          <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604272736-wpmbnz-468453996_10161079313307734_5962081137845027174_n.jpg"
+          <img src="https://i.imgur.com/GzccmDh.jpeg"
                alt="Commercial construction project by Superior Home Builders for a Grant County business"
                width="420" height="520" loading="lazy">
           <div class="sp-expert-photo-badge">Commercial Builds<br>Grant County</div>
@@ -1142,11 +1142,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         </div>
       </div>
       <div class="sp-proof-photos reveal-scale">
-        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604101037-ig7pay-20220727_101642.jpg"
+        <img src="https://i.imgur.com/l0nSXr7.jpeg"
              alt="Commercial construction site in Mount Vernon Oregon — Superior Home Builders crew at work" width="600" height="440" loading="lazy">
-        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604273137-ksvcbn-518240531_10161958113367734_8953895085965006897_n.jpg"
+        <img src="https://i.imgur.com/Mnk8mlY.jpeg"
              alt="Commercial building work by Superior Home Builders serving Grant County Oregon" width="300" height="220" loading="lazy">
-        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604094227-1d9fl5-20220724_151623.jpg"
+        <img src="https://i.imgur.com/VyURbA8.jpeg"
              alt="Structural framing work by Superior Home Builders on a commercial project in Grant County" width="300" height="220" loading="lazy">
       </div>
     </div>
@@ -1243,7 +1243,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
         <article class="service-card-with-image card-tint-1 reveal-up reveal-delay-1">
           <div class="service-card__image">
-            <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604094227-1d9fl5-20220724_151623.jpg"
+            <img src="https://i.imgur.com/P5mpaVS.jpeg"
                  alt="Framing services by Superior Home Builders in Grant County Oregon"
                  width="600" height="360" loading="lazy">
           </div>

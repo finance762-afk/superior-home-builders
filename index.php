@@ -8,7 +8,7 @@ $pageTitle        = 'Custom Home Builders in Mount Vernon, OR | Superior Home Bu
 $pageDescription  = 'Superior Home Builders — Eastern Oregon\'s custom home builder & general contractor. Serving Mount Vernon, John Day & Grant County since 2004. Free estimates on new builds, remodels & commercial construction.';
 $canonicalUrl     = $siteUrl . '/';
 $currentPage      = 'home';
-$heroImagePreload = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604131715-gsv7qf-20250819_192028.jpg';
+$heroImagePreload = 'https://i.imgur.com/oMx2iJQ.jpeg';
 $ogImage          = $heroImagePreload;
 $useSwiper        = true;
 
@@ -83,14 +83,14 @@ $siteReviews = [
 
 // ── Service card photo manifest ───────────────────────────────────────────────
 $servicePhotos = [
-    'bathroom-remodeling'    => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604143637-sycb6k-image.jpg',
-    'kitchen-remodeling'     => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604145059-2lrm2s-image_1_.jpg',
-    'windows-and-doors'      => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604124347-3q5r39-Finished_windows_Southside.jpg',
-    'decks'                  => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604127216-zp2jli-20240723_114655.jpg',
-    'framing'                => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604094227-1d9fl5-20220724_151623.jpg',
+    'bathroom-remodeling'    => 'https://i.imgur.com/HFlX9OA.jpeg',
+    'kitchen-remodeling'     => 'https://i.imgur.com/zz4PVi4.jpeg',
+    'windows-and-doors'      => 'https://i.imgur.com/WX1olC4.jpeg',
+    'decks'                  => 'https://i.imgur.com/hZ7oAdF.jpeg',
+    'framing'                => 'https://i.imgur.com/P5mpaVS.jpeg',
     'custom-home-building'   => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604304191-9h3673-466678023_10160894523422734_2342757114398857707_n.jpg',
     'general-remodeling'     => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604102234-3xpgf4-20221109_161614.jpg',
-    'commercial-construction' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604101037-ig7pay-20220727_101642.jpg',
+    'commercial-construction' => 'https://i.imgur.com/l0nSXr7.jpeg',
 ];
 
 $serviceIcons = [
@@ -131,11 +131,26 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   min-height: 100svh;
   display: flex;
   align-items: center;
-  background-image: url('https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604131715-gsv7qf-20250819_192028.jpg');
+  padding-top: var(--nav-height);
+  overflow: hidden;
+}
+/* Hero background image slider */
+.hero-slides {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+.hero-slide {
+  position: absolute;
+  inset: 0;
   background-size: cover;
   background-position: center 35%;
-  background-attachment: fixed;
-  padding-top: var(--nav-height);
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+  will-change: opacity;
+}
+.hero-slide.is-active {
+  opacity: 1;
 }
 /* Technique 1: layered gradient overlay */
 .hero::before {
@@ -972,6 +987,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
      HERO SECTION
 ════════════════════════════════════════════════════ -->
 <section class="hero" aria-label="Superior Home Builders — Mount Vernon, OR">
+  <!-- Background image slider -->
+  <div class="hero-slides" aria-hidden="true">
+    <div class="hero-slide is-active" style="background-image:url('https://i.imgur.com/oMx2iJQ.jpeg')"></div>
+    <div class="hero-slide" style="background-image:url('https://i.imgur.com/B2nro4g.jpeg')"></div>
+    <div class="hero-slide" style="background-image:url('https://i.imgur.com/ugQb03U.jpeg')"></div>
+    <div class="hero-slide" style="background-image:url('https://i.imgur.com/a8DWOTi.jpeg')"></div>
+    <div class="hero-slide" style="background-image:url('https://i.imgur.com/SDm3NuE.jpeg')"></div>
+    <div class="hero-slide" style="background-image:url('https://i.imgur.com/A5Vj3DL.jpeg')"></div>
+  </div>
   <div class="hero-inner">
     <div class="container">
       <div class="hero-layout">
@@ -1078,6 +1102,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     </div><!-- /.container -->
   </div><!-- /.hero-inner -->
 </section>
+<script>
+(function(){
+  var slides = document.querySelectorAll('.hero-slide');
+  if (!slides.length) return;
+  var cur = 0;
+  setInterval(function(){
+    slides[cur].classList.remove('is-active');
+    cur = (cur + 1) % slides.length;
+    slides[cur].classList.add('is-active');
+  }, 5000);
+})();
+</script>
 
 <!-- ── TICKER STRIP ─────────────────────────────────────────────── -->
 <div class="ticker-strip" aria-hidden="true">

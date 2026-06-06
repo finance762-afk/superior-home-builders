@@ -8,7 +8,7 @@ $pageTitle        = 'Framing Contractor in Mount Vernon, OR | Superior Home Buil
 $pageDescription  = 'Expert residential and commercial framing in Mount Vernon, OR. New construction, additions, and structural work. Licensed general contractor serving Grant County since 2004. Free estimates.';
 $canonicalUrl     = $siteUrl . '/services/framing';
 $currentPage      = 'services';
-$heroImage        = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604094227-1d9fl5-20220724_151623.jpg';
+$heroImage        = 'https://i.imgur.com/P5mpaVS.jpeg';
 $heroImagePreload = $heroImage;
 $ogImage          = $heroImage;
 
@@ -967,7 +967,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <p style="font-size:var(--fs-sm);color:var(--color-text-light)">Last Updated: <?php echo date('F Y'); ?></p>
         </div>
         <div class="sp-expert-photo reveal-scale">
-          <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604096131-uq4fqg-20220724_151821.jpg"
+          <img src="https://i.imgur.com/qsYjDnj.jpeg"
                alt="Superior Home Builders framing crew working on a residential structure in Mount Vernon Oregon"
                width="440" height="550" loading="lazy">
           <div class="sp-expert-photo-badge">Serving Grant County Since 2004</div>
@@ -1080,11 +1080,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         </div>
       </div>
       <div class="sp-proof-photos reveal-scale">
-        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604097152-jcl4h7-20220724_152509.jpg"
+        <img src="https://i.imgur.com/P5mpaVS.jpeg"
              alt="Residential framing in progress by Superior Home Builders in Mount Vernon Oregon" width="600" height="440" loading="lazy">
-        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604098293-gywzxu-20220724_152529.jpg"
+        <img src="https://i.imgur.com/qsYjDnj.jpeg"
              alt="Structural wall framing detail on a Grant County new construction project" width="300" height="220" loading="lazy">
-        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604099376-0r19op-20220724_154635.jpg"
+        <img src="https://i.imgur.com/P5mpaVS.jpeg"
              alt="Roof framing and sheathing on a Superior Home Builders project in Eastern Oregon" width="300" height="220" loading="lazy">
       </div>
     </div>
@@ -1199,7 +1199,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
         <article class="service-card-with-image card-tint-2 reveal-up reveal-delay-2">
           <div class="service-card__image">
-            <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604127216-zp2jli-20240723_114655.jpg"
+            <img src="https://i.imgur.com/hZ7oAdF.jpeg"
                  alt="Custom deck construction in Grant County Oregon by Superior Home Builders"
                  width="600" height="360" loading="lazy">
           </div>
@@ -1217,7 +1217,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
         <article class="service-card-with-image card-tint-3 reveal-up reveal-delay-3">
           <div class="service-card__image">
-            <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604101037-ig7pay-20220727_101642.jpg"
+            <img src="https://i.imgur.com/l0nSXr7.jpeg"
                  alt="Commercial construction project by Superior Home Builders in Eastern Oregon"
                  width="600" height="360" loading="lazy">
           </div>

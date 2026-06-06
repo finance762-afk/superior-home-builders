@@ -8,7 +8,7 @@ $pageTitle        = 'Windows and Doors in Mount Vernon, OR | Superior Home Build
 $pageDescription  = 'Window replacement and door installation in Mount Vernon, OR. Energy-efficient vinyl, wood, and fiberglass windows for Eastern Oregon\'s climate. Licensed contractor serving Grant County since 2004. Free estimates.';
 $canonicalUrl     = $siteUrl . '/services/windows-and-doors';
 $currentPage      = 'services';
-$heroImage        = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604124347-3q5r39-Finished_windows_Southside.jpg';
+$heroImage        = 'https://i.imgur.com/WX1olC4.jpeg';
 $heroImagePreload = $heroImage;
 $ogImage          = $heroImage;
 
@@ -933,7 +933,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <p style="font-size:var(--fs-sm);color:var(--color-text-light)">Last Updated: <?php echo date('F Y'); ?></p>
         </div>
         <div class="sp-expert-photo reveal-scale">
-          <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604139501-amhjvj-Southside_showing_extra_windows.jpg"
+          <img src="https://i.imgur.com/SDm3NuE.jpeg"
                alt="Newly installed windows on a Mount Vernon Oregon home by Superior Home Builders showing exterior trim and framing detail"
                width="420" height="520" loading="lazy">
           <div class="sp-expert-photo-badge">Grant County Since 2004</div>
@@ -1044,13 +1044,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         </div>
       </div>
       <div class="sp-proof-photos reveal-scale">
-        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604124347-3q5r39-Finished_windows_Southside.jpg"
+        <img src="https://i.imgur.com/WX1olC4.jpeg"
              alt="Completed window installation on a Mount Vernon Oregon home showing finished exterior trim and multiple windows"
              width="800" height="500" loading="lazy">
-        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604157610-hamrrh-image_8_.jpg"
+        <img src="https://i.imgur.com/SDm3NuE.jpeg"
              alt="Window detail showing energy-efficient installation with exterior trim work by Superior Home Builders"
              width="400" height="220" loading="lazy">
-        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604158766-8vgar0-image_9_.jpg"
+        <img src="https://i.imgur.com/KfFPwJ7.jpeg"
              alt="Interior window trim and casing detail from a window replacement project in Grant County Oregon"
              width="400" height="220" loading="lazy">
       </div>
@@ -1183,7 +1183,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="services-grid">
         <article class="service-card-with-image card-tint-1 reveal-up reveal-delay-1">
           <div class="service-card__image">
-            <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604127216-zp2jli-20240723_114655.jpg"
+            <img src="https://i.imgur.com/hZ7oAdF.jpeg"
                  alt="Custom deck construction in Mount Vernon Oregon by Superior Home Builders"
                  width="600" height="360" loading="lazy">
           </div>

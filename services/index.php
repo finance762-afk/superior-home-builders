@@ -502,14 +502,14 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         $tints = ['card-tint-1','card-tint-2','card-tint-3'];
         $delays = ['reveal-delay-1','reveal-delay-2','reveal-delay-3','reveal-delay-4'];
         $servicePhotos = [
-          'bathroom-remodeling'    => ['url'=>'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604143637-sycb6k-image.jpg',   'alt'=>'Bathroom remodel in Mount Vernon OR by Superior Home Builders'],
-          'kitchen-remodeling'     => ['url'=>'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604145059-2lrm2s-image_1_.jpg',  'alt'=>'Kitchen remodeling project in Grant County OR'],
-          'windows-and-doors'      => ['url'=>'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604124347-3q5r39-Finished_windows_Southside.jpg','alt'=>'Window installation on a Mount Vernon OR home'],
-          'decks'                  => ['url'=>'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604127216-zp2jli-20240723_114655.jpg',   'alt'=>'Custom deck built in Eastern Oregon by Superior Home Builders'],
-          'framing'                => ['url'=>'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604094227-1d9fl5-20220724_151623.jpg',   'alt'=>'Residential framing project in Mount Vernon Oregon'],
+          'bathroom-remodeling'    => ['url'=>'https://i.imgur.com/HFlX9OA.jpeg',   'alt'=>'Bathroom remodel in Mount Vernon OR by Superior Home Builders'],
+          'kitchen-remodeling'     => ['url'=>'https://i.imgur.com/zz4PVi4.jpeg',   'alt'=>'Kitchen remodeling project in Grant County OR'],
+          'windows-and-doors'      => ['url'=>'https://i.imgur.com/WX1olC4.jpeg',   'alt'=>'Window installation on a Mount Vernon OR home'],
+          'decks'                  => ['url'=>'https://i.imgur.com/hZ7oAdF.jpeg',   'alt'=>'Custom deck built in Eastern Oregon by Superior Home Builders'],
+          'framing'                => ['url'=>'https://i.imgur.com/P5mpaVS.jpeg',   'alt'=>'Residential framing project in Mount Vernon Oregon'],
           'custom-home-building'   => ['url'=>'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604304191-9h3673-466678023_10160894523422734_2342757114398857707_n.jpg','alt'=>'Custom home being built in Grant County Oregon'],
           'general-remodeling'     => ['url'=>'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604102234-3xpgf4-20221109_161614.jpg',   'alt'=>'General remodeling work by Superior Home Builders Mount Vernon OR'],
-          'commercial-construction'=> ['url'=>'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604101037-ig7pay-20220727_101642.jpg',   'alt'=>'Commercial construction project in Eastern Oregon'],
+          'commercial-construction'=> ['url'=>'https://i.imgur.com/l0nSXr7.jpeg',   'alt'=>'Commercial construction project in Eastern Oregon'],
         ];
         $serviceIcons = [
           'bathroom-remodeling'=>'bath','kitchen-remodeling'=>'utensils','windows-and-doors'=>'door-open',

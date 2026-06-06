@@ -7,7 +7,7 @@ $pageTitle        = 'Kitchen Remodeling in Mount Vernon, OR | Superior Home Buil
 $pageDescription  = 'Custom kitchen remodeling in Mount Vernon, OR. Cabinets, countertops, layout redesigns, and appliance installation. Licensed contractor serving Grant County since 2004. Free estimates.';
 $canonicalUrl     = $siteUrl . '/services/kitchen-remodeling';
 $currentPage      = 'services';
-$heroImage        = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604145059-2lrm2s-image_1_.jpg';
+$heroImage        = 'https://i.imgur.com/zz4PVi4.jpeg';
 $heroImagePreload = $heroImage;
 $ogImage          = $heroImage;
 
@@ -391,7 +391,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <p style="font-size:var(--fs-sm);color:var(--color-text-light)">Last Updated: <?php echo date('F Y'); ?></p>
         </div>
         <div class="sp-expert-photo reveal-scale">
-          <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604152275-c23ksk-image_5_.jpg"
+          <img src="https://i.imgur.com/4BqfioK.jpeg"
                alt="Kitchen remodeling project in progress in Mount Vernon Oregon by Superior Home Builders"
                width="420" height="520" loading="lazy">
           <div class="sp-expert-photo-badge">Grant County's Kitchen Specialists</div>
@@ -496,11 +496,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         </div>
       </div>
       <div class="sp-proof-photos reveal-scale">
-        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604145059-2lrm2s-image_1_.jpg"
+        <img src="https://i.imgur.com/zz4PVi4.jpeg"
              alt="Completed kitchen remodel in Mount Vernon Oregon by Superior Home Builders" width="400" height="220" loading="lazy">
-        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604155754-lm8f8x-image_6_.jpg"
+        <img src="https://i.imgur.com/4BqfioK.jpeg"
              alt="Kitchen cabinet installation by Superior Home Builders in Grant County Oregon" width="400" height="220" loading="lazy">
-        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604157333-7yq7b6-image_7_.jpg"
+        <img src="https://i.imgur.com/2LTUQjx.jpeg"
              alt="Kitchen countertop and backsplash tile in a Mount Vernon home" width="400" height="220" loading="lazy">
       </div>
     </div>
@@ -582,9 +582,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="services-grid">
         <?php
         $relatedItems = [
-          ['slug'=>'bathroom-remodeling','icon'=>'bath','photo'=>'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604143637-sycb6k-image.jpg','bullets'=>['Tile, fixtures &amp; plumbing','Custom walk-in showers','Full vanity &amp; lighting']],
+          ['slug'=>'bathroom-remodeling','icon'=>'bath','photo'=>'https://i.imgur.com/HFlX9OA.jpeg','bullets'=>['Tile, fixtures &amp; plumbing','Custom walk-in showers','Full vanity &amp; lighting']],
           ['slug'=>'general-remodeling', 'icon'=>'wrench','photo'=>'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604102234-3xpgf4-20221109_161614.jpg','bullets'=>['Single rooms to whole homes','Additions &amp; conversions','Interior finish work']],
-          ['slug'=>'windows-and-doors',  'icon'=>'door-open','photo'=>'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604124347-3q5r39-Finished_windows_Southside.jpg','bullets'=>['Energy-efficient replacements','Vinyl, wood &amp; fiberglass','Entry doors &amp; sliders']],
+          ['slug'=>'windows-and-doors',  'icon'=>'door-open','photo'=>'https://i.imgur.com/WX1olC4.jpeg','bullets'=>['Energy-efficient replacements','Vinyl, wood &amp; fiberglass','Entry doors &amp; sliders']],
         ];
         $svcBySlug = [];
         foreach ($services as $s) $svcBySlug[$s['slug']] = $s;

@@ -8,7 +8,7 @@ $pageTitle        = 'Bathroom Remodeling in Mount Vernon, OR | Superior Home Bui
 $pageDescription  = 'Custom bathroom remodeling in Mount Vernon, OR. Tile, plumbing, fixtures, walk-in showers, and full renovations. Licensed contractor serving Grant County since 2004. Free estimates.';
 $canonicalUrl     = $siteUrl . '/services/bathroom-remodeling';
 $currentPage      = 'services';
-$heroImage        = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604143637-sycb6k-image.jpg';
+$heroImage        = 'https://i.imgur.com/HFlX9OA.jpeg';
 $heroImagePreload = $heroImage;
 $ogImage          = $heroImage;
 
@@ -811,7 +811,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <div class="container">
       <div class="sp-expert-grid">
         <div class="sp-expert-photo reveal-scale">
-          <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604145485-ddn578-image_2_.jpg"
+          <img src="https://i.imgur.com/HFlX9OA.jpeg"
                alt="Tile installation on a Superior Home Builders bathroom remodel in Mount Vernon Oregon"
                width="420" height="520" loading="lazy">
           <div class="sp-expert-photo-badge">20+ Years in Grant County</div>
@@ -952,7 +952,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         </div>
       </div>
       <div class="sp-proof-photos reveal-scale">
-        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604143637-sycb6k-image.jpg"
+        <img src="https://i.imgur.com/HFlX9OA.jpeg"
              alt="Completed bathroom remodel by Superior Home Builders in Mount Vernon Oregon" width="600" height="440" loading="lazy">
         <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604147279-gcsj2m-image_3_.jpg"
              alt="Custom tile shower installation in Grant County Oregon" width="300" height="220" loading="lazy">
@@ -1054,8 +1054,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         $related = array_filter($services, fn($s) => $s['slug'] !== 'bathroom-remodeling');
         $related = array_values($related);
         $relatedPhotos = [
-          'kitchen-remodeling'     => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604145059-2lrm2s-image_1_.jpg',
-          'windows-and-doors'      => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604124347-3q5r39-Finished_windows_Southside.jpg',
+          'kitchen-remodeling'     => 'https://i.imgur.com/zz4PVi4.jpeg',
+          'windows-and-doors'      => 'https://i.imgur.com/WX1olC4.jpeg',
           'general-remodeling'     => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604102234-3xpgf4-20221109_161614.jpg',
         ];
         $relatedIcons = ['kitchen-remodeling'=>'utensils','windows-and-doors'=>'door-open','general-remodeling'=>'wrench'];
