@@ -10,6 +10,17 @@ $currentPage     = 'blog';
 
 $blogPosts = [
     [
+        'slug'     => 'off-grid-water-systems-eastern-oregon',
+        'title'    => 'How Do You Get Water for an Off-Grid Home in Eastern Oregon?',
+        'excerpt'  => 'Water planning should happen before the floor plan is finalized. A rural property may have the views and privacy you want — but if the well, cistern, pump system, freeze protection, and septic layout are not coordinated early, the project becomes expensive fast. Here\'s what every off-grid water system in Eastern Oregon needs.',
+        'image'    => 'https://i.imgur.com/ncxOF1x.jpeg',
+        'alt'      => 'Eastern Oregon high desert terrain near Grant County — site planning for an off-grid home water system including well location, cistern placement, and freeze protection',
+        'date'     => 'June 6, 2026',
+        'dateISO'  => '2026-06-06',
+        'category' => 'Construction & Building Tips',
+        'readtime' => '18 min read',
+    ],
+    [
         'slug'     => 'off-grid-home-permits-oregon',
         'title'    => 'Do You Need Permits to Build an Off-Grid Home in Oregon?',
         'excerpt'  => 'Off-grid means your home generates its own power and manages its own water and waste — it does not mean you can skip building permits. Here\'s what permit categories apply to off-grid construction in Oregon, from structural and electrical to septic and land use.',
