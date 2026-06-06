@@ -10,6 +10,17 @@ $currentPage     = 'blog';
 
 $blogPosts = [
     [
+        'slug'     => 'off-grid-septic-systems-eastern-oregon',
+        'title'    => 'Septic Systems for Off-Grid Homes in Eastern Oregon: What to Know Before You Build',
+        'excerpt'  => 'The septic system can be one of the biggest factors in whether a rural Eastern Oregon property is practical to build on. The drain field location, soil conditions, required setbacks, and available area affect where the home can sit, where the driveway goes, and where the well needs to be placed. Here\'s what to know before you build.',
+        'image'    => 'https://i.imgur.com/a8DWOTi.jpeg',
+        'alt'      => 'Raw land in Eastern Oregon high desert near Grant County — evaluating a rural parcel for off-grid home construction including septic site evaluation, drain field placement, and well setbacks',
+        'date'     => 'June 6, 2026',
+        'dateISO'  => '2026-06-06',
+        'category' => 'Construction & Building Tips',
+        'readtime' => '20 min read',
+    ],
+    [
         'slug'     => 'off-grid-water-systems-eastern-oregon',
         'title'    => 'How Do You Get Water for an Off-Grid Home in Eastern Oregon?',
         'excerpt'  => 'Water planning should happen before the floor plan is finalized. A rural property may have the views and privacy you want — but if the well, cistern, pump system, freeze protection, and septic layout are not coordinated early, the project becomes expensive fast. Here\'s what every off-grid water system in Eastern Oregon needs.',
