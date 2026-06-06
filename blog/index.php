@@ -10,6 +10,17 @@ $currentPage     = 'blog';
 
 $blogPosts = [
     [
+        'slug'     => 'off-grid-home-permits-oregon',
+        'title'    => 'Do You Need Permits to Build an Off-Grid Home in Oregon?',
+        'excerpt'  => 'Off-grid means your home generates its own power and manages its own water and waste — it does not mean you can skip building permits. Here\'s what permit categories apply to off-grid construction in Oregon, from structural and electrical to septic and land use.',
+        'image'    => 'https://i.imgur.com/P5mpaVS.jpeg',
+        'alt'      => 'Custom home framing in progress on rural land in Eastern Oregon — off-grid home construction requires building permits, electrical permits, mechanical permits, and septic approval in Oregon',
+        'date'     => 'June 6, 2026',
+        'dateISO'  => '2026-06-06',
+        'category' => 'Construction & Building Tips',
+        'readtime' => '16 min read',
+    ],
+    [
         'slug'     => 'off-grid-home-cost-eastern-oregon',
         'title'    => 'How Much Does It Cost to Build an Off-Grid Home in Eastern Oregon?',
         'excerpt'  => 'Building off-grid is not just the cost of the house. The total budget depends on the home itself, the land, access road, site prep, well, septic, solar, and how remote the property is. Here\'s what every budget category includes and why site conditions are the biggest variable.',
