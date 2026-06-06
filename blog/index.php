@@ -10,6 +10,17 @@ $currentPage     = 'blog';
 
 $blogPosts = [
     [
+        'slug'     => 'building-off-grid-home-raw-land-eastern-oregon',
+        'title'    => 'Can You Build an Off-Grid Home on Raw Land in Eastern Oregon?',
+        'excerpt'  => 'Buying rural land around Mount Vernon, John Day, or Prairie City and actually building on it are two different things. Here\'s what to check before you commit — access, permits, wells, septic, solar, site prep, and why calling a builder first saves money.',
+        'image'    => 'https://i.imgur.com/a8DWOTi.jpeg',
+        'alt'      => 'Raw land in Eastern Oregon high desert — evaluating a parcel for off-grid home construction near Grant County',
+        'date'     => 'June 6, 2026',
+        'dateISO'  => '2026-06-06',
+        'category' => 'Construction & Building Tips',
+        'readtime' => '11 min read',
+    ],
+    [
         'slug'     => 'off-the-grid-living-oregon',
         'title'    => 'Off-the-Grid Living in Oregon: Embracing Self-Reliance in the Pacific Northwest',
         'excerpt'  => 'Oregon\'s stunning landscapes make it a dream destination for off-grid living. But success demands careful planning — especially given the state\'s variable climate, regulations, and the critical importance of a knowledgeable local contractor.',
