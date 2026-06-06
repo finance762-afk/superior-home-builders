@@ -10,6 +10,17 @@ $currentPage     = 'blog';
 
 $blogPosts = [
     [
+        'slug'     => 'off-grid-heating-options-eastern-oregon',
+        'title'    => 'Best Heating Options for Off-Grid Homes in Eastern Oregon',
+        'excerpt'  => 'Heating an off-grid home in Eastern Oregon is not just about picking a stove or furnace. The best plan depends on your home size, insulation, solar system, fuel access, and winter road conditions. Here\'s how to think through wood stoves, heat pumps, propane, radiant floor heat, passive solar, and backup systems before construction starts.',
+        'image'    => 'https://i.imgur.com/LWms2FO.jpeg',
+        'alt'      => 'Custom home framing in progress on rural land in Eastern Oregon near Grant County — coordinating insulation, mechanical room placement, and structural layout for an off-grid home heating system',
+        'date'     => 'June 6, 2026',
+        'dateISO'  => '2026-06-06',
+        'category' => 'Construction & Building Tips',
+        'readtime' => '24 min read',
+    ],
+    [
         'slug'     => 'off-grid-solar-power-eastern-oregon',
         'title'    => 'Solar Power for Off-Grid Homes in Eastern Oregon: Panels, Batteries, Generators & Winter Planning',
         'excerpt'  => 'Off-grid solar is more than panels on a roof. A reliable system includes battery storage, backup generation, proper mechanical space, and a home designed to minimize waste. Here\'s what every off-grid homeowner in Eastern Oregon needs to plan before construction starts — especially for winter.',
