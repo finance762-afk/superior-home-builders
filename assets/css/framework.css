@@ -52,9 +52,9 @@ p { overflow-wrap: anywhere; }
   --color-card-tint-neutral: #f7f8fc;
 
   /* Typography */
-  --font-heading: 'Fraunces', Georgia, serif;
-  --font-body:    'Plus Jakarta Sans', system-ui, sans-serif;
-  --font-accent:  'Fraunces', Georgia, serif;
+  --font-heading: 'Merriweather', Georgia, serif;
+  --font-body:    'Merriweather Sans', system-ui, sans-serif;
+  --font-accent:  'Merriweather', Georgia, serif;
 
   /* Fluid Font Sizes */
   --fs-h1:   clamp(2.5rem, 5vw, 6rem);
