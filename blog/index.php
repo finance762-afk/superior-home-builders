@@ -10,6 +10,17 @@ $currentPage     = 'blog';
 
 $blogPosts = [
     [
+        'slug'     => 'off-grid-home-cost-eastern-oregon',
+        'title'    => 'How Much Does It Cost to Build an Off-Grid Home in Eastern Oregon?',
+        'excerpt'  => 'Building off-grid is not just the cost of the house. The total budget depends on the home itself, the land, access road, site prep, well, septic, solar, and how remote the property is. Here\'s what every budget category includes and why site conditions are the biggest variable.',
+        'image'    => 'https://i.imgur.com/LWms2FO.jpeg',
+        'alt'      => 'Custom home construction framing in Eastern Oregon — building an off-grid home on rural land near Mount Vernon and Grant County',
+        'date'     => 'June 6, 2026',
+        'dateISO'  => '2026-06-06',
+        'category' => 'Construction & Building Tips',
+        'readtime' => '14 min read',
+    ],
+    [
         'slug'     => 'building-off-grid-home-raw-land-eastern-oregon',
         'title'    => 'Can You Build an Off-Grid Home on Raw Land in Eastern Oregon?',
         'excerpt'  => 'Buying rural land around Mount Vernon, John Day, or Prairie City and actually building on it are two different things. Here\'s what to check before you commit — access, permits, wells, septic, solar, site prep, and why calling a builder first saves money.',
