@@ -1368,8 +1368,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="about-right reveal-right">
         <div class="about-image-wrap">
           <img
-            src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604136960-eo83ht-20250819_192113.jpg"
-            alt="Superior Home Builders crew at work on a custom home in Eastern Oregon"
+            src="https://i.imgur.com/geXyYqc.jpeg"
+            alt="Superior Home Builders owner — Eastern Oregon custom home builder and general contractor"
             width="600" height="750"
             loading="lazy">
         </div>
