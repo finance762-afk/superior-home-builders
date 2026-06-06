@@ -1083,8 +1083,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
              alt="Custom home build completed by Superior Home Builders in Grant County Oregon" width="600" height="440" loading="lazy">
         <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604306051-1cn5ph-467748149_10161026648862734_1486565757297760050_n.jpg"
              alt="Exterior of a newly completed Superior Home Builders custom home in Eastern Oregon" width="300" height="220" loading="lazy">
-        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604273137-ksvcbn-518240531_10161958113367734_8953895085965006897_n.jpg"
-             alt="Interior finish work on a custom home built by Superior Home Builders in Mount Vernon OR" width="300" height="220" loading="lazy">
+        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604304191-9h3673-466678023_10160894523422734_2342757114398857707_n.jpg"
+             alt="Custom home construction by Superior Home Builders in Mount Vernon Oregon" width="300" height="220" loading="lazy">
       </div>
     </div>
   </section>

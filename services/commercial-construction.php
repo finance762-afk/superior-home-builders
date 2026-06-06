@@ -1001,8 +1001,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <div class="container">
       <div class="sp-expert-grid">
         <div class="sp-expert-photo reveal-scale">
-          <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604179301-ru0crs-Solar_array_finished.jpg"
-               alt="Completed commercial construction project by Superior Home Builders in Grant County Eastern Oregon"
+          <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604272736-wpmbnz-468453996_10161079313307734_5962081137845027174_n.jpg"
+               alt="Commercial construction project by Superior Home Builders for a Grant County business"
                width="420" height="520" loading="lazy">
           <div class="sp-expert-photo-badge">Commercial Builds<br>Grant County</div>
         </div>
@@ -1142,12 +1142,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         </div>
       </div>
       <div class="sp-proof-photos reveal-scale">
-        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604179882-as63pf-Solar_array_man_size.jpg"
-             alt="Commercial construction project completed by Superior Home Builders in Eastern Oregon" width="600" height="440" loading="lazy">
+        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604101037-ig7pay-20220727_101642.jpg"
+             alt="Commercial construction site in Mount Vernon Oregon — Superior Home Builders crew at work" width="600" height="440" loading="lazy">
         <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604273137-ksvcbn-518240531_10161958113367734_8953895085965006897_n.jpg"
              alt="Commercial building work by Superior Home Builders serving Grant County Oregon" width="300" height="220" loading="lazy">
-        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604272736-wpmbnz-468453996_10161079313307734_5962081137845027174_n.jpg"
-             alt="Superior Home Builders commercial construction project in Mount Vernon OR" width="300" height="220" loading="lazy">
+        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604094227-1d9fl5-20220724_151623.jpg"
+             alt="Structural framing work by Superior Home Builders on a commercial project in Grant County" width="300" height="220" loading="lazy">
       </div>
     </div>
   </section>

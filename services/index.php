@@ -467,7 +467,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <div class="container">
       <div class="svc-intro-grid">
         <div class="svc-intro-stat reveal-scale">
-          <span class="svc-intro-stat-num" data-target="20" data-suffix="+">0+</span>
+          <span class="svc-intro-stat-num" data-counter="20" data-suffix="+">0</span>
           <span class="svc-intro-stat-label">Years Serving<br>Eastern Oregon</span>
         </div>
         <div class="svc-intro-text reveal-right">

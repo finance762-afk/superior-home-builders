@@ -790,19 +790,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <div class="container">
     <div class="about-stats-grid">
       <div class="about-stat-item reveal-up">
-        <span class="about-stat-num" data-target="<?php echo $yearsInBusiness; ?>">0</span>
+        <span class="about-stat-num" data-counter="<?php echo $yearsInBusiness; ?>">0</span>
         <span class="about-stat-label">Years in Eastern Oregon</span>
       </div>
       <div class="about-stat-item reveal-up reveal-delay-1">
-        <span class="about-stat-num" data-target="200">0</span>
+        <span class="about-stat-num" data-counter="200">0</span>
         <span class="about-stat-label">Homes &amp; Projects Completed</span>
       </div>
       <div class="about-stat-item reveal-up reveal-delay-2">
-        <span class="about-stat-num" data-target="8">0</span>
+        <span class="about-stat-num" data-counter="8">0</span>
         <span class="about-stat-label">Specialized Services Offered</span>
       </div>
       <div class="about-stat-item reveal-up reveal-delay-3">
-        <span class="about-stat-num" data-target="5">0</span>
+        <span class="about-stat-num" data-counter="5">0</span>
         <span class="about-stat-label">Counties Served</span>
       </div>
     </div>

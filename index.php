@@ -1192,25 +1192,25 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <div class="stats-grid">
       <div class="stat-item reveal-scale">
         <span class="stat-number">
-          <span data-counter data-target="<?= $yearsInBusiness ?>"><?= $yearsInBusiness ?></span><span class="stat-suffix">+</span>
+          <span data-counter="<?= $yearsInBusiness ?>"><?= $yearsInBusiness ?></span><span class="stat-suffix">+</span>
         </span>
         <span class="stat-label">Years of Experience</span>
       </div>
       <div class="stat-item reveal-scale reveal-delay-1">
         <span class="stat-number">
-          <span data-counter data-target="500">500</span><span class="stat-suffix">+</span>
+          <span data-counter="500">500</span><span class="stat-suffix">+</span>
         </span>
         <span class="stat-label">Projects Completed</span>
       </div>
       <div class="stat-item reveal-scale reveal-delay-2">
         <span class="stat-number">
-          <span data-counter data-target="5">5</span>
+          <span data-counter="5">5</span>
         </span>
         <span class="stat-label">Star Google Rating</span>
       </div>
       <div class="stat-item reveal-scale reveal-delay-3">
         <span class="stat-number">
-          <span data-counter data-target="100">100</span><span class="stat-suffix">mi</span>
+          <span data-counter="100">100</span><span class="stat-suffix">mi</span>
         </span>
         <span class="stat-label">Service Radius</span>
       </div>
