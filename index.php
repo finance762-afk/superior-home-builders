@@ -932,6 +932,129 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   margin: 0;
 }
 
+/* ── BLOG PREVIEW ────────────────────────────────────────────── */
+.blog-preview-section {
+  background: var(--color-bg-alt);
+  padding: var(--space-4xl) 0;
+  position: relative;
+  overflow: hidden;
+}
+.blog-preview-section::before {
+  content: '';
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  background: rgba(var(--color-secondary-rgb), 0.05);
+  pointer-events: none;
+}
+.blog-preview-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3xl);
+  align-items: center;
+  background: var(--color-bg);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  transition: box-shadow var(--transition-base);
+}
+.blog-preview-card:hover {
+  box-shadow: var(--shadow-xl);
+}
+.blog-preview-card__img-wrap {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  height: 100%;
+}
+.blog-preview-card__img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.7s ease;
+  display: block;
+}
+.blog-preview-card:hover .blog-preview-card__img-wrap img {
+  transform: scale(1.04);
+}
+.blog-preview-card__badge {
+  position: absolute;
+  top: var(--space-md);
+  left: var(--space-md);
+  background: rgba(var(--color-primary-rgb), 0.82);
+  backdrop-filter: blur(6px);
+  color: var(--color-accent);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(var(--color-accent-rgb), 0.3);
+}
+.blog-preview-card__body {
+  padding: var(--space-2xl) var(--space-2xl) var(--space-2xl) 0;
+}
+.blog-preview-card__meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  font-size: var(--fs-xs);
+  color: var(--color-text-light);
+  margin-bottom: var(--space-md);
+  flex-wrap: wrap;
+}
+.blog-preview-card__meta-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.blog-preview-card__meta-item i,
+.blog-preview-card__meta-item svg { width: 12px; height: 12px; }
+.blog-preview-card__title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.15rem, 2.2vw, 1.6rem);
+  font-weight: 900;
+  letter-spacing: -0.025em;
+  color: var(--color-primary);
+  line-height: 1.22;
+  text-wrap: balance;
+  margin-bottom: var(--space-lg);
+}
+.blog-preview-card__title a {
+  transition: color var(--transition-fast);
+}
+.blog-preview-card__title a:hover { color: var(--color-secondary); }
+.blog-preview-card__excerpt {
+  font-size: var(--fs-sm);
+  color: var(--color-text-light);
+  line-height: 1.75;
+  margin-bottom: var(--space-xl);
+  max-width: 50ch;
+}
+.blog-preview-card__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-weight: 700;
+  font-size: var(--fs-sm);
+  color: var(--color-secondary);
+  transition: color var(--transition-fast), gap var(--transition-fast);
+}
+.blog-preview-card__cta:hover {
+  color: var(--color-primary);
+  gap: var(--space-md);
+}
+.blog-preview-card__cta i,
+.blog-preview-card__cta svg { width: 15px; height: 15px; }
+.blog-preview-all {
+  text-align: center;
+  margin-top: var(--space-2xl);
+}
+
 /* ── CLOSING CTA ─────────────────────────────────────────────── */
 .closing-cta {
   background: var(--color-bg-alt);
@@ -959,16 +1082,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
 /* ── RESPONSIVE ─────────────────────────────────────────────── */
 @media (max-width: 1024px) {
-  .hero-layout        { grid-template-columns: 1fr; gap: var(--space-2xl); }
-  .hero-form-card     { max-width: 520px; margin: 0 auto; }
-  .services-grid      { grid-template-columns: repeat(2, 1fr); }
-  .stats-grid         { grid-template-columns: repeat(2, 1fr); gap: var(--space-lg); }
-  .cta-banner-inner   { flex-direction: column; text-align: center; }
-  .cta-banner-copy p  { margin: 0 auto; }
-  .cta-banner-actions { justify-content: center; }
-  .about-layout       { grid-template-columns: 1fr; }
-  .about-right        { display: none; }
-  .faq-grid           { grid-template-columns: 1fr; }
+  .hero-layout            { grid-template-columns: 1fr; gap: var(--space-2xl); }
+  .hero-form-card         { max-width: 520px; margin: 0 auto; }
+  .services-grid          { grid-template-columns: repeat(2, 1fr); }
+  .stats-grid             { grid-template-columns: repeat(2, 1fr); gap: var(--space-lg); }
+  .cta-banner-inner       { flex-direction: column; text-align: center; }
+  .cta-banner-copy p      { margin: 0 auto; }
+  .cta-banner-actions     { justify-content: center; }
+  .about-layout           { grid-template-columns: 1fr; }
+  .about-right            { display: none; }
+  .faq-grid               { grid-template-columns: 1fr; }
+  .blog-preview-card      { grid-template-columns: 1fr; }
+  .blog-preview-card__img-wrap { aspect-ratio: 16 / 9; height: auto; }
+  .blog-preview-card__body { padding: var(--space-xl); }
 }
 @media (max-width: 600px) {
   .hero-title     { font-size: 2.4rem; }
@@ -1495,6 +1621,84 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <script type="application/ld+json"><?= $schemaMarkup ?></script>
   <?php endif; ?>
 </section>
+
+<!-- ── ANGLED DIVIDER — into blog preview ─────────────────────── -->
+<div class="divider-angle" aria-hidden="true" style="background:var(--color-bg-alt)">
+  <svg viewBox="0 0 1440 50" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,0 C480,50 960,0 1440,40 L1440,0 Z" fill="var(--color-bg)"/>
+  </svg>
+</div>
+
+<!-- ════════════════════════════════════════════════════
+     SECTION 05 — BLOG PREVIEW
+════════════════════════════════════════════════════ -->
+<section class="numbered-section blog-preview-section" id="blog" aria-label="From the blog">
+  <span class="section-num" aria-hidden="true">05</span>
+  <div class="container">
+
+    <div class="section-title reveal-up">
+      <span class="eyebrow-label">From the Blog</span>
+      <h2>Building Knowledge for <em style="color:var(--color-secondary);font-style:italic">Eastern Oregon</em> Homeowners</h2>
+    </div>
+
+    <!-- Featured post card -->
+    <article class="blog-preview-card reveal-up" aria-label="Off-the-Grid Living in Oregon">
+
+      <div class="blog-preview-card__img-wrap">
+        <img
+          src="https://i.imgur.com/2qn995t.jpeg"
+          alt="Off-grid homestead in rural Oregon — remote property surrounded by Pacific Northwest forest"
+          width="800"
+          height="600"
+          loading="lazy">
+        <span class="blog-preview-card__badge">Construction &amp; Building Tips</span>
+      </div>
+
+      <div class="blog-preview-card__body">
+        <div class="blog-preview-card__meta">
+          <div class="blog-preview-card__meta-item">
+            <i data-lucide="calendar"></i>
+            <time datetime="2026-06-06">June 6, 2026</time>
+          </div>
+          <div class="blog-preview-card__meta-item">
+            <i data-lucide="clock"></i>
+            <span>8 min read</span>
+          </div>
+        </div>
+
+        <h3 class="blog-preview-card__title">
+          <a href="/blog/off-the-grid-living-oregon/">
+            Off-the-Grid Living in Oregon: Embracing Self-Reliance in the Pacific Northwest
+          </a>
+        </h3>
+
+        <p class="blog-preview-card__excerpt">
+          Oregon's stunning landscapes make it a dream destination for off-grid living — but success demands careful planning. Learn the key elements, common pitfalls, and why working with a local contractor who knows Oregon's weather is critical to building a resilient homestead.
+        </p>
+
+        <a href="/blog/off-the-grid-living-oregon/" class="blog-preview-card__cta">
+          Read the Full Article <i data-lucide="arrow-right"></i>
+        </a>
+      </div>
+
+    </article><!-- /.blog-preview-card -->
+
+    <div class="blog-preview-all reveal-up">
+      <a href="/blog/" class="btn btn-secondary">
+        <i data-lucide="book-open"></i>
+        View All Articles
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── WAVE DIVIDER — blog preview to closing CTA ─────────────── -->
+<div class="divider-wave" aria-hidden="true" style="background:var(--color-bg-alt)">
+  <svg viewBox="0 0 1440 50" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,25 C360,50 1080,0 1440,25 L1440,50 L0,50 Z" fill="var(--color-bg-alt)"/>
+  </svg>
+</div>
 
 <!-- ════════════════════════════════════════════════════
      CLOSING CTA

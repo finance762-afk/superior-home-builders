@@ -816,7 +816,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <div class="sp-hero-content">
             <span class="sp-hero-eyebrow"><i data-lucide="door-open"></i> Windows &amp; Doors</span>
             <h1>Windows &amp; Doors in<br><em>Mount Vernon, OR</em></h1>
-            <p class="hero-answer">Superior Home Builders is a licensed general contractor based in Mount Vernon, Oregon, delivering window replacement and door installation throughout Grant County. We've been upgrading Eastern Oregon homes since 2004 — measuring on-site, specifying glass for the local climate, and trimming out every opening inside and out.</p>
+            <p class="hero-answer">Mount Vernon windows face demanding Pacific Northwest weather—heavy rain, temperature swings, and moisture challenges unique to our region. Rather than cookie-cutter replacements, Superior Home Builders customizes each window solution for your home's specific orientation, climate exposure, and architectural style. We pair energy-efficient frames suited to Mount Vernon's climate with personalized design consultation, so your windows reduce heating costs year-round while matching your home's character. Our on-site measurement and transparent per-window pricing means no surprises, and our post-installation support ensures your investment performs for decades in our challenging local conditions.</p>
             <div class="sp-hero-trust">
               <span class="sp-hero-trust-item"><i data-lucide="shield-check"></i> Licensed &amp; Insured</span>
               <span class="sp-hero-trust-item"><i data-lucide="calendar"></i> Est. 2004</span>

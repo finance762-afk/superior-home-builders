@@ -282,7 +282,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <div class="sp-hero-content">
             <span class="sp-hero-eyebrow"><i data-lucide="utensils"></i> Kitchen Remodeling</span>
             <h1>Kitchen Remodeling in<br><em>Mount Vernon, OR</em></h1>
-            <p class="hero-answer">Superior Home Builders transforms kitchens throughout Grant County — from cabinet replacements and countertop upgrades to full layout redesigns and structural wall removal. As a licensed Oregon general contractor based in Mount Vernon, we handle every phase of your kitchen renovation with a single crew and a written project schedule.</p>
+            <p class="hero-answer">Kitchen remodeling in Mount Vernon demands more than standard design—it requires understanding our region's unique climate challenges and building codes. At Superior Home Builders, we pair personalized design consultation with sustainable, energy-efficient solutions specifically engineered for Mount Vernon homes. Whether you're investing in essential updates or a complete high-end transformation, our transparent pricing and detailed timelines ensure you know exactly what to expect. We back every remodel with comprehensive warranty coverage and dedicated post-build support—because your kitchen should serve your family for decades to come.</p>
             <div class="sp-hero-trust">
               <span class="sp-hero-trust-item"><i data-lucide="shield-check"></i> Licensed &amp; Insured</span>
               <span class="sp-hero-trust-item"><i data-lucide="calendar"></i> Est. 2004</span>

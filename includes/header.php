@@ -75,6 +75,12 @@ if (!function_exists('isActivePage')) {
               Contact
             </a>
           </li>
+          <li>
+            <a href="/blog/"
+               <?php if (isActivePage('blog')): ?>aria-current="page"<?php endif; ?>>
+              Blog
+            </a>
+          </li>
         </ul>
 
         <!-- Desktop CTA -->
@@ -113,6 +119,7 @@ if (!function_exists('isActivePage')) {
           <li><a href="/service-area/" <?php if (isActivePage('service-area')): ?>aria-current="page"<?php endif; ?>>Service Area</a></li>
           <li><a href="/about/" <?php if (isActivePage('about')): ?>aria-current="page"<?php endif; ?>>About</a></li>
           <li><a href="/contact/" <?php if (isActivePage('contact')): ?>aria-current="page"<?php endif; ?>>Contact</a></li>
+          <li><a href="/blog/" <?php if (isActivePage('blog')): ?>aria-current="page"<?php endif; ?>>Blog</a></li>
         </ul>
 
         <!-- Service sub-links -->

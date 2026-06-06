@@ -913,7 +913,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <div class="sp-hero-content">
             <span class="sp-hero-eyebrow"><i data-lucide="wrench"></i> Home Remodeling</span>
             <h1>Home Remodeling in<br><em>Mount Vernon, OR</em></h1>
-            <p class="hero-answer">Superior Home Builders handles home remodeling of any scope in Mount Vernon, OR — from a single room makeover to a complete whole-house renovation. As a licensed general contractor with 20+ years in Grant County, we manage permits, trades, and timelines so Eastern Oregon homeowners don't have to.</p>
+            <p class="hero-answer">We handle every scope of home remodeling in Mount Vernon—from single-room updates to whole-house renovations—with the local expertise that matters. Unlike generic contractors, we design projects specifically for Mount Vernon's unique climate and building codes, ensuring your remodeling performs reliably in our environment. As your general contractor of record, we combine transparent pricing and timeline communication with sustainable building practices that increase your home's energy efficiency. We back every project with comprehensive post-construction support and warranty coverage, because your investment deserves more than a contractor—it deserves a local partner committed to your home's long-term quality.</p>
             <div class="sp-hero-trust">
               <span class="sp-hero-trust-item"><i data-lucide="shield-check"></i> Licensed &amp; Insured</span>
               <span class="sp-hero-trust-item"><i data-lucide="calendar"></i> Est. 2004</span>

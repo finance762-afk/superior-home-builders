@@ -723,7 +723,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <div class="sp-hero-content">
             <span class="sp-hero-eyebrow"><i data-lucide="bath"></i> Bathroom Remodeling</span>
             <h1>Bathroom Remodeling in<br><em>Mount Vernon, OR</em></h1>
-            <p class="hero-answer">Superior Home Builders is a licensed general contractor in Mount Vernon, OR delivering custom bathroom renovations throughout Grant County. We handle the complete scope — tile, plumbing, fixtures, vanities, and walk-in showers — with no sub-contractor handoffs and a written estimate before any work begins.</p>
+            <p class="hero-answer">A bathroom remodel in Mount Vernon requires understanding our region's unique climate and building codes. Superior Home Builders brings deep local expertise to every project, with personalized design consultation that incorporates energy-efficient solutions and sustainable practices. Our bathroom remodels typically range from $10,000–$35,000, with transparent pricing and detailed written estimates after our on-site assessment. You'll benefit from our commitment to quality beyond completion—including comprehensive warranty coverage and dedicated post-build support.</p>
             <div class="sp-hero-trust">
               <span class="sp-hero-trust-item"><i data-lucide="shield-check"></i> Licensed &amp; Insured</span>
               <span class="sp-hero-trust-item"><i data-lucide="calendar"></i> Est. 2004</span>

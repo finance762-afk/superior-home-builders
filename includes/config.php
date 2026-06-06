@@ -222,7 +222,7 @@ $consentVersion  = 'v2.1';
 
 // ── CSS Cache Busting ─────────────────────────────────────────
 // Increment on every styles.css change.
-$cssVersion = '2';
+$cssVersion = '3';
 
 // ── Lead Notification ─────────────────────────────────────────
 $leadNotificationEmail = '';   // TODO: populate from client

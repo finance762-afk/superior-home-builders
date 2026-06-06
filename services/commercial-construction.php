@@ -913,7 +913,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <div class="sp-hero-content">
             <span class="sp-hero-eyebrow"><i data-lucide="building-2"></i> Commercial Construction</span>
             <h1>Commercial Construction in<br><em>Mount Vernon, OR</em></h1>
-            <p class="hero-answer">Superior Home Builders delivers commercial construction for Grant County businesses — from shop buildings and warehouse additions to office build-outs and tenant improvements. As a licensed Oregon general contractor based in Mount Vernon, we manage the full commercial build process including commercial permits, inspections, and trade coordination.</p>
+            <p class="hero-answer">Superior Home Builders brings specialized expertise in commercial construction to Mount Vernon and Grant County businesses. We understand Mount Vernon's distinct climate challenges and local building code requirements, designing and building shops, warehouses, agricultural facilities, and office buildings that are built to last in our region's conditions. Unlike generalist contractors, we combine ground-up construction expertise with sustainable building practices and transparent project management—you work with one experienced builder who manages the entire process and stands behind the work with comprehensive post-build support.</p>
             <div class="sp-hero-trust">
               <span class="sp-hero-trust-item"><i data-lucide="shield-check"></i> Licensed &amp; Insured</span>
               <span class="sp-hero-trust-item"><i data-lucide="calendar"></i> Est. 2004</span>

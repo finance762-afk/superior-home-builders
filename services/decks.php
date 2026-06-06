@@ -816,7 +816,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <div class="sp-hero-content">
             <span class="sp-hero-eyebrow"><i data-lucide="tree-pine"></i> Deck Construction</span>
             <h1>Deck Building in<br><em>Mount Vernon, OR</em></h1>
-            <p class="hero-answer">Superior Home Builders is a licensed general contractor in Mount Vernon, Oregon building custom decks throughout Grant County. We've been constructing outdoor living spaces in Eastern Oregon since 2004 — designing for local snow loads, specifying materials that hold up to the climate, and pulling every required permit through the Grant County building department.</p>
+            <p class="hero-answer">Mount Vernon's Willamette Valley climate demands more than a standard deck—it demands local expertise. We build custom decks designed specifically for our region's moisture patterns, drainage challenges, and building codes to ensure longevity through Oregon's wet seasons. Every project starts with a detailed site consultation and transparent pricing tailored to your home's unique conditions, with sustainable material options and our warranty backing every build. That's the superior-home-builders difference.</p>
             <div class="sp-hero-trust">
               <span class="sp-hero-trust-item"><i data-lucide="shield-check"></i> Licensed &amp; Insured</span>
               <span class="sp-hero-trust-item"><i data-lucide="calendar"></i> Est. 2004</span>
