@@ -5,7 +5,7 @@
  */
 $pageTitle       = 'Off-Grid Septic Systems in Eastern Oregon | Build Guide';
 $pageDescription = 'Building off-grid in Eastern Oregon? Learn how septic planning affects rural land, site layout, soil testing, permits, drain fields, setbacks, wells, and home placement.';
-$canonicalUrl    = 'https://superior-home-builders.pageone.cloud/blog/off-grid-septic-systems-eastern-oregon/';
+$canonicalUrl    = 'https://superiorhomebuilderscorp.com/blog/off-grid-septic-systems-eastern-oregon/';
 $ogImage         = $siteUrl . '/assets/images/blog/raw-land-eastern-oregon.webp';
 $currentPage     = 'blog';
 
@@ -19,7 +19,7 @@ $schemaMarkup = json_encode([
     '@graph'   => [
         [
             '@type'            => 'BlogPosting',
-            '@id'              => 'https://superior-home-builders.pageone.cloud/blog/off-grid-septic-systems-eastern-oregon/#article',
+            '@id'              => 'https://superiorhomebuilderscorp.com/blog/off-grid-septic-systems-eastern-oregon/#article',
             'headline'         => 'Septic Systems for Off-Grid Homes in Eastern Oregon: What to Know Before You Build',
             'description'      => 'Building off-grid in Eastern Oregon? Learn how septic planning affects rural land, site layout, soil testing, permits, drain fields, setbacks, wells, and home placement.',
             'image'            => $siteUrl . '/assets/images/blog/raw-land-eastern-oregon.webp',
@@ -28,22 +28,22 @@ $schemaMarkup = json_encode([
             'author'           => [
                 '@type' => 'Organization',
                 'name'  => 'Superior Home Builders',
-                '@id'   => 'https://superior-home-builders.pageone.cloud/#organization',
+                '@id'   => 'https://superiorhomebuilderscorp.com/#organization',
             ],
             'publisher'        => [
-                '@id' => 'https://superior-home-builders.pageone.cloud/#organization',
+                '@id' => 'https://superiorhomebuilderscorp.com/#organization',
             ],
-            'url'              => 'https://superior-home-builders.pageone.cloud/blog/off-grid-septic-systems-eastern-oregon/',
-            'mainEntityOfPage' => 'https://superior-home-builders.pageone.cloud/blog/off-grid-septic-systems-eastern-oregon/',
+            'url'              => 'https://superiorhomebuilderscorp.com/blog/off-grid-septic-systems-eastern-oregon/',
+            'mainEntityOfPage' => 'https://superiorhomebuilderscorp.com/blog/off-grid-septic-systems-eastern-oregon/',
             'articleSection'   => 'Construction & Building Tips',
             'keywords'         => 'off-grid septic systems Oregon, septic system for off-grid home Oregon, rural septic system Eastern Oregon, septic permits Oregon rural land, building on land without septic Oregon, septic site evaluation Oregon, Grant County Oregon custom home builder, Mount Vernon Oregon home builder, John Day Oregon off-grid builder',
         ],
         [
             '@type'           => 'BreadcrumbList',
             'itemListElement' => [
-                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home',                                                                          'item' => 'https://superior-home-builders.pageone.cloud/'],
-                ['@type' => 'ListItem', 'position' => 2, 'name' => 'Blog',                                                                          'item' => 'https://superior-home-builders.pageone.cloud/blog/'],
-                ['@type' => 'ListItem', 'position' => 3, 'name' => 'Septic Systems for Off-Grid Homes in Eastern Oregon: What to Know Before You Build', 'item' => 'https://superior-home-builders.pageone.cloud/blog/off-grid-septic-systems-eastern-oregon/'],
+                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home',                                                                          'item' => 'https://superiorhomebuilderscorp.com/'],
+                ['@type' => 'ListItem', 'position' => 2, 'name' => 'Blog',                                                                          'item' => 'https://superiorhomebuilderscorp.com/blog/'],
+                ['@type' => 'ListItem', 'position' => 3, 'name' => 'Septic Systems for Off-Grid Homes in Eastern Oregon: What to Know Before You Build', 'item' => 'https://superiorhomebuilderscorp.com/blog/off-grid-septic-systems-eastern-oregon/'],
             ],
         ],
         [

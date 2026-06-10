@@ -5,7 +5,7 @@
  */
 $pageTitle       = 'Off-Grid Home Permits in Oregon | Rural Land Building';
 $pageDescription = 'Planning an off-grid home in Oregon? Learn which permits may apply for rural home construction, septic, wells, solar power, plumbing, wood stoves, access, and land use before you build.';
-$canonicalUrl    = 'https://superior-home-builders.pageone.cloud/blog/off-grid-home-permits-oregon/';
+$canonicalUrl    = 'https://superiorhomebuilderscorp.com/blog/off-grid-home-permits-oregon/';
 $ogImage         = $siteUrl . '/assets/images/custom-home-framing.webp';
 $currentPage     = 'blog';
 
@@ -19,7 +19,7 @@ $schemaMarkup = json_encode([
     '@graph'          => [
         [
             '@type'            => 'BlogPosting',
-            '@id'              => 'https://superior-home-builders.pageone.cloud/blog/off-grid-home-permits-oregon/#article',
+            '@id'              => 'https://superiorhomebuilderscorp.com/blog/off-grid-home-permits-oregon/#article',
             'headline'         => 'Do You Need Permits to Build an Off-Grid Home in Oregon?',
             'description'      => 'Planning an off-grid home in Oregon? Learn which permits may apply for rural home construction, septic, wells, solar power, plumbing, wood stoves, access, and land use before you build.',
             'image'            => $siteUrl . '/assets/images/custom-home-framing.webp',
@@ -28,22 +28,22 @@ $schemaMarkup = json_encode([
             'author'           => [
                 '@type' => 'Organization',
                 'name'  => 'Superior Home Builders',
-                '@id'   => 'https://superior-home-builders.pageone.cloud/#organization',
+                '@id'   => 'https://superiorhomebuilderscorp.com/#organization',
             ],
             'publisher'        => [
-                '@id' => 'https://superior-home-builders.pageone.cloud/#organization',
+                '@id' => 'https://superiorhomebuilderscorp.com/#organization',
             ],
-            'url'              => 'https://superior-home-builders.pageone.cloud/blog/off-grid-home-permits-oregon/',
-            'mainEntityOfPage' => 'https://superior-home-builders.pageone.cloud/blog/off-grid-home-permits-oregon/',
+            'url'              => 'https://superiorhomebuilderscorp.com/blog/off-grid-home-permits-oregon/',
+            'mainEntityOfPage' => 'https://superiorhomebuilderscorp.com/blog/off-grid-home-permits-oregon/',
             'articleSection'   => 'Construction & Building Tips',
             'keywords'         => 'off-grid home permits Oregon, do you need permits for off-grid cabin Oregon, is off-grid living legal in Oregon, building permits for rural land Oregon, Grant County Oregon building permits, off-grid home builder Eastern Oregon, build on raw land Oregon permits, Mount Vernon Oregon custom home builder, John Day Oregon off-grid builder',
         ],
         [
             '@type'           => 'BreadcrumbList',
             'itemListElement' => [
-                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => 'https://superior-home-builders.pageone.cloud/'],
-                ['@type' => 'ListItem', 'position' => 2, 'name' => 'Blog', 'item' => 'https://superior-home-builders.pageone.cloud/blog/'],
-                ['@type' => 'ListItem', 'position' => 3, 'name' => 'Do You Need Permits to Build an Off-Grid Home in Oregon?', 'item' => 'https://superior-home-builders.pageone.cloud/blog/off-grid-home-permits-oregon/'],
+                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => 'https://superiorhomebuilderscorp.com/'],
+                ['@type' => 'ListItem', 'position' => 2, 'name' => 'Blog', 'item' => 'https://superiorhomebuilderscorp.com/blog/'],
+                ['@type' => 'ListItem', 'position' => 3, 'name' => 'Do You Need Permits to Build an Off-Grid Home in Oregon?', 'item' => 'https://superiorhomebuilderscorp.com/blog/off-grid-home-permits-oregon/'],
             ],
         ],
         [

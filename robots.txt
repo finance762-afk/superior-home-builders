@@ -1,5 +1,5 @@
 # robots.txt — Superior Home Builders
-# https://superior-home-builders.pageone.cloud
+# https://superiorhomebuilderscorp.com
 
 User-agent: *
 Allow: /
@@ -28,4 +28,4 @@ User-agent: FacebookBot
 Allow: /
 
 # Sitemap (dynamic — /sitemap.xml rewrites to sitemap.php; includes per-URL image entries)
-Sitemap: https://superior-home-builders.pageone.cloud/sitemap.xml
+Sitemap: https://superiorhomebuilderscorp.com/sitemap.xml

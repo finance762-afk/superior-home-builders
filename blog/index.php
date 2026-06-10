@@ -5,7 +5,7 @@
  */
 $pageTitle       = 'Blog | Superior Home Builders | Mount Vernon, OR';
 $pageDescription = 'Construction tips, home-building insights, and expert guidance from Superior Home Builders — Eastern Oregon\'s trusted general contractor since 2004.';
-$canonicalUrl    = 'https://superior-home-builders.pageone.cloud/blog/';
+$canonicalUrl    = 'https://superiorhomebuilderscorp.com/blog/';
 $currentPage     = 'blog';
 
 require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/blog-data.php';
@@ -14,8 +14,8 @@ $schemaMarkup = json_encode([
     '@context'        => 'https://schema.org',
     '@type'           => 'BreadcrumbList',
     'itemListElement' => [
-        ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => 'https://superior-home-builders.pageone.cloud/'],
-        ['@type' => 'ListItem', 'position' => 2, 'name' => 'Blog', 'item' => 'https://superior-home-builders.pageone.cloud/blog/'],
+        ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => 'https://superiorhomebuilderscorp.com/'],
+        ['@type' => 'ListItem', 'position' => 2, 'name' => 'Blog', 'item' => 'https://superiorhomebuilderscorp.com/blog/'],
     ],
 ], JSON_UNESCAPED_SLASHES);
 

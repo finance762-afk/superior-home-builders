@@ -5,7 +5,7 @@
  */
 $pageTitle       = 'Off-the-Grid Living in Oregon: Embracing Self-Reliance';
 $pageDescription = 'Oregon\'s diverse landscapes make it ideal for off-grid living. Learn the key elements, common mistakes to avoid, and why a local contractor who knows Oregon weather is essential for success.';
-$canonicalUrl    = 'https://superior-home-builders.pageone.cloud/blog/off-the-grid-living-oregon/';
+$canonicalUrl    = 'https://superiorhomebuilderscorp.com/blog/off-the-grid-living-oregon/';
 $ogImage         = $siteUrl . '/assets/images/blog/off-grid-homestead-oregon.webp';
 $currentPage     = 'blog';
 
@@ -19,7 +19,7 @@ $schemaMarkup = json_encode([
     '@graph'          => [
         [
             '@type'            => 'BlogPosting',
-            '@id'              => 'https://superior-home-builders.pageone.cloud/blog/off-the-grid-living-oregon/#article',
+            '@id'              => 'https://superiorhomebuilderscorp.com/blog/off-the-grid-living-oregon/#article',
             'headline'         => 'Off-the-Grid Living in Oregon: Embracing Self-Reliance in the Pacific Northwest',
             'description'      => 'Oregon\'s diverse landscapes make it ideal for off-grid living. Learn the key elements, common mistakes to avoid, and why a local contractor who knows Oregon weather is essential for success.',
             'image'            => $siteUrl . '/assets/images/blog/off-grid-homestead-oregon.webp',
@@ -28,22 +28,22 @@ $schemaMarkup = json_encode([
             'author'           => [
                 '@type' => 'Organization',
                 'name'  => 'Superior Home Builders',
-                '@id'   => 'https://superior-home-builders.pageone.cloud/#organization',
+                '@id'   => 'https://superiorhomebuilderscorp.com/#organization',
             ],
             'publisher'        => [
-                '@id' => 'https://superior-home-builders.pageone.cloud/#organization',
+                '@id' => 'https://superiorhomebuilderscorp.com/#organization',
             ],
-            'url'              => 'https://superior-home-builders.pageone.cloud/blog/off-the-grid-living-oregon/',
-            'mainEntityOfPage' => 'https://superior-home-builders.pageone.cloud/blog/off-the-grid-living-oregon/',
+            'url'              => 'https://superiorhomebuilderscorp.com/blog/off-the-grid-living-oregon/',
+            'mainEntityOfPage' => 'https://superiorhomebuilderscorp.com/blog/off-the-grid-living-oregon/',
             'articleSection'   => 'Construction & Building Tips',
             'keywords'         => 'off-grid living Oregon, off-grid home Oregon, Oregon contractor off-grid, Eastern Oregon building, custom home Oregon, self-reliance Pacific Northwest',
         ],
         [
             '@type'           => 'BreadcrumbList',
             'itemListElement' => [
-                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home',  'item' => 'https://superior-home-builders.pageone.cloud/'],
-                ['@type' => 'ListItem', 'position' => 2, 'name' => 'Blog',  'item' => 'https://superior-home-builders.pageone.cloud/blog/'],
-                ['@type' => 'ListItem', 'position' => 3, 'name' => 'Off-the-Grid Living in Oregon', 'item' => 'https://superior-home-builders.pageone.cloud/blog/off-the-grid-living-oregon/'],
+                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home',  'item' => 'https://superiorhomebuilderscorp.com/'],
+                ['@type' => 'ListItem', 'position' => 2, 'name' => 'Blog',  'item' => 'https://superiorhomebuilderscorp.com/blog/'],
+                ['@type' => 'ListItem', 'position' => 3, 'name' => 'Off-the-Grid Living in Oregon', 'item' => 'https://superiorhomebuilderscorp.com/blog/off-the-grid-living-oregon/'],
             ],
         ],
     ],

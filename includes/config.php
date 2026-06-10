@@ -24,8 +24,8 @@ $address = [
 ];
 
 // ── Domain & URLs ────────────────────────────────────────────
-// No production_domain in build-plan — using preview URL per build standards.
-$domain  = 'superior-home-builders.pageone.cloud';
+// Confirmed launch domain (set pre-launch while still parked on preview).
+$domain  = 'superiorhomebuilderscorp.com';
 $siteUrl = 'https://' . $domain;
 // NOTE: $canonicalUrl is NOT set here — each page sets it before including head.php.
 

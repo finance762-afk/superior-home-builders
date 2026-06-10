@@ -5,7 +5,7 @@
  */
 $pageTitle       = 'Off-Grid Heating in Eastern Oregon: Stoves, Heat Pumps';
 $pageDescription = 'Building an off-grid home in Eastern Oregon? Compare wood stoves, heat pumps, propane, radiant heat, passive solar, insulation, backup heat, and winter planning for rural homes.';
-$canonicalUrl    = 'https://superior-home-builders.pageone.cloud/blog/off-grid-heating-options-eastern-oregon/';
+$canonicalUrl    = 'https://superiorhomebuilderscorp.com/blog/off-grid-heating-options-eastern-oregon/';
 $ogImage         = $siteUrl . '/assets/images/blog/off-grid-home-framing.webp';
 $currentPage     = 'blog';
 
@@ -19,7 +19,7 @@ $schemaMarkup = json_encode([
     '@graph'   => [
         [
             '@type'            => 'BlogPosting',
-            '@id'              => 'https://superior-home-builders.pageone.cloud/blog/off-grid-heating-options-eastern-oregon/#article',
+            '@id'              => 'https://superiorhomebuilderscorp.com/blog/off-grid-heating-options-eastern-oregon/#article',
             'headline'         => 'Best Heating Options for Off-Grid Homes in Eastern Oregon',
             'description'      => 'Building an off-grid home in Eastern Oregon? Compare wood stoves, heat pumps, propane, radiant heat, passive solar, insulation, backup heat, and winter planning for rural homes.',
             'image'            => $siteUrl . '/assets/images/blog/off-grid-home-framing.webp',
@@ -28,22 +28,22 @@ $schemaMarkup = json_encode([
             'author'           => [
                 '@type' => 'Organization',
                 'name'  => 'Superior Home Builders',
-                '@id'   => 'https://superior-home-builders.pageone.cloud/#organization',
+                '@id'   => 'https://superiorhomebuilderscorp.com/#organization',
             ],
             'publisher'        => [
-                '@id' => 'https://superior-home-builders.pageone.cloud/#organization',
+                '@id' => 'https://superiorhomebuilderscorp.com/#organization',
             ],
-            'url'              => 'https://superior-home-builders.pageone.cloud/blog/off-grid-heating-options-eastern-oregon/',
-            'mainEntityOfPage' => 'https://superior-home-builders.pageone.cloud/blog/off-grid-heating-options-eastern-oregon/',
+            'url'              => 'https://superiorhomebuilderscorp.com/blog/off-grid-heating-options-eastern-oregon/',
+            'mainEntityOfPage' => 'https://superiorhomebuilderscorp.com/blog/off-grid-heating-options-eastern-oregon/',
             'articleSection'   => 'Construction & Building Tips',
             'keywords'         => 'off-grid heating options Oregon, best heat source for off-grid home Oregon, off-grid home heating Eastern Oregon, wood stove for off-grid home Oregon, propane heat for off-grid cabin Oregon, heat pump off-grid home Oregon, off-grid winter heating Oregon, Grant County Oregon custom home builder, Mount Vernon Oregon home builder, John Day Oregon off-grid builder',
         ],
         [
             '@type'           => 'BreadcrumbList',
             'itemListElement' => [
-                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home',                                                             'item' => 'https://superior-home-builders.pageone.cloud/'],
-                ['@type' => 'ListItem', 'position' => 2, 'name' => 'Blog',                                                             'item' => 'https://superior-home-builders.pageone.cloud/blog/'],
-                ['@type' => 'ListItem', 'position' => 3, 'name' => 'Best Heating Options for Off-Grid Homes in Eastern Oregon', 'item' => 'https://superior-home-builders.pageone.cloud/blog/off-grid-heating-options-eastern-oregon/'],
+                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home',                                                             'item' => 'https://superiorhomebuilderscorp.com/'],
+                ['@type' => 'ListItem', 'position' => 2, 'name' => 'Blog',                                                             'item' => 'https://superiorhomebuilderscorp.com/blog/'],
+                ['@type' => 'ListItem', 'position' => 3, 'name' => 'Best Heating Options for Off-Grid Homes in Eastern Oregon', 'item' => 'https://superiorhomebuilderscorp.com/blog/off-grid-heating-options-eastern-oregon/'],
             ],
         ],
         [

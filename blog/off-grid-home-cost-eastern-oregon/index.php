@@ -5,7 +5,7 @@
  */
 $pageTitle       = 'Off-Grid Home Cost in Eastern Oregon | Rural Land Guide';
 $pageDescription = 'Planning an off-grid home in Eastern Oregon? Learn what affects the cost of building on rural land, including site prep, wells, septic, solar, batteries, access roads, framing, permits, and finishes.';
-$canonicalUrl    = 'https://superior-home-builders.pageone.cloud/blog/off-grid-home-cost-eastern-oregon/';
+$canonicalUrl    = 'https://superiorhomebuilderscorp.com/blog/off-grid-home-cost-eastern-oregon/';
 $ogImage         = $siteUrl . '/assets/images/blog/off-grid-home-framing.webp';
 $currentPage     = 'blog';
 
@@ -19,7 +19,7 @@ $schemaMarkup = json_encode([
     '@graph'          => [
         [
             '@type'            => 'BlogPosting',
-            '@id'              => 'https://superior-home-builders.pageone.cloud/blog/off-grid-home-cost-eastern-oregon/#article',
+            '@id'              => 'https://superiorhomebuilderscorp.com/blog/off-grid-home-cost-eastern-oregon/#article',
             'headline'         => 'How Much Does It Cost to Build an Off-Grid Home in Eastern Oregon?',
             'description'      => 'Planning an off-grid home in Eastern Oregon? Learn what affects the cost of building on rural land, including site prep, wells, septic, solar, batteries, access roads, framing, permits, and finishes.',
             'image'            => $siteUrl . '/assets/images/blog/off-grid-home-framing.webp',
@@ -28,22 +28,22 @@ $schemaMarkup = json_encode([
             'author'           => [
                 '@type' => 'Organization',
                 'name'  => 'Superior Home Builders',
-                '@id'   => 'https://superior-home-builders.pageone.cloud/#organization',
+                '@id'   => 'https://superiorhomebuilderscorp.com/#organization',
             ],
             'publisher'        => [
-                '@id' => 'https://superior-home-builders.pageone.cloud/#organization',
+                '@id' => 'https://superiorhomebuilderscorp.com/#organization',
             ],
-            'url'              => 'https://superior-home-builders.pageone.cloud/blog/off-grid-home-cost-eastern-oregon/',
-            'mainEntityOfPage' => 'https://superior-home-builders.pageone.cloud/blog/off-grid-home-cost-eastern-oregon/',
+            'url'              => 'https://superiorhomebuilderscorp.com/blog/off-grid-home-cost-eastern-oregon/',
+            'mainEntityOfPage' => 'https://superiorhomebuilderscorp.com/blog/off-grid-home-cost-eastern-oregon/',
             'articleSection'   => 'Construction & Building Tips',
             'keywords'         => 'off-grid home cost Oregon, cost to build off-grid home Eastern Oregon, off-grid home builder Oregon, custom home cost Eastern Oregon, cost to build on rural land Oregon, raw land building cost Oregon, Grant County Oregon custom home builder, Mount Vernon Oregon home builder, John Day Oregon custom home builder',
         ],
         [
             '@type'           => 'BreadcrumbList',
             'itemListElement' => [
-                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => 'https://superior-home-builders.pageone.cloud/'],
-                ['@type' => 'ListItem', 'position' => 2, 'name' => 'Blog', 'item' => 'https://superior-home-builders.pageone.cloud/blog/'],
-                ['@type' => 'ListItem', 'position' => 3, 'name' => 'How Much Does It Cost to Build an Off-Grid Home in Eastern Oregon?', 'item' => 'https://superior-home-builders.pageone.cloud/blog/off-grid-home-cost-eastern-oregon/'],
+                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => 'https://superiorhomebuilderscorp.com/'],
+                ['@type' => 'ListItem', 'position' => 2, 'name' => 'Blog', 'item' => 'https://superiorhomebuilderscorp.com/blog/'],
+                ['@type' => 'ListItem', 'position' => 3, 'name' => 'How Much Does It Cost to Build an Off-Grid Home in Eastern Oregon?', 'item' => 'https://superiorhomebuilderscorp.com/blog/off-grid-home-cost-eastern-oregon/'],
             ],
         ],
         [

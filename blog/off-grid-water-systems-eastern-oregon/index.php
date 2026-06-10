@@ -5,7 +5,7 @@
  */
 $pageTitle       = 'Off-Grid Water Systems in Eastern Oregon | Wells & Cisterns';
 $pageDescription = 'Building off-grid in Eastern Oregon? Learn how rural homeowners plan water systems using wells, springs, cisterns, pumps, filtration, storage tanks, freeze protection, and site planning.';
-$canonicalUrl    = 'https://superior-home-builders.pageone.cloud/blog/off-grid-water-systems-eastern-oregon/';
+$canonicalUrl    = 'https://superiorhomebuilderscorp.com/blog/off-grid-water-systems-eastern-oregon/';
 $ogImage         = $siteUrl . '/assets/images/blog/eastern-oregon-high-desert-site.webp';
 $currentPage     = 'blog';
 
@@ -19,7 +19,7 @@ $schemaMarkup = json_encode([
     '@graph'          => [
         [
             '@type'            => 'BlogPosting',
-            '@id'              => 'https://superior-home-builders.pageone.cloud/blog/off-grid-water-systems-eastern-oregon/#article',
+            '@id'              => 'https://superiorhomebuilderscorp.com/blog/off-grid-water-systems-eastern-oregon/#article',
             'headline'         => 'How Do You Get Water for an Off-Grid Home in Eastern Oregon?',
             'description'      => 'Building off-grid in Eastern Oregon? Learn how rural homeowners plan water systems using wells, springs, cisterns, pumps, filtration, storage tanks, freeze protection, and site planning.',
             'image'            => $siteUrl . '/assets/images/blog/eastern-oregon-high-desert-site.webp',
@@ -28,22 +28,22 @@ $schemaMarkup = json_encode([
             'author'           => [
                 '@type' => 'Organization',
                 'name'  => 'Superior Home Builders',
-                '@id'   => 'https://superior-home-builders.pageone.cloud/#organization',
+                '@id'   => 'https://superiorhomebuilderscorp.com/#organization',
             ],
             'publisher'        => [
-                '@id' => 'https://superior-home-builders.pageone.cloud/#organization',
+                '@id' => 'https://superiorhomebuilderscorp.com/#organization',
             ],
-            'url'              => 'https://superior-home-builders.pageone.cloud/blog/off-grid-water-systems-eastern-oregon/',
-            'mainEntityOfPage' => 'https://superior-home-builders.pageone.cloud/blog/off-grid-water-systems-eastern-oregon/',
+            'url'              => 'https://superiorhomebuilderscorp.com/blog/off-grid-water-systems-eastern-oregon/',
+            'mainEntityOfPage' => 'https://superiorhomebuilderscorp.com/blog/off-grid-water-systems-eastern-oregon/',
             'articleSection'   => 'Construction & Building Tips',
             'keywords'         => 'off-grid water systems Oregon, how to get water for off-grid home Oregon, well for off-grid home Oregon, cistern for off-grid cabin Oregon, building on land with no well Oregon, rural water systems Eastern Oregon, off-grid home builder Eastern Oregon, Grant County Oregon custom home builder, Mount Vernon Oregon home builder, John Day Oregon off-grid builder',
         ],
         [
             '@type'           => 'BreadcrumbList',
             'itemListElement' => [
-                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home',                                              'item' => 'https://superior-home-builders.pageone.cloud/'],
-                ['@type' => 'ListItem', 'position' => 2, 'name' => 'Blog',                                              'item' => 'https://superior-home-builders.pageone.cloud/blog/'],
-                ['@type' => 'ListItem', 'position' => 3, 'name' => 'How Do You Get Water for an Off-Grid Home in Eastern Oregon?', 'item' => 'https://superior-home-builders.pageone.cloud/blog/off-grid-water-systems-eastern-oregon/'],
+                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home',                                              'item' => 'https://superiorhomebuilderscorp.com/'],
+                ['@type' => 'ListItem', 'position' => 2, 'name' => 'Blog',                                              'item' => 'https://superiorhomebuilderscorp.com/blog/'],
+                ['@type' => 'ListItem', 'position' => 3, 'name' => 'How Do You Get Water for an Off-Grid Home in Eastern Oregon?', 'item' => 'https://superiorhomebuilderscorp.com/blog/off-grid-water-systems-eastern-oregon/'],
             ],
         ],
         [
