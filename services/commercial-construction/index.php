@@ -8,9 +8,9 @@ $pageTitle        = 'Commercial Construction in Mount Vernon, OR | Superior Home
 $pageDescription  = 'Commercial construction services in Mount Vernon, OR. Shops, offices, warehouses, and tenant build-outs for Grant County businesses. Licensed contractor since 2004. Free estimates.';
 $canonicalUrl     = $siteUrl . '/services/commercial-construction/';
 $currentPage      = 'services';
-$heroImage        = $siteUrl . '/assets/images/commercial-construction-eastern-oregon.webp';
+$heroImage        = '/assets/images/commercial-construction-eastern-oregon.webp';
 $heroImagePreload = $heroImage;
-$ogImage          = $heroImage;
+$ogImage          = $siteUrl . $heroImage;  // og:image stays absolute
 
 $faqs = [
   ['q' => 'What commercial construction services are available in Mount Vernon, OR?',

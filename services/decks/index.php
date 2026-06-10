@@ -8,9 +8,9 @@ $pageTitle        = 'Deck Building in Mount Vernon, OR | Superior Home Builders'
 $pageDescription  = 'Custom deck construction in Mount Vernon, OR. Composite and pressure-treated decks built for Eastern Oregon snow loads and freeze-thaw conditions. Licensed contractor serving Grant County since 2004. Free estimates.';
 $canonicalUrl     = $siteUrl . '/services/decks/';
 $currentPage      = 'services';
-$heroImage        = $siteUrl . '/assets/images/custom-deck-construction.webp';
+$heroImage        = '/assets/images/custom-deck-construction.webp';
 $heroImagePreload = $heroImage;
-$ogImage          = $heroImage;
+$ogImage          = $siteUrl . $heroImage;  // og:image stays absolute
 
 $faqs = [
   ['q' => 'How much does a deck cost in Mount Vernon, OR?',

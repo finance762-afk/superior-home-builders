@@ -8,9 +8,9 @@ $pageTitle        = 'Bathroom Remodeling in Mount Vernon, OR | Superior Home Bui
 $pageDescription  = 'Custom bathroom remodeling in Mount Vernon, OR. Tile, plumbing, fixtures, walk-in showers, and full renovations. Licensed contractor serving Grant County since 2004. Free estimates.';
 $canonicalUrl     = $siteUrl . '/services/bathroom-remodeling/';
 $currentPage      = 'services';
-$heroImage        = $siteUrl . '/assets/images/bathroom-remodel-tile.webp';
+$heroImage        = '/assets/images/bathroom-remodel-tile.webp';
 $heroImagePreload = $heroImage;
-$ogImage          = $heroImage;
+$ogImage          = $siteUrl . $heroImage;  // og:image stays absolute
 
 $faqs = [
   ['q'=>'How much does a bathroom remodel cost in Mount Vernon, OR?',
@@ -445,8 +445,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         $related = array_filter($services, fn($s) => $s['slug'] !== 'bathroom-remodeling');
         $related = array_values($related);
         $relatedPhotos = [
-          'kitchen-remodeling'     => $siteUrl . '/assets/images/kitchen-remodel-mount-vernon.webp',
-          'windows-and-doors'      => $siteUrl . '/assets/images/window-installation-mount-vernon.webp',
+          'kitchen-remodeling'     => '/assets/images/kitchen-remodel-mount-vernon.webp',
+          'windows-and-doors'      => '/assets/images/window-installation-mount-vernon.webp',
           'general-remodeling'     => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604102234-3xpgf4-20221109_161614.jpg',
         ];
         $relatedIcons = ['kitchen-remodeling'=>'utensils','windows-and-doors'=>'door-open','general-remodeling'=>'wrench'];

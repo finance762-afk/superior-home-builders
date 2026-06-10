@@ -8,9 +8,9 @@ $pageTitle        = 'Framing Contractor in Mount Vernon, OR | Superior Home Buil
 $pageDescription  = 'Expert residential and commercial framing in Mount Vernon, OR. New construction, additions, and structural work. Licensed general contractor serving Grant County since 2004. Free estimates.';
 $canonicalUrl     = $siteUrl . '/services/framing/';
 $currentPage      = 'services';
-$heroImage        = $siteUrl . '/assets/images/custom-home-framing.webp';
+$heroImage        = '/assets/images/custom-home-framing.webp';
 $heroImagePreload = $heroImage;
-$ogImage          = $heroImage;
+$ogImage          = $siteUrl . $heroImage;  // og:image stays absolute
 
 $faqs = [
   ['q'=>'What does a framing contractor do on a new home build in Mount Vernon, OR?',

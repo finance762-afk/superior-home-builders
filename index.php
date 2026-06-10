@@ -8,8 +8,8 @@ $pageTitle        = 'Custom Home Builders in Mount Vernon, OR | Superior Home Bu
 $pageDescription  = 'Superior Home Builders — Eastern Oregon\'s custom home builder & general contractor. Serving Mount Vernon, John Day & Grant County since 2004. Free estimates on new builds, remodels & commercial construction.';
 $canonicalUrl     = $siteUrl . '/';
 $currentPage      = 'home';
-$heroImagePreload = $siteUrl . '/assets/images/hero-custom-home.webp';
-$ogImage          = $heroImagePreload;
+$heroImagePreload = '/assets/images/hero-custom-home.webp';
+$ogImage          = $siteUrl . $heroImagePreload;  // og:image stays absolute
 $useSwiper        = true;
 
 // ── Homepage FAQs ─────────────────────────────────────────────────────────────
@@ -83,14 +83,14 @@ $siteReviews = [
 
 // ── Service card photo manifest ───────────────────────────────────────────────
 $servicePhotos = [
-    'bathroom-remodeling'    => $siteUrl . '/assets/images/bathroom-remodel-tile.webp',
-    'kitchen-remodeling'     => $siteUrl . '/assets/images/kitchen-remodel-mount-vernon.webp',
-    'windows-and-doors'      => $siteUrl . '/assets/images/window-installation-mount-vernon.webp',
-    'decks'                  => $siteUrl . '/assets/images/custom-deck-construction.webp',
-    'framing'                => $siteUrl . '/assets/images/custom-home-framing.webp',
+    'bathroom-remodeling'    => '/assets/images/bathroom-remodel-tile.webp',
+    'kitchen-remodeling'     => '/assets/images/kitchen-remodel-mount-vernon.webp',
+    'windows-and-doors'      => '/assets/images/window-installation-mount-vernon.webp',
+    'decks'                  => '/assets/images/custom-deck-construction.webp',
+    'framing'                => '/assets/images/custom-home-framing.webp',
     'custom-home-building'   => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604304191-9h3673-466678023_10160894523422734_2342757114398857707_n.jpg',
     'general-remodeling'     => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604102234-3xpgf4-20221109_161614.jpg',
-    'commercial-construction' => $siteUrl . '/assets/images/commercial-construction-eastern-oregon.webp',
+    'commercial-construction' => '/assets/images/commercial-construction-eastern-oregon.webp',
 ];
 
 $serviceIcons = [

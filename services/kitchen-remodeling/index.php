@@ -7,9 +7,9 @@ $pageTitle        = 'Kitchen Remodeling in Mount Vernon, OR | Superior Home Buil
 $pageDescription  = 'Custom kitchen remodeling in Mount Vernon, OR. Cabinets, countertops, layout redesigns, and appliance installation. Licensed contractor serving Grant County since 2004. Free estimates.';
 $canonicalUrl     = $siteUrl . '/services/kitchen-remodeling/';
 $currentPage      = 'services';
-$heroImage        = $siteUrl . '/assets/images/kitchen-remodel-mount-vernon.webp';
+$heroImage        = '/assets/images/kitchen-remodel-mount-vernon.webp';
 $heroImagePreload = $heroImage;
-$ogImage          = $heroImage;
+$ogImage          = $siteUrl . $heroImage;  // og:image stays absolute
 
 $faqs = [
   ['q'=>'How much does a kitchen remodel cost in Mount Vernon, OR?',
@@ -514,9 +514,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="services-grid">
         <?php
         $relatedItems = [
-          ['slug'=>'bathroom-remodeling','icon'=>'bath','photo'=>$siteUrl . '/assets/images/bathroom-remodel-tile.webp','bullets'=>['Tile, fixtures &amp; plumbing','Custom walk-in showers','Full vanity &amp; lighting']],
+          ['slug'=>'bathroom-remodeling','icon'=>'bath','photo'=>'/assets/images/bathroom-remodel-tile.webp','bullets'=>['Tile, fixtures &amp; plumbing','Custom walk-in showers','Full vanity &amp; lighting']],
           ['slug'=>'general-remodeling', 'icon'=>'wrench','photo'=>'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604102234-3xpgf4-20221109_161614.jpg','bullets'=>['Single rooms to whole homes','Additions &amp; conversions','Interior finish work']],
-          ['slug'=>'windows-and-doors',  'icon'=>'door-open','photo'=>$siteUrl . '/assets/images/window-installation-mount-vernon.webp','bullets'=>['Energy-efficient replacements','Vinyl, wood &amp; fiberglass','Entry doors &amp; sliders']],
+          ['slug'=>'windows-and-doors',  'icon'=>'door-open','photo'=>'/assets/images/window-installation-mount-vernon.webp','bullets'=>['Energy-efficient replacements','Vinyl, wood &amp; fiberglass','Entry doors &amp; sliders']],
         ];
         $svcBySlug = [];
         foreach ($services as $s) $svcBySlug[$s['slug']] = $s;
