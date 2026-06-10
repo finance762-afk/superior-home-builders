@@ -142,7 +142,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <span class="error-number" aria-hidden="true">404</span>
     <div class="error-inner">
       <div class="error-icon">
-        <i data-lucide="map-pin-off"></i>
+        <?php echo lucide_icon('map-pin-off'); ?>
       </div>
       <h1>This page doesn't exist</h1>
       <p>
@@ -158,28 +158,28 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         <h3>Popular Pages</h3>
         <div class="error-links-grid">
           <a href="/services/" class="error-link-pill">
-            <i data-lucide="tool"></i> All Services
+            <?php echo lucide_icon('tool'); ?> All Services
           </a>
           <a href="/services/custom-home-building/" class="error-link-pill">
-            <i data-lucide="home"></i> Custom Home Building
+            <?php echo lucide_icon('home'); ?> Custom Home Building
           </a>
           <a href="/services/bathroom-remodeling/" class="error-link-pill">
-            <i data-lucide="bath"></i> Bathroom Remodeling
+            <?php echo lucide_icon('bath'); ?> Bathroom Remodeling
           </a>
           <a href="/services/kitchen-remodeling/" class="error-link-pill">
-            <i data-lucide="utensils"></i> Kitchen Remodeling
+            <?php echo lucide_icon('utensils'); ?> Kitchen Remodeling
           </a>
           <a href="/services/decks/" class="error-link-pill">
-            <i data-lucide="layout"></i> Decks
+            <?php echo lucide_icon('layout'); ?> Decks
           </a>
           <a href="/about/" class="error-link-pill">
-            <i data-lucide="users"></i> About Us
+            <?php echo lucide_icon('users'); ?> About Us
           </a>
           <a href="/contact/" class="error-link-pill">
-            <i data-lucide="message-circle"></i> Contact
+            <?php echo lucide_icon('message-circle'); ?> Contact
           </a>
           <a href="/faq/" class="error-link-pill">
-            <i data-lucide="help-circle"></i> FAQ
+            <?php echo lucide_icon('help-circle'); ?> FAQ
           </a>
         </div>
       </div>

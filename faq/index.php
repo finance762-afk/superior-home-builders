@@ -464,7 +464,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <section class="faq-hero" aria-label="Frequently asked questions">
   <div class="faq-hero-inner container">
     <span class="faq-hero-eyebrow">
-      <i data-lucide="help-circle"></i>
+      <?php echo lucide_icon('help-circle'); ?>
       Common Questions Answered
     </span>
     <h1>Your construction questions,<br><em>answered plainly</em></h1>
@@ -489,7 +489,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <nav class="faq-tabs" aria-label="FAQ categories" role="navigation">
       <?php foreach ($faqCategories as $cat): ?>
       <a href="#faq-<?php echo htmlspecialchars($cat['id']); ?>" class="faq-tab">
-        <i data-lucide="<?php echo htmlspecialchars($cat['icon']); ?>"></i>
+        <?php echo lucide_icon($cat['icon']); ?>
         <?php echo htmlspecialchars($cat['label']); ?>
       </a>
       <?php endforeach; ?>
@@ -502,7 +502,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
       <div class="faq-category-header">
         <div class="faq-category-icon">
-          <i data-lucide="<?php echo htmlspecialchars($cat['icon']); ?>"></i>
+          <?php echo lucide_icon($cat['icon']); ?>
         </div>
         <h2><?php echo htmlspecialchars($cat['label']); ?> Questions</h2>
       </div>
@@ -513,7 +513,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <summary class="faq-question">
             <h3><?php echo htmlspecialchars($item['q']); ?></h3>
             <span class="faq-toggle" aria-hidden="true">
-              <i data-lucide="plus"></i>
+              <?php echo lucide_icon('plus'); ?>
             </span>
           </summary>
           <div class="faq-answer">
@@ -551,7 +551,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         <a href="/contact/" class="btn btn-secondary btn-lg">Get a Free Estimate</a>
         <?php if (!empty($phone)): ?>
         <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline btn-lg">
-          <i data-lucide="phone"></i> Call Now
+          <?php echo lucide_icon('phone'); ?> Call Now
         </a>
         <?php endif; ?>
       </div>

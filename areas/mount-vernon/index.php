@@ -521,19 +521,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <section class="area-hero" aria-label="Mount Vernon service area hero">
   <div class="area-hero-inner">
     <div class="container">
-      <span class="area-hero-eyebrow"><i data-lucide="map-pin"></i> Mount Vernon, OR · Our Home Base</span>
+      <span class="area-hero-eyebrow"><?php echo lucide_icon('map-pin'); ?> Mount Vernon, OR · Our Home Base</span>
       <h1>Custom Home Building &amp; Remodeling in<br><em>Mount Vernon, OR</em></h1>
       <p class="area-hero-answer">Superior Home Builders is based right here in Mount Vernon, OR — making us the local contractor Grant County homeowners and business owners call first for custom homes, kitchen and bathroom remodels, decks, framing, windows and doors, and commercial construction. We've built and remodeled throughout the Canyon Creek corridor and South Fork John Day River valley for over 20 years.</p>
       <div class="area-hero-trust">
-        <span class="area-hero-trust-item"><i data-lucide="map-pin"></i> Based in Mount Vernon</span>
-        <span class="area-hero-trust-item"><i data-lucide="shield-check"></i> Licensed &amp; Insured</span>
-        <span class="area-hero-trust-item"><i data-lucide="calendar"></i> Est. 2004</span>
-        <span class="area-hero-trust-item"><i data-lucide="file-text"></i> Free Written Estimate</span>
+        <span class="area-hero-trust-item"><?php echo lucide_icon('map-pin'); ?> Based in Mount Vernon</span>
+        <span class="area-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured</span>
+        <span class="area-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2004</span>
+        <span class="area-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Written Estimate</span>
       </div>
       <div class="area-hero-actions">
         <a href="/contact/" class="btn btn-secondary btn-lg">Get a Free Estimate in Mount Vernon</a>
         <?php if (!empty($phone)): ?>
-        <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><i data-lucide="phone"></i> Call Now</a>
+        <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><?php echo lucide_icon('phone'); ?> Call Now</a>
         <?php endif; ?>
       </div>
       <nav class="area-breadcrumb" aria-label="Breadcrumb">
@@ -563,22 +563,22 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     </div>
     <div class="area-bento">
       <div class="area-bento-card reveal-up reveal-delay-1">
-        <div class="icon-wrap"><i data-lucide="thermometer"></i></div>
+        <div class="icon-wrap"><?php echo lucide_icon('thermometer'); ?></div>
         <h3>Eastern Oregon climate</h3>
         <p>Mount Vernon sits at roughly 2,800 feet in the Blue Mountains foothills. Temperature swings of 60°F between summer highs and winter lows, heavy snowloads, and hard freeze-thaw cycles demand construction practices rarely taught in valley contractor schools — we build for these conditions by default.</p>
       </div>
       <div class="area-bento-card reveal-up reveal-delay-2">
-        <div class="icon-wrap"><i data-lucide="home"></i></div>
+        <div class="icon-wrap"><?php echo lucide_icon('home'); ?></div>
         <h3>1940s–1980s housing stock</h3>
         <p>The majority of Mount Vernon homes were built between 1945 and 1985 — ranch-style and farmhouse layouts on the Canyon Creek corridor and along Hwy 395. Remodeling these homes often reveals undersized electrical panels, minimal ceiling insulation, and settled framing we know exactly how to address without ballooning your budget.</p>
       </div>
       <div class="area-bento-card reveal-up reveal-delay-3">
-        <div class="icon-wrap"><i data-lucide="map"></i></div>
+        <div class="icon-wrap"><?php echo lucide_icon('map'); ?></div>
         <h3>Grant County permits</h3>
         <p>Permits for construction in Mount Vernon are handled through Grant County Building Department in Canyon City, 6 miles away. We manage all permit applications and inspection scheduling — your project doesn't stall because the paperwork is unfamiliar territory for an out-of-area contractor.</p>
       </div>
       <div class="area-bento-card reveal-up reveal-delay-4">
-        <div class="icon-wrap"><i data-lucide="truck"></i></div>
+        <div class="icon-wrap"><?php echo lucide_icon('truck'); ?></div>
         <h3>Material logistics solved</h3>
         <p>Getting specialty materials to Eastern Oregon takes planning — we have supplier relationships in John Day, Pendleton, and the Willamette Valley that keep your project from stalling on a cabinet delivery. Our 20+ years of projects in Grant County means we've solved every supply chain challenge this region presents.</p>
       </div>
@@ -627,7 +627,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
                width="600" height="360" loading="lazy">
         </div>
         <div class="service-card__body">
-          <div class="service-card__icon"><i data-lucide="<?php echo $sd['icon']; ?>"></i></div>
+          <div class="service-card__icon"><?php echo lucide_icon($sd['icon']); ?></div>
           <h3><?php echo htmlspecialchars($svc['name']); ?></h3>
           <ul><?php foreach ($sd['bullets'] as $b): ?><li><?php echo $b; ?></li><?php endforeach; ?></ul>
           <a href="/services/<?php echo htmlspecialchars($svc['slug']); ?>/" class="service-card__cta">Learn more</a>
@@ -709,7 +709,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="area-faq-item reveal-up" id="faq-<?php echo $i; ?>">
         <button class="area-faq-question" aria-expanded="false" aria-controls="faq-ans-<?php echo $i; ?>">
           <?php echo htmlspecialchars($faq['q']); ?>
-          <i data-lucide="plus-circle"></i>
+          <?php echo lucide_icon('plus-circle'); ?>
         </button>
         <div class="area-faq-answer" id="faq-ans-<?php echo $i; ?>" role="region">
           <?php echo htmlspecialchars($faq['a']); ?>
@@ -730,7 +730,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <div class="cta-row">
       <a href="/contact/" class="btn btn-secondary btn-lg">Request a Free Estimate</a>
       <?php if (!empty($phone)): ?>
-      <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><i data-lucide="phone"></i> Call Now</a>
+      <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><?php echo lucide_icon('phone'); ?> Call Now</a>
       <?php endif; ?>
     </div>
   </div>

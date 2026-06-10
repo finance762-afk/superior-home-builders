@@ -33,9 +33,9 @@ $_year = date('Y');
             <p>Eastern Oregon's trusted custom home builder and general contractor. Over <?php echo $yearsInBusiness; ?> years building homes and transforming spaces across Grant County and beyond.</p>
 
             <div class="footer-trust-badges">
-              <span class="footer-badge"><i data-lucide="shield-check"></i> Licensed &amp; Insured</span>
-              <span class="footer-badge"><i data-lucide="calendar"></i> Est. <?php echo $yearEstablished; ?></span>
-              <span class="footer-badge"><i data-lucide="star"></i> Free Estimates</span>
+              <span class="footer-badge"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured</span>
+              <span class="footer-badge"><?php echo lucide_icon('calendar'); ?> Est. <?php echo $yearEstablished; ?></span>
+              <span class="footer-badge"><?php echo lucide_icon('star'); ?> Free Estimates</span>
             </div>
 
             <!-- AEO Entity Block -->
@@ -86,20 +86,20 @@ $_year = date('Y');
 
             <?php if (!empty($phone)): ?>
             <div class="footer-contact-item">
-              <i data-lucide="phone"></i>
+              <?php echo lucide_icon('phone'); ?>
               <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>"><?php echo htmlspecialchars($phone); ?></a>
             </div>
             <?php endif; ?>
 
             <?php if (!empty($email)): ?>
             <div class="footer-contact-item">
-              <i data-lucide="mail"></i>
+              <?php echo lucide_icon('mail'); ?>
               <a href="mailto:<?php echo htmlspecialchars($email); ?>"><?php echo htmlspecialchars($email); ?></a>
             </div>
             <?php endif; ?>
 
             <div class="footer-contact-item">
-              <i data-lucide="map-pin"></i>
+              <?php echo lucide_icon('map-pin'); ?>
               <span>
                 <?php if (!empty($address['street'])): ?><?php echo htmlspecialchars($address['street']); ?><br><?php endif; ?>
                 <?php echo htmlspecialchars($address['city']); ?>, <?php echo htmlspecialchars($address['state']); ?> <?php echo htmlspecialchars($address['zip']); ?>
@@ -107,7 +107,7 @@ $_year = date('Y');
             </div>
 
             <div class="footer-contact-item">
-              <i data-lucide="clock"></i>
+              <?php echo lucide_icon('clock'); ?>
               <span>
                 Mon–Fri: 8:00 AM – 5:00 PM<br>
                 Saturday: 9:00 AM – 2:00 PM<br>
@@ -163,7 +163,7 @@ $_year = date('Y');
        BACK TO TOP
   ═══════════════════════════════════════════ -->
   <button class="back-to-top" aria-label="Back to top" id="back-to-top">
-    <i data-lucide="arrow-up"></i>
+    <?php echo lucide_icon('arrow-up'); ?>
   </button>
 
   <!-- ═══════════════════════════════════════════
@@ -172,7 +172,7 @@ $_year = date('Y');
   <div class="mobile-cta-bar" aria-hidden="true">
     <?php if (!empty($phone)): ?>
     <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline">
-      <i data-lucide="phone"></i> Call Now
+      <?php echo lucide_icon('phone'); ?> Call Now
     </a>
     <?php endif; ?>
     <a href="/contact/" class="btn btn-secondary">Free Estimate</a>
@@ -192,11 +192,8 @@ $_year = date('Y');
 
   <!-- ═══════════════════════════════════════════
        SCRIPTS
-       Order: Lucide (sync) → createIcons → animations (defer) → effects (defer) → main (defer)
+       Icons are inline SVG (includes/icons.php) — no icon JS (v6.2).
   ═══════════════════════════════════════════ -->
-  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
-  <script>lucide.createIcons();</script>
-
   <script src="/assets/js/animations.js" defer></script>
   <script src="/assets/js/effects.js"    defer></script>
   <script src="/assets/js/main.js"       defer></script>

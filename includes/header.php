@@ -89,7 +89,7 @@ if (!function_exists('isActivePage')) {
           <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>"
              class="cta-phone"
              aria-label="Call <?php echo htmlspecialchars($siteName); ?>">
-            <i data-lucide="phone"></i>
+            <?php echo lucide_icon('phone'); ?>
             <?php echo htmlspecialchars($phone); ?>
           </a>
           <?php endif; ?>
@@ -136,7 +136,7 @@ if (!function_exists('isActivePage')) {
           <?php if (!empty($phone)): ?>
           <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>"
              class="btn btn-outline btn-lg w-full">
-            <i data-lucide="phone"></i>
+            <?php echo lucide_icon('phone'); ?>
             Call Now
           </a>
           <?php endif; ?>

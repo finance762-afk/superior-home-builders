@@ -131,29 +131,29 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="container">
         <div class="sp-hero-layout">
           <div class="sp-hero-content">
-            <span class="sp-hero-eyebrow"><i data-lucide="building-2"></i> Commercial Construction</span>
+            <span class="sp-hero-eyebrow"><?php echo lucide_icon('building-2'); ?> Commercial Construction</span>
             <h1>Commercial Construction in<br><em>Mount Vernon, OR</em></h1>
             <p class="hero-answer">Superior Home Builders brings specialized expertise in commercial construction to Mount Vernon and Grant County businesses. We understand Mount Vernon's distinct climate challenges and local building code requirements, designing and building shops, warehouses, agricultural facilities, and office buildings that are built to last in our region's conditions. Unlike generalist contractors, we combine ground-up construction expertise with sustainable building practices and transparent project management—you work with one experienced builder who manages the entire process and stands behind the work with comprehensive post-build support.</p>
             <div class="sp-hero-trust">
-              <span class="sp-hero-trust-item"><i data-lucide="shield-check"></i> Licensed &amp; Insured</span>
-              <span class="sp-hero-trust-item"><i data-lucide="calendar"></i> Est. 2004</span>
-              <span class="sp-hero-trust-item"><i data-lucide="file-text"></i> Free Written Estimate</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2004</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Written Estimate</span>
             </div>
             <div class="sp-hero-actions">
               <a href="/contact/" class="btn btn-secondary btn-lg">Get a Free Estimate</a>
               <?php if (!empty($phone)): ?>
-              <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><i data-lucide="phone"></i> Call Now</a>
+              <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><?php echo lucide_icon('phone'); ?> Call Now</a>
               <?php endif; ?>
             </div>
           </div>
           <div class="sp-hero-card">
             <h3>What Grant County businesses get</h3>
             <ul>
-              <li><i data-lucide="check-circle"></i> Commercial permits applied and managed</li>
-              <li><i data-lucide="check-circle"></i> Scheduling around your business hours</li>
-              <li><i data-lucide="check-circle"></i> Commercial code inspection experience</li>
-              <li><i data-lucide="check-circle"></i> Written scope before work begins</li>
-              <li><i data-lucide="check-circle"></i> 20+ years of local builds</li>
+              <li><?php echo lucide_icon('check-circle'); ?> Commercial permits applied and managed</li>
+              <li><?php echo lucide_icon('check-circle'); ?> Scheduling around your business hours</li>
+              <li><?php echo lucide_icon('check-circle'); ?> Commercial code inspection experience</li>
+              <li><?php echo lucide_icon('check-circle'); ?> Written scope before work begins</li>
+              <li><?php echo lucide_icon('check-circle'); ?> 20+ years of local builds</li>
             </ul>
             <a href="/contact/" class="btn btn-secondary w-full">Discuss Your Project</a>
           </div>
@@ -184,22 +184,22 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       </blockquote>
       <div class="sp-bento">
         <div class="sp-bento-card reveal-up reveal-delay-1">
-          <div class="icon-wrap"><i data-lucide="expand"></i></div>
+          <div class="icon-wrap"><?php echo lucide_icon('expand'); ?></div>
           <h3>Business has outgrown its current space</h3>
           <p>Adding a shop bay, warehouse addition, or separate structure is often faster and cheaper than relocating. We build additions that tie into existing structures properly — no patchwork.</p>
         </div>
         <div class="sp-bento-card reveal-up reveal-delay-2">
-          <div class="icon-wrap"><i data-lucide="tractor"></i></div>
+          <div class="icon-wrap"><?php echo lucide_icon('tractor'); ?></div>
           <h3>Agricultural or industrial facilities need updating</h3>
           <p>Post-frame buildings, equipment storage, and processing facilities in Eastern Oregon age and eventually need structural reinforcement, re-roofing, or full replacement before they become a liability.</p>
         </div>
         <div class="sp-bento-card reveal-up reveal-delay-3">
-          <div class="icon-wrap"><i data-lucide="landmark"></i></div>
+          <div class="icon-wrap"><?php echo lucide_icon('landmark'); ?></div>
           <h3>New business needs a permanent location</h3>
           <p>A professionally constructed commercial building in Grant County is a long-term asset. Rent payments don't build equity. A well-built commercial structure does — and gives you control over your space.</p>
         </div>
         <div class="sp-bento-card reveal-up reveal-delay-4">
-          <div class="icon-wrap"><i data-lucide="layout-panel-left"></i></div>
+          <div class="icon-wrap"><?php echo lucide_icon('layout-panel-left'); ?></div>
           <h3>Tenant improvement for new business space</h3>
           <p>Raw commercial shells require substantial build-out before they're functional. Superior Home Builders manages the complete tenant improvement scope so business owners can focus on opening, not managing contractors.</p>
         </div>
@@ -275,18 +275,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <h2>What does a commercial construction project with Superior Home Builders include?</h2>
           <p class="answer-block">Every commercial project is scoped in writing before work begins. Here's what a full-scope commercial build in Mount Vernon, OR covers — from site assessment through certificate of occupancy.</p>
           <ul class="sp-includes-list">
-            <li><i data-lucide="check"></i> Site assessment &amp; layout</li>
-            <li><i data-lucide="check"></i> Commercial permit application</li>
-            <li><i data-lucide="check"></i> Site clearing &amp; grading</li>
-            <li><i data-lucide="check"></i> Foundation (slab, piers, grade beam)</li>
-            <li><i data-lucide="check"></i> Framing (wood or metal)</li>
-            <li><i data-lucide="check"></i> Exterior envelope (roofing, siding, windows)</li>
-            <li><i data-lucide="check"></i> Electrical rough-in (commercial)</li>
-            <li><i data-lucide="check"></i> Plumbing rough-in (commercial)</li>
-            <li><i data-lucide="check"></i> HVAC coordination</li>
-            <li><i data-lucide="check"></i> Insulation &amp; fire-rated assemblies</li>
-            <li><i data-lucide="check"></i> Interior finish (drywall, flooring, ceiling)</li>
-            <li><i data-lucide="check"></i> Final inspections &amp; certificate of occupancy</li>
+            <li><?php echo lucide_icon('check'); ?> Site assessment &amp; layout</li>
+            <li><?php echo lucide_icon('check'); ?> Commercial permit application</li>
+            <li><?php echo lucide_icon('check'); ?> Site clearing &amp; grading</li>
+            <li><?php echo lucide_icon('check'); ?> Foundation (slab, piers, grade beam)</li>
+            <li><?php echo lucide_icon('check'); ?> Framing (wood or metal)</li>
+            <li><?php echo lucide_icon('check'); ?> Exterior envelope (roofing, siding, windows)</li>
+            <li><?php echo lucide_icon('check'); ?> Electrical rough-in (commercial)</li>
+            <li><?php echo lucide_icon('check'); ?> Plumbing rough-in (commercial)</li>
+            <li><?php echo lucide_icon('check'); ?> HVAC coordination</li>
+            <li><?php echo lucide_icon('check'); ?> Insulation &amp; fire-rated assemblies</li>
+            <li><?php echo lucide_icon('check'); ?> Interior finish (drywall, flooring, ceiling)</li>
+            <li><?php echo lucide_icon('check'); ?> Final inspections &amp; certificate of occupancy</li>
           </ul>
           <a href="/contact/" class="btn btn-primary">Request a Commercial Estimate</a>
         </div>
@@ -389,19 +389,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="sp-compare-table">
         <div class="sp-compare-col sp-compare-col--bad reveal-left">
           <h3>Residential contractor doing commercial work</h3>
-          <div class="sp-compare-row"><i data-lucide="x-circle" style="color:#f87171;width:18px;height:18px"></i><span>No commercial licensing — risk to the building owner</span></div>
-          <div class="sp-compare-row"><i data-lucide="x-circle" style="color:#f87171;width:18px;height:18px"></i><span>Commercial permits not pulled or mishandled</span></div>
-          <div class="sp-compare-row"><i data-lucide="x-circle" style="color:#f87171;width:18px;height:18px"></i><span>Work disrupts business operations without advance notice</span></div>
-          <div class="sp-compare-row"><i data-lucide="x-circle" style="color:#f87171;width:18px;height:18px"></i><span>No experience with commercial code inspections</span></div>
-          <div class="sp-compare-row"><i data-lucide="x-circle" style="color:#f87171;width:18px;height:18px"></i><span>Verbal scope — billing surprises at project end</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('x-circle', '', 'color:#f87171;width:18px;height:18px'); ?><span>No commercial licensing — risk to the building owner</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('x-circle', '', 'color:#f87171;width:18px;height:18px'); ?><span>Commercial permits not pulled or mishandled</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('x-circle', '', 'color:#f87171;width:18px;height:18px'); ?><span>Work disrupts business operations without advance notice</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('x-circle', '', 'color:#f87171;width:18px;height:18px'); ?><span>No experience with commercial code inspections</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('x-circle', '', 'color:#f87171;width:18px;height:18px'); ?><span>Verbal scope — billing surprises at project end</span></div>
         </div>
         <div class="sp-compare-col sp-compare-col--good reveal-right">
           <h3>Superior Home Builders</h3>
-          <div class="sp-compare-row"><i data-lucide="check-circle" style="color:var(--color-accent);width:18px;height:18px"></i><span>Licensed Oregon GC with commercial project experience</span></div>
-          <div class="sp-compare-row"><i data-lucide="check-circle" style="color:var(--color-accent);width:18px;height:18px"></i><span>All commercial permits applied for and managed</span></div>
-          <div class="sp-compare-row"><i data-lucide="check-circle" style="color:var(--color-accent);width:18px;height:18px"></i><span>Scheduling coordinated around your business operations</span></div>
-          <div class="sp-compare-row"><i data-lucide="check-circle" style="color:var(--color-accent);width:18px;height:18px"></i><span>Commercial code inspections navigated from experience</span></div>
-          <div class="sp-compare-row"><i data-lucide="check-circle" style="color:var(--color-accent);width:18px;height:18px"></i><span>Written scope and estimate before any work begins</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>Licensed Oregon GC with commercial project experience</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>All commercial permits applied for and managed</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>Scheduling coordinated around your business operations</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>Commercial code inspections navigated from experience</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>Written scope and estimate before any work begins</span></div>
         </div>
       </div>
     </div>
@@ -426,7 +426,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         <div class="sp-faq-item reveal-up" id="faq-<?php echo $i; ?>">
           <button class="sp-faq-question" aria-expanded="false" aria-controls="faq-ans-<?php echo $i; ?>">
             <?php echo htmlspecialchars($faq['q']); ?>
-            <i data-lucide="plus-circle"></i>
+            <?php echo lucide_icon('plus-circle'); ?>
           </button>
           <div class="sp-faq-answer" id="faq-ans-<?php echo $i; ?>" role="region">
             <?php echo htmlspecialchars($faq['a']); ?>
@@ -447,7 +447,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="cta-row">
         <a href="/contact/" class="btn btn-primary btn-lg">Get a Free Estimate</a>
         <?php if (!empty($phone)): ?>
-        <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-secondary btn-lg"><i data-lucide="phone"></i> Call Now</a>
+        <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-secondary btn-lg"><?php echo lucide_icon('phone'); ?> Call Now</a>
         <?php endif; ?>
       </div>
     </div>
@@ -468,7 +468,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
                  width="600" height="360" loading="lazy">
           </div>
           <div class="service-card__body">
-            <div class="service-card__icon"><i data-lucide="hammer"></i></div>
+            <div class="service-card__icon"><?php echo lucide_icon('hammer'); ?></div>
             <h3>Framing</h3>
             <p class="service-card__desc">Residential and commercial framing for new builds, additions, and renovations throughout Eastern Oregon.</p>
             <ul>
@@ -487,7 +487,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
                  width="600" height="360" loading="lazy">
           </div>
           <div class="service-card__body">
-            <div class="service-card__icon"><i data-lucide="home"></i></div>
+            <div class="service-card__icon"><?php echo lucide_icon('home'); ?></div>
             <h3>Custom Home Building</h3>
             <p class="service-card__desc">Design-to-completion custom home construction throughout Grant County since 2004.</p>
             <ul>
@@ -506,7 +506,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
                  width="600" height="360" loading="lazy">
           </div>
           <div class="service-card__body">
-            <div class="service-card__icon"><i data-lucide="wrench"></i></div>
+            <div class="service-card__icon"><?php echo lucide_icon('wrench'); ?></div>
             <h3>General Remodeling</h3>
             <p class="service-card__desc">Home remodeling from single room updates to whole-house renovations across Grant County.</p>
             <ul>

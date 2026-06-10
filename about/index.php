@@ -763,7 +763,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <section class="about-hero" aria-label="About Superior Home Builders">
   <div class="about-hero-inner container">
     <span class="about-hero-eyebrow">
-      <i data-lucide="building-2"></i>
+      <?php echo lucide_icon('building-2'); ?>
       Serving Eastern Oregon Since <?php echo $yearEstablished; ?>
     </span>
     <h1>Built on <em>Integrity</em>,<br>Built to Last</h1>
@@ -905,7 +905,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <div class="about-values-grid">
       <div class="about-value-card reveal-up reveal-delay-1">
         <div class="about-value-icon">
-          <i data-lucide="hammer"></i>
+          <?php echo lucide_icon('hammer'); ?>
         </div>
         <h3>Craftsmanship</h3>
         <p>
@@ -917,7 +917,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
       <div class="about-value-card reveal-up reveal-delay-2">
         <div class="about-value-icon">
-          <i data-lucide="handshake"></i>
+          <?php echo lucide_icon('handshake'); ?>
         </div>
         <h3>Integrity</h3>
         <p>
@@ -929,7 +929,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
       <div class="about-value-card reveal-up reveal-delay-3">
         <div class="about-value-icon">
-          <i data-lucide="map-pin"></i>
+          <?php echo lucide_icon('map-pin'); ?>
         </div>
         <h3>Community</h3>
         <p>
@@ -967,7 +967,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <p>Superior Home Builders was established in Mount Vernon with a focus on residential framing and custom home construction for Grant County homeowners.</p>
         </div>
         <div class="timeline-connector">
-          <div class="timeline-dot"><i data-lucide="home" style="width:16px;height:16px;"></i></div>
+          <div class="timeline-dot"><?php echo lucide_icon('home', '', 'width:16px;height:16px;'); ?></div>
         </div>
         <div class="timeline-spacer"></div>
       </div>
@@ -975,7 +975,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="timeline-item">
         <div class="timeline-spacer"></div>
         <div class="timeline-connector">
-          <div class="timeline-dot"><i data-lucide="wrench" style="width:16px;height:16px;"></i></div>
+          <div class="timeline-dot"><?php echo lucide_icon('wrench', '', 'width:16px;height:16px;'); ?></div>
         </div>
         <div class="timeline-content reveal-right">
           <span class="timeline-year">2008–2012</span>
@@ -991,7 +991,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <p>We added windows &amp; doors installation and custom deck building to our service menu, meeting growing homeowner demand for energy efficiency and outdoor living spaces.</p>
         </div>
         <div class="timeline-connector">
-          <div class="timeline-dot"><i data-lucide="door-open" style="width:16px;height:16px;"></i></div>
+          <div class="timeline-dot"><?php echo lucide_icon('door-open', '', 'width:16px;height:16px;'); ?></div>
         </div>
         <div class="timeline-spacer"></div>
       </div>
@@ -999,7 +999,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="timeline-item">
         <div class="timeline-spacer"></div>
         <div class="timeline-connector">
-          <div class="timeline-dot"><i data-lucide="building-2" style="width:16px;height:16px;"></i></div>
+          <div class="timeline-dot"><?php echo lucide_icon('building-2', '', 'width:16px;height:16px;'); ?></div>
         </div>
         <div class="timeline-content reveal-right">
           <span class="timeline-year">2018–2020</span>
@@ -1015,7 +1015,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <p>Today we offer eight specialized services across five Eastern Oregon counties, with a full team of experienced craftsmen and a reputation built on over <?php echo $yearsInBusiness; ?> years of delivering quality work.</p>
         </div>
         <div class="timeline-connector">
-          <div class="timeline-dot"><i data-lucide="star" style="width:16px;height:16px;"></i></div>
+          <div class="timeline-dot"><?php echo lucide_icon('star', '', 'width:16px;height:16px;'); ?></div>
         </div>
         <div class="timeline-spacer"></div>
       </div>
@@ -1052,28 +1052,28 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
         <div class="about-trust-badges">
           <div class="about-trust-badge">
-            <div class="about-trust-badge-icon"><i data-lucide="shield-check"></i></div>
+            <div class="about-trust-badge-icon"><?php echo lucide_icon('shield-check'); ?></div>
             <div class="about-trust-badge-text">
               <strong>Licensed Contractor</strong>
               <span>Oregon CCB Licensed</span>
             </div>
           </div>
           <div class="about-trust-badge">
-            <div class="about-trust-badge-icon"><i data-lucide="hard-hat"></i></div>
+            <div class="about-trust-badge-icon"><?php echo lucide_icon('hard-hat'); ?></div>
             <div class="about-trust-badge-text">
               <strong>Fully Insured</strong>
               <span>General Liability Coverage</span>
             </div>
           </div>
           <div class="about-trust-badge">
-            <div class="about-trust-badge-icon"><i data-lucide="calendar"></i></div>
+            <div class="about-trust-badge-icon"><?php echo lucide_icon('calendar'); ?></div>
             <div class="about-trust-badge-text">
               <strong><?php echo $yearsInBusiness; ?>+ Years</strong>
               <span>Local Experience</span>
             </div>
           </div>
           <div class="about-trust-badge">
-            <div class="about-trust-badge-icon"><i data-lucide="users"></i></div>
+            <div class="about-trust-badge-icon"><?php echo lucide_icon('users'); ?></div>
             <div class="about-trust-badge-text">
               <strong>Free Estimates</strong>
               <span>No Pressure, No Surprises</span>
@@ -1112,7 +1112,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         <a href="/contact/" class="btn btn-secondary btn-lg">Get Your Free Estimate</a>
         <?php if (!empty($phone)): ?>
         <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline btn-lg">
-          <i data-lucide="phone"></i> <?php echo htmlspecialchars($phone); ?>
+          <?php echo lucide_icon('phone'); ?> <?php echo htmlspecialchars($phone); ?>
         </a>
         <?php endif; ?>
       </div>

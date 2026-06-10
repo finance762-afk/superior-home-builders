@@ -151,7 +151,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <div class="container">
     <div class="thankyou-inner">
       <div class="thankyou-check">
-        <i data-lucide="check-circle-2"></i>
+        <?php echo lucide_icon('check-circle-2'); ?>
       </div>
 
       <h1>Message received — <em>thank you!</em></h1>
@@ -181,7 +181,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="thankyou-actions">
         <?php if (!empty($phone)): ?>
         <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-primary btn-lg">
-          <i data-lucide="phone"></i> Call Now: <?php echo htmlspecialchars($phone); ?>
+          <?php echo lucide_icon('phone'); ?> Call Now: <?php echo htmlspecialchars($phone); ?>
         </a>
         <?php endif; ?>
         <a href="/services/" class="btn btn-secondary btn-lg">Browse Our Services</a>

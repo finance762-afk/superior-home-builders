@@ -153,7 +153,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       </nav>
 
       <span class="blog-hero__category">
-        <i data-lucide="tag"></i>
+        <?php echo lucide_icon('tag'); ?>
         <?php echo htmlspecialchars($postCategory); ?>
       </span>
 
@@ -163,17 +163,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
       <div class="blog-hero__meta">
         <div class="blog-hero__meta-item">
-          <i data-lucide="calendar"></i>
+          <?php echo lucide_icon('calendar'); ?>
           <time datetime="<?php echo $postDateISO; ?>"><?php echo $postDate; ?></time>
         </div>
         <div class="blog-hero__meta-divider" aria-hidden="true"></div>
         <div class="blog-hero__meta-item">
-          <i data-lucide="user"></i>
+          <?php echo lucide_icon('user'); ?>
           <span><?php echo htmlspecialchars($postAuthor); ?></span>
         </div>
         <div class="blog-hero__meta-divider" aria-hidden="true"></div>
         <div class="blog-hero__meta-item">
-          <i data-lucide="clock"></i>
+          <?php echo lucide_icon('clock'); ?>
           <span>20 min read</span>
         </div>
       </div>
@@ -205,13 +205,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <div class="article-body" itemprop="articleBody">
 
         <a href="/blog/" class="back-to-blog">
-          <i data-lucide="arrow-left"></i>
+          <?php echo lucide_icon('arrow-left'); ?>
           Back to Blog
         </a>
 
         <!-- Featured image -->
         <img
-          src="/assets/images/blog/raw-land-eastern-oregon.webp"
+          src="/assets/images/blog/raw-land-eastern-oregon-960.webp"
+          srcset="/assets/images/blog/raw-land-eastern-oregon-480.webp 480w,
+                  /assets/images/blog/raw-land-eastern-oregon-960.webp 960w,
+                  /assets/images/blog/raw-land-eastern-oregon-1600.webp 1600w"
+          sizes="(max-width: 768px) 100vw, 720px"
           alt="Raw land in Eastern Oregon high desert near Grant County — evaluating a rural parcel for off-grid home construction including septic site evaluation, drain field placement, and well setbacks"
           class="article-featured-img"
           width="1200"
@@ -287,7 +291,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <div class="highlight-box reveal-up">
           <div class="highlight-box__icon" aria-hidden="true">
-            <i data-lucide="search"></i>
+            <?php echo lucide_icon('search'); ?>
           </div>
           <div class="highlight-box__body">
             <strong>Run the septic site evaluation before committing to a home location.</strong>
@@ -349,7 +353,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <div class="highlight-box reveal-up">
           <div class="highlight-box__icon" aria-hidden="true">
-            <i data-lucide="map-pin"></i>
+            <?php echo lucide_icon('map-pin'); ?>
           </div>
           <div class="highlight-box__body">
             <strong>The well and septic system need to be planned together.</strong>
@@ -380,7 +384,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <div class="warning-box reveal-up">
           <div class="warning-box__icon" aria-hidden="true">
-            <i data-lucide="alert-triangle"></i>
+            <?php echo lucide_icon('alert-triangle'); ?>
           </div>
           <div class="warning-box__body">
             <strong>An existing septic system on a rural property is not automatically a working, code-compliant system.</strong>
@@ -407,7 +411,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <div class="highlight-box reveal-up">
           <div class="highlight-box__icon" aria-hidden="true">
-            <i data-lucide="file-check"></i>
+            <?php echo lucide_icon('file-check'); ?>
           </div>
           <div class="highlight-box__body">
             <strong>For a new off-grid home, septic approval should be treated as part of the build plan, not a side task.</strong>
@@ -449,7 +453,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <div class="warning-box reveal-up">
           <div class="warning-box__icon" aria-hidden="true">
-            <i data-lucide="alert-circle"></i>
+            <?php echo lucide_icon('alert-circle'); ?>
           </div>
           <div class="warning-box__body">
             <strong>A composting toilet may reduce blackwater, but it does not automatically solve every wastewater issue.</strong>
@@ -479,7 +483,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <!-- Inline image -->
         <figure class="article-img-block reveal-up">
           <img
-            src="/assets/images/blog/off-grid-home-framing.webp"
+            src="/assets/images/blog/off-grid-home-framing-960.webp"
+            srcset="/assets/images/blog/off-grid-home-framing-480.webp 480w,
+                    /assets/images/blog/off-grid-home-framing-960.webp 960w,
+                    /assets/images/blog/off-grid-home-framing-1600.webp 1600w"
+            sizes="(max-width: 768px) 100vw, 720px"
             alt="Custom home framing in progress in Eastern Oregon — coordinating septic, well, access, and site layout as part of an off-grid home build near Grant County"
             width="1200"
             height="675"
@@ -587,7 +595,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <!-- Bottom CTA block -->
         <div class="article-cta-block reveal-up">
           <div class="article-cta-icon" aria-hidden="true">
-            <i data-lucide="hard-hat"></i>
+            <?php echo lucide_icon('hard-hat'); ?>
           </div>
           <div class="article-cta-copy">
             <h3>Planning an Off-Grid Home in Eastern Oregon? Talk With a Builder Before You Finalize a House Plan or Buy Rural Land.</h3>
@@ -595,11 +603,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
           </div>
           <div class="article-cta-actions">
             <a href="/contact/" class="btn btn-secondary">
-              <i data-lucide="phone"></i>
+              <?php echo lucide_icon('phone'); ?>
               Free Consultation
             </a>
             <a href="/services/custom-home-building/" class="btn btn-outline">
-              <i data-lucide="home"></i>
+              <?php echo lucide_icon('home'); ?>
               Custom Homes
             </a>
           </div>
@@ -612,7 +620,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <!-- Table of Contents -->
         <div class="sidebar-card">
-          <h4><i data-lucide="list"></i> In This Article</h4>
+          <h4><?php echo lucide_icon('list'); ?> In This Article</h4>
           <ul class="toc-list" role="list">
             <li><a href="#no-skip-septic">Off-Grid Still Needs Septic</a></li>
             <li><a href="#site-evaluation">Septic Site Evaluation</a></li>
@@ -638,7 +646,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <!-- Related Services -->
         <div class="sidebar-card">
-          <h4><i data-lucide="hard-hat"></i> Related Services</h4>
+          <h4><?php echo lucide_icon('hard-hat'); ?> Related Services</h4>
           <ul class="toc-list" role="list">
             <li><a href="/services/custom-home-building/">Custom Home Building</a></li>
             <li><a href="/services/framing/">Framing</a></li>
@@ -692,11 +700,11 @@ $relatedPosts = array_slice(array_values(array_filter(
         <div class="blog-card__body">
           <div class="blog-card__meta">
             <div class="blog-card__meta-item">
-              <i data-lucide="calendar"></i>
+              <?php echo lucide_icon('calendar'); ?>
               <time datetime="<?php echo htmlspecialchars($rp['dateISO']); ?>"><?php echo htmlspecialchars($rp['date']); ?></time>
             </div>
             <div class="blog-card__meta-item">
-              <i data-lucide="clock"></i>
+              <?php echo lucide_icon('clock'); ?>
               <span><?php echo htmlspecialchars($rp['readtime']); ?></span>
             </div>
           </div>
@@ -708,7 +716,7 @@ $relatedPosts = array_slice(array_values(array_filter(
           </h3>
 
           <a href="/blog/<?php echo htmlspecialchars($rp['slug']); ?>/" class="blog-card__read-more">
-            Read Article <i data-lucide="arrow-right"></i>
+            Read Article <?php echo lucide_icon('arrow-right'); ?>
           </a>
         </div>
 

@@ -85,7 +85,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       </nav>
 
       <span class="blog-hero__category">
-        <i data-lucide="tag"></i>
+        <?php echo lucide_icon('tag'); ?>
         <?php echo htmlspecialchars($postCategory); ?>
       </span>
 
@@ -95,17 +95,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
       <div class="blog-hero__meta">
         <div class="blog-hero__meta-item">
-          <i data-lucide="calendar"></i>
+          <?php echo lucide_icon('calendar'); ?>
           <time datetime="<?php echo $postDateISO; ?>"><?php echo $postDate; ?></time>
         </div>
         <div class="blog-hero__meta-divider" aria-hidden="true"></div>
         <div class="blog-hero__meta-item">
-          <i data-lucide="user"></i>
+          <?php echo lucide_icon('user'); ?>
           <span><?php echo htmlspecialchars($postAuthor); ?></span>
         </div>
         <div class="blog-hero__meta-divider" aria-hidden="true"></div>
         <div class="blog-hero__meta-item">
-          <i data-lucide="clock"></i>
+          <?php echo lucide_icon('clock'); ?>
           <span>8 min read</span>
         </div>
       </div>
@@ -137,13 +137,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <div class="article-body" itemprop="articleBody">
 
         <a href="/blog/" class="back-to-blog">
-          <i data-lucide="arrow-left"></i>
+          <?php echo lucide_icon('arrow-left'); ?>
           Back to Blog
         </a>
 
         <!-- Featured image -->
         <img
-          src="/assets/images/blog/off-grid-homestead-oregon.webp"
+          src="/assets/images/blog/off-grid-homestead-oregon-960.webp"
+          srcset="/assets/images/blog/off-grid-homestead-oregon-480.webp 480w,
+                  /assets/images/blog/off-grid-homestead-oregon-960.webp 960w,
+                  /assets/images/blog/off-grid-homestead-oregon-1600.webp 1600w"
+          sizes="(max-width: 768px) 100vw, 720px"
           alt="Off-grid homestead in Oregon — remote property with forest backdrop and Pacific Northwest landscape"
           class="article-featured-img"
           width="1200"
@@ -251,7 +255,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <!-- Inline image -->
         <figure class="article-img-block reveal-up">
           <img
-            src="/assets/images/blog/eastern-oregon-high-desert-site.webp"
+            src="/assets/images/blog/eastern-oregon-high-desert-site-960.webp"
+            srcset="/assets/images/blog/eastern-oregon-high-desert-site-480.webp 480w,
+                    /assets/images/blog/eastern-oregon-high-desert-site-960.webp 960w"
+            sizes="(max-width: 768px) 100vw, 720px"
             alt="Superior Home Builders working on an off-grid custom home project in Eastern Oregon — skilled craftsmanship in challenging terrain"
             width="1200"
             height="675"
@@ -275,7 +282,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <!-- Bottom CTA block -->
         <div class="article-cta-block reveal-up">
           <div class="article-cta-icon" aria-hidden="true">
-            <i data-lucide="home"></i>
+            <?php echo lucide_icon('home'); ?>
           </div>
           <div class="article-cta-copy">
             <h3>Ready to Build Your Off-Grid Home in Eastern Oregon?</h3>
@@ -283,11 +290,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
           </div>
           <div class="article-cta-actions">
             <a href="/contact/" class="btn btn-secondary">
-              <i data-lucide="clipboard-list"></i>
+              <?php echo lucide_icon('clipboard-list'); ?>
               Free Estimate
             </a>
             <a href="/services/custom-home-building/" class="btn btn-outline">
-              <i data-lucide="hard-hat"></i>
+              <?php echo lucide_icon('hard-hat'); ?>
               Custom Homes
             </a>
           </div>
@@ -300,7 +307,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <!-- Table of Contents -->
         <div class="sidebar-card">
-          <h4><i data-lucide="list"></i> In This Article</h4>
+          <h4><?php echo lucide_icon('list'); ?> In This Article</h4>
           <ul class="toc-list" role="list">
             <li><a href="#why-oregon">Why Oregon for Off-Grid Living?</a></li>
             <li><a href="#key-elements">Key Elements for Success</a></li>
@@ -319,7 +326,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <!-- Services card -->
         <div class="sidebar-card">
-          <h4><i data-lucide="hard-hat"></i> Related Services</h4>
+          <h4><?php echo lucide_icon('hard-hat'); ?> Related Services</h4>
           <ul class="toc-list" role="list">
             <li><a href="/services/custom-home-building/">Custom Home Building</a></li>
             <li><a href="/services/framing/">Framing</a></li>
@@ -371,11 +378,11 @@ $relatedPosts = array_slice(array_values(array_filter(
         <div class="blog-card__body">
           <div class="blog-card__meta">
             <div class="blog-card__meta-item">
-              <i data-lucide="calendar"></i>
+              <?php echo lucide_icon('calendar'); ?>
               <time datetime="<?php echo htmlspecialchars($rp['dateISO']); ?>"><?php echo htmlspecialchars($rp['date']); ?></time>
             </div>
             <div class="blog-card__meta-item">
-              <i data-lucide="clock"></i>
+              <?php echo lucide_icon('clock'); ?>
               <span><?php echo htmlspecialchars($rp['readtime']); ?></span>
             </div>
           </div>
@@ -387,7 +394,7 @@ $relatedPosts = array_slice(array_values(array_filter(
           </h3>
 
           <a href="/blog/<?php echo htmlspecialchars($rp['slug']); ?>/" class="blog-card__read-more">
-            Read Article <i data-lucide="arrow-right"></i>
+            Read Article <?php echo lucide_icon('arrow-right'); ?>
           </a>
         </div>
 

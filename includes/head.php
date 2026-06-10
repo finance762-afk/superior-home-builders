@@ -80,16 +80,14 @@ foreach ($serviceAreas as $area) {
 <?php endif; ?>
 
   <!-- Performance: Preconnects -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="dns-prefetch" href="https://db.pageone.cloud">
-  <link rel="dns-prefetch" href="https://unpkg.com">
 
-  <!-- Fonts: Merriweather (heading + accent italic) + Merriweather Sans (body) — variable wght+ital axes -->
-  <link rel="preload" as="style"
-        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300..900;1,300..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap">
-  <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300..900;1,300..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap">
+  <!-- Fonts: self-hosted Merriweather + Merriweather Sans variable woff2
+       (v6.2 — @font-face lives in framework.css, font-display: swap) -->
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+        href="/assets/fonts/merriweather-var.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+        href="/assets/fonts/merriweather-sans-var.woff2">
 
   <!-- Hero image preload (reduces LCP when set by calling page) -->
 <?php if (!empty($heroImagePreload)): ?>

@@ -225,18 +225,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <section class="area-hero" aria-label="Salem service area">
   <div class="area-hero-inner">
     <div class="container">
-      <span class="area-hero-eyebrow"><i data-lucide="map-pin"></i> Salem, OR · Willamette Valley</span>
+      <span class="area-hero-eyebrow"><?php echo lucide_icon('map-pin'); ?> Salem, OR · Willamette Valley</span>
       <h1>Custom Home Builders Serving<br><em>Salem, OR</em></h1>
       <p class="area-hero-answer">Superior Home Builders is a licensed Oregon general contractor based in Mount Vernon that takes select custom home builds and major remodeling projects in the Salem metro area. Clients in South Salem, West Salem, and the surrounding Willamette Valley who want the craftsmanship and project management discipline of an experienced Eastern Oregon contractor — without the high-volume production approach of large Salem builders — find in us exactly that.</p>
       <div class="area-hero-trust">
-        <span class="area-hero-trust-item"><i data-lucide="shield-check"></i> Oregon Licensed</span>
-        <span class="area-hero-trust-item"><i data-lucide="calendar"></i> Est. 2004</span>
-        <span class="area-hero-trust-item"><i data-lucide="file-text"></i> Free Estimate</span>
+        <span class="area-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Oregon Licensed</span>
+        <span class="area-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2004</span>
+        <span class="area-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Estimate</span>
       </div>
       <div class="area-hero-actions">
         <a href="/contact/" class="btn btn-secondary btn-lg">Discuss Your Salem Project</a>
         <?php if (!empty($phone)): ?>
-        <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><i data-lucide="phone"></i> Call Now</a>
+        <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><?php echo lucide_icon('phone'); ?> Call Now</a>
         <?php endif; ?>
       </div>
       <nav class="area-breadcrumb" aria-label="Breadcrumb">
@@ -265,22 +265,22 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         <a href="/contact/" class="btn btn-primary">Tell Us About Your Project</a>
       </div>
       <div class="area-scope-card reveal-scale">
-        <h3><i data-lucide="check-square" style="width:18px;height:18px;vertical-align:middle;margin-right:6px"></i> What we take in Salem</h3>
+        <h3><?php echo lucide_icon('check-square', '', 'width:18px;height:18px;vertical-align:middle;margin-right:6px'); ?> What we take in Salem</h3>
         <ul class="area-scope-list">
           <li>
-            <i data-lucide="check-circle" style="width:16px;height:16px"></i>
+            <?php echo lucide_icon('check-circle', '', 'width:16px;height:16px'); ?>
             <div><strong>Custom home builds</strong><span>Full design-to-build for clients who want genuine craftsmanship over production-home quality.</span></div>
           </li>
           <li>
-            <i data-lucide="check-circle" style="width:16px;height:16px"></i>
+            <?php echo lucide_icon('check-circle', '', 'width:16px;height:16px'); ?>
             <div><strong>Whole-home renovations</strong><span>Comprehensive projects — kitchens, bathrooms, additions, and structural changes as a single managed scope.</span></div>
           </li>
           <li>
-            <i data-lucide="check-circle" style="width:16px;height:16px"></i>
+            <?php echo lucide_icon('check-circle', '', 'width:16px;height:16px'); ?>
             <div><strong>Large-scale additions</strong><span>Room additions, second-story builds, detached structures, and ADUs where our experience adds real value.</span></div>
           </li>
           <li>
-            <i data-lucide="x-circle" style="width:16px;height:16px;color:rgba(255,255,255,0.35)"></i>
+            <?php echo lucide_icon('x-circle', '', 'width:16px;height:16px;color:rgba(255,255,255,0.35)'); ?>
             <div><strong style="color:rgba(255,255,255,0.55)">Small cosmetic remodels</strong><span style="color:rgba(255,255,255,0.40)">For minor scope, a local Salem contractor is more economical. We'll tell you honestly if that's you.</span></div>
           </li>
         </ul>
@@ -313,21 +313,21 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         <p>The production-home industry in the Willamette Valley prioritizes throughput — getting a house to completion on a compressed schedule using standardized crews and materials. That model works for buyers who want a known product. For Salem clients who want a home that's genuinely custom — built to their specifications, managed by people who care about the outcome, and delivered with a level of craftsmanship that shows in 20 years — that's where we fit.</p>
         <div class="area-value-points">
           <div class="area-value-point">
-            <div class="icon-wrap"><i data-lucide="layers" style="width:20px;height:20px"></i></div>
+            <div class="icon-wrap"><?php echo lucide_icon('layers', '', 'width:20px;height:20px'); ?></div>
             <div>
               <strong>Single-crew project management</strong>
               <span>Every project we take is managed by us — not dispatched to a network of subs who've never met each other. That means tighter sequencing, fewer handoff errors, and a consistent standard from framing to finish.</span>
             </div>
           </div>
           <div class="area-value-point">
-            <div class="icon-wrap"><i data-lucide="file-text" style="width:20px;height:20px"></i></div>
+            <div class="icon-wrap"><?php echo lucide_icon('file-text', '', 'width:20px;height:20px'); ?></div>
             <div>
               <strong>Written, locked-scope estimates</strong>
               <span>You know the full cost before we start. We assess the project, write an itemized estimate, and that estimate holds — not a verbal ballpark that evolves into change orders on week three.</span>
             </div>
           </div>
           <div class="area-value-point">
-            <div class="icon-wrap"><i data-lucide="award" style="width:20px;height:20px"></i></div>
+            <div class="icon-wrap"><?php echo lucide_icon('award', '', 'width:20px;height:20px'); ?></div>
             <div>
               <strong>20+ years of quality-first construction</strong>
               <span>We've built and remodeled throughout Oregon for over 20 years with a reputation that depends on every individual project — not on volume or marketing. That accountability translates directly into how we approach Salem work.</span>
@@ -354,22 +354,22 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     </div>
     <div class="area-bento">
       <div class="area-bento-card reveal-up reveal-delay-1">
-        <div class="icon-wrap"><i data-lucide="cloud-rain"></i></div>
+        <div class="icon-wrap"><?php echo lucide_icon('cloud-rain'); ?></div>
         <h3>Willamette Valley climate specs</h3>
         <p>Salem's wet winters and mild temperatures create different moisture management challenges than Eastern Oregon. Exterior assemblies, crawl space vapor barriers, deck flashing, and window installation all need to account for the valley's higher rainfall and sustained humidity — specifications we adjust for each project's location.</p>
       </div>
       <div class="area-bento-card reveal-up reveal-delay-2">
-        <div class="icon-wrap"><i data-lucide="landmark"></i></div>
+        <div class="icon-wrap"><?php echo lucide_icon('landmark'); ?></div>
         <h3>City of Salem Building Services</h3>
         <p>Projects within Salem city limits permit through City of Salem Building Services. The City of Salem has its own review timelines, inspector schedules, and documentation requirements. We navigate this process on your behalf and adjust our project schedule to match Salem's inspection rhythm.</p>
       </div>
       <div class="area-bento-card reveal-up reveal-delay-3">
-        <div class="icon-wrap"><i data-lucide="home"></i></div>
+        <div class="icon-wrap"><?php echo lucide_icon('home'); ?></div>
         <h3>Salem's custom home market</h3>
         <p>Salem has a range of residential submarkets — from South Salem Hills custom lots to West Salem across the Willamette to the Morningside and Fairmount Hill areas. Each neighborhood has its own aesthetic context and setback realities. We take time to understand the lot and its context before writing a spec for any custom build.</p>
       </div>
       <div class="area-bento-card reveal-up reveal-delay-4">
-        <div class="icon-wrap"><i data-lucide="users"></i></div>
+        <div class="icon-wrap"><?php echo lucide_icon('users'); ?></div>
         <h3>Right-fit clients only</h3>
         <p>We're direct about project fit. If your Salem project is a $20,000 bathroom refresh, there are excellent local contractors who will serve you better. If you're planning a custom home, a major addition, or a whole-home renovation and want a contractor who treats your project as if it's the most important one they have — that's us. Reach out and we'll tell you quickly whether we're the right fit.</p>
       </div>
@@ -410,7 +410,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
                width="600" height="360" loading="lazy">
         </div>
         <div class="service-card__body">
-          <div class="service-card__icon"><i data-lucide="<?php echo $sd['icon']; ?>"></i></div>
+          <div class="service-card__icon"><?php echo lucide_icon($sd['icon']); ?></div>
           <h3><?php echo htmlspecialchars($svc['name']); ?></h3>
           <ul><?php foreach ($sd['bullets'] as $b): ?><li><?php echo $b; ?></li><?php endforeach; ?></ul>
           <a href="/services/<?php echo htmlspecialchars($svc['slug']); ?>/" class="service-card__cta">Learn more</a>
@@ -437,7 +437,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="area-faq-item reveal-up" id="faq-<?php echo $i; ?>">
         <button class="area-faq-question" aria-expanded="false" aria-controls="faq-ans-<?php echo $i; ?>">
           <?php echo htmlspecialchars($faq['q']); ?>
-          <i data-lucide="plus-circle"></i>
+          <?php echo lucide_icon('plus-circle'); ?>
         </button>
         <div class="area-faq-answer" id="faq-ans-<?php echo $i; ?>" role="region">
           <?php echo htmlspecialchars($faq['a']); ?>
@@ -456,7 +456,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <div class="cta-row">
       <a href="/contact/" class="btn btn-secondary btn-lg">Start the Conversation</a>
       <?php if (!empty($phone)): ?>
-      <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><i data-lucide="phone"></i> Call Now</a>
+      <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><?php echo lucide_icon('phone'); ?> Call Now</a>
       <?php endif; ?>
     </div>
     <p style="margin-top:var(--space-xl);font-size:var(--fs-sm);color:rgba(255,255,255,0.50)">Last Updated: <?php echo date('F Y'); ?></p>

@@ -134,29 +134,29 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="container">
         <div class="sp-hero-layout">
           <div class="sp-hero-content">
-            <span class="sp-hero-eyebrow"><i data-lucide="hammer"></i> Framing</span>
+            <span class="sp-hero-eyebrow"><?php echo lucide_icon('hammer'); ?> Framing</span>
             <h1>Framing Contractor in<br><em>Mount Vernon, OR</em></h1>
             <p class="hero-answer">In Mount Vernon, our framing contractors do more than build walls, floors, and roofs—we engineer the structural foundation with deep expertise in the region's unique climate and building codes. We understand Mount Vernon's freeze-thaw cycles and heavy precipitation patterns, which demand precision framing, proper moisture barriers, and strategic material selection from the ground up. Every frame we build is customized to your home's design and engineered for durability in our local climate. We bring transparent timelines, sustainable building practices, and post-build support to every project, so your frame doesn't just stand square and level—it stands the test of Mount Vernon's seasons.</p>
             <div class="sp-hero-trust">
-              <span class="sp-hero-trust-item"><i data-lucide="shield-check"></i> Licensed &amp; Insured</span>
-              <span class="sp-hero-trust-item"><i data-lucide="calendar"></i> Est. 2004</span>
-              <span class="sp-hero-trust-item"><i data-lucide="file-text"></i> Free Written Estimate</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2004</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Written Estimate</span>
             </div>
             <div class="sp-hero-actions">
               <a href="/contact/" class="btn btn-secondary btn-lg">Get a Free Estimate</a>
               <?php if (!empty($phone)): ?>
-              <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><i data-lucide="phone"></i> Call Now</a>
+              <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><?php echo lucide_icon('phone'); ?> Call Now</a>
               <?php endif; ?>
             </div>
           </div>
           <div class="sp-hero-card">
             <h3>Why builders choose our framing crews</h3>
             <ul>
-              <li><i data-lucide="check-circle"></i> Frame checked square, level, and plumb</li>
-              <li><i data-lucide="check-circle"></i> Engineered lumber where spans demand it</li>
-              <li><i data-lucide="check-circle"></i> Rough framing inspection coordinated</li>
-              <li><i data-lucide="check-circle"></i> Full GC scope available if needed</li>
-              <li><i data-lucide="check-circle"></i> 20+ years in Eastern Oregon</li>
+              <li><?php echo lucide_icon('check-circle'); ?> Frame checked square, level, and plumb</li>
+              <li><?php echo lucide_icon('check-circle'); ?> Engineered lumber where spans demand it</li>
+              <li><?php echo lucide_icon('check-circle'); ?> Rough framing inspection coordinated</li>
+              <li><?php echo lucide_icon('check-circle'); ?> Full GC scope available if needed</li>
+              <li><?php echo lucide_icon('check-circle'); ?> 20+ years in Eastern Oregon</li>
             </ul>
             <a href="/contact/" class="btn btn-secondary w-full">Schedule a Consultation</a>
           </div>
@@ -187,22 +187,22 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       </blockquote>
       <div class="sp-bento">
         <div class="sp-bento-card reveal-up reveal-delay-1">
-          <div class="icon-wrap"><i data-lucide="plus-square"></i></div>
+          <div class="icon-wrap"><?php echo lucide_icon('plus-square'); ?></div>
           <h3>Planning a room addition</h3>
           <p>Additions need proper structural tie-in to the existing frame. Amateur framing at the connection point leads to settling, squeaking, and code violations that show up years later.</p>
         </div>
         <div class="sp-bento-card reveal-up reveal-delay-2">
-          <div class="icon-wrap"><i data-lucide="alert-triangle"></i></div>
+          <div class="icon-wrap"><?php echo lucide_icon('alert-triangle'); ?></div>
           <h3>Sagging floors or walls</h3>
           <p>Floor joist failure, rim board rot, or undersized beams show up as visible deflection. These require proper structural framing repair — not cosmetic fixes or shimming.</p>
         </div>
         <div class="sp-bento-card reveal-up reveal-delay-3">
-          <div class="icon-wrap"><i data-lucide="layout"></i></div>
+          <div class="icon-wrap"><?php echo lucide_icon('layout'); ?></div>
           <h3>Load-bearing wall removal</h3>
           <p>Opening a floor plan requires a properly engineered header or beam. An undersized header compresses, causing doors to stick, ceilings to crack, and eventually structural failure.</p>
         </div>
         <div class="sp-bento-card reveal-up reveal-delay-4">
-          <div class="icon-wrap"><i data-lucide="home"></i></div>
+          <div class="icon-wrap"><?php echo lucide_icon('home'); ?></div>
           <h3>New construction from the ground up</h3>
           <p>Quality framing sets the precision of every trade that follows. An out-of-square frame means crooked tile, sticking doors, and gaps in drywall that no amount of finish work can fully hide.</p>
         </div>
@@ -278,18 +278,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <h2>What does Superior Home Builders include in a residential framing contract?</h2>
           <p class="answer-block">Every framing project in Mount Vernon, OR is scoped to your specific plans. Here's what a full new-construction framing scope covers — from sill plate to sheathing.</p>
           <ul class="sp-includes-list">
-            <li><i data-lucide="check"></i> Blueprint review &amp; layout</li>
-            <li><i data-lucide="check"></i> Sill plate installation</li>
-            <li><i data-lucide="check"></i> Floor joist &amp; subfloor system</li>
-            <li><i data-lucide="check"></i> Exterior wall framing</li>
-            <li><i data-lucide="check"></i> Interior wall framing</li>
-            <li><i data-lucide="check"></i> Structural header installation</li>
-            <li><i data-lucide="check"></i> Roof framing (rafters/trusses)</li>
-            <li><i data-lucide="check"></i> Sheathing (OSB/plywood)</li>
-            <li><i data-lucide="check"></i> Window &amp; door rough openings</li>
-            <li><i data-lucide="check"></i> Stair framing</li>
-            <li><i data-lucide="check"></i> Blocking &amp; backing</li>
-            <li><i data-lucide="check"></i> Rough framing inspection coordination</li>
+            <li><?php echo lucide_icon('check'); ?> Blueprint review &amp; layout</li>
+            <li><?php echo lucide_icon('check'); ?> Sill plate installation</li>
+            <li><?php echo lucide_icon('check'); ?> Floor joist &amp; subfloor system</li>
+            <li><?php echo lucide_icon('check'); ?> Exterior wall framing</li>
+            <li><?php echo lucide_icon('check'); ?> Interior wall framing</li>
+            <li><?php echo lucide_icon('check'); ?> Structural header installation</li>
+            <li><?php echo lucide_icon('check'); ?> Roof framing (rafters/trusses)</li>
+            <li><?php echo lucide_icon('check'); ?> Sheathing (OSB/plywood)</li>
+            <li><?php echo lucide_icon('check'); ?> Window &amp; door rough openings</li>
+            <li><?php echo lucide_icon('check'); ?> Stair framing</li>
+            <li><?php echo lucide_icon('check'); ?> Blocking &amp; backing</li>
+            <li><?php echo lucide_icon('check'); ?> Rough framing inspection coordination</li>
           </ul>
           <a href="/contact/" class="btn btn-primary">Request a Free Estimate</a>
         </div>
@@ -392,19 +392,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="sp-compare-table">
         <div class="sp-compare-col sp-compare-col--bad reveal-left">
           <h3>Typical framing crew</h3>
-          <div class="sp-compare-row"><i data-lucide="x-circle" style="color:#f87171;width:18px;height:18px"></i><span>Frame is out of square — causes problems for every downstream trade</span></div>
-          <div class="sp-compare-row"><i data-lucide="x-circle" style="color:#f87171;width:18px;height:18px"></i><span>Undersized headers over door and window openings</span></div>
-          <div class="sp-compare-row"><i data-lucide="x-circle" style="color:#f87171;width:18px;height:18px"></i><span>Green lumber used without accounting for shrinkage and movement</span></div>
-          <div class="sp-compare-row"><i data-lucide="x-circle" style="color:#f87171;width:18px;height:18px"></i><span>No blocking installed for future grab bars or fixtures</span></div>
-          <div class="sp-compare-row"><i data-lucide="x-circle" style="color:#f87171;width:18px;height:18px"></i><span>Rough framing inspection not scheduled — delays all mechanical trades</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('x-circle', '', 'color:#f87171;width:18px;height:18px'); ?><span>Frame is out of square — causes problems for every downstream trade</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('x-circle', '', 'color:#f87171;width:18px;height:18px'); ?><span>Undersized headers over door and window openings</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('x-circle', '', 'color:#f87171;width:18px;height:18px'); ?><span>Green lumber used without accounting for shrinkage and movement</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('x-circle', '', 'color:#f87171;width:18px;height:18px'); ?><span>No blocking installed for future grab bars or fixtures</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('x-circle', '', 'color:#f87171;width:18px;height:18px'); ?><span>Rough framing inspection not scheduled — delays all mechanical trades</span></div>
         </div>
         <div class="sp-compare-col sp-compare-col--good reveal-right">
           <h3>Superior Home Builders</h3>
-          <div class="sp-compare-row"><i data-lucide="check-circle" style="color:var(--color-accent);width:18px;height:18px"></i><span>Frame checked for square, level, and plumb at every stage</span></div>
-          <div class="sp-compare-row"><i data-lucide="check-circle" style="color:var(--color-accent);width:18px;height:18px"></i><span>Headers sized per structural design or IRC span tables</span></div>
-          <div class="sp-compare-row"><i data-lucide="check-circle" style="color:var(--color-accent);width:18px;height:18px"></i><span>Proper species and grade specified for Eastern OR's climate</span></div>
-          <div class="sp-compare-row"><i data-lucide="check-circle" style="color:var(--color-accent);width:18px;height:18px"></i><span>Blocking installed for future needs per plan and owner intent</span></div>
-          <div class="sp-compare-row"><i data-lucide="check-circle" style="color:var(--color-accent);width:18px;height:18px"></i><span>Rough framing inspection coordinated before walls close</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>Frame checked for square, level, and plumb at every stage</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>Headers sized per structural design or IRC span tables</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>Proper species and grade specified for Eastern OR's climate</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>Blocking installed for future needs per plan and owner intent</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>Rough framing inspection coordinated before walls close</span></div>
         </div>
       </div>
     </div>
@@ -429,7 +429,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         <div class="sp-faq-item reveal-up" id="faq-<?php echo $i; ?>">
           <button class="sp-faq-question" aria-expanded="false" aria-controls="faq-ans-<?php echo $i; ?>">
             <?php echo htmlspecialchars($faq['q']); ?>
-            <i data-lucide="plus-circle"></i>
+            <?php echo lucide_icon('plus-circle'); ?>
           </button>
           <div class="sp-faq-answer" id="faq-ans-<?php echo $i; ?>" role="region">
             <?php echo htmlspecialchars($faq['a']); ?>
@@ -450,7 +450,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="cta-row">
         <a href="/contact/" class="btn btn-primary btn-lg">Get a Free Estimate</a>
         <?php if (!empty($phone)): ?>
-        <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-secondary btn-lg"><i data-lucide="phone"></i> Call Now</a>
+        <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-secondary btn-lg"><?php echo lucide_icon('phone'); ?> Call Now</a>
         <?php endif; ?>
       </div>
     </div>
@@ -471,7 +471,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
                  width="600" height="360" loading="lazy">
           </div>
           <div class="service-card__body">
-            <div class="service-card__icon"><i data-lucide="home"></i></div>
+            <div class="service-card__icon"><?php echo lucide_icon('home'); ?></div>
             <h3>Custom Home Building</h3>
             <ul>
               <li>Design-to-completion builds</li>
@@ -489,7 +489,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
                  width="600" height="360" loading="lazy">
           </div>
           <div class="service-card__body">
-            <div class="service-card__icon"><i data-lucide="tree-pine"></i></div>
+            <div class="service-card__icon"><?php echo lucide_icon('tree-pine'); ?></div>
             <h3>Decks</h3>
             <ul>
               <li>Composite &amp; pressure-treated</li>
@@ -507,7 +507,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
                  width="600" height="360" loading="lazy">
           </div>
           <div class="service-card__body">
-            <div class="service-card__icon"><i data-lucide="building-2"></i></div>
+            <div class="service-card__icon"><?php echo lucide_icon('building-2'); ?></div>
             <h3>Commercial Construction</h3>
             <ul>
               <li>Shops, offices &amp; warehouses</li>

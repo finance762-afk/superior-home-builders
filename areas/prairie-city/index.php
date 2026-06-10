@@ -230,18 +230,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <div class="area-hero-floating" aria-hidden="true"></div>
   <div class="area-hero-inner">
     <div class="container">
-      <span class="area-hero-eyebrow"><i data-lucide="map-pin"></i> Prairie City, OR · Strawberry Mountain Region</span>
+      <span class="area-hero-eyebrow"><?php echo lucide_icon('map-pin'); ?> Prairie City, OR · Strawberry Mountain Region</span>
       <h1>Home Building &amp; Remodeling in<br><em>Prairie City, OR</em></h1>
       <p class="area-hero-answer">Superior Home Builders serves Prairie City with custom home construction, kitchen and bathroom remodeling, deck installations, framing, and window replacements near the Strawberry Mountain Wilderness corridor. Our crew is based in Mount Vernon and knows Prairie City's agricultural ranch properties, older farmhouse inventory along Prairie Creek, and the demanding construction conditions at 3,500 feet in Grant County.</p>
       <div class="area-hero-trust">
-        <span class="area-hero-trust-item"><i data-lucide="mountain"></i> 3,500 ft elevation expertise</span>
-        <span class="area-hero-trust-item"><i data-lucide="shield-check"></i> Oregon Licensed</span>
-        <span class="area-hero-trust-item"><i data-lucide="calendar"></i> Serving since 2004</span>
+        <span class="area-hero-trust-item"><?php echo lucide_icon('mountain'); ?> 3,500 ft elevation expertise</span>
+        <span class="area-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Oregon Licensed</span>
+        <span class="area-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Serving since 2004</span>
       </div>
       <div class="area-hero-actions">
         <a href="/contact/" class="btn btn-secondary btn-lg">Get a Free Estimate in Prairie City</a>
         <?php if (!empty($phone)): ?>
-        <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><i data-lucide="phone"></i> Call Now</a>
+        <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><?php echo lucide_icon('phone'); ?> Call Now</a>
         <?php endif; ?>
       </div>
       <nav class="area-breadcrumb" aria-label="Breadcrumb">
@@ -297,22 +297,22 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     </div>
     <div class="area-bento">
       <div class="area-bento-card reveal-up reveal-delay-1">
-        <div class="icon-wrap"><i data-lucide="snowflake"></i></div>
+        <div class="icon-wrap"><?php echo lucide_icon('snowflake'); ?></div>
         <h3>Highest snowloads in Grant County</h3>
         <p>At 3,500 feet near the Strawberry Mountain Wilderness, Prairie City sees heavier winter snowloads than lower parts of the valley. Deck structures, roofline additions, and framing for new construction all need to be engineered for this — we spec for it by default on every Prairie City project.</p>
       </div>
       <div class="area-bento-card reveal-up reveal-delay-2">
-        <div class="icon-wrap"><i data-lucide="tractor"></i></div>
+        <div class="icon-wrap"><?php echo lucide_icon('tractor'); ?></div>
         <h3>Agricultural ranch housing stock</h3>
         <p>Prairie City's residential properties lean heavily toward farmhouses, ranch homes, and outbuilding complexes tied to the local agricultural economy. Many were built between the 1930s and 1970s and haven't been significantly updated. Remodeling these homes means respecting their character while bringing systems — insulation, electrical, plumbing — up to current standards.</p>
       </div>
       <div class="area-bento-card reveal-up reveal-delay-3">
-        <div class="icon-wrap"><i data-lucide="droplets"></i></div>
+        <div class="icon-wrap"><?php echo lucide_icon('droplets'); ?></div>
         <h3>Strawberry Creek drainage</h3>
         <p>Properties near Strawberry Creek and Prairie Creek — the two primary drainages through Prairie City — can have moisture management challenges in basements and crawl spaces, particularly in early spring when snowmelt hits. We assess drainage as part of every estimate on properties in these corridors.</p>
       </div>
       <div class="area-bento-card reveal-up reveal-delay-4">
-        <div class="icon-wrap"><i data-lucide="truck"></i></div>
+        <div class="icon-wrap"><?php echo lucide_icon('truck'); ?></div>
         <h3>Remote material logistics</h3>
         <p>Prairie City is 30+ miles from John Day and further from any major supply center. Getting specialty materials here on time requires the supplier relationships and planning that come from doing it for 20 years in this county. Our material logistics are built into every project timeline — no waiting on a truckload that wasn't ordered on time.</p>
       </div>
@@ -353,7 +353,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
                width="600" height="360" loading="lazy">
         </div>
         <div class="service-card__body">
-          <div class="service-card__icon"><i data-lucide="<?php echo $sd['icon']; ?>"></i></div>
+          <div class="service-card__icon"><?php echo lucide_icon($sd['icon']); ?></div>
           <h3><?php echo htmlspecialchars($svc['name']); ?></h3>
           <ul><?php foreach ($sd['bullets'] as $b): ?><li><?php echo $b; ?></li><?php endforeach; ?></ul>
           <a href="/services/<?php echo htmlspecialchars($svc['slug']); ?>/" class="service-card__cta">Learn more</a>
@@ -430,7 +430,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="area-faq-item reveal-up" id="faq-<?php echo $i; ?>">
         <button class="area-faq-question" aria-expanded="false" aria-controls="faq-ans-<?php echo $i; ?>">
           <?php echo htmlspecialchars($faq['q']); ?>
-          <i data-lucide="plus-circle"></i>
+          <?php echo lucide_icon('plus-circle'); ?>
         </button>
         <div class="area-faq-answer" id="faq-ans-<?php echo $i; ?>" role="region">
           <?php echo htmlspecialchars($faq['a']); ?>
@@ -449,7 +449,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <div class="cta-row">
       <a href="/contact/" class="btn btn-secondary btn-lg">Request a Free Estimate</a>
       <?php if (!empty($phone)): ?>
-      <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><i data-lucide="phone"></i> Call Now</a>
+      <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><?php echo lucide_icon('phone'); ?> Call Now</a>
       <?php endif; ?>
     </div>
   </div>

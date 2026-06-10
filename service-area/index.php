@@ -657,7 +657,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <div class="sa-hero-floating" aria-hidden="true"></div>
   <div class="sa-hero-inner">
     <div class="container">
-      <span class="sa-hero-eyebrow"><i data-lucide="map-pin"></i> Where We Build</span>
+      <span class="sa-hero-eyebrow"><?php echo lucide_icon('map-pin'); ?> Where We Build</span>
       <h1>Custom Home Building &amp; Remodeling in<br><em>Mount Vernon, OR</em> &amp; Beyond</h1>
       <p class="sa-hero-answer">Superior Home Builders is a licensed Oregon general contractor based in Mount Vernon, serving Grant County and surrounding communities across Eastern Oregon. For over 20 years we've built homes, remodeled kitchens and bathrooms, framed structures, and installed windows and doors for homeowners from Canyon City to Salem.</p>
       <div class="sa-hero-stats">
@@ -681,7 +681,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="sa-hero-actions">
         <a href="/contact/" class="btn btn-secondary btn-lg">Get a Free Estimate</a>
         <?php if (!empty($phone)): ?>
-        <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><i data-lucide="phone"></i> Call Now</a>
+        <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><?php echo lucide_icon('phone'); ?> Call Now</a>
         <?php endif; ?>
       </div>
       <nav class="sa-hero-breadcrumb" aria-label="Breadcrumb">
@@ -711,11 +711,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         <a href="/contact/" class="btn btn-primary">Check Availability in Your Area</a>
       </div>
       <div class="sa-coverage-box reveal-scale">
-        <h3><i data-lucide="map" style="width:20px;height:20px;vertical-align:middle;margin-right:6px"></i> Service Coverage</h3>
+        <h3><?php echo lucide_icon('map', '', 'width:20px;height:20px;vertical-align:middle;margin-right:6px'); ?> Service Coverage</h3>
         <ul class="sa-coverage-list">
           <?php foreach ($areas as $area): ?>
           <li>
-            <i data-lucide="map-pin" style="width:16px;height:16px"></i>
+            <?php echo lucide_icon('map-pin', '', 'width:16px;height:16px'); ?>
             <span><strong><?php echo htmlspecialchars($area['city']); ?>, <?php echo htmlspecialchars($area['state']); ?></strong>
               <?php if ($area['primary']): ?>&nbsp;<small style="background:rgba(var(--color-accent-rgb),0.25);color:var(--color-accent);font-size:0.65rem;font-weight:700;padding:1px 6px;border-radius:100px;text-transform:uppercase">Home Base</small><?php endif; ?>
             </span>
@@ -769,7 +769,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <p class="sa-area-card__desc"><?php echo htmlspecialchars($area['desc']); ?></p>
           <span class="sa-area-card__cta">
             View <?php echo htmlspecialchars($area['city']); ?> details
-            <i data-lucide="arrow-right" style="width:16px;height:16px"></i>
+            <?php echo lucide_icon('arrow-right', '', 'width:16px;height:16px'); ?>
           </span>
         </div>
       </a>
@@ -796,28 +796,28 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         <p>Building in Grant County and the surrounding high desert region is not the same as building in the Willamette Valley. The elevation, temperature swings, remoteness from material suppliers, and the character of the existing housing stock all require local experience — not just general construction knowledge.</p>
         <div class="sa-why-points">
           <div class="sa-why-point">
-            <div class="sa-why-point-icon"><i data-lucide="thermometer" style="width:20px;height:20px"></i></div>
+            <div class="sa-why-point-icon"><?php echo lucide_icon('thermometer', '', 'width:20px;height:20px'); ?></div>
             <div>
               <strong>Built for Eastern Oregon winters</strong>
               <span>Freeze-thaw cycles, heavy snowloads on the Blue Mountains side, and temperature swings of 60°F in a single day demand materials, insulation specs, and moisture management details that a valley contractor won't default to.</span>
             </div>
           </div>
           <div class="sa-why-point">
-            <div class="sa-why-point-icon"><i data-lucide="clock" style="width:20px;height:20px"></i></div>
+            <div class="sa-why-point-icon"><?php echo lucide_icon('clock', '', 'width:20px;height:20px'); ?></div>
             <div>
               <strong>We know the permit offices</strong>
               <span>Grant County's inspection and permit process has its own rhythms and timelines. We've been navigating the local building department for over 20 years, which means your project doesn't stall waiting for information.</span>
             </div>
           </div>
           <div class="sa-why-point">
-            <div class="sa-why-point-icon"><i data-lucide="truck" style="width:20px;height:20px"></i></div>
+            <div class="sa-why-point-icon"><?php echo lucide_icon('truck', '', 'width:20px;height:20px'); ?></div>
             <div>
               <strong>Material logistics solved</strong>
               <span>Delivering specialty materials to rural Grant County communities requires planning and supplier relationships. We've built the supply chain so you're not waiting weeks on a cabinet order because no one planned for the distance.</span>
             </div>
           </div>
           <div class="sa-why-point">
-            <div class="sa-why-point-icon"><i data-lucide="home" style="width:20px;height:20px"></i></div>
+            <div class="sa-why-point-icon"><?php echo lucide_icon('home', '', 'width:20px;height:20px'); ?></div>
             <div>
               <strong>Deep familiarity with existing stock</strong>
               <span>Most homes in Mount Vernon, Canyon City, and John Day were built between 1940 and 1985. We've remodeled hundreds of them and know exactly where the surprises hide — old wiring, uninsulated walls, settling foundations — and how to price for it honestly.</span>
@@ -867,7 +867,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       ?>
       <a href="/services/<?php echo htmlspecialchars($svc['slug']); ?>/"
          class="sa-chip <?php echo $accentClass; ?> reveal-up reveal-delay-<?php echo ($si % 4) + 1; ?>">
-        <i data-lucide="<?php echo $icon; ?>" style="width:15px;height:15px"></i>
+        <?php echo lucide_icon($icon, '', 'width:15px;height:15px'); ?>
         <?php echo htmlspecialchars($svc['name']); ?>
       </a>
       <?php endforeach; ?>
@@ -891,7 +891,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <div class="sa-cta-row">
       <a href="/contact/" class="btn btn-primary btn-lg">Request a Free Estimate</a>
       <?php if (!empty($phone)): ?>
-      <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-secondary btn-lg"><i data-lucide="phone"></i> Call Now</a>
+      <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-secondary btn-lg"><?php echo lucide_icon('phone'); ?> Call Now</a>
       <?php endif; ?>
     </div>
   </div>

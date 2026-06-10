@@ -299,18 +299,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <section class="area-hero" aria-label="John Day service area">
   <div class="area-hero-inner">
     <div class="container">
-      <span class="area-hero-eyebrow"><i data-lucide="map-pin"></i> John Day, OR · Grant County Seat</span>
+      <span class="area-hero-eyebrow"><?php echo lucide_icon('map-pin'); ?> John Day, OR · Grant County Seat</span>
       <h1>Home Building &amp; Remodeling in<br><em>John Day, OR</em></h1>
       <p class="area-hero-answer">Superior Home Builders serves John Day homeowners and business owners with custom home construction, kitchen and bathroom remodeling, decks, framing, and commercial builds. Based in Mount Vernon just 20 minutes away, we bring 20+ years of Grant County construction experience to every project near the John Day River valley — no travel fees, no strangers to the area.</p>
       <div class="area-hero-trust">
-        <span class="area-hero-trust-item"><i data-lucide="map-pin"></i> 20 min from Mount Vernon</span>
-        <span class="area-hero-trust-item"><i data-lucide="shield-check"></i> Oregon Licensed</span>
-        <span class="area-hero-trust-item"><i data-lucide="file-text"></i> Free Written Estimate</span>
+        <span class="area-hero-trust-item"><?php echo lucide_icon('map-pin'); ?> 20 min from Mount Vernon</span>
+        <span class="area-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Oregon Licensed</span>
+        <span class="area-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Written Estimate</span>
       </div>
       <div class="area-hero-actions">
         <a href="/contact/" class="btn btn-secondary btn-lg">Get a Free Estimate in John Day</a>
         <?php if (!empty($phone)): ?>
-        <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><i data-lucide="phone"></i> Call Now</a>
+        <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><?php echo lucide_icon('phone'); ?> Call Now</a>
         <?php endif; ?>
       </div>
       <nav class="area-breadcrumb" aria-label="Breadcrumb">
@@ -340,7 +340,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         <a href="/contact/" class="btn btn-primary">Request a Free Estimate</a>
       </div>
       <div class="area-stats-card reveal-scale">
-        <h3><i data-lucide="bar-chart-2" style="width:18px;height:18px;vertical-align:middle;margin-right:6px"></i> Why hire local?</h3>
+        <h3><?php echo lucide_icon('bar-chart-2', '', 'width:18px;height:18px;vertical-align:middle;margin-right:6px'); ?> Why hire local?</h3>
         <div class="area-stats-rows">
           <div class="area-stat-row">
             <span class="stat-num">20+</span>
@@ -375,22 +375,22 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     </div>
     <div class="area-bento">
       <div class="area-bento-card reveal-up reveal-delay-1">
-        <div class="icon-wrap"><i data-lucide="landmark"></i></div>
+        <div class="icon-wrap"><?php echo lucide_icon('landmark'); ?></div>
         <h3>City and county permits</h3>
         <p>Projects within John Day city limits go through the City of John Day Building Department. Properties just outside city limits use Grant County's department in Canyon City. We're familiar with both processes and handle all applications and inspections so your project doesn't stall on paperwork.</p>
       </div>
       <div class="area-bento-card reveal-up reveal-delay-2">
-        <div class="icon-wrap"><i data-lucide="layers"></i></div>
+        <div class="icon-wrap"><?php echo lucide_icon('layers'); ?></div>
         <h3>Diverse housing stock</h3>
         <p>John Day homes range from early 1900s craftsman and bungalow styles near the Kam Wah Chung area and downtown, to mid-century ranchers throughout the valley, to newer hillside construction north of the river. Each era presents different remodeling challenges — we've worked on all of them.</p>
       </div>
       <div class="area-bento-card reveal-up reveal-delay-3">
-        <div class="icon-wrap"><i data-lucide="mountain"></i></div>
+        <div class="icon-wrap"><?php echo lucide_icon('mountain'); ?></div>
         <h3>Aldrich Mountain climate</h3>
         <p>John Day sits at 3,100 feet and gets meaningful snow. Rooflines, decks, and exterior additions need to be engineered for snowload. Framing that doesn't account for Eastern Oregon winters creates structural problems within 5–10 years — we spec our work for this environment from day one.</p>
       </div>
       <div class="area-bento-card reveal-up reveal-delay-4">
-        <div class="icon-wrap"><i data-lucide="compass"></i></div>
+        <div class="icon-wrap"><?php echo lucide_icon('compass'); ?></div>
         <h3>Growing seasonal activity</h3>
         <p>John Day draws increasing tourism traffic via the John Day Fossil Beds National Monument corridor and the Kam Wah Chung State Heritage Site. Some homeowners are expanding or converting properties for seasonal rental or hospitality use — we've framed additions and built ADUs for that market too.</p>
       </div>
@@ -431,7 +431,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
                width="600" height="360" loading="lazy">
         </div>
         <div class="service-card__body">
-          <div class="service-card__icon"><i data-lucide="<?php echo $sd['icon']; ?>"></i></div>
+          <div class="service-card__icon"><?php echo lucide_icon($sd['icon']); ?></div>
           <h3><?php echo htmlspecialchars($svc['name']); ?></h3>
           <ul><?php foreach ($sd['bullets'] as $b): ?><li><?php echo $b; ?></li><?php endforeach; ?></ul>
           <a href="/services/<?php echo htmlspecialchars($svc['slug']); ?>/" class="service-card__cta">Learn more</a>
@@ -508,7 +508,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="area-faq-item reveal-up" id="faq-<?php echo $i; ?>">
         <button class="area-faq-question" aria-expanded="false" aria-controls="faq-ans-<?php echo $i; ?>">
           <?php echo htmlspecialchars($faq['q']); ?>
-          <i data-lucide="plus-circle"></i>
+          <?php echo lucide_icon('plus-circle'); ?>
         </button>
         <div class="area-faq-answer" id="faq-ans-<?php echo $i; ?>" role="region">
           <?php echo htmlspecialchars($faq['a']); ?>
@@ -527,7 +527,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <div class="cta-row">
       <a href="/contact/" class="btn btn-secondary btn-lg">Request a Free Estimate</a>
       <?php if (!empty($phone)): ?>
-      <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><i data-lucide="phone"></i> Call Now</a>
+      <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><?php echo lucide_icon('phone'); ?> Call Now</a>
       <?php endif; ?>
     </div>
   </div>

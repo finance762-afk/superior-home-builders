@@ -180,24 +180,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <p>You can opt out of Google Analytics by installing the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">Google Analytics Opt-out Browser Add-on</a>.</p>
 
       <h2>Functional Cookies &amp; Third-Party Resources</h2>
-      <p>The following third-party resources may set cookies or collect data to provide functionality on our website:</p>
-      <table class="cookie-table">
-        <thead>
-          <tr><th>Resource</th><th>Provider</th><th>Purpose</th></tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Google Fonts<br><small>(fonts.googleapis.com, fonts.gstatic.com)</small></td>
-            <td>Google LLC</td>
-            <td>Loads web fonts (Fraunces, Plus Jakarta Sans) for consistent typography display across browsers</td>
-          </tr>
-          <tr>
-            <td>Lucide Icons CDN<br><small>(unpkg.com/lucide)</small></td>
-            <td>unpkg / Lucide</td>
-            <td>Loads SVG icon library used for site icons and interface elements</td>
-          </tr>
-        </tbody>
-      </table>
+      <p>Web fonts and interface icons on this site are self-hosted and served directly from our own domain — they load no third-party resources and set no cookies. Aside from the analytics services described above, no third-party functional resources are loaded.</p>
 
       <h2>How to Control Cookies</h2>
       <p>You can control and delete cookies through your browser settings. Most browsers allow you to:</p>

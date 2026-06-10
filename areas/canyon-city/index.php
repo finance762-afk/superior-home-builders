@@ -234,18 +234,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <section class="area-hero" aria-label="Canyon City service area">
   <div class="area-hero-inner">
     <div class="container">
-      <span class="area-hero-eyebrow"><i data-lucide="map-pin"></i> Canyon City, OR · Historic Grant County</span>
+      <span class="area-hero-eyebrow"><?php echo lucide_icon('map-pin'); ?> Canyon City, OR · Historic Grant County</span>
       <h1>Home Building &amp; Remodeling in<br><em>Canyon City, OR</em></h1>
       <p class="area-hero-answer">Superior Home Builders serves Canyon City homeowners and business owners with custom home construction, kitchen and bathroom remodeling, framing, decks, windows and doors, and commercial builds. Our Mount Vernon headquarters is just 6 miles from Canyon City — we're the local contractor for this community, familiar with the historic housing stock along Canyon Creek and the permit processes at the Grant County Building Department right here in town.</p>
       <div class="area-hero-trust">
-        <span class="area-hero-trust-item"><i data-lucide="map-pin"></i> 6 miles from Canyon City</span>
-        <span class="area-hero-trust-item"><i data-lucide="shield-check"></i> Oregon Licensed</span>
-        <span class="area-hero-trust-item"><i data-lucide="building"></i> Historic Home Experience</span>
+        <span class="area-hero-trust-item"><?php echo lucide_icon('map-pin'); ?> 6 miles from Canyon City</span>
+        <span class="area-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Oregon Licensed</span>
+        <span class="area-hero-trust-item"><?php echo lucide_icon('building'); ?> Historic Home Experience</span>
       </div>
       <div class="area-hero-actions">
         <a href="/contact/" class="btn btn-secondary btn-lg">Get a Free Estimate in Canyon City</a>
         <?php if (!empty($phone)): ?>
-        <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><i data-lucide="phone"></i> Call Now</a>
+        <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><?php echo lucide_icon('phone'); ?> Call Now</a>
         <?php endif; ?>
       </div>
       <nav class="area-breadcrumb" aria-label="Breadcrumb">
@@ -304,22 +304,22 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     </div>
     <div class="area-bento">
       <div class="area-bento-card reveal-up reveal-delay-1">
-        <div class="icon-wrap"><i data-lucide="landmark"></i></div>
+        <div class="icon-wrap"><?php echo lucide_icon('landmark'); ?></div>
         <h3>Grant County permits — on-site</h3>
         <p>The Grant County Building Department is located in Canyon City itself, making permit coordination especially efficient for our crew. We've worked with this office for over 20 years and handle all plan submittals, applications, and inspection scheduling on your behalf — no extra red tape for you.</p>
       </div>
       <div class="area-bento-card reveal-up reveal-delay-2">
-        <div class="icon-wrap"><i data-lucide="archive"></i></div>
+        <div class="icon-wrap"><?php echo lucide_icon('archive'); ?></div>
         <h3>True-dimension historic framing</h3>
         <p>Canyon City homes from the early 1900s were framed with true-dimension lumber — a 2×4 that actually measures 2 inches by 4 inches. This affects how you marry modern materials to existing structures. We know how to work with it cleanly and we price for it in the estimate, not as a surprise mid-project.</p>
       </div>
       <div class="area-bento-card reveal-up reveal-delay-3">
-        <div class="icon-wrap"><i data-lucide="droplets"></i></div>
+        <div class="icon-wrap"><?php echo lucide_icon('droplets'); ?></div>
         <h3>Canyon Creek drainage concerns</h3>
         <p>Properties near Canyon Creek in Canyon City have specific drainage and moisture considerations — especially for basements, crawl spaces, and deck footings near the creek corridor. We assess site drainage before pouring any concrete or framing any subfloor, and include drainage mitigation in projects where it's warranted.</p>
       </div>
       <div class="area-bento-card reveal-up reveal-delay-4">
-        <div class="icon-wrap"><i data-lucide="shield"></i></div>
+        <div class="icon-wrap"><?php echo lucide_icon('shield'); ?></div>
         <h3>Weatherproofing for elevation</h3>
         <p>Canyon City sits at 3,200 feet — slightly above John Day — which compounds Eastern Oregon's freeze-thaw cycles and snowload requirements. Window and door replacements, deck structures, and exterior framing additions all need Eastern Oregon climate specs that a contractor from outside the region won't apply by default.</p>
       </div>
@@ -360,7 +360,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
                width="600" height="360" loading="lazy">
         </div>
         <div class="service-card__body">
-          <div class="service-card__icon"><i data-lucide="<?php echo $sd['icon']; ?>"></i></div>
+          <div class="service-card__icon"><?php echo lucide_icon($sd['icon']); ?></div>
           <h3><?php echo htmlspecialchars($svc['name']); ?></h3>
           <ul><?php foreach ($sd['bullets'] as $b): ?><li><?php echo $b; ?></li><?php endforeach; ?></ul>
           <a href="/services/<?php echo htmlspecialchars($svc['slug']); ?>/" class="service-card__cta">Learn more</a>
@@ -437,7 +437,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="area-faq-item reveal-up" id="faq-<?php echo $i; ?>">
         <button class="area-faq-question" aria-expanded="false" aria-controls="faq-ans-<?php echo $i; ?>">
           <?php echo htmlspecialchars($faq['q']); ?>
-          <i data-lucide="plus-circle"></i>
+          <?php echo lucide_icon('plus-circle'); ?>
         </button>
         <div class="area-faq-answer" id="faq-ans-<?php echo $i; ?>" role="region">
           <?php echo htmlspecialchars($faq['a']); ?>
@@ -456,7 +456,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <div class="cta-row">
       <a href="/contact/" class="btn btn-secondary btn-lg">Request a Free Estimate</a>
       <?php if (!empty($phone)): ?>
-      <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><i data-lucide="phone"></i> Call Now</a>
+      <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><?php echo lucide_icon('phone'); ?> Call Now</a>
       <?php endif; ?>
     </div>
   </div>

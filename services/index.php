@@ -431,7 +431,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <div class="svc-hero-inner">
       <div class="container">
         <span class="svc-hero-eyebrow">
-          <i data-lucide="hard-hat"></i>
+          <?php echo lucide_icon('hard-hat'); ?>
           Superior Home Builders
         </span>
         <h1>Construction &amp; Remodeling<br><em>Services in Eastern Oregon</em></h1>
@@ -440,7 +440,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <a href="/contact/" class="btn btn-secondary btn-lg">Get a Free Estimate</a>
           <?php if (!empty($phone)): ?>
           <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg">
-            <i data-lucide="phone"></i> Call Now
+            <?php echo lucide_icon('phone'); ?> Call Now
           </a>
           <?php endif; ?>
         </div>
@@ -540,7 +540,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
                  width="600" height="360" loading="lazy">
           </div>
           <div class="service-card__body">
-            <div class="service-card__icon"><i data-lucide="<?php echo $icon; ?>"></i></div>
+            <div class="service-card__icon"><?php echo lucide_icon($icon); ?></div>
             <h3><?php echo htmlspecialchars($svc['name']); ?></h3>
             <p class="service-card__desc"><?php
               $descs = [
@@ -587,7 +587,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <a href="/contact/" class="btn btn-secondary btn-lg">Get a Free Estimate</a>
           <?php if (!empty($phone)): ?>
           <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg">
-            <i data-lucide="phone"></i> Call Now
+            <?php echo lucide_icon('phone'); ?> Call Now
           </a>
           <?php endif; ?>
         </div>

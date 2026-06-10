@@ -4,6 +4,9 @@
 // Page One Insights — Auto-generated Phase 1 Scaffold
 // =============================================================
 
+// Inline Lucide SVG map + lucide_icon() helper (v6.2 — no icon JS)
+require_once __DIR__ . '/icons.php';
+
 // ── Identity ────────────────────────────────────────────────
 $slug            = 'superior-home-builders';
 $siteName        = 'Superior Home Builders';
@@ -11,9 +14,9 @@ $tagline         = 'Superior Homes, Superior Lives';
 $ownerName       = '';
 
 // ── Contact ─────────────────────────────────────────────────
-$phone           = '';          // TODO: populate from client
+$phone           = '(541) 620-0340';  // matches GBP listing exactly
 $phoneSecondary  = '';
-$email           = '';          // TODO: populate from client
+$email           = '';          // TODO: populate from client (not on GBP)
 $contactEmail    = $email;
 
 $address = [
@@ -217,7 +220,7 @@ $socialLinks = [
 ];
 
 // ── Form ─────────────────────────────────────────────────────
-$formAction      = 'https://design.pageone.cloud/api/leads/superior-home-builders';
+$formAction      = 'https://db.pageone.cloud/functions/v1/leads/superior-home-builders';
 $consentVersion  = 'v2.1';
 
 // ── CSS Cache Busting ─────────────────────────────────────────

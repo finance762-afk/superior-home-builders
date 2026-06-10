@@ -437,7 +437,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <section class="contact-hero" aria-label="Contact us">
   <div class="contact-hero-inner container">
     <span class="contact-hero-eyebrow">
-      <i data-lucide="message-circle"></i>
+      <?php echo lucide_icon('message-circle'); ?>
       Free Estimates — No Obligation
     </span>
     <h1>Let's build <em>something</em><br>great together</h1>
@@ -555,7 +555,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           </fieldset>
 
           <button type="submit" class="contact-submit-btn">
-            <i data-lucide="send"></i>
+            <?php echo lucide_icon('send'); ?>
             Send My Request
           </button>
         </form>
@@ -571,7 +571,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
         <?php if (!empty($phone)): ?>
         <div class="contact-info-item">
-          <div class="contact-info-icon"><i data-lucide="phone"></i></div>
+          <div class="contact-info-icon"><?php echo lucide_icon('phone'); ?></div>
           <div class="contact-info-text">
             <strong>Call or Text</strong>
             <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>"><?php echo htmlspecialchars($phone); ?></a>
@@ -581,7 +581,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
         <?php if (!empty($email)): ?>
         <div class="contact-info-item">
-          <div class="contact-info-icon"><i data-lucide="mail"></i></div>
+          <div class="contact-info-icon"><?php echo lucide_icon('mail'); ?></div>
           <div class="contact-info-text">
             <strong>Email Us</strong>
             <a href="mailto:<?php echo htmlspecialchars($email); ?>"><?php echo htmlspecialchars($email); ?></a>
@@ -590,7 +590,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         <?php endif; ?>
 
         <div class="contact-info-item">
-          <div class="contact-info-icon"><i data-lucide="map-pin"></i></div>
+          <div class="contact-info-icon"><?php echo lucide_icon('map-pin'); ?></div>
           <div class="contact-info-text">
             <strong>Location</strong>
             <span>
@@ -601,7 +601,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         </div>
 
         <div class="contact-info-item">
-          <div class="contact-info-icon"><i data-lucide="clock"></i></div>
+          <div class="contact-info-icon"><?php echo lucide_icon('clock'); ?></div>
           <div class="contact-info-text">
             <strong>Business Hours</strong>
             <span>Mon–Fri: 8:00 AM – 5:00 PM<br>Saturday: 9:00 AM – 2:00 PM<br>Sunday: Closed</span>
@@ -641,7 +641,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="contact-cta-actions">
         <?php if (!empty($phone)): ?>
         <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-secondary btn-lg">
-          <i data-lucide="phone"></i> <?php echo htmlspecialchars($phone); ?>
+          <?php echo lucide_icon('phone'); ?> <?php echo htmlspecialchars($phone); ?>
         </a>
         <?php endif; ?>
         <a href="/services/" class="btn btn-outline btn-lg">View All Services</a>

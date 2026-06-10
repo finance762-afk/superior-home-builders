@@ -317,6 +317,21 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   text-decoration: underline;
 }
 .form-footnote a:hover { color: var(--color-accent); }
+.hero-consent {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-sm);
+  text-align: left;
+  cursor: pointer;
+}
+.hero-consent input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  margin-top: 2px;
+  accent-color: var(--color-accent);
+  cursor: pointer;
+}
 
 /* ── TICKER STRIP ──────────────────────────────────────────────── */
 .ticker-strip {
@@ -1115,12 +1130,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <section class="hero" aria-label="Superior Home Builders — Mount Vernon, OR">
   <!-- Background image slider -->
   <div class="hero-slides" aria-hidden="true">
-    <div class="hero-slide is-active" style="background-image:url('/assets/images/hero-custom-home.webp')"></div>
-    <div class="hero-slide" style="background-image:url('/assets/images/blog/remote-property-mountain-backdrop.webp')"></div>
-    <div class="hero-slide" style="background-image:url('/assets/images/blog/rural-parcel-site-planning.webp')"></div>
-    <div class="hero-slide" style="background-image:url('/assets/images/blog/raw-land-eastern-oregon.webp')"></div>
-    <div class="hero-slide" style="background-image:url('/assets/images/new-windows-mount-vernon.webp')"></div>
-    <div class="hero-slide" style="background-image:url('/assets/images/hero-slide-construction.webp')"></div>
+    <div class="hero-slide is-active" style="background-image:url('/assets/images/hero-custom-home.webp');background-image:image-set(url('/assets/images/hero-custom-home-960.webp') 1x, url('/assets/images/hero-custom-home-1600.webp') 2x)"></div>
+    <div class="hero-slide" style="background-image:url('/assets/images/blog/remote-property-mountain-backdrop-960.webp');background-image:image-set(url('/assets/images/blog/remote-property-mountain-backdrop-960.webp') 1x, url('/assets/images/blog/remote-property-mountain-backdrop-1600.webp') 2x)"></div>
+    <div class="hero-slide" style="background-image:url('/assets/images/blog/rural-parcel-site-planning-960.webp');background-image:image-set(url('/assets/images/blog/rural-parcel-site-planning-960.webp') 1x, url('/assets/images/blog/rural-parcel-site-planning-1600.webp') 2x)"></div>
+    <div class="hero-slide" style="background-image:url('/assets/images/blog/raw-land-eastern-oregon-960.webp');background-image:image-set(url('/assets/images/blog/raw-land-eastern-oregon-960.webp') 1x, url('/assets/images/blog/raw-land-eastern-oregon-1600.webp') 2x)"></div>
+    <div class="hero-slide" style="background-image:url('/assets/images/new-windows-mount-vernon-960.webp');background-image:image-set(url('/assets/images/new-windows-mount-vernon-960.webp') 1x, url('/assets/images/new-windows-mount-vernon-1600.webp') 2x)"></div>
+    <div class="hero-slide" style="background-image:url('/assets/images/hero-slide-construction-960.webp');background-image:image-set(url('/assets/images/hero-slide-construction-960.webp') 1x, url('/assets/images/hero-slide-construction.webp') 2x)"></div>
   </div>
   <div class="hero-inner">
     <div class="container">
@@ -1129,7 +1144,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         <!-- LEFT: Copy block -->
         <div class="hero-text">
           <span class="hero-eyebrow">
-            <i data-lucide="shield-check"></i>
+            <?php echo lucide_icon('shield-check'); ?>
             Serving Eastern Oregon Since <?= $yearEstablished ?>
           </span>
 
@@ -1148,17 +1163,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
           <div class="hero-actions">
             <a href="#estimate-form" class="btn btn-secondary btn-lg">
-              <i data-lucide="clipboard-list"></i>
+              <?php echo lucide_icon('clipboard-list'); ?>
               Get a Free Estimate
             </a>
             <?php if (!empty($phone)): ?>
             <a href="tel:<?= preg_replace('/\D/', '', $phone) ?>" class="btn btn-outline btn-lg">
-              <i data-lucide="phone"></i>
+              <?php echo lucide_icon('phone'); ?>
               Call <?= htmlspecialchars($phone) ?>
             </a>
             <?php else: ?>
             <a href="/contact/" class="btn btn-outline btn-lg">
-              <i data-lucide="calendar"></i>
+              <?php echo lucide_icon('calendar'); ?>
               Schedule Consultation
             </a>
             <?php endif; ?>
@@ -1166,19 +1181,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
           <div class="hero-trust">
             <span class="trust-badge">
-              <i data-lucide="shield-check"></i> Licensed &amp; Insured
+              <?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured
             </span>
             <span class="trust-divider" aria-hidden="true"></span>
             <span class="trust-badge">
-              <i data-lucide="calendar"></i> <?= $yearsInBusiness ?>+ Years
+              <?php echo lucide_icon('calendar'); ?> <?= $yearsInBusiness ?>+ Years
             </span>
             <span class="trust-divider" aria-hidden="true"></span>
             <span class="trust-badge">
-              <i data-lucide="star"></i> Free Estimates
+              <?php echo lucide_icon('star'); ?> Free Estimates
             </span>
             <span class="trust-divider" aria-hidden="true"></span>
             <span class="trust-badge">
-              <i data-lucide="map-pin"></i> Eastern Oregon Experts
+              <?php echo lucide_icon('map-pin'); ?> Eastern Oregon Experts
             </span>
           </div>
         </div><!-- /.hero-text -->
@@ -1188,8 +1203,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <h2>Get Your Free Estimate</h2>
           <p class="hero-form-tagline">No obligation. Same-day response.</p>
           <form action="<?= htmlspecialchars($formAction) ?>" method="POST" class="hero-form">
-            <!-- Honeypot -->
-            <input type="text" name="_honeypot" style="display:none !important" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <!-- Honeypot (field name per leads edge function) -->
+            <input type="text" name="_honey" style="display:none !important" tabindex="-1" autocomplete="off" aria-hidden="true">
             <!-- Hidden tracking -->
             <input type="hidden" name="_next" value="/thank-you">
             <input type="hidden" name="_form_location" value="hero">
@@ -1200,13 +1215,16 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
               <input type="text" name="name" placeholder="Your full name" required autocomplete="name">
             </div>
             <div class="form-row">
+              <input type="email" name="email" placeholder="Email address" required autocomplete="email">
+            </div>
+            <div class="form-row">
               <input type="tel" name="phone" placeholder="Phone number" required autocomplete="tel">
             </div>
             <div class="form-row">
               <input type="text" name="zip" placeholder="ZIP code" pattern="[0-9]{5}" maxlength="5" autocomplete="postal-code" required>
             </div>
             <div class="form-row">
-              <select name="service_requested">
+              <select name="service">
                 <option value="">What do you need?</option>
                 <?php foreach ($services as $svc): ?>
                 <option value="<?= htmlspecialchars($svc['name']) ?>"><?= htmlspecialchars($svc['name']) ?></option>
@@ -1214,13 +1232,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
               </select>
             </div>
             <button type="submit" class="btn btn-secondary btn-block">
-              <i data-lucide="send"></i>
+              <?php echo lucide_icon('send'); ?>
               Get My Free Estimate
             </button>
-            <p class="form-footnote">
-              By submitting, you agree to our
-              <a href="/terms/">Terms</a> and <a href="/privacy-policy/">Privacy Policy</a>.
-            </p>
+            <label class="form-footnote hero-consent">
+              <input type="checkbox" name="terms_accepted" value="yes" required>
+              <span>I agree to the <a href="/terms/">Terms</a> and <a href="/privacy-policy/">Privacy Policy</a>.</span>
+            </label>
           </form>
         </aside><!-- /.hero-form-card -->
 
@@ -1262,7 +1280,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       foreach ($tickerItems as $ti):
     ?>
     <span class="ticker-item">
-      <i data-lucide="<?= htmlspecialchars($ti['icon']) ?>"></i>
+      <?php echo lucide_icon($ti['icon']); ?>
       <?= $ti['text'] ?>
     </span>
     <span class="ticker-dot" aria-hidden="true"></span>
@@ -1316,7 +1334,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         </div>
         <div class="service-card__body">
           <div class="service-card__icon">
-            <i data-lucide="<?= htmlspecialchars($icon) ?>"></i>
+            <?php echo lucide_icon($icon); ?>
           </div>
           <h3><?= htmlspecialchars($svc['name']) ?></h3>
           <p class="service-card__desc"><?= htmlspecialchars(substr($svc['description'], 0, 90)) ?>…</p>
@@ -1333,7 +1351,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
     <div class="services-cta-row reveal-up">
       <a href="/services/" class="btn btn-primary">
-        <i data-lucide="grid-3x3"></i>
+        <?php echo lucide_icon('grid-3x3'); ?>
         View All Services
       </a>
     </div>
@@ -1404,11 +1422,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       </div>
       <div class="cta-banner-actions reveal-right">
         <a href="#estimate-form" class="btn btn-secondary btn-lg">
-          <i data-lucide="clipboard-list"></i>
+          <?php echo lucide_icon('clipboard-list'); ?>
           Get a Free Estimate
         </a>
         <a href="/contact/" class="btn btn-outline btn-lg">
-          <i data-lucide="mail"></i>
+          <?php echo lucide_icon('mail'); ?>
           Contact Us
         </a>
       </div>
@@ -1486,7 +1504,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
         <div style="margin-top:var(--space-2xl)">
           <a href="/about/" class="btn btn-primary">
-            <i data-lucide="users"></i>
+            <?php echo lucide_icon('users'); ?>
             Learn More About Us
           </a>
         </div>
@@ -1541,7 +1559,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <div class="review-card">
             <div class="review-stars" aria-label="5 stars">
               <?php for ($s = 0; $s < $rev['rating']; $s++): ?>
-              <i data-lucide="star"></i>
+              <?php echo lucide_icon('star'); ?>
               <?php endfor; ?>
             </div>
             <p class="review-text"><?= htmlspecialchars($rev['text']) ?></p>
@@ -1564,13 +1582,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <!-- Platform badges -->
     <div class="review-badge-strip reveal-up">
       <span class="review-platform">
-        <i data-lucide="star"></i> Google Reviews
+        <?php echo lucide_icon('star'); ?> Google Reviews
       </span>
       <span class="review-platform">
-        <i data-lucide="thumbs-up"></i> Facebook Reviews
+        <?php echo lucide_icon('thumbs-up'); ?> Facebook Reviews
       </span>
       <span class="review-platform">
-        <i data-lucide="award"></i> BBB Accredited
+        <?php echo lucide_icon('award'); ?> BBB Accredited
       </span>
     </div>
 
@@ -1600,7 +1618,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <?php foreach ($homeFaqs as $faq): ?>
       <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
-          <i data-lucide="plus-circle"></i>
+          <?php echo lucide_icon('plus-circle'); ?>
           <h3 itemprop="name"><?= htmlspecialchars($faq['q']) ?></h3>
         </div>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
@@ -1612,7 +1630,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
     <div style="text-align:center;margin-top:var(--space-2xl)" class="reveal-up">
       <a href="/contact/" class="btn btn-primary">
-        <i data-lucide="message-circle"></i>
+        <?php echo lucide_icon('message-circle'); ?>
         Ask Us Your Question
       </a>
     </div>
@@ -1663,11 +1681,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="blog-preview-card__body">
         <div class="blog-preview-card__meta">
           <div class="blog-preview-card__meta-item">
-            <i data-lucide="calendar"></i>
+            <?php echo lucide_icon('calendar'); ?>
             <time datetime="<?php echo htmlspecialchars($latestPost['dateISO']); ?>"><?php echo htmlspecialchars($latestPost['date']); ?></time>
           </div>
           <div class="blog-preview-card__meta-item">
-            <i data-lucide="clock"></i>
+            <?php echo lucide_icon('clock'); ?>
             <span><?php echo htmlspecialchars($latestPost['readtime']); ?></span>
           </div>
         </div>
@@ -1683,7 +1701,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         </p>
 
         <a href="/blog/<?php echo htmlspecialchars($latestPost['slug']); ?>/" class="blog-preview-card__cta">
-          Read the Full Article <i data-lucide="arrow-right"></i>
+          Read the Full Article <?php echo lucide_icon('arrow-right'); ?>
         </a>
       </div>
 
@@ -1691,7 +1709,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
     <div class="blog-preview-all reveal-up">
       <a href="/blog/" class="btn btn-secondary">
-        <i data-lucide="book-open"></i>
+        <?php echo lucide_icon('book-open'); ?>
         View All Articles
       </a>
     </div>
@@ -1723,11 +1741,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       </p>
       <div class="closing-cta-actions">
         <a href="#estimate-form" class="btn btn-primary btn-lg">
-          <i data-lucide="clipboard-list"></i>
+          <?php echo lucide_icon('clipboard-list'); ?>
           Get a Free Estimate
         </a>
         <a href="/services/" class="btn btn-secondary btn-lg">
-          <i data-lucide="grid-3x3"></i>
+          <?php echo lucide_icon('grid-3x3'); ?>
           Browse All Services
         </a>
       </div>

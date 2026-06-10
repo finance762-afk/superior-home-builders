@@ -153,7 +153,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       </nav>
 
       <span class="blog-hero__category">
-        <i data-lucide="tag"></i>
+        <?php echo lucide_icon('tag'); ?>
         <?php echo htmlspecialchars($postCategory); ?>
       </span>
 
@@ -163,17 +163,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
       <div class="blog-hero__meta">
         <div class="blog-hero__meta-item">
-          <i data-lucide="calendar"></i>
+          <?php echo lucide_icon('calendar'); ?>
           <time datetime="<?php echo $postDateISO; ?>"><?php echo $postDate; ?></time>
         </div>
         <div class="blog-hero__meta-divider" aria-hidden="true"></div>
         <div class="blog-hero__meta-item">
-          <i data-lucide="user"></i>
+          <?php echo lucide_icon('user'); ?>
           <span><?php echo htmlspecialchars($postAuthor); ?></span>
         </div>
         <div class="blog-hero__meta-divider" aria-hidden="true"></div>
         <div class="blog-hero__meta-item">
-          <i data-lucide="clock"></i>
+          <?php echo lucide_icon('clock'); ?>
           <span>22 min read</span>
         </div>
       </div>
@@ -205,13 +205,16 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <div class="article-body" itemprop="articleBody">
 
         <a href="/blog/" class="back-to-blog">
-          <i data-lucide="arrow-left"></i>
+          <?php echo lucide_icon('arrow-left'); ?>
           Back to Blog
         </a>
 
         <!-- Featured image -->
         <img
-          src="/assets/images/blog/eastern-oregon-high-desert-site.webp"
+          src="/assets/images/blog/eastern-oregon-high-desert-site-960.webp"
+          srcset="/assets/images/blog/eastern-oregon-high-desert-site-480.webp 480w,
+                  /assets/images/blog/eastern-oregon-high-desert-site-960.webp 960w"
+          sizes="(max-width: 768px) 100vw, 720px"
           alt="Eastern Oregon high desert terrain near Grant County — planning an off-grid home site with solar exposure, battery storage, generator placement, and mechanical room layout"
           class="article-featured-img"
           width="1200"
@@ -289,7 +292,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <div class="highlight-box reveal-up">
           <div class="highlight-box__icon" aria-hidden="true">
-            <i data-lucide="zap"></i>
+            <?php echo lucide_icon('zap'); ?>
           </div>
           <div class="highlight-box__body">
             <strong>Calculate energy loads before choosing panels.</strong>
@@ -354,7 +357,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <div class="highlight-box reveal-up">
           <div class="highlight-box__icon" aria-hidden="true">
-            <i data-lucide="battery-charging"></i>
+            <?php echo lucide_icon('battery-charging'); ?>
           </div>
           <div class="highlight-box__body">
             <strong>Batteries need conditioned space, structural support, and planned service access.</strong>
@@ -386,7 +389,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <div class="warning-box reveal-up">
           <div class="warning-box__icon" aria-hidden="true">
-            <i data-lucide="alert-triangle"></i>
+            <?php echo lucide_icon('alert-triangle'); ?>
           </div>
           <div class="warning-box__body">
             <strong>Assuming solar alone is enough is the most common off-grid planning mistake in Eastern Oregon.</strong>
@@ -403,7 +406,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <figure class="article-img-block reveal-up">
           <img
-            src="/assets/images/blog/off-grid-home-framing.webp"
+            src="/assets/images/blog/off-grid-home-framing-960.webp"
+            srcset="/assets/images/blog/off-grid-home-framing-480.webp 480w,
+                    /assets/images/blog/off-grid-home-framing-960.webp 960w,
+                    /assets/images/blog/off-grid-home-framing-1600.webp 1600w"
+            sizes="(max-width: 768px) 100vw, 720px"
             alt="Custom home under construction in Eastern Oregon near Grant County — framing and mechanical planning for an off-grid home with solar, battery storage, generator backup, and winter-ready insulation"
             width="1200"
             height="675"
@@ -511,7 +518,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <div class="highlight-box reveal-up">
           <div class="highlight-box__icon" aria-hidden="true">
-            <i data-lucide="circle-dollar-sign"></i>
+            <?php echo lucide_icon('circle-dollar-sign'); ?>
           </div>
           <div class="highlight-box__body">
             <strong>Verify incentives before signing a solar contract.</strong>
@@ -549,7 +556,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         </p>
 
         <div class="checklist-block">
-          <p class="checklist-block__title"><i data-lucide="list-checks"></i> Common Mistakes to Avoid</p>
+          <p class="checklist-block__title"><?php echo lucide_icon('list-checks'); ?> Common Mistakes to Avoid</p>
           <ul>
             <li>Buying panels before calculating energy loads</li>
             <li>Sizing the system for summer performance without accounting for winter</li>
@@ -647,7 +654,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <!-- Inline image -->
         <figure class="article-img-block reveal-up">
           <img
-            src="/assets/images/custom-home-framing.webp"
+            src="/assets/images/custom-home-framing-960.webp"
+            srcset="/assets/images/custom-home-framing-480.webp 480w,
+                    /assets/images/custom-home-framing-960.webp 960w"
+            sizes="(max-width: 768px) 100vw, 720px"
             alt="Custom home framing in progress on rural land in Eastern Oregon — coordinating roof structure for solar panel loads, mechanical room placement, and energy-efficient construction for off-grid living near Grant County"
             width="1200"
             height="675"
@@ -663,7 +673,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <!-- Bottom CTA block -->
         <div class="article-cta-block reveal-up">
           <div class="article-cta-icon" aria-hidden="true">
-            <i data-lucide="hard-hat"></i>
+            <?php echo lucide_icon('hard-hat'); ?>
           </div>
           <div class="article-cta-copy">
             <h3>Planning an Off-Grid Home in Eastern Oregon? Talk With Superior Home Builders Before You Finalize Your Floor Plan or Solar Design.</h3>
@@ -671,11 +681,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
           </div>
           <div class="article-cta-actions">
             <a href="/contact/" class="btn btn-secondary">
-              <i data-lucide="phone"></i>
+              <?php echo lucide_icon('phone'); ?>
               Free Consultation
             </a>
             <a href="/services/custom-home-building/" class="btn btn-outline">
-              <i data-lucide="home"></i>
+              <?php echo lucide_icon('home'); ?>
               Custom Homes
             </a>
           </div>
@@ -688,7 +698,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <!-- Table of Contents -->
         <div class="sidebar-card">
-          <h4><i data-lucide="list"></i> In This Article</h4>
+          <h4><?php echo lucide_icon('list'); ?> In This Article</h4>
           <ul class="toc-list" role="list">
             <li><a href="#full-system">Solar Is Only One Part of the System</a></li>
             <li><a href="#energy-loads">Start With Energy Loads</a></li>
@@ -716,7 +726,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <!-- Related Services -->
         <div class="sidebar-card">
-          <h4><i data-lucide="hard-hat"></i> Related Services</h4>
+          <h4><?php echo lucide_icon('hard-hat'); ?> Related Services</h4>
           <ul class="toc-list" role="list">
             <li><a href="/services/custom-home-building/">Custom Home Building</a></li>
             <li><a href="/services/framing/">Framing</a></li>
@@ -769,11 +779,11 @@ $relatedPosts = array_slice(array_values(array_filter(
         <div class="blog-card__body">
           <div class="blog-card__meta">
             <div class="blog-card__meta-item">
-              <i data-lucide="calendar"></i>
+              <?php echo lucide_icon('calendar'); ?>
               <time datetime="<?php echo htmlspecialchars($rp['dateISO']); ?>"><?php echo htmlspecialchars($rp['date']); ?></time>
             </div>
             <div class="blog-card__meta-item">
-              <i data-lucide="clock"></i>
+              <?php echo lucide_icon('clock'); ?>
               <span><?php echo htmlspecialchars($rp['readtime']); ?></span>
             </div>
           </div>
@@ -785,7 +795,7 @@ $relatedPosts = array_slice(array_values(array_filter(
           </h3>
 
           <a href="/blog/<?php echo htmlspecialchars($rp['slug']); ?>/" class="blog-card__read-more">
-            Read Article <i data-lucide="arrow-right"></i>
+            Read Article <?php echo lucide_icon('arrow-right'); ?>
           </a>
         </div>
 

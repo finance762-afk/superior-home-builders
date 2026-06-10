@@ -127,29 +127,29 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="container">
         <div class="sp-hero-layout">
           <div class="sp-hero-content">
-            <span class="sp-hero-eyebrow"><i data-lucide="door-open"></i> Windows &amp; Doors</span>
+            <span class="sp-hero-eyebrow"><?php echo lucide_icon('door-open'); ?> Windows &amp; Doors</span>
             <h1>Windows &amp; Doors in<br><em>Mount Vernon, OR</em></h1>
             <p class="hero-answer">Mount Vernon windows face demanding Pacific Northwest weather—heavy rain, temperature swings, and moisture challenges unique to our region. Rather than cookie-cutter replacements, Superior Home Builders customizes each window solution for your home's specific orientation, climate exposure, and architectural style. We pair energy-efficient frames suited to Mount Vernon's climate with personalized design consultation, so your windows reduce heating costs year-round while matching your home's character. Our on-site measurement and transparent per-window pricing means no surprises, and our post-installation support ensures your investment performs for decades in our challenging local conditions.</p>
             <div class="sp-hero-trust">
-              <span class="sp-hero-trust-item"><i data-lucide="shield-check"></i> Licensed &amp; Insured</span>
-              <span class="sp-hero-trust-item"><i data-lucide="calendar"></i> Est. 2004</span>
-              <span class="sp-hero-trust-item"><i data-lucide="file-text"></i> Free Written Estimate</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2004</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Written Estimate</span>
             </div>
             <div class="sp-hero-actions">
               <a href="/contact/" class="btn btn-secondary btn-lg">Get a Free Estimate</a>
               <?php if (!empty($phone)): ?>
-              <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><i data-lucide="phone"></i> Call Now</a>
+              <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><?php echo lucide_icon('phone'); ?> Call Now</a>
               <?php endif; ?>
             </div>
           </div>
           <div class="sp-hero-card">
             <h3>Why homeowners choose us for windows &amp; doors</h3>
             <ul>
-              <li><i data-lucide="check-circle"></i> On-site measurement before ordering</li>
-              <li><i data-lucide="check-circle"></i> Interior &amp; exterior trim included</li>
-              <li><i data-lucide="check-circle"></i> Low-E argon glass for Eastern OR</li>
-              <li><i data-lucide="check-circle"></i> Permits handled when required</li>
-              <li><i data-lucide="check-circle"></i> 22+ years serving Grant County</li>
+              <li><?php echo lucide_icon('check-circle'); ?> On-site measurement before ordering</li>
+              <li><?php echo lucide_icon('check-circle'); ?> Interior &amp; exterior trim included</li>
+              <li><?php echo lucide_icon('check-circle'); ?> Low-E argon glass for Eastern OR</li>
+              <li><?php echo lucide_icon('check-circle'); ?> Permits handled when required</li>
+              <li><?php echo lucide_icon('check-circle'); ?> 22+ years serving Grant County</li>
             </ul>
             <a href="/contact/" class="btn btn-secondary w-full">Schedule a Consultation</a>
           </div>
@@ -180,22 +180,22 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       </blockquote>
       <div class="sp-bento">
         <div class="sp-bento-card reveal-up reveal-delay-1">
-          <div class="icon-wrap"><i data-lucide="wind"></i></div>
+          <div class="icon-wrap"><?php echo lucide_icon('wind'); ?></div>
           <h3>Drafts and air infiltration</h3>
           <p>If you feel cold air at the sash or frame edge in winter, the weatherstripping or seal has failed. No amount of caulking fixes a window that's past its service life — replacement is the only lasting solution.</p>
         </div>
         <div class="sp-bento-card reveal-up reveal-delay-2">
-          <div class="icon-wrap"><i data-lucide="cloud-fog"></i></div>
+          <div class="icon-wrap"><?php echo lucide_icon('cloud-fog'); ?></div>
           <h3>Condensation between panes</h3>
           <p>Fog or moisture between the glass layers means the insulated glass unit seal has failed. The window is now a single-pane unit thermally — not insulating at all — and needs to be replaced, not resealed.</p>
         </div>
         <div class="sp-bento-card reveal-up reveal-delay-3">
-          <div class="icon-wrap"><i data-lucide="move-horizontal"></i></div>
+          <div class="icon-wrap"><?php echo lucide_icon('move-horizontal'); ?></div>
           <h3>Sticking or difficult operation</h3>
           <p>Windows that stick, slam, or won't lock properly signal warped frames or hardware failure. In Eastern Oregon's freeze-thaw climate, wood frames that aren't properly protected expand and contract until they bind permanently.</p>
         </div>
         <div class="sp-bento-card reveal-up reveal-delay-4">
-          <div class="icon-wrap"><i data-lucide="droplets"></i></div>
+          <div class="icon-wrap"><?php echo lucide_icon('droplets'); ?></div>
           <h3>Visible decay or water damage</h3>
           <p>Rotted wood frames, water staining on sills, or paint that won't stay on the interior trim below a window are all signs of a failed seal or failed flashing. The longer this goes unaddressed, the more wall framing is compromised.</p>
         </div>
@@ -272,18 +272,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <h2>What does a window and door replacement project include in Mount Vernon, OR?</h2>
           <p class="answer-block">Every window and door project is scoped to your home's specific needs. Here is what a complete window replacement or door installation by Superior Home Builders includes from start to final inspection.</p>
           <ul class="sp-includes-list">
-            <li><i data-lucide="check"></i> Old window/door removal</li>
-            <li><i data-lucide="check"></i> Frame inspection &amp; repair</li>
-            <li><i data-lucide="check"></i> New window installation</li>
-            <li><i data-lucide="check"></i> Exterior trim &amp; flashing</li>
-            <li><i data-lucide="check"></i> Interior trim &amp; casing</li>
-            <li><i data-lucide="check"></i> Weatherstripping &amp; air sealing</li>
-            <li><i data-lucide="check"></i> Entry door installation</li>
-            <li><i data-lucide="check"></i> Door hardware &amp; lockset</li>
-            <li><i data-lucide="check"></i> Sliding patio doors</li>
-            <li><i data-lucide="check"></i> Interior/exterior paint prep</li>
-            <li><i data-lucide="check"></i> Cleanup &amp; debris removal</li>
-            <li><i data-lucide="check"></i> Permit application (when required)</li>
+            <li><?php echo lucide_icon('check'); ?> Old window/door removal</li>
+            <li><?php echo lucide_icon('check'); ?> Frame inspection &amp; repair</li>
+            <li><?php echo lucide_icon('check'); ?> New window installation</li>
+            <li><?php echo lucide_icon('check'); ?> Exterior trim &amp; flashing</li>
+            <li><?php echo lucide_icon('check'); ?> Interior trim &amp; casing</li>
+            <li><?php echo lucide_icon('check'); ?> Weatherstripping &amp; air sealing</li>
+            <li><?php echo lucide_icon('check'); ?> Entry door installation</li>
+            <li><?php echo lucide_icon('check'); ?> Door hardware &amp; lockset</li>
+            <li><?php echo lucide_icon('check'); ?> Sliding patio doors</li>
+            <li><?php echo lucide_icon('check'); ?> Interior/exterior paint prep</li>
+            <li><?php echo lucide_icon('check'); ?> Cleanup &amp; debris removal</li>
+            <li><?php echo lucide_icon('check'); ?> Permit application (when required)</li>
           </ul>
         </div>
         <div class="reveal-right">
@@ -388,46 +388,46 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         <div class="sp-compare-col sp-compare-col--bad">
           <h3>Typical contractor</h3>
           <div class="sp-compare-row">
-            <i data-lucide="x-circle" style="color:rgba(255,80,80,0.75);width:20px;height:20px;flex-shrink:0"></i>
+            <?php echo lucide_icon('x-circle', '', 'color:rgba(255,80,80,0.75);width:20px;height:20px;flex-shrink:0'); ?>
             <span>Windows ordered without measuring the rough opening precisely — shimming fills the gap</span>
           </div>
           <div class="sp-compare-row">
-            <i data-lucide="x-circle" style="color:rgba(255,80,80,0.75);width:20px;height:20px;flex-shrink:0"></i>
+            <?php echo lucide_icon('x-circle', '', 'color:rgba(255,80,80,0.75);width:20px;height:20px;flex-shrink:0'); ?>
             <span>Interior trim is extra or not included — you finish it yourself</span>
           </div>
           <div class="sp-compare-row">
-            <i data-lucide="x-circle" style="color:rgba(255,80,80,0.75);width:20px;height:20px;flex-shrink:0"></i>
+            <?php echo lucide_icon('x-circle', '', 'color:rgba(255,80,80,0.75);width:20px;height:20px;flex-shrink:0'); ?>
             <span>Weatherstripping applied over existing decay rather than repairing the frame</span>
           </div>
           <div class="sp-compare-row">
-            <i data-lucide="x-circle" style="color:rgba(255,80,80,0.75);width:20px;height:20px;flex-shrink:0"></i>
+            <?php echo lucide_icon('x-circle', '', 'color:rgba(255,80,80,0.75);width:20px;height:20px;flex-shrink:0'); ?>
             <span>Installation done in a day regardless of window count — rushed finish work</span>
           </div>
           <div class="sp-compare-row">
-            <i data-lucide="x-circle" style="color:rgba(255,80,80,0.75);width:20px;height:20px;flex-shrink:0"></i>
+            <?php echo lucide_icon('x-circle', '', 'color:rgba(255,80,80,0.75);width:20px;height:20px;flex-shrink:0'); ?>
             <span>Generic glass spec with no consideration for Eastern OR's heating-dominated climate</span>
           </div>
         </div>
         <div class="sp-compare-col sp-compare-col--good">
           <h3>Superior Home Builders</h3>
           <div class="sp-compare-row">
-            <i data-lucide="check-circle" style="color:var(--color-accent);width:20px;height:20px;flex-shrink:0"></i>
+            <?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:20px;height:20px;flex-shrink:0'); ?>
             <span>Rough openings measured on-site before the order is placed — every window fits correctly</span>
           </div>
           <div class="sp-compare-row">
-            <i data-lucide="check-circle" style="color:var(--color-accent);width:20px;height:20px;flex-shrink:0"></i>
+            <?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:20px;height:20px;flex-shrink:0'); ?>
             <span>Full interior and exterior trim-out included in every installation</span>
           </div>
           <div class="sp-compare-row">
-            <i data-lucide="check-circle" style="color:var(--color-accent);width:20px;height:20px;flex-shrink:0"></i>
+            <?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:20px;height:20px;flex-shrink:0'); ?>
             <span>Frame and sill inspected and repaired before the new window is set</span>
           </div>
           <div class="sp-compare-row">
-            <i data-lucide="check-circle" style="color:var(--color-accent);width:20px;height:20px;flex-shrink:0"></i>
+            <?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:20px;height:20px;flex-shrink:0'); ?>
             <span>Timeline based on actual window count and complexity — work is done right, not fast</span>
           </div>
           <div class="sp-compare-row">
-            <i data-lucide="check-circle" style="color:var(--color-accent);width:20px;height:20px;flex-shrink:0"></i>
+            <?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:20px;height:20px;flex-shrink:0'); ?>
             <span>Low-E argon glass specified for Eastern Oregon's cold winters and high heating load</span>
           </div>
         </div>
@@ -455,7 +455,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         <div class="sp-faq-item reveal-up reveal-delay-<?php echo min($i + 1, 4); ?>">
           <button class="sp-faq-question" aria-expanded="false" aria-controls="faq-wd-<?php echo $i; ?>">
             <?php echo htmlspecialchars($faq['q']); ?>
-            <i data-lucide="plus"></i>
+            <?php echo lucide_icon('plus'); ?>
           </button>
           <div class="sp-faq-answer" id="faq-wd-<?php echo $i; ?>">
             <?php echo htmlspecialchars($faq['a']); ?>
@@ -484,7 +484,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="cta-row">
         <a href="/contact/" class="btn btn-primary btn-lg">Get a Free Estimate</a>
         <?php if (!empty($phone)): ?>
-        <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-secondary btn-lg"><i data-lucide="phone"></i> Call Us Now</a>
+        <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-secondary btn-lg"><?php echo lucide_icon('phone'); ?> Call Us Now</a>
         <?php endif; ?>
       </div>
     </div>
@@ -501,7 +501,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
                  width="600" height="360" loading="lazy">
           </div>
           <div class="service-card__body">
-            <div class="service-card__icon"><i data-lucide="tree-pine"></i></div>
+            <div class="service-card__icon"><?php echo lucide_icon('tree-pine'); ?></div>
             <h3>Decks</h3>
             <ul>
               <li>Composite &amp; pressure-treated</li>
@@ -518,7 +518,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
                  width="600" height="360" loading="lazy">
           </div>
           <div class="service-card__body">
-            <div class="service-card__icon"><i data-lucide="wrench"></i></div>
+            <div class="service-card__icon"><?php echo lucide_icon('wrench'); ?></div>
             <h3>General Remodeling</h3>
             <ul>
               <li>Single rooms to whole homes</li>
@@ -535,7 +535,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
                  width="600" height="360" loading="lazy">
           </div>
           <div class="service-card__body">
-            <div class="service-card__icon"><i data-lucide="home"></i></div>
+            <div class="service-card__icon"><?php echo lucide_icon('home'); ?></div>
             <h3>Custom Home Building</h3>
             <ul>
               <li>Design-to-completion builds</li>

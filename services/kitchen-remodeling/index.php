@@ -212,29 +212,29 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="container">
         <div class="sp-hero-layout">
           <div class="sp-hero-content">
-            <span class="sp-hero-eyebrow"><i data-lucide="utensils"></i> Kitchen Remodeling</span>
+            <span class="sp-hero-eyebrow"><?php echo lucide_icon('utensils'); ?> Kitchen Remodeling</span>
             <h1>Kitchen Remodeling in<br><em>Mount Vernon, OR</em></h1>
             <p class="hero-answer">Kitchen remodeling in Mount Vernon demands more than standard design—it requires understanding our region's unique climate challenges and building codes. At Superior Home Builders, we pair personalized design consultation with sustainable, energy-efficient solutions specifically engineered for Mount Vernon homes. Whether you're investing in essential updates or a complete high-end transformation, our transparent pricing and detailed timelines ensure you know exactly what to expect. We back every remodel with comprehensive warranty coverage and dedicated post-build support—because your kitchen should serve your family for decades to come.</p>
             <div class="sp-hero-trust">
-              <span class="sp-hero-trust-item"><i data-lucide="shield-check"></i> Licensed &amp; Insured</span>
-              <span class="sp-hero-trust-item"><i data-lucide="calendar"></i> Est. 2004</span>
-              <span class="sp-hero-trust-item"><i data-lucide="file-text"></i> Free Written Estimate</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2004</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Written Estimate</span>
             </div>
             <div class="sp-hero-actions">
               <a href="/contact/" class="btn btn-secondary btn-lg">Get a Free Estimate</a>
               <?php if (!empty($phone)): ?>
-              <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><i data-lucide="phone"></i> Call Now</a>
+              <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><?php echo lucide_icon('phone'); ?> Call Now</a>
               <?php endif; ?>
             </div>
           </div>
           <div class="sp-hero-card">
             <h3>Kitchen remodel fast facts</h3>
             <ul>
-              <li><i data-lucide="clock"></i> Typical timeline: 4–8 weeks</li>
-              <li><i data-lucide="dollar-sign"></i> Range: $18K – $65K+</li>
-              <li><i data-lucide="layers"></i> Custom, semi-custom, or stock cabinets</li>
-              <li><i data-lucide="check-circle"></i> Permits handled for you</li>
-              <li><i data-lucide="users"></i> One crew — no sub-coordinator chaos</li>
+              <li><?php echo lucide_icon('clock'); ?> Typical timeline: 4–8 weeks</li>
+              <li><?php echo lucide_icon('dollar-sign'); ?> Range: $18K – $65K+</li>
+              <li><?php echo lucide_icon('layers'); ?> Custom, semi-custom, or stock cabinets</li>
+              <li><?php echo lucide_icon('check-circle'); ?> Permits handled for you</li>
+              <li><?php echo lucide_icon('users'); ?> One crew — no sub-coordinator chaos</li>
             </ul>
             <a href="/contact/" class="btn btn-secondary w-full">Schedule a Consultation</a>
           </div>
@@ -262,22 +262,22 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       </blockquote>
       <div class="sp-bento">
         <div class="sp-bento-card reveal-up reveal-delay-1">
-          <div class="icon-wrap"><i data-lucide="layout-dashboard"></i></div>
+          <div class="icon-wrap"><?php echo lucide_icon('layout-dashboard'); ?></div>
           <h3>Layout that fights you</h3>
           <p>The classic "work triangle" between sink, stove, and fridge matters. Too much distance, a door that interrupts the flow, or a peninsula that blocks traffic makes cooking frustrating — and layout changes are the most valuable kitchen investment you can make.</p>
         </div>
         <div class="sp-bento-card reveal-up reveal-delay-2">
-          <div class="icon-wrap"><i data-lucide="package-open"></i></div>
+          <div class="icon-wrap"><?php echo lucide_icon('package-open'); ?></div>
           <h3>Storage that falls short</h3>
           <p>Shallow upper cabinets that don't reach the ceiling, base cabinets with no pull-outs, and zero pantry space are hallmarks of kitchens built before storage was a priority. A modern kitchen layout captures every inch.</p>
         </div>
         <div class="sp-bento-card reveal-up reveal-delay-3">
-          <div class="icon-wrap"><i data-lucide="alert-triangle"></i></div>
+          <div class="icon-wrap"><?php echo lucide_icon('alert-triangle'); ?></div>
           <h3>Surfaces past their life</h3>
           <p>Laminate countertops that have delaminated, tile grout that won't stay clean, and cabinet boxes with swollen sides from years of steam aren't cosmetic problems — they're hygiene and structural issues that a surface update won't fix.</p>
         </div>
         <div class="sp-bento-card reveal-up reveal-delay-4">
-          <div class="icon-wrap"><i data-lucide="zap"></i></div>
+          <div class="icon-wrap"><?php echo lucide_icon('zap'); ?></div>
           <h3>Electrical not up to code</h3>
           <p>Modern kitchens require GFCI protection at every outlet near the sink, dedicated circuits for large appliances, and often an updated panel. Eastern Oregon homes from the 1970s–90s frequently don't meet current code — and buyers and appraisers notice.</p>
         </div>
@@ -345,18 +345,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <h2>What does a full kitchen remodel from Superior Home Builders include?</h2>
           <p class="answer-block">Every project is scoped to your goals. Here's what's covered in a standard mid-range to full kitchen renovation in Mount Vernon, OR — your estimate will specify exactly which items apply.</p>
           <ul class="sp-includes-list">
-            <li><i data-lucide="check"></i> Demo &amp; debris removal</li>
-            <li><i data-lucide="check"></i> Subfloor inspection &amp; prep</li>
-            <li><i data-lucide="check"></i> Rough plumbing &amp; relocation</li>
-            <li><i data-lucide="check"></i> Rough electrical &amp; GFCI</li>
-            <li><i data-lucide="check"></i> Cabinet installation</li>
-            <li><i data-lucide="check"></i> Countertop template &amp; install</li>
-            <li><i data-lucide="check"></i> Tile backsplash</li>
-            <li><i data-lucide="check"></i> Appliance hookup</li>
-            <li><i data-lucide="check"></i> Sink &amp; faucet installation</li>
-            <li><i data-lucide="check"></i> Flooring replacement</li>
-            <li><i data-lucide="check"></i> Lighting &amp; ventilation hood</li>
-            <li><i data-lucide="check"></i> Permits &amp; inspections</li>
+            <li><?php echo lucide_icon('check'); ?> Demo &amp; debris removal</li>
+            <li><?php echo lucide_icon('check'); ?> Subfloor inspection &amp; prep</li>
+            <li><?php echo lucide_icon('check'); ?> Rough plumbing &amp; relocation</li>
+            <li><?php echo lucide_icon('check'); ?> Rough electrical &amp; GFCI</li>
+            <li><?php echo lucide_icon('check'); ?> Cabinet installation</li>
+            <li><?php echo lucide_icon('check'); ?> Countertop template &amp; install</li>
+            <li><?php echo lucide_icon('check'); ?> Tile backsplash</li>
+            <li><?php echo lucide_icon('check'); ?> Appliance hookup</li>
+            <li><?php echo lucide_icon('check'); ?> Sink &amp; faucet installation</li>
+            <li><?php echo lucide_icon('check'); ?> Flooring replacement</li>
+            <li><?php echo lucide_icon('check'); ?> Lighting &amp; ventilation hood</li>
+            <li><?php echo lucide_icon('check'); ?> Permits &amp; inspections</li>
           </ul>
           <a href="/contact/" class="btn btn-primary">Request a Free Estimate</a>
         </div>
@@ -451,19 +451,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="sp-compare-table">
         <div class="sp-compare-col sp-compare-col--bad reveal-left">
           <h3>Typical contractor</h3>
-          <div class="sp-compare-row"><i data-lucide="x-circle" style="color:#f87171;width:18px;height:18px"></i><span>Cabinet delivery and counter template aren't coordinated</span></div>
-          <div class="sp-compare-row"><i data-lucide="x-circle" style="color:#f87171;width:18px;height:18px"></i><span>Appliance hookup is "not my job"</span></div>
-          <div class="sp-compare-row"><i data-lucide="x-circle" style="color:#f87171;width:18px;height:18px"></i><span>Wall removal not quoted upfront</span></div>
-          <div class="sp-compare-row"><i data-lucide="x-circle" style="color:#f87171;width:18px;height:18px"></i><span>Verbal estimates that shift at invoice time</span></div>
-          <div class="sp-compare-row"><i data-lucide="x-circle" style="color:#f87171;width:18px;height:18px"></i><span>Don't know local building codes</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('x-circle', '', 'color:#f87171;width:18px;height:18px'); ?><span>Cabinet delivery and counter template aren't coordinated</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('x-circle', '', 'color:#f87171;width:18px;height:18px'); ?><span>Appliance hookup is "not my job"</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('x-circle', '', 'color:#f87171;width:18px;height:18px'); ?><span>Wall removal not quoted upfront</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('x-circle', '', 'color:#f87171;width:18px;height:18px'); ?><span>Verbal estimates that shift at invoice time</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('x-circle', '', 'color:#f87171;width:18px;height:18px'); ?><span>Don't know local building codes</span></div>
         </div>
         <div class="sp-compare-col sp-compare-col--good reveal-right">
           <h3>Superior Home Builders</h3>
-          <div class="sp-compare-row"><i data-lucide="check-circle" style="color:var(--color-accent);width:18px;height:18px"></i><span>Delivery, template, and install sequenced on one schedule</span></div>
-          <div class="sp-compare-row"><i data-lucide="check-circle" style="color:var(--color-accent);width:18px;height:18px"></i><span>Full scope — appliances, faucets, and lighting included</span></div>
-          <div class="sp-compare-row"><i data-lucide="check-circle" style="color:var(--color-accent);width:18px;height:18px"></i><span>Structural changes assessed and priced in the estimate</span></div>
-          <div class="sp-compare-row"><i data-lucide="check-circle" style="color:var(--color-accent);width:18px;height:18px"></i><span>Written, itemized estimate — scope is locked</span></div>
-          <div class="sp-compare-row"><i data-lucide="check-circle" style="color:var(--color-accent);width:18px;height:18px"></i><span>20+ years building to Oregon code in Grant County</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>Delivery, template, and install sequenced on one schedule</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>Full scope — appliances, faucets, and lighting included</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>Structural changes assessed and priced in the estimate</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>Written, itemized estimate — scope is locked</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>20+ years building to Oregon code in Grant County</span></div>
         </div>
       </div>
     </div>
@@ -484,7 +484,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         <div class="sp-faq-item reveal-up" id="faq-<?php echo $i; ?>">
           <button class="sp-faq-question" aria-expanded="false" aria-controls="faq-ans-<?php echo $i; ?>">
             <?php echo htmlspecialchars($faq['q']); ?>
-            <i data-lucide="plus-circle"></i>
+            <?php echo lucide_icon('plus-circle'); ?>
           </button>
           <div class="sp-faq-answer" id="faq-ans-<?php echo $i; ?>" role="region">
             <?php echo htmlspecialchars($faq['a']); ?>
@@ -502,7 +502,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="cta-row">
         <a href="/contact/" class="btn btn-primary btn-lg">Get a Free Estimate</a>
         <?php if (!empty($phone)): ?>
-        <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-secondary btn-lg"><i data-lucide="phone"></i> Call Now</a>
+        <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-secondary btn-lg"><?php echo lucide_icon('phone'); ?> Call Now</a>
         <?php endif; ?>
       </div>
     </div>
@@ -531,7 +531,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
                  width="600" height="360" loading="lazy">
           </div>
           <div class="service-card__body">
-            <div class="service-card__icon"><i data-lucide="<?php echo $r['icon']; ?>"></i></div>
+            <div class="service-card__icon"><?php echo lucide_icon($r['icon']); ?></div>
             <h3><?php echo htmlspecialchars($rs['name']); ?></h3>
             <ul><?php foreach ($r['bullets'] as $b): ?><li><?php echo $b; ?></li><?php endforeach; ?></ul>
             <a href="/services/<?php echo htmlspecialchars($rs['slug']); ?>/" class="service-card__cta">Learn more</a>

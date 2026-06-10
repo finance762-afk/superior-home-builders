@@ -112,29 +112,29 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="container">
         <div class="sp-hero-layout">
           <div class="sp-hero-content">
-            <span class="sp-hero-eyebrow"><i data-lucide="bath"></i> Bathroom Remodeling</span>
+            <span class="sp-hero-eyebrow"><?php echo lucide_icon('bath'); ?> Bathroom Remodeling</span>
             <h1>Bathroom Remodeling in<br><em>Mount Vernon, OR</em></h1>
             <p class="hero-answer">A bathroom remodel in Mount Vernon requires understanding our region's unique climate and building codes. Superior Home Builders brings deep local expertise to every project, with personalized design consultation that incorporates energy-efficient solutions and sustainable practices. Our bathroom remodels typically range from $10,000–$35,000, with transparent pricing and detailed written estimates after our on-site assessment. You'll benefit from our commitment to quality beyond completion—including comprehensive warranty coverage and dedicated post-build support.</p>
             <div class="sp-hero-trust">
-              <span class="sp-hero-trust-item"><i data-lucide="shield-check"></i> Licensed &amp; Insured</span>
-              <span class="sp-hero-trust-item"><i data-lucide="calendar"></i> Est. 2004</span>
-              <span class="sp-hero-trust-item"><i data-lucide="file-text"></i> Free Written Estimate</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2004</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Written Estimate</span>
             </div>
             <div class="sp-hero-actions">
               <a href="/contact/" class="btn btn-secondary btn-lg">Get a Free Estimate</a>
               <?php if (!empty($phone)): ?>
-              <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><i data-lucide="phone"></i> Call Now</a>
+              <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><?php echo lucide_icon('phone'); ?> Call Now</a>
               <?php endif; ?>
             </div>
           </div>
           <div class="sp-hero-card">
             <h3>Why homeowners choose us</h3>
             <ul>
-              <li><i data-lucide="check-circle"></i> One crew, start to finish</li>
-              <li><i data-lucide="check-circle"></i> Written schedule before demo begins</li>
-              <li><i data-lucide="check-circle"></i> Permits handled for you</li>
-              <li><i data-lucide="check-circle"></i> 20+ years in Grant County</li>
-              <li><i data-lucide="check-circle"></i> No surprise change orders</li>
+              <li><?php echo lucide_icon('check-circle'); ?> One crew, start to finish</li>
+              <li><?php echo lucide_icon('check-circle'); ?> Written schedule before demo begins</li>
+              <li><?php echo lucide_icon('check-circle'); ?> Permits handled for you</li>
+              <li><?php echo lucide_icon('check-circle'); ?> 20+ years in Grant County</li>
+              <li><?php echo lucide_icon('check-circle'); ?> No surprise change orders</li>
             </ul>
             <a href="/contact/" class="btn btn-secondary w-full">Schedule a Consultation</a>
           </div>
@@ -165,22 +165,22 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       </blockquote>
       <div class="sp-bento">
         <div class="sp-bento-card reveal-up reveal-delay-1">
-          <div class="icon-wrap"><i data-lucide="droplets"></i></div>
+          <div class="icon-wrap"><?php echo lucide_icon('droplets'); ?></div>
           <h3>Persistent moisture damage</h3>
           <p>Grout cracking, mold appearing at caulk lines, or water staining behind tile are signs the waterproofing has failed — a cosmetic fix won't stop the underlying damage.</p>
         </div>
         <div class="sp-bento-card reveal-up reveal-delay-2">
-          <div class="icon-wrap"><i data-lucide="package-open"></i></div>
+          <div class="icon-wrap"><?php echo lucide_icon('package-open'); ?></div>
           <h3>Storage that doesn't work</h3>
           <p>A bathroom built for a previous family's habits rarely works for yours. Vanity storage that's too shallow, no linen space, and counter clutter are all solvable with a proper layout redesign.</p>
         </div>
         <div class="sp-bento-card reveal-up reveal-delay-3">
-          <div class="icon-wrap"><i data-lucide="zap-off"></i></div>
+          <div class="icon-wrap"><?php echo lucide_icon('zap-off'); ?></div>
           <h3>Outdated plumbing and fixtures</h3>
           <p>Pre-1990s plumbing in Eastern Oregon homes often uses galvanized or polybutylene pipe that's past its service life. A remodel is the right time to re-pipe while walls are open.</p>
         </div>
         <div class="sp-bento-card reveal-up reveal-delay-4">
-          <div class="icon-wrap"><i data-lucide="thermometer-snowflake"></i></div>
+          <div class="icon-wrap"><?php echo lucide_icon('thermometer-snowflake'); ?></div>
           <h3>Cold floors, poor ventilation</h3>
           <p>Inadequate ventilation causes moisture buildup that damages walls and ceilings over time. Radiant floor heating and a proper exhaust fan upgrade solve both comfort and long-term durability.</p>
         </div>
@@ -256,18 +256,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <h2>What's included in a Superior Home Builders bathroom remodel?</h2>
           <p class="answer-block">Every bathroom remodel is scoped to your specific needs — from a single fixture swap to a full gut renovation. Here's what's covered in a standard full remodel in Mount Vernon, OR.</p>
           <ul class="sp-includes-list">
-            <li><i data-lucide="check"></i> Demo &amp; debris removal</li>
-            <li><i data-lucide="check"></i> Subfloor inspection &amp; repair</li>
-            <li><i data-lucide="check"></i> Plumbing rough-in &amp; relocation</li>
-            <li><i data-lucide="check"></i> Waterproofing &amp; cement board</li>
-            <li><i data-lucide="check"></i> Tile walls &amp; floors</li>
-            <li><i data-lucide="check"></i> Walk-in shower or tub/shower combo</li>
-            <li><i data-lucide="check"></i> Vanity, sink &amp; faucet installation</li>
-            <li><i data-lucide="check"></i> Toilet replacement</li>
-            <li><i data-lucide="check"></i> Exhaust fan &amp; lighting</li>
-            <li><i data-lucide="check"></i> Paint &amp; trim</li>
-            <li><i data-lucide="check"></i> Permit application &amp; inspection</li>
-            <li><i data-lucide="check"></i> Final cleanup</li>
+            <li><?php echo lucide_icon('check'); ?> Demo &amp; debris removal</li>
+            <li><?php echo lucide_icon('check'); ?> Subfloor inspection &amp; repair</li>
+            <li><?php echo lucide_icon('check'); ?> Plumbing rough-in &amp; relocation</li>
+            <li><?php echo lucide_icon('check'); ?> Waterproofing &amp; cement board</li>
+            <li><?php echo lucide_icon('check'); ?> Tile walls &amp; floors</li>
+            <li><?php echo lucide_icon('check'); ?> Walk-in shower or tub/shower combo</li>
+            <li><?php echo lucide_icon('check'); ?> Vanity, sink &amp; faucet installation</li>
+            <li><?php echo lucide_icon('check'); ?> Toilet replacement</li>
+            <li><?php echo lucide_icon('check'); ?> Exhaust fan &amp; lighting</li>
+            <li><?php echo lucide_icon('check'); ?> Paint &amp; trim</li>
+            <li><?php echo lucide_icon('check'); ?> Permit application &amp; inspection</li>
+            <li><?php echo lucide_icon('check'); ?> Final cleanup</li>
           </ul>
           <a href="/contact/" class="btn btn-primary">Request a Free Estimate</a>
         </div>
@@ -370,19 +370,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="sp-compare-table">
         <div class="sp-compare-col sp-compare-col--bad reveal-left">
           <h3>Typical contractor</h3>
-          <div class="sp-compare-row"><i data-lucide="x-circle" style="color:#f87171;width:18px;height:18px"></i><span>Verbal estimate — numbers change at billing</span></div>
-          <div class="sp-compare-row"><i data-lucide="x-circle" style="color:#f87171;width:18px;height:18px"></i><span>Multiple subs who don't communicate</span></div>
-          <div class="sp-compare-row"><i data-lucide="x-circle" style="color:#f87171;width:18px;height:18px"></i><span>You handle permits and inspections</span></div>
-          <div class="sp-compare-row"><i data-lucide="x-circle" style="color:#f87171;width:18px;height:18px"></i><span>Schedule slips without explanation</span></div>
-          <div class="sp-compare-row"><i data-lucide="x-circle" style="color:#f87171;width:18px;height:18px"></i><span>Unfamiliar with Eastern OR home construction</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('x-circle', '', 'color:#f87171;width:18px;height:18px'); ?><span>Verbal estimate — numbers change at billing</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('x-circle', '', 'color:#f87171;width:18px;height:18px'); ?><span>Multiple subs who don't communicate</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('x-circle', '', 'color:#f87171;width:18px;height:18px'); ?><span>You handle permits and inspections</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('x-circle', '', 'color:#f87171;width:18px;height:18px'); ?><span>Schedule slips without explanation</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('x-circle', '', 'color:#f87171;width:18px;height:18px'); ?><span>Unfamiliar with Eastern OR home construction</span></div>
         </div>
         <div class="sp-compare-col sp-compare-col--good reveal-right">
           <h3>Superior Home Builders</h3>
-          <div class="sp-compare-row"><i data-lucide="check-circle" style="color:var(--color-accent);width:18px;height:18px"></i><span>Written, itemized estimate — no surprises</span></div>
-          <div class="sp-compare-row"><i data-lucide="check-circle" style="color:var(--color-accent);width:18px;height:18px"></i><span>One integrated crew, one point of contact</span></div>
-          <div class="sp-compare-row"><i data-lucide="check-circle" style="color:var(--color-accent);width:18px;height:18px"></i><span>We pull permits and manage all inspections</span></div>
-          <div class="sp-compare-row"><i data-lucide="check-circle" style="color:var(--color-accent);width:18px;height:18px"></i><span>Written schedule before demo begins</span></div>
-          <div class="sp-compare-row"><i data-lucide="check-circle" style="color:var(--color-accent);width:18px;height:18px"></i><span>20+ years building in Grant County</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>Written, itemized estimate — no surprises</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>One integrated crew, one point of contact</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>We pull permits and manage all inspections</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>Written schedule before demo begins</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>20+ years building in Grant County</span></div>
         </div>
       </div>
     </div>
@@ -407,7 +407,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         <div class="sp-faq-item reveal-up" id="faq-<?php echo $i; ?>">
           <button class="sp-faq-question" aria-expanded="false" aria-controls="faq-ans-<?php echo $i; ?>">
             <?php echo htmlspecialchars($faq['q']); ?>
-            <i data-lucide="plus-circle"></i>
+            <?php echo lucide_icon('plus-circle'); ?>
           </button>
           <div class="sp-faq-answer" id="faq-ans-<?php echo $i; ?>" role="region">
             <?php echo htmlspecialchars($faq['a']); ?>
@@ -428,7 +428,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="cta-row">
         <a href="/contact/" class="btn btn-primary btn-lg">Get a Free Estimate</a>
         <?php if (!empty($phone)): ?>
-        <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-secondary btn-lg"><i data-lucide="phone"></i> Call Now</a>
+        <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-secondary btn-lg"><?php echo lucide_icon('phone'); ?> Call Now</a>
         <?php endif; ?>
       </div>
     </div>
@@ -469,7 +469,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
                  width="600" height="360" loading="lazy">
           </div>
           <div class="service-card__body">
-            <div class="service-card__icon"><i data-lucide="<?php echo $ricon; ?>"></i></div>
+            <div class="service-card__icon"><?php echo lucide_icon($ricon); ?></div>
             <h3><?php echo htmlspecialchars($rs['name']); ?></h3>
             <ul>
               <?php foreach ($rbullets as $b): ?><li><?php echo $b; ?></li><?php endforeach; ?>

@@ -120,11 +120,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <div class="blog-card__body">
           <div class="blog-card__meta">
             <div class="blog-card__meta-item">
-              <i data-lucide="calendar"></i>
+              <?php echo lucide_icon('calendar'); ?>
               <time datetime="<?php echo htmlspecialchars($post['dateISO']); ?>"><?php echo htmlspecialchars($post['date']); ?></time>
             </div>
             <div class="blog-card__meta-item">
-              <i data-lucide="clock"></i>
+              <?php echo lucide_icon('clock'); ?>
               <span><?php echo htmlspecialchars($post['readtime']); ?></span>
             </div>
           </div>
@@ -138,7 +138,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
           <p class="blog-card__excerpt"><?php echo htmlspecialchars($post['excerpt']); ?></p>
 
           <a href="/blog/<?php echo htmlspecialchars($post['slug']); ?>/" class="blog-card__read-more">
-            Read Article <i data-lucide="arrow-right"></i>
+            Read Article <?php echo lucide_icon('arrow-right'); ?>
           </a>
         </div>
 
@@ -154,14 +154,14 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <!-- CTA -->
     <div class="blog-cta reveal-up">
       <div class="blog-cta__icon" aria-hidden="true">
-        <i data-lucide="hard-hat"></i>
+        <?php echo lucide_icon('hard-hat'); ?>
       </div>
       <div class="blog-cta__copy">
         <h3>Ready to Start Your Build in Eastern Oregon?</h3>
         <p>Superior Home Builders has served Grant County and surrounding communities for over <?php echo $yearsInBusiness; ?> years. Contact us for a free, no-pressure estimate.</p>
       </div>
       <a href="/contact/" class="btn btn-primary">
-        <i data-lucide="clipboard-list"></i>
+        <?php echo lucide_icon('clipboard-list'); ?>
         Get a Free Estimate
       </a>
     </div>

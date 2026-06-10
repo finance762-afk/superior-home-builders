@@ -182,7 +182,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       </nav>
 
       <span class="blog-hero__category">
-        <i data-lucide="tag"></i>
+        <?php echo lucide_icon('tag'); ?>
         <?php echo htmlspecialchars($postCategory); ?>
       </span>
 
@@ -192,17 +192,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
       <div class="blog-hero__meta">
         <div class="blog-hero__meta-item">
-          <i data-lucide="calendar"></i>
+          <?php echo lucide_icon('calendar'); ?>
           <time datetime="<?php echo $postDateISO; ?>"><?php echo $postDate; ?></time>
         </div>
         <div class="blog-hero__meta-divider" aria-hidden="true"></div>
         <div class="blog-hero__meta-item">
-          <i data-lucide="user"></i>
+          <?php echo lucide_icon('user'); ?>
           <span><?php echo htmlspecialchars($postAuthor); ?></span>
         </div>
         <div class="blog-hero__meta-divider" aria-hidden="true"></div>
         <div class="blog-hero__meta-item">
-          <i data-lucide="clock"></i>
+          <?php echo lucide_icon('clock'); ?>
           <span>24 min read</span>
         </div>
       </div>
@@ -234,13 +234,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <div class="article-body" itemprop="articleBody">
 
         <a href="/blog/" class="back-to-blog">
-          <i data-lucide="arrow-left"></i>
+          <?php echo lucide_icon('arrow-left'); ?>
           Back to Blog
         </a>
 
         <!-- Featured image -->
         <img
-          src="/assets/images/blog/off-grid-home-framing.webp"
+          src="/assets/images/blog/off-grid-home-framing-960.webp"
+          srcset="/assets/images/blog/off-grid-home-framing-480.webp 480w,
+                  /assets/images/blog/off-grid-home-framing-960.webp 960w,
+                  /assets/images/blog/off-grid-home-framing-1600.webp 1600w"
+          sizes="(max-width: 768px) 100vw, 720px"
           alt="Custom home framing in progress on rural land in Eastern Oregon near Mount Vernon — coordinating insulation, mechanical room placement, and structural layout for an off-grid home heating system"
           class="article-featured-img"
           width="1200"
@@ -271,22 +275,22 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <!-- Heating options intro grid -->
         <div class="heating-options-grid" aria-label="Heating option overview">
           <div class="heating-option-chip">
-            <i data-lucide="flame"></i> Wood Stoves
+            <?php echo lucide_icon('flame'); ?> Wood Stoves
           </div>
           <div class="heating-option-chip">
-            <i data-lucide="wind"></i> Heat Pumps
+            <?php echo lucide_icon('wind'); ?> Heat Pumps
           </div>
           <div class="heating-option-chip">
-            <i data-lucide="zap"></i> Propane Heat
+            <?php echo lucide_icon('zap'); ?> Propane Heat
           </div>
           <div class="heating-option-chip">
-            <i data-lucide="layers"></i> Radiant Floor
+            <?php echo lucide_icon('layers'); ?> Radiant Floor
           </div>
           <div class="heating-option-chip">
-            <i data-lucide="sun"></i> Passive Solar
+            <?php echo lucide_icon('sun'); ?> Passive Solar
           </div>
           <div class="heating-option-chip">
-            <i data-lucide="home"></i> Insulation First
+            <?php echo lucide_icon('home'); ?> Insulation First
           </div>
         </div>
 
@@ -343,7 +347,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <div class="highlight-box reveal-up">
           <div class="highlight-box__icon" aria-hidden="true">
-            <i data-lucide="info"></i>
+            <?php echo lucide_icon('info'); ?>
           </div>
           <div class="highlight-box__body">
             <strong>Oregon DEQ and wood smoke health rules.</strong>
@@ -371,7 +375,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <div class="warning-box reveal-up">
           <div class="warning-box__icon" aria-hidden="true">
-            <i data-lucide="alert-triangle"></i>
+            <?php echo lucide_icon('alert-triangle'); ?>
           </div>
           <div class="warning-box__body">
             <strong>Don't assume an existing wood stove can stay.</strong>
@@ -401,7 +405,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <div class="highlight-box reveal-up">
           <div class="highlight-box__icon" aria-hidden="true">
-            <i data-lucide="circle-dollar-sign"></i>
+            <?php echo lucide_icon('circle-dollar-sign'); ?>
           </div>
           <div class="highlight-box__body">
             <strong>Oregon heat pump incentives.</strong>
@@ -475,7 +479,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <div class="highlight-box reveal-up">
           <div class="highlight-box__icon" aria-hidden="true">
-            <i data-lucide="sun"></i>
+            <?php echo lucide_icon('sun'); ?>
           </div>
           <div class="highlight-box__body">
             <strong>Passive solar reduces how much the mechanical system must do.</strong>
@@ -507,7 +511,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <!-- Inline image -->
         <figure class="article-img-block reveal-up">
           <img
-            src="/assets/images/custom-home-framing.webp"
+            src="/assets/images/custom-home-framing-960.webp"
+            srcset="/assets/images/custom-home-framing-480.webp 480w,
+                    /assets/images/custom-home-framing-960.webp 960w"
+            sizes="(max-width: 768px) 100vw, 720px"
             alt="Custom home framing in progress in Eastern Oregon — wall framing, insulation planning, and building envelope decisions affect how much any heating system must work in Grant County winters"
             width="1200"
             height="675"
@@ -567,7 +574,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         </p>
 
         <div class="checklist-block">
-          <p class="checklist-block__title"><i data-lucide="alert-circle"></i> Mistakes to Avoid</p>
+          <p class="checklist-block__title"><?php echo lucide_icon('alert-circle'); ?> Mistakes to Avoid</p>
           <ul>
             <li>Choosing the heat source after the home is designed — chimney runs in the wrong location, mechanical rooms too small, slab poured without radiant tubing</li>
             <li>Undersizing insulation and then oversizing the heating system to compensate — the heating system always loses that race over time</li>
@@ -685,7 +692,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <!-- Bottom CTA block -->
         <div class="article-cta-block reveal-up">
           <div class="article-cta-icon" aria-hidden="true">
-            <i data-lucide="hard-hat"></i>
+            <?php echo lucide_icon('hard-hat'); ?>
           </div>
           <div class="article-cta-copy">
             <h3>Planning an Off-Grid Home in Eastern Oregon? Talk with Superior Home Builders Before You Choose a Heating System.</h3>
@@ -693,11 +700,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
           </div>
           <div class="article-cta-actions">
             <a href="/contact/" class="btn btn-secondary">
-              <i data-lucide="phone"></i>
+              <?php echo lucide_icon('phone'); ?>
               Free Consultation
             </a>
             <a href="/services/custom-home-building/" class="btn btn-outline">
-              <i data-lucide="home"></i>
+              <?php echo lucide_icon('home'); ?>
               Custom Homes
             </a>
           </div>
@@ -710,7 +717,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <!-- Table of Contents -->
         <div class="sidebar-card">
-          <h4><i data-lucide="list"></i> In This Article</h4>
+          <h4><?php echo lucide_icon('list'); ?> In This Article</h4>
           <ul class="toc-list" role="list">
             <li><a href="#plan-first">Plan Before You Build</a></li>
             <li><a href="#wood-stoves">Option 1: Wood Stoves</a></li>
@@ -737,7 +744,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <!-- Related Services -->
         <div class="sidebar-card">
-          <h4><i data-lucide="hard-hat"></i> Related Services</h4>
+          <h4><?php echo lucide_icon('hard-hat'); ?> Related Services</h4>
           <ul class="toc-list" role="list">
             <li><a href="/services/custom-home-building/">Custom Home Building</a></li>
             <li><a href="/services/framing/">Framing</a></li>
@@ -790,11 +797,11 @@ $relatedPosts = array_slice(array_values(array_filter(
         <div class="blog-card__body">
           <div class="blog-card__meta">
             <div class="blog-card__meta-item">
-              <i data-lucide="calendar"></i>
+              <?php echo lucide_icon('calendar'); ?>
               <time datetime="<?php echo htmlspecialchars($rp['dateISO']); ?>"><?php echo htmlspecialchars($rp['date']); ?></time>
             </div>
             <div class="blog-card__meta-item">
-              <i data-lucide="clock"></i>
+              <?php echo lucide_icon('clock'); ?>
               <span><?php echo htmlspecialchars($rp['readtime']); ?></span>
             </div>
           </div>
@@ -806,7 +813,7 @@ $relatedPosts = array_slice(array_values(array_filter(
           </h3>
 
           <a href="/blog/<?php echo htmlspecialchars($rp['slug']); ?>/" class="blog-card__read-more">
-            Read Article <i data-lucide="arrow-right"></i>
+            Read Article <?php echo lucide_icon('arrow-right'); ?>
           </a>
         </div>
 

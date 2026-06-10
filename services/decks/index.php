@@ -127,29 +127,29 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="container">
         <div class="sp-hero-layout">
           <div class="sp-hero-content">
-            <span class="sp-hero-eyebrow"><i data-lucide="tree-pine"></i> Deck Construction</span>
+            <span class="sp-hero-eyebrow"><?php echo lucide_icon('tree-pine'); ?> Deck Construction</span>
             <h1>Deck Building in<br><em>Mount Vernon, OR</em></h1>
             <p class="hero-answer">Mount Vernon's Willamette Valley climate demands more than a standard deck—it demands local expertise. We build custom decks designed specifically for our region's moisture patterns, drainage challenges, and building codes to ensure longevity through Oregon's wet seasons. Every project starts with a detailed site consultation and transparent pricing tailored to your home's unique conditions, with sustainable material options and our warranty backing every build. That's the superior-home-builders difference.</p>
             <div class="sp-hero-trust">
-              <span class="sp-hero-trust-item"><i data-lucide="shield-check"></i> Licensed &amp; Insured</span>
-              <span class="sp-hero-trust-item"><i data-lucide="calendar"></i> Est. 2004</span>
-              <span class="sp-hero-trust-item"><i data-lucide="file-text"></i> Free Written Estimate</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2004</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Written Estimate</span>
             </div>
             <div class="sp-hero-actions">
               <a href="/contact/" class="btn btn-secondary btn-lg">Get a Free Estimate</a>
               <?php if (!empty($phone)): ?>
-              <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><i data-lucide="phone"></i> Call Now</a>
+              <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-outline-light btn-lg"><?php echo lucide_icon('phone'); ?> Call Now</a>
               <?php endif; ?>
             </div>
           </div>
           <div class="sp-hero-card">
             <h3>Why homeowners choose us for decks</h3>
             <ul>
-              <li><i data-lucide="check-circle"></i> Designed for Eastern OR snow loads</li>
-              <li><i data-lucide="check-circle"></i> Permit pulled and inspections handled</li>
-              <li><i data-lucide="check-circle"></i> Composite &amp; pressure-treated options</li>
-              <li><i data-lucide="check-circle"></i> Pergolas and covered structures</li>
-              <li><i data-lucide="check-circle"></i> 22+ years in Grant County</li>
+              <li><?php echo lucide_icon('check-circle'); ?> Designed for Eastern OR snow loads</li>
+              <li><?php echo lucide_icon('check-circle'); ?> Permit pulled and inspections handled</li>
+              <li><?php echo lucide_icon('check-circle'); ?> Composite &amp; pressure-treated options</li>
+              <li><?php echo lucide_icon('check-circle'); ?> Pergolas and covered structures</li>
+              <li><?php echo lucide_icon('check-circle'); ?> 22+ years in Grant County</li>
             </ul>
             <a href="/contact/" class="btn btn-secondary w-full">Schedule a Consultation</a>
           </div>
@@ -180,22 +180,22 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       </blockquote>
       <div class="sp-bento">
         <div class="sp-bento-card reveal-up reveal-delay-1">
-          <div class="icon-wrap"><i data-lucide="alert-triangle"></i></div>
+          <div class="icon-wrap"><?php echo lucide_icon('alert-triangle'); ?></div>
           <h3>Soft or rotted boards</h3>
           <p>Soft spots underfoot are a warning sign. What feels like a surface problem often means the decking boards above have failed and moisture has reached the joists below. Surface replacement without inspecting the framing misses the actual damage.</p>
         </div>
         <div class="sp-bento-card reveal-up reveal-delay-2">
-          <div class="icon-wrap"><i data-lucide="move"></i></div>
+          <div class="icon-wrap"><?php echo lucide_icon('move'); ?></div>
           <h3>Unstable railings</h3>
           <p>Railing movement is a structural safety failure, not a cosmetic issue. Post bases on older pressure-treated decks rot from the bottom up — the post looks sound until you push it. Failed railings are a liability and a code violation.</p>
         </div>
         <div class="sp-bento-card reveal-up reveal-delay-3">
-          <div class="icon-wrap"><i data-lucide="sun"></i></div>
+          <div class="icon-wrap"><?php echo lucide_icon('sun'); ?></div>
           <h3>No outdoor living space</h3>
           <p>Grant County summers are ideal for outdoor use — warm days, low humidity, spectacular views in most of the county. Most Eastern Oregon homes underutilize the backyard because the outdoor structure was never built. That's the fix.</p>
         </div>
         <div class="sp-bento-card reveal-up reveal-delay-4">
-          <div class="icon-wrap"><i data-lucide="anchor"></i></div>
+          <div class="icon-wrap"><?php echo lucide_icon('anchor'); ?></div>
           <h3>Foundation concerns</h3>
           <p>Ledger pull-away from the house framing is the most common structural failure on older decks. If the ledger attachment is failing, the entire deck load is at risk. This is not a repair — it is a rebuild from the ledger out.</p>
         </div>
@@ -272,18 +272,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <h2>What's included in a deck construction project in Mount Vernon, OR?</h2>
           <p class="answer-block">From footings to final inspection, here is the complete scope of a deck build by Superior Home Builders in Grant County. Every item listed is handled by our crew — no hand-offs.</p>
           <ul class="sp-includes-list">
-            <li><i data-lucide="check"></i> Site assessment &amp; layout</li>
-            <li><i data-lucide="check"></i> Permit application &amp; drawings</li>
-            <li><i data-lucide="check"></i> Footing excavation &amp; concrete</li>
-            <li><i data-lucide="check"></i> Post installation &amp; anchoring</li>
-            <li><i data-lucide="check"></i> Beam &amp; joist framing</li>
-            <li><i data-lucide="check"></i> Composite or lumber decking</li>
-            <li><i data-lucide="check"></i> Railing system (post, rail, balusters)</li>
-            <li><i data-lucide="check"></i> Stair construction</li>
-            <li><i data-lucide="check"></i> Ledger attachment &amp; flashing</li>
-            <li><i data-lucide="check"></i> Fascia &amp; trim boards</li>
-            <li><i data-lucide="check"></i> Permit inspection coordination</li>
-            <li><i data-lucide="check"></i> Site cleanup &amp; debris removal</li>
+            <li><?php echo lucide_icon('check'); ?> Site assessment &amp; layout</li>
+            <li><?php echo lucide_icon('check'); ?> Permit application &amp; drawings</li>
+            <li><?php echo lucide_icon('check'); ?> Footing excavation &amp; concrete</li>
+            <li><?php echo lucide_icon('check'); ?> Post installation &amp; anchoring</li>
+            <li><?php echo lucide_icon('check'); ?> Beam &amp; joist framing</li>
+            <li><?php echo lucide_icon('check'); ?> Composite or lumber decking</li>
+            <li><?php echo lucide_icon('check'); ?> Railing system (post, rail, balusters)</li>
+            <li><?php echo lucide_icon('check'); ?> Stair construction</li>
+            <li><?php echo lucide_icon('check'); ?> Ledger attachment &amp; flashing</li>
+            <li><?php echo lucide_icon('check'); ?> Fascia &amp; trim boards</li>
+            <li><?php echo lucide_icon('check'); ?> Permit inspection coordination</li>
+            <li><?php echo lucide_icon('check'); ?> Site cleanup &amp; debris removal</li>
           </ul>
         </div>
         <div class="reveal-right">
@@ -388,46 +388,46 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         <div class="sp-compare-col sp-compare-col--bad">
           <h3>Typical contractor</h3>
           <div class="sp-compare-row">
-            <i data-lucide="x-circle" style="color:rgba(255,80,80,0.75);width:20px;height:20px;flex-shrink:0"></i>
+            <?php echo lucide_icon('x-circle', '', 'color:rgba(255,80,80,0.75);width:20px;height:20px;flex-shrink:0'); ?>
             <span>Post holes dug to minimum depth regardless of frost line — heaving in Eastern OR winters</span>
           </div>
           <div class="sp-compare-row">
-            <i data-lucide="x-circle" style="color:rgba(255,80,80,0.75);width:20px;height:20px;flex-shrink:0"></i>
+            <?php echo lucide_icon('x-circle', '', 'color:rgba(255,80,80,0.75);width:20px;height:20px;flex-shrink:0'); ?>
             <span>Generic railing design that fails load-testing during inspection</span>
           </div>
           <div class="sp-compare-row">
-            <i data-lucide="x-circle" style="color:rgba(255,80,80,0.75);width:20px;height:20px;flex-shrink:0"></i>
+            <?php echo lucide_icon('x-circle', '', 'color:rgba(255,80,80,0.75);width:20px;height:20px;flex-shrink:0'); ?>
             <span>Ledger attached without proper flashing — moisture infiltration into the house framing</span>
           </div>
           <div class="sp-compare-row">
-            <i data-lucide="x-circle" style="color:rgba(255,80,80,0.75);width:20px;height:20px;flex-shrink:0"></i>
+            <?php echo lucide_icon('x-circle', '', 'color:rgba(255,80,80,0.75);width:20px;height:20px;flex-shrink:0'); ?>
             <span>No permit — inspection risk falls on the homeowner at resale</span>
           </div>
           <div class="sp-compare-row">
-            <i data-lucide="x-circle" style="color:rgba(255,80,80,0.75);width:20px;height:20px;flex-shrink:0"></i>
+            <?php echo lucide_icon('x-circle', '', 'color:rgba(255,80,80,0.75);width:20px;height:20px;flex-shrink:0'); ?>
             <span>Decking material chosen for price, not for Eastern OR UV and moisture conditions</span>
           </div>
         </div>
         <div class="sp-compare-col sp-compare-col--good">
           <h3>Superior Home Builders</h3>
           <div class="sp-compare-row">
-            <i data-lucide="check-circle" style="color:var(--color-accent);width:20px;height:20px;flex-shrink:0"></i>
+            <?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:20px;height:20px;flex-shrink:0'); ?>
             <span>Post holes excavated to Grant County frost depth (24+ inches) — no heave movement</span>
           </div>
           <div class="sp-compare-row">
-            <i data-lucide="check-circle" style="color:var(--color-accent);width:20px;height:20px;flex-shrink:0"></i>
+            <?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:20px;height:20px;flex-shrink:0'); ?>
             <span>Railing system engineered to IRC code load requirements — passes inspection first visit</span>
           </div>
           <div class="sp-compare-row">
-            <i data-lucide="check-circle" style="color:var(--color-accent);width:20px;height:20px;flex-shrink:0"></i>
+            <?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:20px;height:20px;flex-shrink:0'); ?>
             <span>Ledger flashing installed per IRC waterproofing specification — house framing protected</span>
           </div>
           <div class="sp-compare-row">
-            <i data-lucide="check-circle" style="color:var(--color-accent);width:20px;height:20px;flex-shrink:0"></i>
+            <?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:20px;height:20px;flex-shrink:0'); ?>
             <span>Permit pulled and all inspections scheduled — clean permit record at resale</span>
           </div>
           <div class="sp-compare-row">
-            <i data-lucide="check-circle" style="color:var(--color-accent);width:20px;height:20px;flex-shrink:0"></i>
+            <?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:20px;height:20px;flex-shrink:0'); ?>
             <span>Material selected for Grant County climate conditions, not just upfront cost</span>
           </div>
         </div>
@@ -455,7 +455,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         <div class="sp-faq-item reveal-up reveal-delay-<?php echo min($i + 1, 4); ?>">
           <button class="sp-faq-question" aria-expanded="false" aria-controls="faq-dk-<?php echo $i; ?>">
             <?php echo htmlspecialchars($faq['q']); ?>
-            <i data-lucide="plus"></i>
+            <?php echo lucide_icon('plus'); ?>
           </button>
           <div class="sp-faq-answer" id="faq-dk-<?php echo $i; ?>">
             <?php echo htmlspecialchars($faq['a']); ?>
@@ -484,7 +484,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="cta-row">
         <a href="/contact/" class="btn btn-primary btn-lg">Get a Free Estimate</a>
         <?php if (!empty($phone)): ?>
-        <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-secondary btn-lg"><i data-lucide="phone"></i> Call Us Now</a>
+        <a href="tel:<?php echo preg_replace('/\D/', '', $phone); ?>" class="btn btn-secondary btn-lg"><?php echo lucide_icon('phone'); ?> Call Us Now</a>
         <?php endif; ?>
       </div>
     </div>
@@ -501,7 +501,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
                  width="600" height="360" loading="lazy">
           </div>
           <div class="service-card__body">
-            <div class="service-card__icon"><i data-lucide="hammer"></i></div>
+            <div class="service-card__icon"><?php echo lucide_icon('hammer'); ?></div>
             <h3>Framing</h3>
             <ul>
               <li>Residential &amp; commercial</li>
@@ -518,7 +518,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
                  width="600" height="360" loading="lazy">
           </div>
           <div class="service-card__body">
-            <div class="service-card__icon"><i data-lucide="door-open"></i></div>
+            <div class="service-card__icon"><?php echo lucide_icon('door-open'); ?></div>
             <h3>Windows and Doors</h3>
             <ul>
               <li>Energy-efficient replacements</li>
@@ -535,7 +535,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
                  width="600" height="360" loading="lazy">
           </div>
           <div class="service-card__body">
-            <div class="service-card__icon"><i data-lucide="wrench"></i></div>
+            <div class="service-card__icon"><?php echo lucide_icon('wrench'); ?></div>
             <h3>General Remodeling</h3>
             <ul>
               <li>Single rooms to whole homes</li>
