@@ -42,6 +42,13 @@ DirectoryIndex index.php index.html
 # Clean URLs
 <IfModule mod_rewrite.c>
     RewriteEngine On
+
+    # Dynamic sitemap — public URL stays /sitemap.xml
+    RewriteRule ^sitemap\.xml$ /sitemap.php [L]
+
+    # Legacy flat service URLs → canonical directory form
+    RewriteRule ^services/([a-z0-9-]+)\.php$ /services/$1/ [R=301,L]
+
     RewriteCond %{REQUEST_URI} !^/assets/
     RewriteCond %{REQUEST_URI} !^/includes/
     RewriteCond %{REQUEST_FILENAME} !-f

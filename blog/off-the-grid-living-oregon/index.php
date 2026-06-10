@@ -3,10 +3,10 @@
  * Blog Post: Off-the-Grid Living in Oregon
  * Superior Home Builders | Page One Insights v6.1
  */
-$pageTitle       = 'Off-the-Grid Living in Oregon: Embracing Self-Reliance in the Pacific Northwest | Superior Home Builders';
+$pageTitle       = 'Off-the-Grid Living in Oregon: Embracing Self-Reliance';
 $pageDescription = 'Oregon\'s diverse landscapes make it ideal for off-grid living. Learn the key elements, common mistakes to avoid, and why a local contractor who knows Oregon weather is essential for success.';
 $canonicalUrl    = 'https://superior-home-builders.pageone.cloud/blog/off-the-grid-living-oregon/';
-$ogImage         = 'https://i.imgur.com/2qn995t.jpeg';
+$ogImage         = $siteUrl . '/assets/images/blog/off-grid-homestead-oregon.webp';
 $currentPage     = 'blog';
 
 $postDate        = 'June 6, 2026';
@@ -22,7 +22,7 @@ $schemaMarkup = json_encode([
             '@id'              => 'https://superior-home-builders.pageone.cloud/blog/off-the-grid-living-oregon/#article',
             'headline'         => 'Off-the-Grid Living in Oregon: Embracing Self-Reliance in the Pacific Northwest',
             'description'      => 'Oregon\'s diverse landscapes make it ideal for off-grid living. Learn the key elements, common mistakes to avoid, and why a local contractor who knows Oregon weather is essential for success.',
-            'image'            => 'https://i.imgur.com/2qn995t.jpeg',
+            'image'            => $siteUrl . '/assets/images/blog/off-grid-homestead-oregon.webp',
             'datePublished'    => '2026-06-06',
             'dateModified'     => '2026-06-06',
             'author'           => [
@@ -55,500 +55,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 ?>
 
 <style>
-/* ════════════════════════════════════════════════════════════════════
-   BLOG POST — Off-the-Grid Living in Oregon
-   Page-specific premium styles — uses var() tokens from framework.css
-   Visual techniques: layered hero, editorial prose layout, image
-   reveal cards, pull quotes, tinted CTA block, SVG dividers
-   ════════════════════════════════════════════════════════════════════ */
-
-/* ── BLOG HERO ──────────────────────────────────────────────────── */
-.blog-hero {
-  position: relative;
-  min-height: 52vh;
-  display: flex;
-  align-items: flex-end;
-  padding-top: var(--nav-height);
-  overflow: hidden;
-  background: var(--color-primary);
-}
-.blog-hero__bg {
-  position: absolute;
-  inset: 0;
-  background-image: url('https://i.imgur.com/2qn995t.jpeg');
-  background-size: cover;
-  background-position: center 40%;
-  opacity: 0.38;
-  transform: scale(1.04);
-}
-.blog-hero::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    180deg,
-    rgba(var(--color-primary-rgb), 0.55) 0%,
-    rgba(var(--color-primary-rgb), 0.92) 70%,
-    rgba(var(--color-primary-rgb), 1) 100%
-  );
-  z-index: 1;
-}
-.blog-hero__inner {
-  position: relative;
-  z-index: 2;
-  width: 100%;
-  padding: var(--space-3xl) 0 var(--space-2xl);
-}
-.blog-hero__breadcrumb {
-  display: flex;
-  align-items: center;
-  gap: var(--space-sm);
-  font-size: var(--fs-xs);
-  color: rgba(255,255,255,0.6);
-  margin-bottom: var(--space-lg);
-  flex-wrap: wrap;
-}
-.blog-hero__breadcrumb a {
-  color: rgba(255,255,255,0.6);
-  transition: color var(--transition-fast);
-}
-.blog-hero__breadcrumb a:hover { color: var(--color-accent); }
-.blog-hero__breadcrumb-sep {
-  color: rgba(255,255,255,0.3);
-  font-size: 0.8em;
-}
-.blog-hero__category {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  background: rgba(var(--color-accent-rgb), 0.18);
-  border: 1px solid rgba(var(--color-accent-rgb), 0.4);
-  color: var(--color-accent);
-  font-size: var(--fs-xs);
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  padding: 5px var(--space-md);
-  border-radius: var(--radius-full);
-  margin-bottom: var(--space-lg);
-}
-.blog-hero__title {
-  font-family: var(--font-heading);
-  font-size: clamp(1.8rem, 4vw, 3.4rem);
-  font-weight: 900;
-  line-height: 1.08;
-  letter-spacing: -0.03em;
-  color: #fff;
-  text-wrap: balance;
-  max-width: 18ch;
-  margin-bottom: var(--space-xl);
-}
-.blog-hero__title em {
-  color: var(--color-accent);
-  font-style: italic;
-}
-.blog-hero__meta {
-  display: flex;
-  align-items: center;
-  gap: var(--space-lg);
-  flex-wrap: wrap;
-}
-.blog-hero__meta-item {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: var(--fs-sm);
-  color: rgba(255,255,255,0.65);
-}
-.blog-hero__meta-item i,
-.blog-hero__meta-item svg { width: 14px; height: 14px; flex-shrink: 0; }
-.blog-hero__meta-divider {
-  width: 1px;
-  height: 1rem;
-  background: rgba(255,255,255,0.2);
-}
-
-/* ── ARTICLE LAYOUT ─────────────────────────────────────────────── */
-.article-wrap {
-  background: var(--color-bg);
-  padding: var(--space-4xl) 0;
-}
-.article-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 320px;
-  gap: var(--space-3xl);
-  align-items: start;
-}
-
-/* ── ARTICLE BODY ───────────────────────────────────────────────── */
-.article-body {
-  min-width: 0;
-}
-.article-featured-img {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  border-radius: var(--radius-lg);
-  margin-bottom: var(--space-2xl);
-  box-shadow: var(--shadow-lg);
-}
-.article-body .prose {
-  max-width: 68ch;
-}
-.article-body p {
-  font-size: clamp(1rem, 1.4vw, 1.085rem);
-  line-height: 1.82;
-  color: var(--color-text);
-  margin-bottom: var(--space-lg);
-}
-.article-body h2 {
-  font-family: var(--font-heading);
-  font-size: clamp(1.35rem, 2.4vw, 1.85rem);
-  font-weight: 900;
-  letter-spacing: -0.025em;
-  color: var(--color-primary);
-  margin: var(--space-3xl) 0 var(--space-lg);
-  line-height: 1.2;
-  text-wrap: balance;
-}
-.article-body h2::before {
-  content: '';
-  display: block;
-  width: 40px;
-  height: 3px;
-  background: var(--color-accent);
-  margin-bottom: var(--space-sm);
-  border-radius: 2px;
-}
-.article-body h3 {
-  font-family: var(--font-heading);
-  font-size: clamp(1.05rem, 1.8vw, 1.25rem);
-  font-weight: 700;
-  color: var(--color-secondary);
-  margin: var(--space-xl) 0 var(--space-md);
-}
-
-/* ── ORDERED / UNORDERED LISTS ──────────────────────────────────── */
-.article-body ol,
-.article-body ul {
-  padding-left: 0;
-  margin: var(--space-lg) 0 var(--space-xl);
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-md);
-}
-.article-body ol { counter-reset: article-ol; }
-.article-body ol li {
-  counter-increment: article-ol;
-  padding: var(--space-md) var(--space-lg) var(--space-md) calc(var(--space-lg) + 2.5rem);
-  background: var(--color-bg-alt);
-  border-radius: var(--radius);
-  position: relative;
-  font-size: 0.975rem;
-  line-height: 1.7;
-  color: var(--color-text);
-  border-left: 3px solid var(--color-accent);
-}
-.article-body ol li::before {
-  content: counter(article-ol);
-  position: absolute;
-  left: var(--space-md);
-  top: 50%;
-  transform: translateY(-50%);
-  width: 1.8rem;
-  height: 1.8rem;
-  background: var(--color-secondary);
-  color: #fff;
-  font-family: var(--font-heading);
-  font-size: 0.8rem;
-  font-weight: 900;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.article-body ul li {
-  padding-left: var(--space-xl);
-  position: relative;
-  font-size: 0.975rem;
-  line-height: 1.7;
-  color: var(--color-text);
-}
-.article-body ul li::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0.55em;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--color-accent);
-  border: 2px solid var(--color-secondary);
-}
-.article-body ol li strong,
-.article-body ul li strong {
-  color: var(--color-primary);
-  font-weight: 700;
-}
-
-/* ── INLINE IMAGES ──────────────────────────────────────────────── */
-.article-img-block {
-  margin: var(--space-2xl) 0;
-}
-.article-img-block img {
-  width: 100%;
-  border-radius: var(--radius-lg);
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  box-shadow: var(--shadow-lg);
-  display: block;
-}
-.article-img-block figcaption {
-  font-size: var(--fs-xs);
-  color: var(--color-text-light);
-  text-align: center;
-  margin-top: var(--space-sm);
-  font-style: italic;
-}
-
-/* ── PULL QUOTE ─────────────────────────────────────────────────── */
-.pull-quote {
-  margin: var(--space-3xl) 0;
-  padding: var(--space-2xl) var(--space-xl);
-  background: var(--color-primary);
-  border-radius: var(--radius-lg);
-  position: relative;
-  overflow: hidden;
-}
-.pull-quote::before {
-  content: '"';
-  position: absolute;
-  top: -0.3em;
-  left: var(--space-lg);
-  font-family: var(--font-heading);
-  font-size: 9rem;
-  color: rgba(var(--color-accent-rgb), 0.12);
-  line-height: 1;
-  pointer-events: none;
-  user-select: none;
-}
-.pull-quote p {
-  font-family: var(--font-heading);
-  font-size: clamp(1.05rem, 2vw, 1.35rem) !important;
-  font-style: italic;
-  font-weight: 400;
-  color: #fff !important;
-  line-height: 1.65 !important;
-  margin: 0 !important;
-  position: relative;
-  z-index: 1;
-}
-
-/* ── ARTICLE SIDEBAR ────────────────────────────────────────────── */
-.article-sidebar {
-  position: sticky;
-  top: calc(var(--nav-height) + var(--space-xl));
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-xl);
-}
-.sidebar-card {
-  background: var(--color-bg-alt);
-  border-radius: var(--radius-lg);
-  padding: var(--space-xl);
-  border: 1px solid var(--color-border);
-}
-.sidebar-card h4 {
-  font-family: var(--font-heading);
-  font-size: 0.875rem;
-  font-weight: 900;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--color-primary);
-  margin-bottom: var(--space-md);
-  display: flex;
-  align-items: center;
-  gap: var(--space-sm);
-}
-.sidebar-card h4 i,
-.sidebar-card h4 svg {
-  width: 15px; height: 15px;
-  color: var(--color-accent);
-  flex-shrink: 0;
-}
-.toc-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-.toc-list li a {
-  display: block;
-  font-size: var(--fs-sm);
-  color: var(--color-text-light);
-  padding: 6px var(--space-sm);
-  border-radius: var(--radius-sm);
-  transition: background var(--transition-fast), color var(--transition-fast);
-  line-height: 1.4;
-}
-.toc-list li a:hover {
-  background: rgba(var(--color-secondary-rgb), 0.08);
-  color: var(--color-secondary);
-}
-
-/* ── SIDEBAR CTA ────────────────────────────────────────────────── */
-.sidebar-cta {
-  background: var(--color-secondary);
-  border-radius: var(--radius-lg);
-  padding: var(--space-xl);
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-.sidebar-cta::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(135deg, rgba(var(--color-accent-rgb), 0.12) 0%, transparent 60%);
-  pointer-events: none;
-}
-.sidebar-cta h4 {
-  font-family: var(--font-heading);
-  font-size: 1.05rem;
-  font-weight: 900;
-  color: #fff;
-  margin-bottom: var(--space-sm);
-  position: relative;
-}
-.sidebar-cta p {
-  font-size: var(--fs-sm);
-  color: rgba(255,255,255,0.75);
-  line-height: 1.55;
-  margin-bottom: var(--space-lg);
-  position: relative;
-}
-.sidebar-cta .btn {
-  width: 100%;
-  position: relative;
-}
-
-/* ── ARTICLE BOTTOM CTA ─────────────────────────────────────────── */
-.article-cta-block {
-  margin-top: var(--space-3xl);
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-  border-radius: var(--radius-lg);
-  padding: var(--space-2xl) var(--space-2xl);
-  display: flex;
-  gap: var(--space-2xl);
-  align-items: center;
-  position: relative;
-  overflow: hidden;
-}
-.article-cta-block::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
-  background-size: 200px 200px;
-  pointer-events: none;
-}
-.article-cta-icon {
-  width: 72px;
-  height: 72px;
-  min-width: 72px;
-  background: rgba(var(--color-accent-rgb), 0.15);
-  border: 2px solid rgba(var(--color-accent-rgb), 0.4);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-accent);
-  position: relative;
-}
-.article-cta-icon i,
-.article-cta-icon svg { width: 32px; height: 32px; }
-.article-cta-copy { position: relative; flex: 1; min-width: 0; }
-.article-cta-copy h3 {
-  font-family: var(--font-heading);
-  font-size: clamp(1.1rem, 2vw, 1.5rem);
-  font-weight: 900;
-  color: #fff;
-  margin-bottom: var(--space-sm);
-  text-wrap: balance;
-}
-.article-cta-copy p {
-  font-size: var(--fs-sm);
-  color: rgba(255,255,255,0.75);
-  line-height: 1.6;
-  margin: 0;
-}
-.article-cta-actions {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-sm);
-  min-width: 0;
-  position: relative;
-}
-
-/* ── DIVIDERS ───────────────────────────────────────────────────── */
-.divider-blog-top {
-  background: var(--color-bg);
-  line-height: 0;
-}
-.divider-blog-top svg { display: block; width: 100%; }
-
-/* ── BACK TO BLOG ───────────────────────────────────────────────── */
-.back-to-blog {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-sm);
-  font-size: var(--fs-sm);
-  font-weight: 600;
-  color: var(--color-secondary);
-  padding: var(--space-sm) 0;
-  transition: color var(--transition-fast), gap var(--transition-fast);
-  margin-bottom: var(--space-2xl);
-}
-.back-to-blog:hover {
-  color: var(--color-primary);
-  gap: var(--space-md);
-}
-.back-to-blog i,
-.back-to-blog svg { width: 16px; height: 16px; }
-
-/* ── RESPONSIVE ─────────────────────────────────────────────────── */
-@media (max-width: 1024px) {
-  .article-layout {
-    grid-template-columns: 1fr;
-  }
-  .article-sidebar {
-    position: static;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--space-lg);
-  }
-}
+/* Post-specific styles only — the shared blog article template
+   (hero, article layout, TOC, sidebar, CTA blocks) lives in framework.css */
+.blog-hero { position: relative; min-height: 52vh; display: flex; align-items: flex-end; padding-top: var(--nav-height); overflow: hidden; background: var(--color-primary); }
+.blog-hero__bg { position: absolute; inset: 0; background-image: url('/assets/images/blog/off-grid-homestead-oregon.webp'); background-size: cover; background-position: center 40%; opacity: 0.38; transform: scale(1.04); }
+.blog-hero::before { content: ''; position: absolute; inset: 0; background: linear-gradient( 180deg, rgba(var(--color-primary-rgb), 0.55) 0%, rgba(var(--color-primary-rgb), 0.92) 70%, rgba(var(--color-primary-rgb), 1) 100% ); z-index: 1; }
+.blog-hero__title { font-family: var(--font-heading); font-size: clamp(1.8rem, 4vw, 3.4rem); font-weight: 900; line-height: 1.08; letter-spacing: -0.03em; color: #fff; text-wrap: balance; max-width: 18ch; margin-bottom: var(--space-xl); }
+.sidebar-cta h4 { font-family: var(--font-heading); font-size: 1.05rem; font-weight: 900; color: #fff; margin-bottom: var(--space-sm); position: relative; }
 @media (max-width: 767px) {
-  body { padding-bottom: 66px; }
   .blog-hero { min-height: 46vh; }
-  .blog-hero__title { max-width: none; }
-  .article-sidebar {
-    grid-template-columns: 1fr;
-  }
-  .article-cta-block {
-    flex-direction: column;
-    text-align: center;
-  }
-  .article-cta-icon { margin: 0 auto; }
-  .article-cta-actions { width: 100%; }
-  .article-cta-actions .btn { width: 100%; }
-  .article-body ol li::before {
-    top: var(--space-md);
-    transform: none;
-  }
 }
 </style>
 
@@ -613,7 +128,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   <meta itemprop="headline"      content="Off-the-Grid Living in Oregon: Embracing Self-Reliance in the Pacific Northwest">
   <meta itemprop="datePublished" content="<?php echo $postDateISO; ?>">
   <meta itemprop="author"        content="<?php echo htmlspecialchars($postAuthor); ?>">
-  <meta itemprop="image"         content="https://i.imgur.com/2qn995t.jpeg">
+  <meta itemprop="image"         content="<?php echo $siteUrl; ?>/assets/images/blog/off-grid-homestead-oregon.webp">
 
   <div class="container">
     <div class="article-layout">
@@ -628,7 +143,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <!-- Featured image -->
         <img
-          src="https://i.imgur.com/2qn995t.jpeg"
+          src="/assets/images/blog/off-grid-homestead-oregon.webp"
           alt="Off-grid homestead in Oregon — remote property with forest backdrop and Pacific Northwest landscape"
           class="article-featured-img"
           width="1200"
@@ -654,7 +169,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <!-- Inline image -->
         <figure class="article-img-block reveal-up">
           <img
-            src="https://i.imgur.com/D8Q4LI6.jpeg"
+            src="/assets/images/blog/off-grid-solar-panels.webp"
             alt="Solar panels on an off-grid home in Eastern Oregon — clean energy setup for self-sufficient living"
             width="1200"
             height="675"
@@ -710,7 +225,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <!-- Inline image -->
         <figure class="article-img-block reveal-up">
           <img
-            src="https://i.imgur.com/NjRGfOQ.jpeg"
+            src="/assets/images/blog/off-grid-structural-framing.webp"
             alt="Custom off-grid home construction in rural Oregon — framing and structural work for a self-reliant homestead"
             width="1200"
             height="675"
@@ -736,7 +251,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <!-- Inline image -->
         <figure class="article-img-block reveal-up">
           <img
-            src="https://i.imgur.com/ncxOF1x.jpeg"
+            src="/assets/images/blog/eastern-oregon-high-desert-site.webp"
             alt="Superior Home Builders working on an off-grid custom home project in Eastern Oregon — skilled craftsmanship in challenging terrain"
             width="1200"
             height="675"
@@ -818,6 +333,71 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     </div><!-- /.article-layout -->
   </div><!-- /.container -->
 </article>
+
+<!-- ════════════════════════════════════════════════════════════════
+     RELATED ARTICLES — cards pulled from includes/blog-data.php
+════════════════════════════════════════════════════════════════ -->
+<?php
+require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/blog-data.php';
+$currentSlug  = basename(__DIR__);
+$relatedPosts = array_slice(array_values(array_filter(
+    $blogPosts,
+    function ($p) use ($currentSlug) { return $p['slug'] !== $currentSlug; }
+)), 0, 3);
+?>
+<?php if (!empty($relatedPosts)): ?>
+<section class="related-articles" aria-label="Related articles">
+  <div class="container">
+
+    <div class="section-title reveal-up">
+      <span class="eyebrow-label">Keep Reading</span>
+      <h2>Related <em style="color:var(--color-secondary);font-style:italic">Articles</em></h2>
+    </div>
+
+    <div class="related-articles__grid">
+      <?php foreach ($relatedPosts as $ridx => $rp): ?>
+      <article class="blog-card reveal-up reveal-delay-<?php echo min($ridx + 1, 4); ?>" aria-label="<?php echo htmlspecialchars($rp['title']); ?>">
+
+        <div class="blog-card__image-wrap">
+          <img
+            src="<?php echo htmlspecialchars($rp['image']); ?>"
+            alt="<?php echo htmlspecialchars($rp['alt']); ?>"
+            width="800"
+            height="450"
+            loading="lazy">
+          <span class="blog-card__category-badge"><?php echo htmlspecialchars($rp['category']); ?></span>
+        </div>
+
+        <div class="blog-card__body">
+          <div class="blog-card__meta">
+            <div class="blog-card__meta-item">
+              <i data-lucide="calendar"></i>
+              <time datetime="<?php echo htmlspecialchars($rp['dateISO']); ?>"><?php echo htmlspecialchars($rp['date']); ?></time>
+            </div>
+            <div class="blog-card__meta-item">
+              <i data-lucide="clock"></i>
+              <span><?php echo htmlspecialchars($rp['readtime']); ?></span>
+            </div>
+          </div>
+
+          <h3>
+            <a href="/blog/<?php echo htmlspecialchars($rp['slug']); ?>/">
+              <?php echo htmlspecialchars($rp['title']); ?>
+            </a>
+          </h3>
+
+          <a href="/blog/<?php echo htmlspecialchars($rp['slug']); ?>/" class="blog-card__read-more">
+            Read Article <i data-lucide="arrow-right"></i>
+          </a>
+        </div>
+
+      </article>
+      <?php endforeach; ?>
+    </div><!-- /.related-articles__grid -->
+
+  </div>
+</section>
+<?php endif; ?>
 
 <?php if (!empty($schemaMarkup)): ?>
 <script type="application/ld+json"><?php echo $schemaMarkup; ?></script>

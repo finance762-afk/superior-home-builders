@@ -819,13 +819,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="about-story-images reveal-left">
         <div class="about-img-primary">
           <img
-            src="https://i.imgur.com/geXyYqc.jpeg"
+            src="/assets/images/owner-eastern-oregon-builder.webp"
             alt="Superior Home Builders owner — licensed general contractor serving Eastern Oregon since 2004"
             width="600" height="450" loading="lazy">
         </div>
         <div class="about-img-secondary">
           <img
-            src="https://i.imgur.com/HwUDGNg.jpeg"
+            src="/assets/images/owner-construction-project.webp"
             alt="Superior Home Builders owner on a construction project in Grant County, Oregon"
             width="400" height="300" loading="lazy">
         </div>
@@ -1027,7 +1027,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <div class="about-photo-break" aria-hidden="true">
   <img
     src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604104586-837vw8-20221127_142618.jpg"
-    alt=""
+    alt="Custom home construction project underway in Eastern Oregon"
     width="1440" height="420" loading="lazy">
 </div>
 
@@ -1084,7 +1084,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
       <div class="about-trust-image reveal-right">
         <img
-          src="https://i.imgur.com/N70OZA5.jpeg"
+          src="/assets/images/owner-completed-project.webp"
           alt="Superior Home Builders owner at a completed construction project in Mount Vernon, Oregon"
           width="720" height="540" loading="lazy">
       </div>

@@ -8,7 +8,7 @@ $pageTitle        = 'Custom Home Builders in Mount Vernon, OR | Superior Home Bu
 $pageDescription  = 'Superior Home Builders — Eastern Oregon\'s custom home builder & general contractor. Serving Mount Vernon, John Day & Grant County since 2004. Free estimates on new builds, remodels & commercial construction.';
 $canonicalUrl     = $siteUrl . '/';
 $currentPage      = 'home';
-$heroImagePreload = 'https://i.imgur.com/oMx2iJQ.jpeg';
+$heroImagePreload = $siteUrl . '/assets/images/hero-custom-home.webp';
 $ogImage          = $heroImagePreload;
 $useSwiper        = true;
 
@@ -83,14 +83,14 @@ $siteReviews = [
 
 // ── Service card photo manifest ───────────────────────────────────────────────
 $servicePhotos = [
-    'bathroom-remodeling'    => 'https://i.imgur.com/HFlX9OA.jpeg',
-    'kitchen-remodeling'     => 'https://i.imgur.com/zz4PVi4.jpeg',
-    'windows-and-doors'      => 'https://i.imgur.com/WX1olC4.jpeg',
-    'decks'                  => 'https://i.imgur.com/hZ7oAdF.jpeg',
-    'framing'                => 'https://i.imgur.com/P5mpaVS.jpeg',
+    'bathroom-remodeling'    => $siteUrl . '/assets/images/bathroom-remodel-tile.webp',
+    'kitchen-remodeling'     => $siteUrl . '/assets/images/kitchen-remodel-mount-vernon.webp',
+    'windows-and-doors'      => $siteUrl . '/assets/images/window-installation-mount-vernon.webp',
+    'decks'                  => $siteUrl . '/assets/images/custom-deck-construction.webp',
+    'framing'                => $siteUrl . '/assets/images/custom-home-framing.webp',
     'custom-home-building'   => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604304191-9h3673-466678023_10160894523422734_2342757114398857707_n.jpg',
     'general-remodeling'     => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604102234-3xpgf4-20221109_161614.jpg',
-    'commercial-construction' => 'https://i.imgur.com/l0nSXr7.jpeg',
+    'commercial-construction' => $siteUrl . '/assets/images/commercial-construction-eastern-oregon.webp',
 ];
 
 $serviceIcons = [
@@ -1115,12 +1115,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <section class="hero" aria-label="Superior Home Builders — Mount Vernon, OR">
   <!-- Background image slider -->
   <div class="hero-slides" aria-hidden="true">
-    <div class="hero-slide is-active" style="background-image:url('https://i.imgur.com/oMx2iJQ.jpeg')"></div>
-    <div class="hero-slide" style="background-image:url('https://i.imgur.com/B2nro4g.jpeg')"></div>
-    <div class="hero-slide" style="background-image:url('https://i.imgur.com/ugQb03U.jpeg')"></div>
-    <div class="hero-slide" style="background-image:url('https://i.imgur.com/a8DWOTi.jpeg')"></div>
-    <div class="hero-slide" style="background-image:url('https://i.imgur.com/SDm3NuE.jpeg')"></div>
-    <div class="hero-slide" style="background-image:url('https://i.imgur.com/A5Vj3DL.jpeg')"></div>
+    <div class="hero-slide is-active" style="background-image:url('/assets/images/hero-custom-home.webp')"></div>
+    <div class="hero-slide" style="background-image:url('/assets/images/blog/remote-property-mountain-backdrop.webp')"></div>
+    <div class="hero-slide" style="background-image:url('/assets/images/blog/rural-parcel-site-planning.webp')"></div>
+    <div class="hero-slide" style="background-image:url('/assets/images/blog/raw-land-eastern-oregon.webp')"></div>
+    <div class="hero-slide" style="background-image:url('/assets/images/new-windows-mount-vernon.webp')"></div>
+    <div class="hero-slide" style="background-image:url('/assets/images/hero-slide-construction.webp')"></div>
   </div>
   <div class="hero-inner">
     <div class="container">
@@ -1285,9 +1285,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         offer in <em style="color:var(--color-secondary);font-style:italic">Mount Vernon?</em>
       </h2>
       <p class="hero-answer">
-        From full custom home builds to targeted bathroom and kitchen remodels,
-        we handle every phase of residential and commercial construction in
-        Eastern Oregon. One contractor, complete capability.
+        Superior Home Builders handles every phase of residential and commercial
+        construction in Mount Vernon and Eastern Oregon — full custom home builds,
+        bathroom and kitchen remodels, structural framing, decks, window and door
+        installation, and commercial projects. Licensed, insured, and building in
+        Grant County since 2004, with free written estimates on every job.
       </p>
       <span class="section-subtitle-accent"><?= htmlspecialchars($tagline) ?></span>
     </div>
@@ -1494,7 +1496,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="about-right reveal-right">
         <div class="about-image-wrap">
           <img
-            src="https://i.imgur.com/geXyYqc.jpeg"
+            src="/assets/images/owner-eastern-oregon-builder.webp"
             alt="Superior Home Builders owner — Eastern Oregon custom home builder and general contractor"
             width="600" height="750"
             loading="lazy">
@@ -1641,42 +1643,46 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <h2>Building Knowledge for <em style="color:var(--color-secondary);font-style:italic">Eastern Oregon</em> Homeowners</h2>
     </div>
 
-    <!-- Featured post card -->
-    <article class="blog-preview-card reveal-up" aria-label="Off-the-Grid Living in Oregon">
+    <!-- Featured post card — auto-pulls the latest post from includes/blog-data.php -->
+    <?php
+    require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/blog-data.php';
+    $latestPost = $blogPosts[0];
+    ?>
+    <article class="blog-preview-card reveal-up" aria-label="<?php echo htmlspecialchars($latestPost['title']); ?>">
 
       <div class="blog-preview-card__img-wrap">
         <img
-          src="https://i.imgur.com/2qn995t.jpeg"
-          alt="Off-grid homestead in rural Oregon — remote property surrounded by Pacific Northwest forest"
+          src="<?php echo htmlspecialchars($latestPost['image']); ?>"
+          alt="<?php echo htmlspecialchars($latestPost['alt']); ?>"
           width="800"
           height="600"
           loading="lazy">
-        <span class="blog-preview-card__badge">Construction &amp; Building Tips</span>
+        <span class="blog-preview-card__badge"><?php echo htmlspecialchars($latestPost['category']); ?></span>
       </div>
 
       <div class="blog-preview-card__body">
         <div class="blog-preview-card__meta">
           <div class="blog-preview-card__meta-item">
             <i data-lucide="calendar"></i>
-            <time datetime="2026-06-06">June 6, 2026</time>
+            <time datetime="<?php echo htmlspecialchars($latestPost['dateISO']); ?>"><?php echo htmlspecialchars($latestPost['date']); ?></time>
           </div>
           <div class="blog-preview-card__meta-item">
             <i data-lucide="clock"></i>
-            <span>8 min read</span>
+            <span><?php echo htmlspecialchars($latestPost['readtime']); ?></span>
           </div>
         </div>
 
         <h3 class="blog-preview-card__title">
-          <a href="/blog/off-the-grid-living-oregon/">
-            Off-the-Grid Living in Oregon: Embracing Self-Reliance in the Pacific Northwest
+          <a href="/blog/<?php echo htmlspecialchars($latestPost['slug']); ?>/">
+            <?php echo htmlspecialchars($latestPost['title']); ?>
           </a>
         </h3>
 
         <p class="blog-preview-card__excerpt">
-          Oregon's stunning landscapes make it a dream destination for off-grid living — but success demands careful planning. Learn the key elements, common pitfalls, and why working with a local contractor who knows Oregon's weather is critical to building a resilient homestead.
+          <?php echo htmlspecialchars($latestPost['excerpt']); ?>
         </p>
 
-        <a href="/blog/off-the-grid-living-oregon/" class="blog-preview-card__cta">
+        <a href="/blog/<?php echo htmlspecialchars($latestPost['slug']); ?>/" class="blog-preview-card__cta">
           Read the Full Article <i data-lucide="arrow-right"></i>
         </a>
       </div>

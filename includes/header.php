@@ -25,7 +25,7 @@ if (!function_exists('isActivePage')) {
           <img src="<?php echo htmlspecialchars($logoUrl); ?>"
                alt="<?php echo htmlspecialchars($siteName); ?> logo"
                width="180" height="54"
-               fetchpriority="high">
+               loading="eager" fetchpriority="high">
         </a>
 
         <!-- Desktop Nav Links -->

@@ -85,11 +85,11 @@ foreach ($serviceAreas as $area) {
   <link rel="dns-prefetch" href="https://db.pageone.cloud">
   <link rel="dns-prefetch" href="https://unpkg.com">
 
-  <!-- Fonts: Merriweather (heading + accent italic) + Merriweather Sans (body) -->
+  <!-- Fonts: Merriweather (heading + accent italic) + Merriweather Sans (body) — variable wght+ital axes -->
   <link rel="preload" as="style"
-        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,900&family=Merriweather+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap">
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300..900;1,300..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap">
   <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,900&family=Merriweather+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap">
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300..900;1,300..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap">
 
   <!-- Hero image preload (reduces LCP when set by calling page) -->
 <?php if (!empty($heroImagePreload)): ?>

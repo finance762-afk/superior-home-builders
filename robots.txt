@@ -27,6 +27,5 @@ Allow: /
 User-agent: FacebookBot
 Allow: /
 
-# Sitemaps
+# Sitemap (dynamic — /sitemap.xml rewrites to sitemap.php; includes per-URL image entries)
 Sitemap: https://superior-home-builders.pageone.cloud/sitemap.xml
-Sitemap: https://superior-home-builders.pageone.cloud/sitemap-images.xml

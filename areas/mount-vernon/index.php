@@ -3,7 +3,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/config.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 ?>
 <?php
-$pageTitle       = 'Custom Home Builders in Mount Vernon, OR | Superior Home Builders';
+$pageTitle       = 'Home Building & Remodeling in Mount Vernon, OR | Superior Home Builders';
 $pageDescription = 'Superior Home Builders is Mount Vernon, OR\'s home base — licensed general contractor for custom home building, kitchen & bathroom remodeling, decks, framing, and commercial construction in Grant County since 2004.';
 $canonicalUrl    = $siteUrl . '/areas/mount-vernon/';
 $currentPage     = 'service-area';
