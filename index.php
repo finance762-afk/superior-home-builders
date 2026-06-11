@@ -5,7 +5,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 <?php
 // ── Page-level setup ─────────────────────────────────────────────────────────
 $pageTitle        = 'Custom Home Builders in Mount Vernon, OR | Superior Home Builders';
-$pageDescription  = 'Superior Home Builders — Eastern Oregon\'s custom home builder & general contractor. Serving Mount Vernon, John Day & Grant County since 2004. Free estimates on new builds, remodels & commercial construction.';
+$pageDescription  = 'Superior Home Builders — Eastern Oregon\'s custom home builder & general contractor. Serving Mount Vernon, John Day & Grant County for 25+ years. Free estimates on new builds, remodels & commercial construction.';
 $canonicalUrl     = $siteUrl . '/';
 $currentPage      = 'home';
 $heroImagePreload = '/assets/images/hero-custom-home.webp';
@@ -28,7 +28,7 @@ $homeFaqs = [
     ],
     [
         'q' => 'What areas does Superior Home Builders serve beyond Mount Vernon?',
-        'a' => 'We regularly work throughout Grant County including John Day, Canyon City, and Prairie City. We also take select projects further west including the Salem area. Contact us to discuss whether your location falls within our service radius.',
+        'a' => 'We regularly work throughout Grant County including John Day, Canyon City, and Prairie City, as well as communities across Eastern Oregon. Contact us to discuss whether your project location falls within our service radius.',
     ],
     [
         'q' => 'Is Superior Home Builders licensed and insured in Oregon?',
@@ -336,7 +336,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 /* ── TICKER STRIP ──────────────────────────────────────────────── */
 .ticker-strip {
   background: var(--color-accent);
-  padding: var(--space-md) 0;
+  padding: 12px 0;
   overflow: hidden;
   position: relative;
 }
@@ -374,6 +374,14 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
 /* ── NUMBERED SECTION LABELS ────────────────────────────────────── */
 .numbered-section { position: relative; }
+/* Services on a cool blue tint background */
+#services {
+  background: linear-gradient(175deg, #ffffff 0%, rgba(7, 33, 89, 0.05) 100%);
+}
+/* FAQ on a warm gold tint background */
+#faq {
+  background: linear-gradient(180deg, rgba(248, 229, 104, 0.08) 0%, rgba(248, 229, 104, 0.04) 100%);
+}
 .section-num {
   position: absolute;
   top: var(--space-2xl);
@@ -449,18 +457,23 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   flex: 1;
 }
 .service-card__icon {
-  width: 54px;
-  height: 54px;
+  width: 56px;
+  height: 56px;
   border-radius: var(--radius-full);
-  background: var(--color-bg);
-  box-shadow: var(--shadow-md);
+  background: var(--color-accent);
+  box-shadow: 0 4px 0 var(--color-accent-dark), var(--shadow-md);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -38px;
+  margin-top: -40px;
   margin-bottom: var(--space-xs);
-  color: var(--color-accent);
+  color: var(--color-primary);
   flex-shrink: 0;
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+.service-card-with-image:hover .service-card__icon {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 var(--color-accent-dark), var(--shadow-lg);
 }
 .service-card__icon i,
 .service-card__icon svg { width: 24px; height: 24px; }
@@ -533,12 +546,27 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
 /* ── STATS ──────────────────────────────────────────────────────── */
 .stats-section {
-  background: var(--color-primary);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
   padding: var(--space-3xl) 0;
   position: relative;
   overflow: hidden;
 }
-/* Technique 4: Floating decorative accent (large watermark number) */
+/* Subtle diagonal texture */
+.stats-section::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    60deg,
+    transparent,
+    transparent 40px,
+    rgba(255,255,255,0.015) 40px,
+    rgba(255,255,255,0.015) 42px
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+/* Large watermark number */
 .stats-section::before {
   content: attr(data-watermark);
   position: absolute;
@@ -548,10 +576,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   font-size: clamp(10rem, 20vw, 22rem);
   font-weight: 900;
   font-style: italic;
-  color: rgba(255,255,255,0.03);
+  color: rgba(248, 229, 104, 0.06);
   line-height: 1;
   pointer-events: none;
   letter-spacing: -0.06em;
+  z-index: 0;
 }
 .stats-grid {
   display: grid;
@@ -564,17 +593,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   text-align: center;
   padding: var(--space-2xl) var(--space-md);
   border-radius: var(--radius-lg);
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255,255,255,0.07);
-  transition: background var(--transition-base), border-color var(--transition-base);
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.10);
+  transition: background var(--transition-base), border-color var(--transition-base), transform var(--transition-base);
 }
 .stat-item:hover {
-  background: rgba(255,255,255,0.07);
-  border-color: rgba(var(--color-accent-rgb), 0.30);
+  background: rgba(255,255,255,0.10);
+  border-color: rgba(var(--color-accent-rgb), 0.45);
+  transform: translateY(-3px);
 }
 .stat-number {
   font-family: var(--font-heading);
-  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
   font-weight: 900;
   font-style: italic;
   color: var(--color-accent);
@@ -582,6 +612,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   letter-spacing: -0.04em;
   display: block;
   margin-bottom: var(--space-xs);
+  text-shadow: 0 2px 12px rgba(248, 229, 104, 0.25);
 }
 .stat-suffix {
   font-size: 0.65em;
@@ -594,7 +625,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.55);
+  color: rgba(255,255,255,0.65);
   display: block;
 }
 
@@ -620,23 +651,43 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 }
 .divider-angle svg { display: block; width: 100%; height: 100%; }
 
-/* ── MID CTA BANNER ─────────────────────────────────────────────── */
+/* ── MID CTA BANNER — bold accent-yellow background ─────────────── */
 .cta-banner {
-  background: linear-gradient(
-    115deg,
-    var(--color-secondary) 0%,
-    var(--color-primary) 100%
-  );
+  background: var(--color-accent);
   padding: var(--space-3xl) 0;
   position: relative;
   overflow: hidden;
 }
+/* Diagonal stripe texture on yellow */
 .cta-banner::before {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-image: repeating-linear-gradient(
+    -55deg,
+    transparent,
+    transparent 18px,
+    rgba(15, 18, 25, 0.04) 18px,
+    rgba(15, 18, 25, 0.04) 20px
+  );
   pointer-events: none;
+}
+/* Decorative large quote mark */
+.cta-banner::after {
+  content: '25';
+  position: absolute;
+  right: 4%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--font-heading);
+  font-size: clamp(8rem, 18vw, 16rem);
+  font-weight: 900;
+  font-style: italic;
+  color: rgba(15, 18, 25, 0.06);
+  line-height: 1;
+  pointer-events: none;
+  user-select: none;
+  letter-spacing: -0.06em;
 }
 .cta-banner .container { position: relative; z-index: 1; }
 .cta-banner-inner {
@@ -646,15 +697,40 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   gap: var(--space-2xl);
 }
 .cta-banner-copy h2 {
-  color: #fff;
+  color: var(--color-primary);
   font-size: clamp(1.5rem, 3vw, 2.4rem);
   margin-bottom: var(--space-sm);
 }
 .cta-banner-copy p {
-  color: rgba(255,255,255,0.70);
+  color: rgba(15, 18, 25, 0.72);
   font-size: clamp(0.95rem, 1.5vw, 1.05rem);
   max-width: 50ch;
   margin: 0;
+}
+/* On yellow background: override buttons to dark primary + dark-outline */
+.cta-banner .btn-secondary {
+  background: var(--color-primary);
+  color: #fff;
+  border-color: var(--color-primary);
+  box-shadow: 0 4px 0 var(--color-primary-dark);
+}
+.cta-banner .btn-secondary:hover {
+  background: var(--color-secondary);
+  border-color: var(--color-secondary);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 #041440;
+}
+.cta-banner .btn-outline {
+  background: transparent;
+  color: var(--color-primary);
+  border-color: rgba(15, 18, 25, 0.40);
+  box-shadow: none;
+}
+.cta-banner .btn-outline:hover {
+  background: rgba(15, 18, 25, 0.08);
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  transform: translateY(-1px);
 }
 .cta-banner-actions {
   display: flex;
@@ -663,8 +739,21 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   flex-wrap: wrap;
 }
 
-/* ── ABOUT / PROCESS ────────────────────────────────────────────── */
-.about-section { background: var(--color-bg-alt); }
+/* ── ABOUT / PROCESS — rich navy blue background ───────────────── */
+.about-section {
+  background: var(--color-secondary);
+  position: relative;
+}
+/* Subtle noise texture on navy */
+.about-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 80% 50%, rgba(248, 229, 104, 0.06) 0%, transparent 65%);
+  pointer-events: none;
+  z-index: 0;
+}
+.about-section .container { position: relative; z-index: 1; }
 /* Technique 6: Asymmetric broken-grid layout */
 .about-layout {
   display: grid;
@@ -673,16 +762,25 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   align-items: start;
 }
 .about-left {}
+.about-section .eyebrow-label {
+  color: var(--color-accent);
+}
+.about-section h2 {
+  color: #fff;
+}
+.about-section h2 em {
+  color: var(--color-accent) !important;
+}
 .about-tagline {
   font-family: var(--font-accent);
   font-style: italic;
   font-size: clamp(1.15rem, 2vw, 1.4rem);
-  color: var(--color-secondary);
+  color: rgba(255,255,255,0.75);
   margin-bottom: var(--space-lg);
   display: block;
 }
 .about-text {
-  color: var(--color-text);
+  color: rgba(255,255,255,0.82);
   font-size: clamp(0.95rem, 1.3vw, 1.05rem);
   line-height: 1.80;
   margin-bottom: var(--space-md);
@@ -693,7 +791,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--color-primary);
+  color: var(--color-accent);
   margin: var(--space-2xl) 0 var(--space-lg);
 }
 .process-steps { display: flex; flex-direction: column; gap: var(--space-lg); }
@@ -707,8 +805,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   width: 44px;
   height: 44px;
   border-radius: var(--radius-full);
-  background: var(--color-primary);
-  color: var(--color-accent);
+  background: var(--color-accent);
+  color: var(--color-primary);
   font-family: var(--font-heading);
   font-size: 1rem;
   font-weight: 900;
@@ -717,18 +815,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  box-shadow: var(--shadow-sm);
+  box-shadow: 0 3px 0 var(--color-accent-dark);
 }
 .step-body h4 {
   font-family: var(--font-heading);
   font-size: 1rem;
   font-weight: 800;
-  color: var(--color-primary);
+  color: #fff;
   margin-bottom: 4px;
 }
 .step-body p {
   font-size: var(--fs-sm);
-  color: var(--color-text-light);
+  color: rgba(255,255,255,0.65);
   margin: 0;
   line-height: 1.6;
 }
@@ -754,11 +852,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   position: absolute;
   bottom: var(--space-xl);
   left: calc(-1 * var(--space-xl));
-  background: var(--color-bg);
+  background: var(--color-accent);
   border-radius: var(--radius-lg);
   padding: var(--space-lg) var(--space-xl);
-  box-shadow: var(--shadow-xl);
-  border-left: 4px solid var(--color-accent);
+  box-shadow: 0 8px 0 var(--color-accent-dark), var(--shadow-xl);
   min-width: 200px;
 }
 .about-stat-card .stat-num-big {
@@ -770,12 +867,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   line-height: 1;
   display: block;
 }
-.about-stat-card .stat-num-big em { color: var(--color-accent); }
+.about-stat-card .stat-num-big em { color: var(--color-primary); }
 .about-stat-card .stat-lbl {
   font-family: var(--font-body);
   font-size: var(--fs-sm);
-  font-weight: 600;
-  color: var(--color-text-light);
+  font-weight: 700;
+  color: rgba(15, 18, 25, 0.72);
   letter-spacing: 0.04em;
   text-transform: uppercase;
   display: block;
@@ -1145,7 +1242,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         <div class="hero-text">
           <span class="hero-eyebrow">
             <?php echo lucide_icon('shield-check'); ?>
-            Serving Eastern Oregon Since <?= $yearEstablished ?>
+            <?= $yearsInBusiness ?>+ Years Serving Eastern Oregon
           </span>
 
           <h1 class="hero-title">
@@ -1307,7 +1404,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         construction in Mount Vernon and Eastern Oregon — full custom home builds,
         bathroom and kitchen remodels, structural framing, decks, window and door
         installation, and commercial projects. Licensed, insured, and building in
-        Grant County since 2004, with free written estimates on every job.
+        Grant County for over <?= $yearsInBusiness ?> years, with free written estimates on every job.
       </p>
       <span class="section-subtitle-accent"><?= htmlspecialchars($tagline) ?></span>
     </div>
@@ -1369,7 +1466,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <!-- ════════════════════════════════════════════════════
      STATS SECTION
 ════════════════════════════════════════════════════ -->
-<section class="stats-section" data-watermark="20" aria-label="Superior Home Builders by the numbers">
+<section class="stats-section" data-watermark="25" aria-label="Superior Home Builders by the numbers">
   <div class="container">
     <div class="stats-grid">
       <div class="stat-item reveal-scale">

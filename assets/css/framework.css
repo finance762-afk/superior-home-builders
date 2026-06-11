@@ -79,10 +79,10 @@ p { overflow-wrap: anywhere; }
   --color-border:        rgba(15, 18, 25, 0.10);
   --color-star:          #f8e568;
 
-  /* Tinted Card Backgrounds (brand at 5–9% alpha) */
-  --color-card-tint-1:       rgba(15, 18, 25, 0.05);
-  --color-card-tint-2:       rgba(7, 33, 89, 0.05);
-  --color-card-tint-3:       rgba(248, 229, 104, 0.08);
+  /* Tinted Card Backgrounds (brand at 10–18% alpha — visibly distinct) */
+  --color-card-tint-1:       rgba(7, 33, 89, 0.10);       /* navy blue tint */
+  --color-card-tint-2:       rgba(248, 229, 104, 0.22);   /* warm yellow/gold tint */
+  --color-card-tint-3:       rgba(7, 33, 89, 0.05);       /* very light blue tint */
   --color-card-tint-neutral: #f7f8fc;
 
   /* Typography */
@@ -1059,7 +1059,7 @@ section.hero { padding: 0; }
 
 /* ── TICKER / BADGE STRIPS ────────────────────────────────── */
 .ticker-strip {
-  background: var(--color-secondary);
+  background: var(--color-accent);
   overflow: hidden;
   padding: var(--space-sm) 0;
 }
@@ -1074,12 +1074,12 @@ section.hero { padding: 0; }
 .ticker-track span {
   font-family: var(--font-body);
   font-size: 0.78rem;
-  font-weight: 600;
-  color: rgba(255,255,255,0.82);
+  font-weight: 700;
+  color: var(--color-primary);
   text-transform: uppercase;
   letter-spacing: 0.09em;
 }
-.ticker-track .dot { color: var(--color-accent); font-size: 1.1rem; line-height: 1; }
+.ticker-track .dot { color: rgba(15, 18, 25, 0.35); font-size: 1.1rem; line-height: 1; }
 @keyframes ticker-scroll {
   0%   { transform: translateX(0); }
   100% { transform: translateX(-50%); }

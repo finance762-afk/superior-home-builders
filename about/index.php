@@ -844,7 +844,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         <p>
           What started as a commitment to bring professional construction services to rural Eastern Oregon
           has grown into a trusted partnership with hundreds of homeowners, businesses, and property owners
-          across the region. From John Day to Canyon City, Prairie City to Salem, our work is woven into
+          across the region. From John Day to Canyon City and Prairie City, our work is woven into
           the fabric of this landscape.
         </p>
         <p>

@@ -126,7 +126,7 @@ $pages = [
         'changefreq' => 'monthly',
         'priority'   => '0.8',
         'images'     => [
-            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604162710-mw6is2-image_11_.jpg', 'caption' => 'Superior Home Builders serves Mount Vernon, John Day, Canyon City, Prairie City, and Salem, Oregon'],
+            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604162710-mw6is2-image_11_.jpg', 'caption' => 'Superior Home Builders serves Mount Vernon, John Day, Canyon City, Prairie City, and communities across Eastern Oregon'],
             ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604164592-w2al1l-image_12_.jpg', 'caption' => 'Construction and remodeling services across Grant County, Oregon'],
         ],
     ],
@@ -171,16 +171,7 @@ $pages = [
             ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604131715-gsv7qf-20250819_192028.jpg', 'caption' => 'High-elevation construction project in Prairie City, OR — built for Grant County snowloads'],
         ],
     ],
-    [
-        'path'       => '/areas/salem/',
-        'file'       => '/areas/salem/index.php',
-        'changefreq' => 'monthly',
-        'priority'   => '0.8',
-        'images'     => [
-            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604136960-eo83ht-20250819_192113.jpg', 'caption' => 'Custom home and remodeling project in the Salem, Oregon area by Superior Home Builders'],
-            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604169523-2ffusu-image_13_.jpg', 'caption' => 'Precision remodeling work in the Salem, Oregon Willamette Valley region'],
-        ],
-    ],
+
     [
         'path'       => '/about/',
         'file'       => '/about/index.php',

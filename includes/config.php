@@ -34,7 +34,7 @@ $siteUrl = 'https://' . $domain;
 
 // ── Industry & Age ───────────────────────────────────────────
 $industry        = 'home_builder';
-$yearEstablished = 2004;        // "Over 20 years" as of 2026 (conservative estimate)
+$yearEstablished = 2000;        // "Over 25 years" as of 2026 (client confirmed 25+ years in business)
 $yearsInBusiness = (int) date('Y') - $yearEstablished;
 
 // ── Analytics & Verification ─────────────────────────────────
@@ -69,11 +69,11 @@ $secondaryKeywords = [
     'kitchen remodeling mount vernon or',
     'deck builders mount vernon or',
     'home remodeling mount vernon or',
-    'custom home builders salem or',
+
     'general contractor mount vernon or',
     'home renovation mount vernon or',
     'window installation mount vernon or',
-    'kitchen remodel salem or',
+
     'bathroom remodeler near me',
     'commercial construction mount vernon or',
 ];
@@ -186,12 +186,7 @@ $serviceAreas = [
         'zip'     => '97865',
         'primary' => true,
     ],
-    [
-        'city'    => 'Salem',
-        'state'   => 'OR',
-        'zip'     => '',
-        'primary' => false,
-    ],
+
     [
         'city'    => 'John Day',
         'state'   => 'OR',
@@ -225,7 +220,7 @@ $consentVersion  = 'v2.1';
 
 // ── CSS Cache Busting ─────────────────────────────────────────
 // Increment on every styles.css change.
-$cssVersion = '4';
+$cssVersion = '5';
 
 // ── Lead Notification ─────────────────────────────────────────
 $leadNotificationEmail = '';   // TODO: populate from client
