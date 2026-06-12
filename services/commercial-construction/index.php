@@ -5,7 +5,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 <?php
 // ── Page-level setup ────────────────────────────────────────────────────────
 $pageTitle        = 'Commercial Construction in Mount Vernon, OR | Superior Home Builders';
-$pageDescription  = 'Commercial construction services in Mount Vernon, OR. Shops, offices, warehouses, and tenant build-outs for Grant County businesses. Licensed contractor since 2004. Free estimates.';
+$pageDescription  = 'Commercial construction services in Mount Vernon, OR. Shops, offices, warehouses, and tenant build-outs for Grant County businesses. Licensed contractor since 2001. Free estimates.';
 $canonicalUrl     = $siteUrl . '/services/commercial-construction/';
 $currentPage      = 'services';
 $heroImage        = '/assets/images/commercial-construction-eastern-oregon.webp';
@@ -22,7 +22,7 @@ $faqs = [
   ['q' => 'How do you minimize disruption to an operating business during construction?',
    'a' => 'For additions and build-outs on occupied properties, we work in a sequence that preserves access to the operating portion of the business. We schedule demolition and noisy phases during off-hours where agreed. Our commercial client Greg O. in Mount Vernon specifically noted that we never held up his operation during a shop addition — scheduling around his business hours was a deliberate part of our plan from day one.'],
   ['q' => 'Can Superior Home Builders handle agricultural construction in Eastern Oregon?',
-   'a' => 'Yes — agricultural structures including barns, equipment storage buildings, hay storage, and agricultural processing facilities are within our scope. Eastern Oregon\'s agricultural community is well represented in our project history. These projects often involve engineered post-frame buildings, but the same site work, foundation, and trade coordination principles apply. We\'ve built for Grant County agricultural operations since 2004.'],
+   'a' => 'Yes — agricultural structures including barns, equipment storage buildings, hay storage, and agricultural processing facilities are within our scope. Eastern Oregon\'s agricultural community is well represented in our project history. These projects often involve engineered post-frame buildings, but the same site work, foundation, and trade coordination principles apply. We\'ve built for Grant County agricultural operations since 2001.'],
   ['q' => 'What is a tenant build-out and does Superior Home Builders handle it?',
    'a' => 'A tenant build-out is the interior construction work that transforms a raw commercial shell into a functional business space — partition walls, lighting, plumbing fixtures, flooring, HVAC distribution, and finishes. We handle the complete tenant build-out scope for commercial tenants throughout Grant County, coordinating with building owners and commercial landlords as needed to meet lease requirements and schedule.'],
 ];
@@ -40,7 +40,7 @@ $serviceSchema = [
   'url'       => $siteUrl . '/services/commercial-construction/',
   'provider'  => ['@type' => 'HomeAndConstructionBusiness', '@id' => $siteUrl . '/#organization'],
   'areaServed'  => ['@type' => 'Place', 'name' => 'Mount Vernon, OR', 'addressRegion' => 'OR'],
-  'description' => 'Commercial construction services in Mount Vernon, OR for Grant County businesses — ground-up commercial builds, shop and warehouse additions, agricultural structures, and tenant build-outs. Licensed Oregon general contractor with commercial permit experience since 2004.',
+  'description' => 'Commercial construction services in Mount Vernon, OR for Grant County businesses — ground-up commercial builds, shop and warehouse additions, agricultural structures, and tenant build-outs. Licensed Oregon general contractor with commercial permit experience since 2001.',
 ];
 $faqSchema   = generateFAQSchema($faqs);
 $schemaGraph = ['@context' => 'https://schema.org', '@graph' => [$breadcrumbs, $serviceSchema, $faqSchema]];
@@ -136,7 +136,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             <p class="hero-answer">Superior Home Builders brings specialized expertise in commercial construction to Mount Vernon and Grant County businesses. We understand Mount Vernon's distinct climate challenges and local building code requirements, designing and building shops, warehouses, agricultural facilities, and office buildings that are built to last in our region's conditions. Unlike generalist contractors, we combine ground-up construction expertise with sustainable building practices and transparent project management—you work with one experienced builder who manages the entire process and stands behind the work with comprehensive post-build support.</p>
             <div class="sp-hero-trust">
               <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured</span>
-              <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2004</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2001</span>
               <span class="sp-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Written Estimate</span>
             </div>
             <div class="sp-hero-actions">
@@ -153,7 +153,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
               <li><?php echo lucide_icon('check-circle'); ?> Scheduling around your business hours</li>
               <li><?php echo lucide_icon('check-circle'); ?> Commercial code inspection experience</li>
               <li><?php echo lucide_icon('check-circle'); ?> Written scope before work begins</li>
-              <li><?php echo lucide_icon('check-circle'); ?> 20+ years of local builds</li>
+              <li><?php echo lucide_icon('check-circle'); ?> 25+ years of local builds</li>
             </ul>
             <a href="/contact/" class="btn btn-secondary w-full">Discuss Your Project</a>
           </div>
@@ -228,7 +228,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         </div>
         <div class="sp-expert-content reveal-right">
           <h2>Why do Grant County businesses choose Superior Home Builders for commercial construction?</h2>
-          <p class="answer-block">We've been building for Eastern Oregon businesses since 2004 — shops, additions, tenant improvements, and agricultural structures throughout Grant County. Local business owners choose us because we understand commercial permit requirements, work around operating schedules, and manage the entire project scope under one contract so they can focus on running their business.</p>
+          <p class="answer-block">We've been building for Eastern Oregon businesses since 2001 — shops, additions, tenant improvements, and agricultural structures throughout Grant County. Local business owners choose us because we understand commercial permit requirements, work around operating schedules, and manage the entire project scope under one contract so they can focus on running their business.</p>
           <div class="sp-expert-points">
             <div class="sp-expert-point">
               <span class="num">01</span>
@@ -489,11 +489,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <div class="service-card__body">
             <div class="service-card__icon"><?php echo lucide_icon('home'); ?></div>
             <h3>Custom Home Building</h3>
-            <p class="service-card__desc">Design-to-completion custom home construction throughout Grant County since 2004.</p>
+            <p class="service-card__desc">Design-to-completion custom home construction throughout Grant County since 2001.</p>
             <ul>
               <li>Design-to-completion builds</li>
               <li>Site prep &amp; foundation</li>
-              <li>20+ years local expertise</li>
+              <li>25+ years local expertise</li>
             </ul>
             <a href="/services/custom-home-building/" class="service-card__cta">Learn more</a>
           </div>

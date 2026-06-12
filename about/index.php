@@ -4,8 +4,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 ?>
 <?php
 // ── About Page ───────────────────────────────────────────────────────────────
-$pageTitle        = 'About Superior Home Builders | Eastern Oregon General Contractor Since 2004';
-$pageDescription  = 'Superior Home Builders has served Mount Vernon, OR and Eastern Oregon for over 20 years. Learn our story, values, and commitment to custom home construction and remodeling.';
+$pageTitle        = 'About Superior Home Builders | Eastern Oregon General Contractor Since 2001';
+$pageDescription  = 'Superior Home Builders has served Mount Vernon, OR and Eastern Oregon for over 25 years. Learn our story, values, and commitment to custom home construction and remodeling.';
 $canonicalUrl     = $siteUrl . '/about/';
 $currentPage      = 'about';
 $ogImage          = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604270195-cqt47w-468298780_10161035683197734_2359719916650256082_n.jpg';
@@ -820,7 +820,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         <div class="about-img-primary">
           <img
             src="/assets/images/owner-eastern-oregon-builder.webp"
-            alt="Superior Home Builders owner — licensed general contractor serving Eastern Oregon since 2004"
+            alt="Superior Home Builders owner — licensed general contractor serving Eastern Oregon since 2001"
             width="600" height="450" loading="lazy">
         </div>
         <div class="about-img-secondary">
@@ -1055,7 +1055,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             <div class="about-trust-badge-icon"><?php echo lucide_icon('shield-check'); ?></div>
             <div class="about-trust-badge-text">
               <strong>Licensed Contractor</strong>
-              <span>Oregon CCB Licensed</span>
+              <span>Oregon CCB# 147123</span>
             </div>
           </div>
           <div class="about-trust-badge">

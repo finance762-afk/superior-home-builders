@@ -301,7 +301,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <div class="container">
       <span class="area-hero-eyebrow"><?php echo lucide_icon('map-pin'); ?> John Day, OR · Grant County Seat</span>
       <h1>Home Building &amp; Remodeling in<br><em>John Day, OR</em></h1>
-      <p class="area-hero-answer">Superior Home Builders serves John Day homeowners and business owners with custom home construction, kitchen and bathroom remodeling, decks, framing, and commercial builds. Based in Mount Vernon just 20 minutes away, we bring 20+ years of Grant County construction experience to every project near the John Day River valley — no travel fees, no strangers to the area.</p>
+      <p class="area-hero-answer">Superior Home Builders serves John Day homeowners and business owners with custom home construction, kitchen and bathroom remodeling, decks, framing, and commercial builds. Based in Mount Vernon just 20 minutes away, we bring 25+ years of Grant County construction experience to every project near the John Day River valley — no travel fees, no strangers to the area.</p>
       <div class="area-hero-trust">
         <span class="area-hero-trust-item"><?php echo lucide_icon('map-pin'); ?> 20 min from Mount Vernon</span>
         <span class="area-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Oregon Licensed</span>
@@ -336,7 +336,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="reveal-left">
         <h2>What construction services are available near me in John Day, OR?</h2>
         <p class="answer-block">Superior Home Builders covers the full range of residential and commercial construction in John Day — from custom new-home builds on Starr Ridge and the hillside lots above the valley floor, to kitchen overhauls in mid-century homes near downtown, to deck additions overlooking the John Day River. As Grant County's licensed general contractor, we pull permits through both the City of John Day and the county office and handle every phase of your project in-house.</p>
-        <p class="area-identity">Superior Home Builders is a licensed Oregon general contractor based in Mount Vernon, OR, serving John Day and all of Grant County with custom home building, remodeling, and commercial construction since 2004.</p>
+        <p class="area-identity">Superior Home Builders is a licensed Oregon general contractor (CCB# 147123) based in Mount Vernon, OR, serving John Day and all of Grant County with custom home building, remodeling, and commercial construction since 2001.</p>
         <a href="/contact/" class="btn btn-primary">Request a Free Estimate</a>
       </div>
       <div class="area-stats-card reveal-scale">
@@ -454,7 +454,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <div class="area-why-grid">
       <div class="reveal-left">
         <h2>Why do John Day homeowners hire Superior Home Builders instead of a contractor from Bend or Portland?</h2>
-        <p class="answer-block">Hiring a contractor unfamiliar with Grant County means you're paying for their education. They won't know the local building department, they'll miss the regional construction details that matter here, and they'll charge for every mile. We've been building within 20 miles of John Day for over 20 years — this is our backyard, not a remote job.</p>
+        <p class="answer-block">Hiring a contractor unfamiliar with Grant County means you're paying for their education. They won't know the local building department, they'll miss the regional construction details that matter here, and they'll charge for every mile. We've been building within 20 miles of John Day for over 25 years — this is our backyard, not a remote job.</p>
         <div class="area-why-points">
           <div class="area-why-point">
             <span class="num">01</span>
@@ -485,7 +485,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604304797-ovpay8-466679242_10160894523457734_3638487413345304516_n.jpg"
                alt="Construction project near John Day Oregon by Superior Home Builders"
                width="420" height="525" loading="lazy">
-          <div class="area-why-badge">Serving John Day Since 2004</div>
+          <div class="area-why-badge">Serving John Day Since 2001</div>
         </div>
       </div>
     </div>

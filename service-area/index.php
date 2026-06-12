@@ -650,7 +650,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <div class="container">
       <span class="sa-hero-eyebrow"><?php echo lucide_icon('map-pin'); ?> Where We Build</span>
       <h1>Custom Home Building &amp; Remodeling in<br><em>Mount Vernon, OR</em> &amp; Beyond</h1>
-      <p class="sa-hero-answer">Superior Home Builders is a licensed Oregon general contractor based in Mount Vernon, serving Grant County and surrounding communities across Eastern Oregon. For over <?= $yearsInBusiness ?> years we've built homes, remodeled kitchens and bathrooms, framed structures, and installed windows and doors for homeowners throughout Grant County and beyond.</p>
+      <p class="sa-hero-answer">Superior Home Builders is a licensed Oregon general contractor (CCB# 147123) based in Mount Vernon, serving Grant County and surrounding communities across Eastern Oregon. For over <?= $yearsInBusiness ?> years we've built homes, remodeled kitchens and bathrooms, framed structures, and installed windows and doors for homeowners throughout Grant County and beyond.</p>
       <div class="sa-hero-stats">
         <div class="sa-hero-stat">
           <strong>20+</strong>
@@ -698,7 +698,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="reveal-left">
         <h2>How far does Superior Home Builders travel for construction projects in Eastern Oregon?</h2>
         <p class="answer-block">Superior Home Builders is headquartered in Mount Vernon and regularly takes projects throughout Grant County — including John Day, Canyon City, and Prairie City — as well as communities across Eastern Oregon. Our primary service radius covers the communities where we have the deepest relationships and longest track records. We're familiar with local permit offices, inspection schedules, and the specific construction challenges of Eastern Oregon's climate.</p>
-        <p class="sa-identity">Superior Home Builders is a licensed Oregon general contractor based in Mount Vernon, OR 97865, serving Eastern Oregon with custom home building, remodeling, framing, and commercial construction since 2004.</p>
+        <p class="sa-identity">Superior Home Builders is a licensed Oregon general contractor (CCB# 147123) based in Mount Vernon, OR 97865, serving Eastern Oregon with custom home building, remodeling, framing, and commercial construction since 2001.</p>
         <a href="/contact/" class="btn btn-primary">Check Availability in Your Area</a>
       </div>
       <div class="sa-coverage-box reveal-scale">
@@ -797,7 +797,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             <div class="sa-why-point-icon"><?php echo lucide_icon('clock', '', 'width:20px;height:20px'); ?></div>
             <div>
               <strong>We know the permit offices</strong>
-              <span>Grant County's inspection and permit process has its own rhythms and timelines. We've been navigating the local building department for over 20 years, which means your project doesn't stall waiting for information.</span>
+              <span>Grant County's inspection and permit process has its own rhythms and timelines. We've been navigating the local building department for over 25 years, which means your project doesn't stall waiting for information.</span>
             </div>
           </div>
           <div class="sa-why-point">
@@ -821,7 +821,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604102234-3xpgf4-20221109_161614.jpg"
                alt="Superior Home Builders construction work in Eastern Oregon"
                width="460" height="575" loading="lazy">
-          <div class="sa-why-photo-tag">20+ Years — Eastern Oregon Built</div>
+          <div class="sa-why-photo-tag">25+ Years — Eastern Oregon Built</div>
         </div>
       </div>
     </div>

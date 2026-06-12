@@ -5,7 +5,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 <?php
 // ── Page-level setup ────────────────────────────────────────────────────────
 $pageTitle        = 'Windows and Doors in Mount Vernon, OR | Superior Home Builders';
-$pageDescription  = 'Window replacement and door installation in Mount Vernon, OR. Energy-efficient vinyl, wood, and fiberglass windows for Eastern Oregon\'s climate. Licensed contractor serving Grant County since 2004. Free estimates.';
+$pageDescription  = 'Window replacement and door installation in Mount Vernon, OR. Energy-efficient vinyl, wood, and fiberglass windows for Eastern Oregon\'s climate. Licensed contractor serving Grant County since 2001. Free estimates.';
 $canonicalUrl     = $siteUrl . '/services/windows-and-doors/';
 $currentPage      = 'services';
 $heroImage        = '/assets/images/window-installation-mount-vernon.webp';
@@ -40,7 +40,7 @@ $serviceSchema = [
   'url'       => $siteUrl . '/services/windows-and-doors/',
   'provider'  => ['@type' => 'HomeAndConstructionBusiness', '@id' => $siteUrl . '/#organization'],
   'areaServed' => ['@type' => 'Place', 'name' => 'Mount Vernon, OR', 'addressRegion' => 'OR'],
-  'description' => 'Window replacement and door installation services in Mount Vernon, OR. Vinyl, wood, and fiberglass window options with low-E argon glass specified for Eastern Oregon\'s heating-dominated climate. Serving Grant County homeowners since 2004.',
+  'description' => 'Window replacement and door installation services in Mount Vernon, OR. Vinyl, wood, and fiberglass window options with low-E argon glass specified for Eastern Oregon\'s heating-dominated climate. Serving Grant County homeowners since 2001.',
 ];
 $faqSchema   = generateFAQSchema($faqs);
 $schemaGraph = ['@context' => 'https://schema.org', '@graph' => [$breadcrumbs, $serviceSchema, $faqSchema]];
@@ -132,7 +132,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             <p class="hero-answer">Mount Vernon windows face demanding Pacific Northwest weather—heavy rain, temperature swings, and moisture challenges unique to our region. Rather than cookie-cutter replacements, Superior Home Builders customizes each window solution for your home's specific orientation, climate exposure, and architectural style. We pair energy-efficient frames suited to Mount Vernon's climate with personalized design consultation, so your windows reduce heating costs year-round while matching your home's character. Our on-site measurement and transparent per-window pricing means no surprises, and our post-installation support ensures your investment performs for decades in our challenging local conditions.</p>
             <div class="sp-hero-trust">
               <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured</span>
-              <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2004</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2001</span>
               <span class="sp-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Written Estimate</span>
             </div>
             <div class="sp-hero-actions">
@@ -149,7 +149,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
               <li><?php echo lucide_icon('check-circle'); ?> Interior &amp; exterior trim included</li>
               <li><?php echo lucide_icon('check-circle'); ?> Low-E argon glass for Eastern OR</li>
               <li><?php echo lucide_icon('check-circle'); ?> Permits handled when required</li>
-              <li><?php echo lucide_icon('check-circle'); ?> 22+ years serving Grant County</li>
+              <li><?php echo lucide_icon('check-circle'); ?> 25+ years serving Grant County</li>
             </ul>
             <a href="/contact/" class="btn btn-secondary w-full">Schedule a Consultation</a>
           </div>
@@ -219,7 +219,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="sp-expert-grid">
         <div class="sp-expert-content reveal-left">
           <h2>Why do Eastern Oregon homeowners trust Superior Home Builders for window and door work?</h2>
-          <p class="answer-block">We spec windows for Grant County's climate — not Portland's. Eastern Oregon homes face heating-dominated winters, intense summer UV, and significant temperature swing. The right U-factor and SHGC spec makes a real difference in your heating bills. We've been doing this work in Mount Vernon since 2004, and we trim out every opening inside and out.</p>
+          <p class="answer-block">We spec windows for Grant County's climate — not Portland's. Eastern Oregon homes face heating-dominated winters, intense summer UV, and significant temperature swing. The right U-factor and SHGC spec makes a real difference in your heating bills. We've been doing this work in Mount Vernon since 2001, and we trim out every opening inside and out.</p>
           <div class="sp-expert-points">
             <div class="sp-expert-point">
               <span class="num">01</span>
@@ -249,7 +249,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <img src="/assets/images/new-windows-mount-vernon.webp"
                alt="Newly installed windows on a Mount Vernon Oregon home by Superior Home Builders showing exterior trim and framing detail"
                width="420" height="520" loading="lazy">
-          <div class="sp-expert-photo-badge">Grant County Since 2004</div>
+          <div class="sp-expert-photo-badge">Grant County Since 2001</div>
         </div>
       </div>
     </div>
@@ -480,7 +480,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <section class="sp-final-cta" aria-label="Get a free window replacement estimate in Mount Vernon OR">
     <div class="container">
       <h2>Ready to replace your windows or doors near Mount Vernon, OR?</h2>
-      <p>Superior Home Builders has been installing windows and doors in Grant County homes since 2004. We measure on-site, spec the right glass for Eastern Oregon's climate, and trim out every opening inside and out. Get a written estimate — no obligation.</p>
+      <p>Superior Home Builders has been installing windows and doors in Grant County homes since 2001. We measure on-site, spec the right glass for Eastern Oregon's climate, and trim out every opening inside and out. Get a written estimate — no obligation.</p>
       <div class="cta-row">
         <a href="/contact/" class="btn btn-primary btn-lg">Get a Free Estimate</a>
         <?php if (!empty($phone)): ?>
@@ -540,7 +540,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             <ul>
               <li>Design-to-completion builds</li>
               <li>Site prep &amp; foundation</li>
-              <li>20+ years local expertise</li>
+              <li>25+ years local expertise</li>
             </ul>
             <a href="/services/custom-home-building/" class="service-card__cta">Learn more</a>
           </div>

@@ -4,7 +4,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 ?>
 <?php
 $pageTitle       = 'Home Building & Remodeling in Mount Vernon, OR | Superior Home Builders';
-$pageDescription = 'Superior Home Builders is Mount Vernon, OR\'s home base — licensed general contractor for custom home building, kitchen & bathroom remodeling, decks, framing, and commercial construction in Grant County since 2004.';
+$pageDescription = 'Superior Home Builders is Mount Vernon, OR\'s home base — licensed general contractor for custom home building, kitchen & bathroom remodeling, decks, framing, and commercial construction in Grant County since 2001.';
 $canonicalUrl    = $siteUrl . '/areas/mount-vernon/';
 $currentPage     = 'service-area';
 $heroImage       = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604089870-onrdei-20220414_073700.jpg';
@@ -523,11 +523,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <div class="container">
       <span class="area-hero-eyebrow"><?php echo lucide_icon('map-pin'); ?> Mount Vernon, OR · Our Home Base</span>
       <h1>Custom Home Building &amp; Remodeling in<br><em>Mount Vernon, OR</em></h1>
-      <p class="area-hero-answer">Superior Home Builders is based right here in Mount Vernon, OR — making us the local contractor Grant County homeowners and business owners call first for custom homes, kitchen and bathroom remodels, decks, framing, windows and doors, and commercial construction. We've built and remodeled throughout the Canyon Creek corridor and South Fork John Day River valley for over 20 years.</p>
+      <p class="area-hero-answer">Superior Home Builders is based right here in Mount Vernon, OR — making us the local contractor Grant County homeowners and business owners call first for custom homes, kitchen and bathroom remodels, decks, framing, windows and doors, and commercial construction. We've built and remodeled throughout the Canyon Creek corridor and South Fork John Day River valley for over 25 years.</p>
       <div class="area-hero-trust">
         <span class="area-hero-trust-item"><?php echo lucide_icon('map-pin'); ?> Based in Mount Vernon</span>
         <span class="area-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured</span>
-        <span class="area-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2004</span>
+        <span class="area-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2001</span>
         <span class="area-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Written Estimate</span>
       </div>
       <div class="area-hero-actions">
@@ -559,7 +559,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <div class="container">
     <div class="area-locals-intro reveal-up">
       <h2>What makes building and remodeling in Mount Vernon, OR different?</h2>
-      <p class="answer-block">Superior Home Builders has been serving the Mount Vernon community since 2004. As a licensed Oregon contractor based on Highway 395 in Grant County, we understand the specific conditions, housing stock, and permit processes that define construction near me in Mount Vernon. From the Canyon Creek drainage to the agricultural lands east of town, every project we take on benefits from 20+ years of local experience.</p>
+      <p class="answer-block">Superior Home Builders has been serving the Mount Vernon community since 2001. As a licensed Oregon contractor based on Highway 395 in Grant County, we understand the specific conditions, housing stock, and permit processes that define construction near me in Mount Vernon. From the Canyon Creek drainage to the agricultural lands east of town, every project we take on benefits from 25+ years of local experience.</p>
     </div>
     <div class="area-bento">
       <div class="area-bento-card reveal-up reveal-delay-1">
@@ -580,7 +580,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="area-bento-card reveal-up reveal-delay-4">
         <div class="icon-wrap"><?php echo lucide_icon('truck'); ?></div>
         <h3>Material logistics solved</h3>
-        <p>Getting specialty materials to Eastern Oregon takes planning — we have supplier relationships in John Day, Pendleton, and the Willamette Valley that keep your project from stalling on a cabinet delivery. Our 20+ years of projects in Grant County means we've solved every supply chain challenge this region presents.</p>
+        <p>Getting specialty materials to Eastern Oregon takes planning — we have supplier relationships in John Day, Pendleton, and the Willamette Valley that keep your project from stalling on a cabinet delivery. Our 25+ years of projects in Grant County means we've solved every supply chain challenge this region presents.</p>
       </div>
     </div>
   </div>
@@ -672,7 +672,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <div class="area-why-point">
             <span class="num">02</span>
             <div>
-              <strong>20+ years in these specific homes</strong>
+              <strong>25+ years in these specific homes</strong>
               <span>We've worked in essentially every neighborhood and home style in Mount Vernon. That translates directly to better estimates — when we've opened up dozens of walls in 1960s ranch homes along Canyon Creek, we know what's behind them.</span>
             </div>
           </div>
@@ -684,7 +684,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             </div>
           </div>
         </div>
-        <p class="area-identity">Superior Home Builders is a licensed Oregon general contractor based in Mount Vernon, OR, serving Grant County and Eastern Oregon with custom home construction and remodeling since 2004. CCB License on file — ask us for it during your estimate consultation.</p>
+        <p class="area-identity">Superior Home Builders is a licensed Oregon general contractor based in Mount Vernon, OR, serving Grant County and Eastern Oregon with custom home construction and remodeling since 2001. Oregon CCB# 147123 — licensed and insured.</p>
         <p style="font-size:var(--fs-sm);color:var(--color-text-light);margin-top:var(--space-md)">Last Updated: <?php echo date('F Y'); ?></p>
       </div>
     </div>

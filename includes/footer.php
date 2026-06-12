@@ -34,6 +34,7 @@ $_year = date('Y');
 
             <div class="footer-trust-badges">
               <span class="footer-badge"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured</span>
+              <span class="footer-badge"><?php echo lucide_icon('award'); ?> CCB# <?php echo htmlspecialchars($licenseNumber); ?></span>
               <span class="footer-badge"><?php echo lucide_icon('calendar'); ?> Est. <?php echo $yearEstablished; ?></span>
               <span class="footer-badge"><?php echo lucide_icon('star'); ?> Free Estimates</span>
             </div>
@@ -44,6 +45,7 @@ $_year = date('Y');
               <meta itemprop="url"       content="<?php echo $siteUrl; ?>/">
               <meta itemprop="telephone" content="<?php echo htmlspecialchars($phone); ?>">
               <strong itemprop="name"><?php echo htmlspecialchars($siteName); ?></strong> is a licensed general contractor
+              (Oregon CCB# <?php echo htmlspecialchars($licenseNumber); ?>)
               based in <?php echo htmlspecialchars($address['city']); ?>, <?php echo htmlspecialchars($address['state']); ?><?php if (!empty($address['zip'])): ?> <?php echo htmlspecialchars($address['zip']); ?><?php endif; ?>,
               serving Eastern Oregon with custom home building, bathroom remodeling, kitchen remodeling, decks,
               framing, and commercial construction since <?php echo $yearEstablished; ?>.

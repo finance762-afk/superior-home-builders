@@ -48,7 +48,7 @@ $schemaMarkup = json_encode(
 $faqs = [
   [
     'q' => 'Does Superior Home Builders serve Prairie City, OR?',
-    'a' => 'Yes — Prairie City is a regular service area for Superior Home Builders. We\'re based in Mount Vernon and regularly work in Prairie City on custom home builds, kitchen and bathroom remodels, deck installations, framing projects, and window replacements. Projects in Prairie City go through the Grant County Building Department, which we\'ve worked with for over 20 years.',
+    'a' => 'Yes — Prairie City is a regular service area for Superior Home Builders. We\'re based in Mount Vernon and regularly work in Prairie City on custom home builds, kitchen and bathroom remodels, deck installations, framing projects, and window replacements. Projects in Prairie City go through the Grant County Building Department, which we\'ve worked with for over 25 years.',
   ],
   [
     'q' => 'What are the biggest construction challenges for homes near Strawberry Mountain?',
@@ -236,7 +236,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="area-hero-trust">
         <span class="area-hero-trust-item"><?php echo lucide_icon('mountain'); ?> 3,500 ft elevation expertise</span>
         <span class="area-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Oregon Licensed</span>
-        <span class="area-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Serving since 2004</span>
+        <span class="area-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Serving since 2001</span>
       </div>
       <div class="area-hero-actions">
         <a href="/contact/" class="btn btn-secondary btn-lg">Get a Free Estimate in Prairie City</a>
@@ -266,8 +266,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <div class="area-intro-grid">
       <div class="reveal-left">
         <h2>What does it take to build and remodel homes near Strawberry Mountain in Prairie City, OR?</h2>
-        <p class="answer-block">Prairie City sits at the eastern edge of Grant County, at higher elevation than Mount Vernon or John Day and closer to the Strawberry Mountain Wilderness — one of Eastern Oregon's most rugged wilderness areas. The combination of heavier snowfall, colder winters, and a housing stock that trends toward older agricultural construction means Prairie City projects demand a contractor with genuine local knowledge, not just general building experience. Superior Home Builders has worked on Prairie City properties for over 20 years and prices every project with these conditions in mind from the first estimate.</p>
-        <p class="area-identity">Superior Home Builders is a licensed Oregon general contractor based in Mount Vernon, OR, serving Prairie City and all of Grant County with custom home building, remodeling, and commercial construction since 2004.</p>
+        <p class="answer-block">Prairie City sits at the eastern edge of Grant County, at higher elevation than Mount Vernon or John Day and closer to the Strawberry Mountain Wilderness — one of Eastern Oregon's most rugged wilderness areas. The combination of heavier snowfall, colder winters, and a housing stock that trends toward older agricultural construction means Prairie City projects demand a contractor with genuine local knowledge, not just general building experience. Superior Home Builders has worked on Prairie City properties for over 25 years and prices every project with these conditions in mind from the first estimate.</p>
+        <p class="area-identity">Superior Home Builders is a licensed Oregon general contractor (CCB# 147123) based in Mount Vernon, OR, serving Prairie City and all of Grant County with custom home building, remodeling, and commercial construction since 2001.</p>
         <a href="/contact/" class="btn btn-primary">Request a Free Estimate</a>
       </div>
       <div class="reveal-scale">
@@ -275,7 +275,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604110512-hpeyxa-20230904_195415.jpg"
                alt="Construction project near Prairie City Oregon by Superior Home Builders"
                width="420" height="560" loading="lazy">
-          <div class="area-intro-photo-tag">Serving Prairie City — 20+ Years</div>
+          <div class="area-intro-photo-tag">Serving Prairie City — 25+ Years</div>
         </div>
       </div>
     </div>
@@ -384,13 +384,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       </div>
       <div class="reveal-right">
         <h2>Why should Prairie City homeowners hire Superior Home Builders instead of a general contractor from outside Grant County?</h2>
-        <p class="answer-block">Prairie City is one of the more remote communities in Grant County — and that means the stakes are higher when you hire a contractor who doesn't know the area. Material deliveries require planning, permits go through an office in Canyon City, and the snowloads and temperatures at 3,500 feet are not what a contractor from the valley will default to engineering for. We've been doing this work in Prairie City for over 20 years and we build it right the first time.</p>
+        <p class="answer-block">Prairie City is one of the more remote communities in Grant County — and that means the stakes are higher when you hire a contractor who doesn't know the area. Material deliveries require planning, permits go through an office in Canyon City, and the snowloads and temperatures at 3,500 feet are not what a contractor from the valley will default to engineering for. We've been doing this work in Prairie City for over 25 years and we build it right the first time.</p>
         <div class="area-why-points">
           <div class="area-why-point">
             <span class="num">01</span>
             <div>
               <strong>We know Prairie City's ag properties</strong>
-              <span>Farmhouses, ranch-style homes, outbuildings, and the older Prairie Creek corridor housing stock are familiar territory. When we write an estimate for a Prairie City property, we're drawing on 20+ years of projects in this specific community.</span>
+              <span>Farmhouses, ranch-style homes, outbuildings, and the older Prairie Creek corridor housing stock are familiar territory. When we write an estimate for a Prairie City property, we're drawing on 25+ years of projects in this specific community.</span>
             </div>
           </div>
           <div class="area-why-point">
@@ -445,7 +445,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <section class="area-final-cta" aria-label="Get a free estimate in Prairie City">
   <div class="container reveal-up">
     <h2>Ready to start your Prairie City project?</h2>
-    <p>Superior Home Builders brings Grant County's 20+ years of Eastern Oregon construction experience to Prairie City. Free on-site estimate, written scope, honest timeline. We know the area — and we'll treat your property right.</p>
+    <p>Superior Home Builders brings Grant County's 25+ years of Eastern Oregon construction experience to Prairie City. Free on-site estimate, written scope, honest timeline. We know the area — and we'll treat your property right.</p>
     <div class="cta-row">
       <a href="/contact/" class="btn btn-secondary btn-lg">Request a Free Estimate</a>
       <?php if (!empty($phone)): ?>

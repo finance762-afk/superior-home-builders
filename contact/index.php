@@ -5,7 +5,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 <?php
 // ── Contact Page ─────────────────────────────────────────────────────────────
 $pageTitle        = 'Contact Superior Home Builders | Free Estimates in Mount Vernon, OR';
-$pageDescription  = 'Contact Superior Home Builders for a free estimate in Mount Vernon, OR. Custom home building, remodeling, decks, windows, and more. Serving Eastern Oregon since 2004.';
+$pageDescription  = 'Contact Superior Home Builders for a free estimate in Mount Vernon, OR. Custom home building, remodeling, decks, windows, and more. Serving Eastern Oregon since 2001.';
 $canonicalUrl     = $siteUrl . '/contact/';
 $currentPage      = 'contact';
 $ogImage          = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604273137-ksvcbn-518240531_10161958113367734_8953895085965006897_n.jpg';

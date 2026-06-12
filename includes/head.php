@@ -156,6 +156,16 @@ foreach ($serviceAreas as $area) {
     "logo": "<?php echo htmlspecialchars($logoUrl); ?>",
     "priceRange": "$$",
     "foundingDate": "<?php echo $yearEstablished; ?>",
+    "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "license",
+      "name": "Oregon Construction Contractors Board License",
+      "identifier": "CCB# <?php echo $licenseNumber; ?>",
+      "recognizedBy": {
+        "@type": "GovernmentOrganization",
+        "name": "Oregon Construction Contractors Board"
+      }
+    },
     "areaServed": <?php echo json_encode($_areaServed, JSON_UNESCAPED_SLASHES); ?>,
     "hasOfferCatalog": {
       "@type": "OfferCatalog",

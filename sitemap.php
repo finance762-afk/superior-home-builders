@@ -178,7 +178,7 @@ $pages = [
         'changefreq' => 'monthly',
         'priority'   => '0.7',
         'images'     => [
-            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604170464-37ufln-image_14_.jpg', 'caption' => 'Superior Home Builders team — over 20 years of construction experience in Eastern Oregon'],
+            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604170464-37ufln-image_14_.jpg', 'caption' => 'Superior Home Builders team — over 25 years of construction experience in Eastern Oregon'],
             ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604179301-ru0crs-Solar_array_finished.jpg', 'caption' => 'Solar array installation completed by Superior Home Builders — expanding service offerings'],
             ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604179882-as63pf-Solar_array_man_size.jpg', 'caption' => 'Large-scale solar array installation project demonstrating Superior Home Builders\' capabilities'],
         ],

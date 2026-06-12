@@ -5,7 +5,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 <?php
 // ── Page-level setup ────────────────────────────────────────────────────────
 $pageTitle        = 'Home Remodeling in Mount Vernon, OR | Superior Home Builders';
-$pageDescription  = 'General home remodeling and renovation in Mount Vernon, OR. Single rooms to whole-house renovations. Licensed contractor serving Grant County since 2004. Free estimates.';
+$pageDescription  = 'General home remodeling and renovation in Mount Vernon, OR. Single rooms to whole-house renovations. Licensed contractor serving Grant County since 2001. Free estimates.';
 $canonicalUrl     = $siteUrl . '/services/general-remodeling/';
 $currentPage      = 'services';
 $heroImage        = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604102234-3xpgf4-20221109_161614.jpg';
@@ -40,7 +40,7 @@ $serviceSchema = [
   'url'       => $siteUrl . '/services/general-remodeling/',
   'provider'  => ['@type' => 'HomeAndConstructionBusiness', '@id' => $siteUrl . '/#organization'],
   'areaServed'  => ['@type' => 'Place', 'name' => 'Mount Vernon, OR', 'addressRegion' => 'OR'],
-  'description' => 'General home remodeling and renovation services in Mount Vernon, OR — single room refreshes, additions, basement and garage conversions, and whole-house renovations for Grant County homeowners. Licensed Oregon general contractor since 2004.',
+  'description' => 'General home remodeling and renovation services in Mount Vernon, OR — single room refreshes, additions, basement and garage conversions, and whole-house renovations for Grant County homeowners. Licensed Oregon general contractor since 2001.',
 ];
 $faqSchema   = generateFAQSchema($faqs);
 $schemaGraph = ['@context' => 'https://schema.org', '@graph' => [$breadcrumbs, $serviceSchema, $faqSchema]];
@@ -136,7 +136,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             <p class="hero-answer">We handle every scope of home remodeling in Mount Vernon—from single-room updates to whole-house renovations—with the local expertise that matters. Unlike generic contractors, we design projects specifically for Mount Vernon's unique climate and building codes, ensuring your remodeling performs reliably in our environment. As your general contractor of record, we combine transparent pricing and timeline communication with sustainable building practices that increase your home's energy efficiency. We back every project with comprehensive post-construction support and warranty coverage, because your investment deserves more than a contractor—it deserves a local partner committed to your home's long-term quality.</p>
             <div class="sp-hero-trust">
               <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured</span>
-              <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2004</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2001</span>
               <span class="sp-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Written Estimate</span>
             </div>
             <div class="sp-hero-actions">
@@ -222,7 +222,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="sp-expert-grid">
         <div class="sp-expert-content reveal-left">
           <h2>Why do Grant County homeowners trust Superior Home Builders for whole-house renovations?</h2>
-          <p class="answer-block">We've been renovating homes in Mount Vernon, John Day, Canyon City, and Prairie City since 2004. Local homeowners choose us because one contractor manages the entire project — structural, finish, permits, and trade coordination — so you're not chasing down a dozen different subs with a dozen different schedules.</p>
+          <p class="answer-block">We've been renovating homes in Mount Vernon, John Day, Canyon City, and Prairie City since 2001. Local homeowners choose us because one contractor manages the entire project — structural, finish, permits, and trade coordination — so you're not chasing down a dozen different subs with a dozen different schedules.</p>
           <div class="sp-expert-points">
             <div class="sp-expert-point">
               <span class="num">01</span>
@@ -252,7 +252,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604103182-ak0uqe-20221109_161614_1_.jpg"
                alt="Superior Home Builders renovation work in progress at a Grant County home in Eastern Oregon"
                width="420" height="520" loading="lazy">
-          <div class="sp-expert-photo-badge">22 Years<br>Grant County</div>
+          <div class="sp-expert-photo-badge">25 Years<br>Grant County</div>
         </div>
       </div>
     </div>
@@ -512,7 +512,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             <ul>
               <li>Design-to-completion builds</li>
               <li>Site prep &amp; foundation</li>
-              <li>20+ years local expertise</li>
+              <li>25+ years local expertise</li>
             </ul>
             <a href="/services/custom-home-building/" class="service-card__cta">Learn more</a>
           </div>

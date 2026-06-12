@@ -5,7 +5,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 <?php
 // ── Page-level setup ────────────────────────────────────────────────────────
 $pageTitle        = 'Deck Building in Mount Vernon, OR | Superior Home Builders';
-$pageDescription  = 'Custom deck construction in Mount Vernon, OR. Composite and pressure-treated decks built for Eastern Oregon snow loads and freeze-thaw conditions. Licensed contractor serving Grant County since 2004. Free estimates.';
+$pageDescription  = 'Custom deck construction in Mount Vernon, OR. Composite and pressure-treated decks built for Eastern Oregon snow loads and freeze-thaw conditions. Licensed contractor serving Grant County since 2001. Free estimates.';
 $canonicalUrl     = $siteUrl . '/services/decks/';
 $currentPage      = 'services';
 $heroImage        = '/assets/images/custom-deck-construction.webp';
@@ -40,7 +40,7 @@ $serviceSchema = [
   'url'        => $siteUrl . '/services/decks/',
   'provider'   => ['@type' => 'HomeAndConstructionBusiness', '@id' => $siteUrl . '/#organization'],
   'areaServed' => ['@type' => 'Place', 'name' => 'Mount Vernon, OR', 'addressRegion' => 'OR'],
-  'description' => 'Custom deck construction in Mount Vernon, OR. Composite and pressure-treated decks designed for Grant County\'s snow loads, freeze-thaw conditions, and UV exposure. Pergolas, railings, and covered structures included. Serving Eastern Oregon since 2004.',
+  'description' => 'Custom deck construction in Mount Vernon, OR. Composite and pressure-treated decks designed for Grant County\'s snow loads, freeze-thaw conditions, and UV exposure. Pergolas, railings, and covered structures included. Serving Eastern Oregon since 2001.',
 ];
 $faqSchema    = generateFAQSchema($faqs);
 $schemaGraph  = ['@context' => 'https://schema.org', '@graph' => [$breadcrumbs, $serviceSchema, $faqSchema]];
@@ -132,7 +132,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             <p class="hero-answer">Mount Vernon's Willamette Valley climate demands more than a standard deck—it demands local expertise. We build custom decks designed specifically for our region's moisture patterns, drainage challenges, and building codes to ensure longevity through Oregon's wet seasons. Every project starts with a detailed site consultation and transparent pricing tailored to your home's unique conditions, with sustainable material options and our warranty backing every build. That's the superior-home-builders difference.</p>
             <div class="sp-hero-trust">
               <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured</span>
-              <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2004</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2001</span>
               <span class="sp-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Written Estimate</span>
             </div>
             <div class="sp-hero-actions">
@@ -149,7 +149,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
               <li><?php echo lucide_icon('check-circle'); ?> Permit pulled and inspections handled</li>
               <li><?php echo lucide_icon('check-circle'); ?> Composite &amp; pressure-treated options</li>
               <li><?php echo lucide_icon('check-circle'); ?> Pergolas and covered structures</li>
-              <li><?php echo lucide_icon('check-circle'); ?> 22+ years in Grant County</li>
+              <li><?php echo lucide_icon('check-circle'); ?> 25+ years in Grant County</li>
             </ul>
             <a href="/contact/" class="btn btn-secondary w-full">Schedule a Consultation</a>
           </div>
@@ -225,7 +225,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         </div>
         <div class="sp-expert-content reveal-right">
           <h2>Why do Grant County homeowners choose Superior Home Builders for deck construction?</h2>
-          <p class="answer-block">We design decks for where they actually live — not for the Willamette Valley. Grant County's freeze-thaw cycle, moderate-to-high snow loads, and UV intensity all affect how a deck is engineered, what materials hold up, and how fasteners need to be specified. We've been building in Eastern Oregon since 2004, and we know what Grant County requires for deck permits.</p>
+          <p class="answer-block">We design decks for where they actually live — not for the Willamette Valley. Grant County's freeze-thaw cycle, moderate-to-high snow loads, and UV intensity all affect how a deck is engineered, what materials hold up, and how fasteners need to be specified. We've been building in Eastern Oregon since 2001, and we know what Grant County requires for deck permits.</p>
           <div class="sp-expert-points">
             <div class="sp-expert-point">
               <span class="num">01</span>
@@ -480,7 +480,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <section class="sp-final-cta" aria-label="Get a free deck estimate in Mount Vernon OR">
     <div class="container">
       <h2>Ready to build a deck near Mount Vernon, OR?</h2>
-      <p>Superior Home Builders has been constructing outdoor living spaces in Grant County since 2004. We design for Eastern Oregon's climate, pull every permit, and build structures that hold up. Get a written estimate — no obligation, no pressure.</p>
+      <p>Superior Home Builders has been constructing outdoor living spaces in Grant County since 2001. We design for Eastern Oregon's climate, pull every permit, and build structures that hold up. Get a written estimate — no obligation, no pressure.</p>
       <div class="cta-row">
         <a href="/contact/" class="btn btn-primary btn-lg">Get a Free Estimate</a>
         <?php if (!empty($phone)): ?>

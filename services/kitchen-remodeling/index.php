@@ -4,7 +4,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 ?>
 <?php
 $pageTitle        = 'Kitchen Remodeling in Mount Vernon, OR | Superior Home Builders';
-$pageDescription  = 'Custom kitchen remodeling in Mount Vernon, OR. Cabinets, countertops, layout redesigns, and appliance installation. Licensed contractor serving Grant County since 2004. Free estimates.';
+$pageDescription  = 'Custom kitchen remodeling in Mount Vernon, OR. Cabinets, countertops, layout redesigns, and appliance installation. Licensed contractor serving Grant County since 2001. Free estimates.';
 $canonicalUrl     = $siteUrl . '/services/kitchen-remodeling/';
 $currentPage      = 'services';
 $heroImage        = '/assets/images/kitchen-remodel-mount-vernon.webp';
@@ -217,7 +217,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             <p class="hero-answer">Kitchen remodeling in Mount Vernon demands more than standard design—it requires understanding our region's unique climate challenges and building codes. At Superior Home Builders, we pair personalized design consultation with sustainable, energy-efficient solutions specifically engineered for Mount Vernon homes. Whether you're investing in essential updates or a complete high-end transformation, our transparent pricing and detailed timelines ensure you know exactly what to expect. We back every remodel with comprehensive warranty coverage and dedicated post-build support—because your kitchen should serve your family for decades to come.</p>
             <div class="sp-hero-trust">
               <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured</span>
-              <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2004</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2001</span>
               <span class="sp-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Written Estimate</span>
             </div>
             <div class="sp-hero-actions">
@@ -316,7 +316,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
               <span class="num">03</span>
               <div>
                 <strong>No change-order surprises</strong>
-                <span>We inspect the space before writing the estimate. Hidden conditions still happen — but because we've built in Grant County for 20+ years, we know what to look for and price for it upfront.</span>
+                <span>We inspect the space before writing the estimate. Hidden conditions still happen — but because we've built in Grant County for 25+ years, we know what to look for and price for it upfront.</span>
               </div>
             </div>
           </div>
@@ -463,7 +463,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>Full scope — appliances, faucets, and lighting included</span></div>
           <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>Structural changes assessed and priced in the estimate</span></div>
           <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>Written, itemized estimate — scope is locked</span></div>
-          <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>20+ years building to Oregon code in Grant County</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>25+ years building to Oregon code in Grant County</span></div>
         </div>
       </div>
     </div>

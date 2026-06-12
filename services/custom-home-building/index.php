@@ -5,7 +5,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 <?php
 // ── Page-level setup ────────────────────────────────────────────────────────
 $pageTitle        = 'Custom Home Building in Mount Vernon, OR | Superior Home Builders';
-$pageDescription  = 'Build your custom home in Mount Vernon, OR with Superior Home Builders. Full design-to-completion construction in Grant County since 2004. New builds, site prep, foundation to finish. Free estimates.';
+$pageDescription  = 'Build your custom home in Mount Vernon, OR with Superior Home Builders. Full design-to-completion construction in Grant County since 2001. New builds, site prep, foundation to finish. Free estimates.';
 $canonicalUrl     = $siteUrl . '/services/custom-home-building/';
 $currentPage      = 'services';
 $heroImage        = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604304191-9h3673-466678023_10160894523422734_2342757114398857707_n.jpg';
@@ -135,7 +135,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             <p class="hero-answer">Custom home construction in Mount Vernon presents unique challenges—our region's heavy rainfall, clay-rich soil, and specific building code requirements demand expertise most general contractors simply don't have. Superior Home Builders specializes in Mount Vernon's climate and conditions, designing homes that perform in our weather while meeting local standards. Our transparent approach includes a detailed site assessment to understand your property's specific needs, followed by a written estimate that reflects the true cost of building right in Mount Vernon—whether that's reinforced foundations for our soil conditions, premium weatherproofing, or energy-efficient systems that cut heating costs in our cool Pacific Northwest climate. We don't just build; we partner with you through construction and beyond with ongoing support and warranty coverage specific to Mount Vernon's environmental demands.</p>
             <div class="sp-hero-trust">
               <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured</span>
-              <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2004</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2001</span>
               <span class="sp-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Written Estimate</span>
             </div>
             <div class="sp-hero-actions">
@@ -223,7 +223,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604305411-iws3zu-467311955_10160913944502734_1361278653232378695_n.jpg"
                alt="Superior Home Builders completed custom home in Mount Vernon Oregon Grant County"
                width="440" height="550" loading="lazy">
-          <div class="sp-expert-photo-badge">Built in Grant County Since 2004</div>
+          <div class="sp-expert-photo-badge">Built in Grant County Since 2001</div>
         </div>
         <div class="sp-expert-content reveal-right">
           <h2>Why do Grant County families choose Superior Home Builders for their custom home?</h2>
@@ -239,7 +239,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             <div class="sp-expert-point">
               <span class="num">02</span>
               <div>
-                <strong>20+ years building in Eastern Oregon's specific conditions</strong>
+                <strong>25+ years building in Eastern Oregon's specific conditions</strong>
                 <span>Our crews know Grant County's soil conditions, design snow loads, wind exposure, and building department timelines. That experience saves months and protects your investment against costly surprises.</span>
               </div>
             </div>
@@ -400,7 +400,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>Written proposal with itemized scope, allowances, and phase milestones</span></div>
           <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>Design and build managed together to minimize change orders</span></div>
           <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>Schedule accounts for Eastern OR winter conditions and permit timelines</span></div>
-          <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>20+ years navigating Grant County building department and inspections</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>25+ years navigating Grant County building department and inspections</span></div>
         </div>
       </div>
     </div>

@@ -5,7 +5,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 <?php
 // ── FAQ Page ─────────────────────────────────────────────────────────────────
 $pageTitle        = 'Frequently Asked Questions | Superior Home Builders | Mount Vernon, OR';
-$pageDescription  = 'Common questions about custom home building, remodeling, pricing, and process from Superior Home Builders in Mount Vernon, OR. Serving Eastern Oregon since 2004.';
+$pageDescription  = 'Common questions about custom home building, remodeling, pricing, and process from Superior Home Builders in Mount Vernon, OR. Serving Eastern Oregon since 2001.';
 $canonicalUrl     = $siteUrl . '/faq/';
 $currentPage      = 'faq';
 $ogImage          = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604143637-sycb6k-image.jpg';
@@ -20,7 +20,7 @@ $faqCategories = [
     'items' => [
       [
         'q' => 'Is Superior Home Builders licensed and insured in Oregon?',
-        'a' => 'Yes. Superior Home Builders is a fully licensed Oregon Construction Contractors Board (CCB) contractor and carries general liability insurance. We are qualified to perform both residential and commercial construction and remodeling work throughout Eastern Oregon.',
+        'a' => 'Yes. Superior Home Builders is a fully licensed Oregon Construction Contractors Board contractor (CCB# 147123) and carries general liability insurance. We are qualified to perform both residential and commercial construction and remodeling work throughout Eastern Oregon.',
       ],
       [
         'q' => 'What areas does Superior Home Builders serve?',

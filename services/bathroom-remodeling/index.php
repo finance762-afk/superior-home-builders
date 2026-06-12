@@ -5,7 +5,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 <?php
 // ── Page-level setup ────────────────────────────────────────────────────────
 $pageTitle        = 'Bathroom Remodeling in Mount Vernon, OR | Superior Home Builders';
-$pageDescription  = 'Custom bathroom remodeling in Mount Vernon, OR. Tile, plumbing, fixtures, walk-in showers, and full renovations. Licensed contractor serving Grant County since 2004. Free estimates.';
+$pageDescription  = 'Custom bathroom remodeling in Mount Vernon, OR. Tile, plumbing, fixtures, walk-in showers, and full renovations. Licensed contractor serving Grant County since 2001. Free estimates.';
 $canonicalUrl     = $siteUrl . '/services/bathroom-remodeling/';
 $currentPage      = 'services';
 $heroImage        = '/assets/images/bathroom-remodel-tile.webp';
@@ -117,7 +117,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             <p class="hero-answer">A bathroom remodel in Mount Vernon requires understanding our region's unique climate and building codes. Superior Home Builders brings deep local expertise to every project, with personalized design consultation that incorporates energy-efficient solutions and sustainable practices. Our bathroom remodels typically range from $10,000–$35,000, with transparent pricing and detailed written estimates after our on-site assessment. You'll benefit from our commitment to quality beyond completion—including comprehensive warranty coverage and dedicated post-build support.</p>
             <div class="sp-hero-trust">
               <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured</span>
-              <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2004</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2001</span>
               <span class="sp-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Written Estimate</span>
             </div>
             <div class="sp-hero-actions">
@@ -133,7 +133,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
               <li><?php echo lucide_icon('check-circle'); ?> One crew, start to finish</li>
               <li><?php echo lucide_icon('check-circle'); ?> Written schedule before demo begins</li>
               <li><?php echo lucide_icon('check-circle'); ?> Permits handled for you</li>
-              <li><?php echo lucide_icon('check-circle'); ?> 20+ years in Grant County</li>
+              <li><?php echo lucide_icon('check-circle'); ?> 25+ years in Grant County</li>
               <li><?php echo lucide_icon('check-circle'); ?> No surprise change orders</li>
             </ul>
             <a href="/contact/" class="btn btn-secondary w-full">Schedule a Consultation</a>
@@ -205,7 +205,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <img src="/assets/images/bathroom-remodel-tile.webp"
                alt="Tile installation on a Superior Home Builders bathroom remodel in Mount Vernon Oregon"
                width="420" height="520" loading="lazy">
-          <div class="sp-expert-photo-badge">20+ Years in Grant County</div>
+          <div class="sp-expert-photo-badge">25+ Years in Grant County</div>
         </div>
         <div class="sp-expert-content reveal-right">
           <h2>Why do Grant County homeowners choose Superior Home Builders for bathroom renovations?</h2>
@@ -382,7 +382,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>One integrated crew, one point of contact</span></div>
           <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>We pull permits and manage all inspections</span></div>
           <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>Written schedule before demo begins</span></div>
-          <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>20+ years building in Grant County</span></div>
+          <div class="sp-compare-row"><?php echo lucide_icon('check-circle', '', 'color:var(--color-accent);width:18px;height:18px'); ?><span>25+ years building in Grant County</span></div>
         </div>
       </div>
     </div>

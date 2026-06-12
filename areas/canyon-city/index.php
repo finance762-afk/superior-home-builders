@@ -56,7 +56,7 @@ $faqs = [
   ],
   [
     'q' => 'Who handles building permits in Canyon City, OR?',
-    'a' => 'Canyon City shares the Grant County Building Department (located in Canyon City itself) for most construction permits. Superior Home Builders handles all permit applications, plan submittals, and inspection scheduling on your behalf — you don\'t need to navigate the county office yourself. We\'ve worked with this department for over 20 years and know the process thoroughly.',
+    'a' => 'Canyon City shares the Grant County Building Department (located in Canyon City itself) for most construction permits. Superior Home Builders handles all permit applications, plan submittals, and inspection scheduling on your behalf — you don\'t need to navigate the county office yourself. We\'ve worked with this department for over 25 years and know the process thoroughly.',
   ],
 ];
 
@@ -273,7 +273,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="reveal-left">
         <h2>What sets Canyon City construction projects apart from the rest of Grant County?</h2>
         <p class="answer-block">Canyon City is one of the oldest continuously occupied towns in Eastern Oregon, with settlement dating to the 1862 gold rush along Canyon Creek. That history means construction here often involves older structures — homes built with true-dimension lumber, original plaster and lathe walls, and foundation systems that predate modern codes. Superior Home Builders has remodeled historic properties throughout the Canyon Creek corridor, and we bring the knowledge to do that work correctly: preserving what matters, upgrading what needs to change, and meeting current code at every phase.</p>
-        <p class="area-identity">Superior Home Builders is a licensed Oregon general contractor based in Mount Vernon, OR, serving Canyon City and all of Grant County with custom home building, remodeling, and commercial construction since 2004. The Grant County Building Department — located in Canyon City — is our home permit office.</p>
+        <p class="area-identity">Superior Home Builders is a licensed Oregon general contractor (CCB# 147123) based in Mount Vernon, OR, serving Canyon City and all of Grant County with custom home building, remodeling, and commercial construction since 2001. The Grant County Building Department — located in Canyon City — is our home permit office.</p>
         <a href="/contact/" class="btn btn-primary">Request a Free Estimate</a>
       </div>
       <div class="reveal-right">
@@ -306,7 +306,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="area-bento-card reveal-up reveal-delay-1">
         <div class="icon-wrap"><?php echo lucide_icon('landmark'); ?></div>
         <h3>Grant County permits — on-site</h3>
-        <p>The Grant County Building Department is located in Canyon City itself, making permit coordination especially efficient for our crew. We've worked with this office for over 20 years and handle all plan submittals, applications, and inspection scheduling on your behalf — no extra red tape for you.</p>
+        <p>The Grant County Building Department is located in Canyon City itself, making permit coordination especially efficient for our crew. We've worked with this office for over 25 years and handle all plan submittals, applications, and inspection scheduling on your behalf — no extra red tape for you.</p>
       </div>
       <div class="area-bento-card reveal-up reveal-delay-2">
         <div class="icon-wrap"><?php echo lucide_icon('archive'); ?></div>
@@ -396,7 +396,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             <span class="num">02</span>
             <div>
               <strong>The Grant County Building Department is our home office</strong>
-              <span>The permit office that issues Canyon City construction permits is literally in this town. We've worked with this department for 20+ years — inspections get scheduled, questions get answered fast.</span>
+              <span>The permit office that issues Canyon City construction permits is literally in this town. We've worked with this department for 25+ years — inspections get scheduled, questions get answered fast.</span>
             </div>
           </div>
           <div class="area-why-point">
@@ -452,7 +452,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <section class="area-final-cta" aria-label="Get a free estimate in Canyon City">
   <div class="container reveal-up">
     <h2>Ready to build or remodel in Canyon City, OR?</h2>
-    <p>Superior Home Builders is Canyon City's nearest licensed general contractor — 6 miles away, 20+ years of Grant County experience, and free on-site estimates for every project. No travel fees, no learning curve.</p>
+    <p>Superior Home Builders is Canyon City's nearest licensed general contractor — 6 miles away, 25+ years of Grant County experience, and free on-site estimates for every project. No travel fees, no learning curve.</p>
     <div class="cta-row">
       <a href="/contact/" class="btn btn-secondary btn-lg">Request a Free Estimate</a>
       <?php if (!empty($phone)): ?>

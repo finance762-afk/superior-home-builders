@@ -5,7 +5,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 <?php
 // ── Page-level setup ────────────────────────────────────────────────────────
 $pageTitle        = 'Construction & Remodeling Services in Mount Vernon, OR | Superior Home Builders';
-$pageDescription  = 'Bathroom remodeling, kitchen renovation, custom home building, decks, windows, framing, and commercial construction in Mount Vernon, OR. Free estimates. Serving Grant County since 2004.';
+$pageDescription  = 'Bathroom remodeling, kitchen renovation, custom home building, decks, windows, framing, and commercial construction in Mount Vernon, OR. Free estimates. Serving Grant County since 2001.';
 $canonicalUrl     = $siteUrl . '/services/';
 $currentPage      = 'services';
 $ogImage          = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604131715-gsv7qf-20250819_192028.jpg';
@@ -435,7 +435,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           Superior Home Builders
         </span>
         <h1>Construction &amp; Remodeling<br><em>Services in Eastern Oregon</em></h1>
-        <p class="hero-answer">Superior Home Builders is a licensed general contractor based in Mount Vernon, OR, delivering custom home construction, remodeling, and commercial projects throughout Grant County since 2004. Every service comes with a free written estimate and a crew that shows up when scheduled.</p>
+        <p class="hero-answer">Superior Home Builders is a licensed general contractor based in Mount Vernon, OR, delivering custom home construction, remodeling, and commercial projects throughout Grant County since 2001. Every service comes with a free written estimate and a crew that shows up when scheduled.</p>
         <div class="svc-hero-actions">
           <a href="/contact/" class="btn btn-secondary btn-lg">Get a Free Estimate</a>
           <?php if (!empty($phone)): ?>
@@ -522,7 +522,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           'windows-and-doors'      => ['Energy-efficient replacements','Vinyl, wood &amp; fiberglass','Entry doors &amp; sliders'],
           'decks'                  => ['Composite &amp; pressure-treated','Railings, stairs &amp; pergolas','Built for Eastern OR winters'],
           'framing'                => ['Residential &amp; commercial','New builds &amp; additions','Engineered lumber &amp; steel'],
-          'custom-home-building'   => ['Design-to-completion builds','Site prep &amp; foundation','20+ years local expertise'],
+          'custom-home-building'   => ['Design-to-completion builds','Site prep &amp; foundation','25+ years local expertise'],
           'general-remodeling'     => ['Single rooms to whole homes','Additions &amp; conversions','Interior finish work'],
           'commercial-construction'=> ['Shops, offices &amp; warehouses','Ground-up &amp; tenant build-out','On schedule, on budget'],
         ];

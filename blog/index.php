@@ -4,7 +4,7 @@
  * Page One Insights v6.1
  */
 $pageTitle       = 'Blog | Superior Home Builders | Mount Vernon, OR';
-$pageDescription = 'Construction tips, home-building insights, and expert guidance from Superior Home Builders — Eastern Oregon\'s trusted general contractor since 2004.';
+$pageDescription = 'Construction tips, home-building insights, and expert guidance from Superior Home Builders — Eastern Oregon\'s trusted general contractor since 2001.';
 $canonicalUrl    = 'https://superiorhomebuilderscorp.com/blog/';
 $currentPage     = 'blog';
 

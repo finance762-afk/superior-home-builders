@@ -32,7 +32,7 @@ $homeFaqs = [
     ],
     [
         'q' => 'Is Superior Home Builders licensed and insured in Oregon?',
-        'a' => 'Yes — Superior Home Builders is a fully licensed general contractor in the State of Oregon. We carry general liability insurance and workers\' compensation on every project, protecting your property and every member of our crew.',
+        'a' => 'Yes — Superior Home Builders is a fully licensed general contractor in the State of Oregon (CCB# 147123). We carry general liability insurance and workers\' compensation on every project, protecting your property and every member of our crew.',
     ],
     [
         'q' => 'What is the first step to start a project with Superior Home Builders?',
@@ -110,7 +110,7 @@ $serviceBullets = [
     'windows-and-doors'      => ['Energy-efficient replacements', 'Vinyl, wood & fiberglass', 'Entry doors & sliders'],
     'decks'                  => ['Composite & pressure-treated', 'Railings, stairs & pergolas', 'Built for Eastern OR winters'],
     'framing'                => ['Residential & commercial', 'New builds & additions', 'Engineered lumber & steel'],
-    'custom-home-building'   => ['Design-to-completion builds', 'Site prep & foundation', '20+ years local expertise'],
+    'custom-home-building'   => ['Design-to-completion builds', 'Site prep & foundation', '25+ years local expertise'],
     'general-remodeling'     => ['Single rooms to whole homes', 'Additions & conversions', 'Interior finish work'],
     'commercial-construction' => ['Shops, offices & warehouses', 'Ground-up & tenant build-out', 'On schedule, on budget'],
 ];
@@ -1278,7 +1278,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
           <div class="hero-trust">
             <span class="trust-badge">
-              <?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured
+              <?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured &middot; CCB# <?= htmlspecialchars($licenseNumber) ?>
             </span>
             <span class="trust-divider" aria-hidden="true"></span>
             <span class="trust-badge">
@@ -1369,7 +1369,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       ['icon' => 'door-open',    'text' => 'Windows &amp; Doors'],
       ['icon' => 'building-2',   'text' => 'Commercial Construction'],
       ['icon' => 'wrench',       'text' => 'General Remodeling'],
-      ['icon' => 'shield-check', 'text' => 'Licensed &amp; Insured in OR'],
+      ['icon' => 'shield-check', 'text' => 'Oregon CCB# 147123'],
       ['icon' => 'map-pin',      'text' => 'Grant County Specialists'],
     ];
     // Output twice for seamless loop

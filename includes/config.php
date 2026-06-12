@@ -34,7 +34,7 @@ $siteUrl = 'https://' . $domain;
 
 // ── Industry & Age ───────────────────────────────────────────
 $industry        = 'home_builder';
-$yearEstablished = 2000;        // "Over 25 years" as of 2026 (client confirmed 25+ years in business)
+$yearEstablished = 2001;        // Client opened in 2001 — 25 years as of 2026 (client corrected from 26)
 $yearsInBusiness = (int) date('Y') - $yearEstablished;
 
 // ── Analytics & Verification ─────────────────────────────────
@@ -229,4 +229,4 @@ $leadNotificationPhone = '';
 // ── Insurance / Certifications ───────────────────────────────
 $insurance        = '';
 $certifications   = [];
-$licenseNumber    = '';
+$licenseNumber    = '147123';   // Oregon CCB license — display as "CCB# 147123"

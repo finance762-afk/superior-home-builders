@@ -5,7 +5,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 <?php
 // ── Page-level setup ────────────────────────────────────────────────────────
 $pageTitle        = 'Framing Contractor in Mount Vernon, OR | Superior Home Builders';
-$pageDescription  = 'Expert residential and commercial framing in Mount Vernon, OR. New construction, additions, and structural work. Licensed general contractor serving Grant County since 2004. Free estimates.';
+$pageDescription  = 'Expert residential and commercial framing in Mount Vernon, OR. New construction, additions, and structural work. Licensed general contractor serving Grant County since 2001. Free estimates.';
 $canonicalUrl     = $siteUrl . '/services/framing/';
 $currentPage      = 'services';
 $heroImage        = '/assets/images/custom-home-framing.webp';
@@ -139,7 +139,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             <p class="hero-answer">In Mount Vernon, our framing contractors do more than build walls, floors, and roofs—we engineer the structural foundation with deep expertise in the region's unique climate and building codes. We understand Mount Vernon's freeze-thaw cycles and heavy precipitation patterns, which demand precision framing, proper moisture barriers, and strategic material selection from the ground up. Every frame we build is customized to your home's design and engineered for durability in our local climate. We bring transparent timelines, sustainable building practices, and post-build support to every project, so your frame doesn't just stand square and level—it stands the test of Mount Vernon's seasons.</p>
             <div class="sp-hero-trust">
               <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured</span>
-              <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2004</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2001</span>
               <span class="sp-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Written Estimate</span>
             </div>
             <div class="sp-hero-actions">
@@ -156,7 +156,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
               <li><?php echo lucide_icon('check-circle'); ?> Engineered lumber where spans demand it</li>
               <li><?php echo lucide_icon('check-circle'); ?> Rough framing inspection coordinated</li>
               <li><?php echo lucide_icon('check-circle'); ?> Full GC scope available if needed</li>
-              <li><?php echo lucide_icon('check-circle'); ?> 20+ years in Eastern Oregon</li>
+              <li><?php echo lucide_icon('check-circle'); ?> 25+ years in Eastern Oregon</li>
             </ul>
             <a href="/contact/" class="btn btn-secondary w-full">Schedule a Consultation</a>
           </div>
@@ -225,7 +225,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="sp-expert-grid">
         <div class="sp-expert-content reveal-left">
           <h2>Why do Grant County builders and homeowners trust Superior Home Builders for structural framing?</h2>
-          <p class="answer-block">We've been framing structures in Eastern Oregon since 2004 — homes, additions, and commercial buildings across Grant County. Our crews understand that framing precision at 1/8" tolerances isn't perfectionism — it's what makes every trade after ours work cleanly. We read structural drawings, coordinate with engineers, and manage rough inspections so you don't have to.</p>
+          <p class="answer-block">We've been framing structures in Eastern Oregon since 2001 — homes, additions, and commercial buildings across Grant County. Our crews understand that framing precision at 1/8" tolerances isn't perfectionism — it's what makes every trade after ours work cleanly. We read structural drawings, coordinate with engineers, and manage rough inspections so you don't have to.</p>
           <div class="sp-expert-points">
             <div class="sp-expert-point">
               <span class="num">01</span>
@@ -237,7 +237,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             <div class="sp-expert-point">
               <span class="num">02</span>
               <div>
-                <strong>20+ years framing in Eastern Oregon's climate</strong>
+                <strong>25+ years framing in Eastern Oregon's climate</strong>
                 <span>We understand how Eastern Oregon's dramatic temperature swings affect lumber. We specify the right species, grade, and moisture content to minimize post-framing movement as the structure settles.</span>
               </div>
             </div>
@@ -255,7 +255,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <img src="/assets/images/framing-crew-mount-vernon.webp"
                alt="Superior Home Builders framing crew working on a residential structure in Mount Vernon Oregon"
                width="440" height="550" loading="lazy">
-          <div class="sp-expert-photo-badge">Serving Grant County Since 2004</div>
+          <div class="sp-expert-photo-badge">Serving Grant County Since 2001</div>
         </div>
       </div>
     </div>
@@ -476,7 +476,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             <ul>
               <li>Design-to-completion builds</li>
               <li>Site prep &amp; foundation</li>
-              <li>20+ years local expertise</li>
+              <li>25+ years local expertise</li>
             </ul>
             <a href="/services/custom-home-building/" class="service-card__cta">Learn more</a>
           </div>
