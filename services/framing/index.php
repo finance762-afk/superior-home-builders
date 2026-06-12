@@ -138,7 +138,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             <h1>Framing Contractor in<br><em>Mount Vernon, OR</em></h1>
             <p class="hero-answer">In Mount Vernon, our framing contractors do more than build walls, floors, and roofs—we engineer the structural foundation with deep expertise in the region's unique climate and building codes. We understand Mount Vernon's freeze-thaw cycles and heavy precipitation patterns, which demand precision framing, proper moisture barriers, and strategic material selection from the ground up. Every frame we build is customized to your home's design and engineered for durability in our local climate. We bring transparent timelines, sustainable building practices, and post-build support to every project, so your frame doesn't just stand square and level—it stands the test of Mount Vernon's seasons.</p>
             <div class="sp-hero-trust">
-              <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured &middot; CCB# <?php echo htmlspecialchars($licenseNumber); ?></span>
               <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2001</span>
               <span class="sp-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Written Estimate</span>
             </div>

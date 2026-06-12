@@ -131,7 +131,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             <h1>Deck Building in<br><em>Mount Vernon, OR</em></h1>
             <p class="hero-answer">Mount Vernon's Willamette Valley climate demands more than a standard deck—it demands local expertise. We build custom decks designed specifically for our region's moisture patterns, drainage challenges, and building codes to ensure longevity through Oregon's wet seasons. Every project starts with a detailed site consultation and transparent pricing tailored to your home's unique conditions, with sustainable material options and our warranty backing every build. That's the superior-home-builders difference.</p>
             <div class="sp-hero-trust">
-              <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured &middot; CCB# <?php echo htmlspecialchars($licenseNumber); ?></span>
               <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2001</span>
               <span class="sp-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Written Estimate</span>
             </div>

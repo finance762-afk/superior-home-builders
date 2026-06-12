@@ -120,10 +120,114 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <style>
 /* ════════════════════════════════════════════════════════════════════
    HOMEPAGE — Superior Home Builders
+   "Bright luxury" design language — warm ivory, deep ink, antique gold.
    Page-specific premium styles — uses var() tokens from framework.css
-   Visual techniques: layered hero, glassmorphism form, tinted cards,
-   floating accents, asymmetric about, SVG dividers, multi-dir reveals
+   Visual techniques: cinematic layered hero, luxe credential strip,
+   editorial stats band, full-bleed photo CTA, asymmetric about,
+   SVG dividers, multi-directional reveals
    ════════════════════════════════════════════════════════════════════ */
+
+/* Luxe palette — every value derived from brand tokens via color-mix() */
+:root {
+  --lux-gold:      color-mix(in srgb, var(--color-accent) 70%, var(--color-primary) 30%);
+  --lux-gold-deep: color-mix(in srgb, var(--color-accent) 46%, var(--color-primary) 54%);
+  --lux-champagne: color-mix(in srgb, var(--color-accent) 55%, #fff 45%);
+  --lux-ivory:     color-mix(in srgb, var(--color-accent) 8%, #fff 92%);
+  --lux-line:      rgba(var(--color-primary-rgb), 0.10);
+}
+
+/* ── LUXE PRIMITIVES ───────────────────────────────────────────── */
+/* Refined button treatment — flat, letterspaced, no 3D press shadow */
+.btn.btn-lux {
+  border-radius: var(--radius-sm);
+  box-shadow: none;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  border-width: 1px;
+  padding: 16px var(--space-2xl);
+}
+.btn.btn-lux:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(var(--color-primary-rgb), 0.16);
+}
+.btn.btn-lux:active { box-shadow: none; transform: translateY(1px) !important; }
+.btn.btn-lux.btn-primary {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--lux-ivory);
+}
+.btn.btn-lux.btn-primary:hover {
+  background: var(--lux-gold-deep);
+  border-color: var(--lux-gold-deep);
+  color: #fff;
+}
+.btn.btn-lux.btn-secondary {
+  background: var(--lux-gold);
+  border-color: var(--lux-gold);
+  color: var(--color-primary);
+}
+.btn.btn-lux.btn-secondary:hover {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--lux-champagne);
+}
+.btn.btn-lux.btn-outline {
+  background: transparent;
+  color: #fff;
+  border-color: rgba(255,255,255,0.55);
+  box-shadow: none;
+}
+.btn.btn-lux.btn-outline:hover {
+  background: rgba(255,255,255,0.10);
+  border-color: var(--lux-champagne);
+  color: var(--lux-champagne);
+}
+/* Outline variant for light backgrounds */
+.btn.btn-lux.btn-outline-dark {
+  background: transparent;
+  color: var(--color-primary);
+  border-color: rgba(var(--color-primary-rgb), 0.35);
+}
+.btn.btn-lux.btn-outline-dark:hover {
+  background: transparent;
+  border-color: var(--lux-gold-deep);
+  color: var(--lux-gold-deep);
+}
+
+/* Kicker — uppercase letterspaced label flanked by thin gold rules */
+.lux-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-md);
+  font-family: var(--font-body);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+}
+.lux-kicker::before,
+.lux-kicker::after {
+  content: '';
+  width: 44px;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.55;
+  flex-shrink: 0;
+}
+
+/* Refined editorial headings — lighter serif weight, tighter tracking */
+.section-title h2,
+.section-header h2 {
+  font-weight: 480;
+  letter-spacing: -0.01em;
+}
+/* Gold italic accent inside light-section headings */
+.section-title h2 em,
+.section-header h2 em {
+  font-style: italic;
+  font-weight: 460;
+  color: var(--lux-gold-deep);
+}
 
 /* ── HERO ───────────────────────────────────────────────────────── */
 .hero {
@@ -152,17 +256,26 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 .hero-slide.is-active {
   opacity: 1;
 }
-/* Technique 1: layered gradient overlay */
+/* Technique 1: layered gradient overlay — light cinematic scrim,
+   photos stay luminous for the bright luxury feel */
 .hero::before {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    105deg,
-    rgba(var(--color-primary-rgb), 0.88) 0%,
-    rgba(var(--color-secondary-rgb), 0.72) 55%,
-    rgba(var(--color-primary-rgb), 0.45) 100%
-  );
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(var(--color-primary-rgb), 0.52) 0%,
+      rgba(var(--color-primary-rgb), 0.16) 32%,
+      rgba(var(--color-primary-rgb), 0.16) 68%,
+      rgba(var(--color-primary-rgb), 0.46) 100%
+    ),
+    linear-gradient(
+      100deg,
+      rgba(var(--color-primary-rgb), 0.58) 0%,
+      rgba(var(--color-primary-rgb), 0.32) 55%,
+      rgba(var(--color-primary-rgb), 0.10) 100%
+    );
   z-index: 1;
 }
 /* Technique 1b: noise texture overlay */
@@ -190,41 +303,45 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 .hero-eyebrow {
   display: inline-flex;
   align-items: center;
-  gap: var(--space-sm);
-  background: rgba(var(--color-accent-rgb), 0.15);
-  border: 1px solid rgba(var(--color-accent-rgb), 0.35);
-  border-radius: var(--radius-full);
-  padding: 6px var(--space-md);
-  color: var(--color-accent);
+  gap: var(--space-md);
+  color: var(--lux-champagne);
   font-family: var(--font-body);
   font-size: var(--fs-xs);
-  font-weight: 700;
-  letter-spacing: 0.12em;
+  font-weight: 600;
+  letter-spacing: 0.30em;
   text-transform: uppercase;
   margin-bottom: var(--space-lg);
 }
-.hero-eyebrow i,
-.hero-eyebrow svg { width: 13px; height: 13px; flex-shrink: 0; }
+.hero-eyebrow::before {
+  content: '';
+  width: 52px;
+  height: 1px;
+  background: var(--lux-champagne);
+  opacity: 0.7;
+  flex-shrink: 0;
+}
 .hero-title {
   font-family: var(--font-heading);
-  font-size: clamp(2.6rem, 5.5vw, 5.5rem);
-  font-weight: 900;
-  line-height: 1.0;
-  letter-spacing: -0.04em;
+  font-size: clamp(2.5rem, 4.8vw, 4.6rem);
+  font-weight: 480;
+  line-height: 1.12;
+  letter-spacing: -0.015em;
   color: #fff;
   margin-bottom: var(--space-xl);
   text-wrap: balance;
+  text-shadow: 0 2px 28px rgba(var(--color-primary-rgb), 0.40);
 }
 .hero-title em {
   font-style: italic;
-  color: var(--color-accent);
-  font-weight: 900;
+  color: var(--lux-champagne);
+  font-weight: 430;
 }
 .hero-subtitle {
   font-family: var(--font-body);
   font-size: clamp(1rem, 1.5vw, 1.2rem);
-  color: rgba(255,255,255,0.80);
-  line-height: 1.7;
+  font-weight: 380;
+  color: rgba(255,255,255,0.90);
+  line-height: 1.85;
   margin-bottom: var(--space-2xl);
   max-width: 52ch;
 }
@@ -242,42 +359,42 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 .trust-badge {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  color: rgba(255,255,255,0.72);
+  gap: 7px;
+  color: rgba(255,255,255,0.85);
   font-family: var(--font-body);
   font-size: var(--fs-xs);
-  font-weight: 600;
-  letter-spacing: 0.04em;
+  font-weight: 500;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
 }
 .trust-badge i,
-.trust-badge svg { width: 13px; height: 13px; color: var(--color-accent); flex-shrink: 0; }
+.trust-badge svg { width: 13px; height: 13px; color: var(--lux-champagne); flex-shrink: 0; }
 .trust-divider {
   width: 1px;
   height: 14px;
-  background: rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.30);
   align-self: center;
 }
 
-/* Technique 2: Glassmorphism hero form card */
+/* Technique 2: Bright luxe hero form card — crisp white, gold trim */
 .hero-form-card {
-  background: rgba(255,255,255,0.09);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(255,255,255,0.18);
-  border-radius: var(--radius-xl);
+  background: var(--color-bg);
+  border: 1px solid rgba(255,255,255,0.65);
+  border-top: 3px solid var(--lux-gold);
+  border-radius: var(--radius-lg);
   padding: var(--space-2xl);
-  box-shadow: var(--shadow-xl);
+  box-shadow: 0 28px 68px rgba(var(--color-primary-rgb), 0.32);
 }
 .hero-form-card h2 {
-  color: #fff;
-  font-size: clamp(1.3rem, 2vw, 1.65rem);
-  font-weight: 800;
-  letter-spacing: -0.02em;
+  font-family: var(--font-heading);
+  color: var(--color-primary);
+  font-size: clamp(1.3rem, 2vw, 1.6rem);
+  font-weight: 560;
+  letter-spacing: -0.01em;
   margin-bottom: var(--space-xs);
 }
 .hero-form-tagline {
-  color: rgba(255,255,255,0.60);
+  color: var(--color-text-light);
   font-size: var(--fs-sm);
   margin-bottom: var(--space-lg);
 }
@@ -286,37 +403,37 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 .hero-form select {
   width: 100%;
   padding: 14px var(--space-md);
-  background: rgba(255,255,255,0.10);
-  border: 1px solid rgba(255,255,255,0.22);
-  border-radius: var(--radius);
-  color: #fff;
+  background: var(--color-bg);
+  border: 1px solid var(--lux-line);
+  border-radius: var(--radius-sm);
+  color: var(--color-text);
   font-family: var(--font-body);
   font-size: var(--fs-sm);
-  transition: border-color var(--transition-fast), background var(--transition-fast);
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
   -webkit-appearance: none;
 }
-.hero-form input::placeholder { color: rgba(255,255,255,0.50); }
-.hero-form select { cursor: pointer; }
-.hero-form select option { background: var(--color-primary); color: #fff; }
+.hero-form input::placeholder { color: var(--color-text-light); opacity: 0.75; }
+.hero-form select { cursor: pointer; color: var(--color-text); }
+.hero-form select option { background: var(--color-bg); color: var(--color-text); }
 .hero-form input:focus,
 .hero-form select:focus {
   outline: none;
-  border-color: var(--color-accent);
-  background: rgba(255,255,255,0.16);
+  border-color: var(--lux-gold-deep);
+  box-shadow: 0 0 0 3px rgba(var(--color-accent-rgb), 0.30);
 }
 .btn-block { width: 100%; justify-content: center; }
 .form-footnote {
   font-size: var(--fs-xs);
-  color: rgba(255,255,255,0.42);
+  color: var(--color-text-light);
   text-align: center;
   margin-top: var(--space-md);
   line-height: 1.55;
 }
 .form-footnote a {
-  color: rgba(255,255,255,0.55);
+  color: var(--color-text-light);
   text-decoration: underline;
 }
-.form-footnote a:hover { color: var(--color-accent); }
+.form-footnote a:hover { color: var(--lux-gold-deep); }
 .hero-consent {
   display: flex;
   align-items: flex-start;
@@ -329,14 +446,16 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   height: 16px;
   min-width: 16px;
   margin-top: 2px;
-  accent-color: var(--color-accent);
+  accent-color: var(--lux-gold-deep);
   cursor: pointer;
 }
 
-/* ── TICKER STRIP ──────────────────────────────────────────────── */
+/* ── TICKER STRIP — quiet ivory credentials band ──────────────── */
 .ticker-strip {
-  background: var(--color-accent);
-  padding: 12px 0;
+  background: var(--lux-ivory);
+  border-top: 1px solid var(--lux-line);
+  border-bottom: 1px solid var(--lux-line);
+  padding: 15px 0;
   overflow: hidden;
   position: relative;
 }
@@ -356,31 +475,31 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   padding: 0 var(--space-2xl);
   color: var(--color-primary);
   font-family: var(--font-body);
-  font-size: var(--fs-sm);
-  font-weight: 700;
-  letter-spacing: 0.06em;
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  letter-spacing: 0.20em;
   text-transform: uppercase;
   white-space: nowrap;
 }
 .ticker-item i,
-.ticker-item svg { width: 14px; height: 14px; flex-shrink: 0; }
+.ticker-item svg { width: 14px; height: 14px; flex-shrink: 0; color: var(--lux-gold-deep); }
 .ticker-dot {
-  width: 5px;
-  height: 5px;
+  width: 4px;
+  height: 4px;
   border-radius: var(--radius-full);
-  background: rgba(var(--color-primary-rgb), 0.35);
+  background: rgba(var(--color-primary-rgb), 0.22);
   flex-shrink: 0;
 }
 
 /* ── NUMBERED SECTION LABELS ────────────────────────────────────── */
 .numbered-section { position: relative; }
-/* Services on a cool blue tint background */
+/* Services: warm ivory settling into white */
 #services {
-  background: linear-gradient(175deg, #ffffff 0%, rgba(7, 33, 89, 0.05) 100%);
+  background: linear-gradient(180deg, var(--lux-ivory) 0%, var(--color-bg) 32%);
 }
-/* FAQ on a warm gold tint background */
+/* FAQ on clean white */
 #faq {
-  background: linear-gradient(180deg, rgba(248, 229, 104, 0.08) 0%, rgba(248, 229, 104, 0.04) 100%);
+  background: var(--color-bg);
 }
 .section-num {
   position: absolute;
@@ -388,13 +507,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   right: clamp(1rem, 4vw, 2rem);
   font-family: var(--font-heading);
   font-size: clamp(5rem, 12vw, 11rem);
-  font-weight: 900;
+  font-weight: 330;
   font-style: italic;
-  color: rgba(var(--color-primary-rgb), 0.04);
+  color: rgba(var(--color-primary-rgb), 0.05);
   line-height: 1;
   pointer-events: none;
   user-select: none;
-  letter-spacing: -0.06em;
+  letter-spacing: -0.02em;
 }
 
 /* ── SERVICES SECTION ────────────────────────────────────────────── */
@@ -412,8 +531,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 .section-subtitle-accent {
   font-family: var(--font-accent);
   font-style: italic;
+  font-weight: 420;
   font-size: 1.3rem;
-  color: var(--color-secondary);
+  color: var(--lux-gold-deep);
   display: block;
   margin-top: var(--space-sm);
 }
@@ -460,29 +580,31 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   width: 56px;
   height: 56px;
   border-radius: var(--radius-full);
-  background: var(--color-accent);
-  box-shadow: 0 4px 0 var(--color-accent-dark), var(--shadow-md);
+  background: var(--color-bg);
+  border: 1px solid var(--lux-gold);
+  box-shadow: var(--shadow-md);
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: -40px;
   margin-bottom: var(--space-xs);
-  color: var(--color-primary);
+  color: var(--lux-gold-deep);
   flex-shrink: 0;
   transition: transform var(--transition-base), box-shadow var(--transition-base);
 }
 .service-card-with-image:hover .service-card__icon {
   transform: translateY(-2px);
-  box-shadow: 0 6px 0 var(--color-accent-dark), var(--shadow-lg);
+  box-shadow: var(--shadow-lg);
 }
 .service-card__icon i,
 .service-card__icon svg { width: 24px; height: 24px; }
 .service-card-with-image h3 {
   font-family: var(--font-heading);
+  font-weight: 560;
   color: var(--color-primary);
   margin: 0;
   font-size: 1.25rem;
-  line-height: 1.15;
+  line-height: 1.2;
 }
 .service-card__desc {
   color: var(--color-text-light);
@@ -511,7 +633,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 }
 .service-card-with-image ul li::before {
   content: '✓';
-  color: var(--color-accent);
+  color: var(--lux-gold-deep);
   font-weight: 800;
   font-size: 0.7rem;
   position: absolute;
@@ -521,9 +643,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 .service-card__cta {
   margin-top: auto;
   padding: var(--space-sm) 0 0;
-  color: var(--color-secondary);
-  font-weight: 700;
-  font-size: var(--fs-sm);
+  color: var(--lux-gold-deep);
+  font-weight: 600;
+  font-size: var(--fs-xs);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
   border-top: 1px solid var(--color-border);
   width: 100%;
   text-align: center;
@@ -544,25 +668,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   margin-top: var(--space-2xl);
 }
 
-/* ── STATS ──────────────────────────────────────────────────────── */
+/* ── STATS — bright ivory editorial band ────────────────────────── */
 .stats-section {
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-  padding: var(--space-3xl) 0;
+  background: var(--lux-ivory);
+  padding: var(--space-4xl) 0;
   position: relative;
   overflow: hidden;
 }
-/* Subtle diagonal texture */
+/* Faint warm glow rising from below */
 .stats-section::after {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: repeating-linear-gradient(
-    60deg,
-    transparent,
-    transparent 40px,
-    rgba(255,255,255,0.015) 40px,
-    rgba(255,255,255,0.015) 42px
-  );
+  background: radial-gradient(ellipse at 50% 130%, rgba(var(--color-accent-rgb), 0.18) 0%, transparent 60%);
   pointer-events: none;
   z-index: 0;
 }
@@ -570,62 +688,54 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 .stats-section::before {
   content: attr(data-watermark);
   position: absolute;
-  right: -2%;
-  top: -10%;
+  right: -1%;
+  top: -12%;
   font-family: var(--font-heading);
   font-size: clamp(10rem, 20vw, 22rem);
-  font-weight: 900;
+  font-weight: 330;
   font-style: italic;
-  color: rgba(248, 229, 104, 0.06);
+  color: rgba(var(--color-primary-rgb), 0.045);
   line-height: 1;
   pointer-events: none;
-  letter-spacing: -0.06em;
+  letter-spacing: -0.02em;
   z-index: 0;
 }
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: var(--space-2xl);
+  gap: 0;
   position: relative;
   z-index: 1;
 }
 .stat-item {
   text-align: center;
-  padding: var(--space-2xl) var(--space-md);
-  border-radius: var(--radius-lg);
-  background: rgba(255,255,255,0.06);
-  border: 1px solid rgba(255,255,255,0.10);
-  transition: background var(--transition-base), border-color var(--transition-base), transform var(--transition-base);
+  padding: var(--space-xl) var(--space-md);
+  border-left: 1px solid var(--lux-line);
 }
-.stat-item:hover {
-  background: rgba(255,255,255,0.10);
-  border-color: rgba(var(--color-accent-rgb), 0.45);
-  transform: translateY(-3px);
-}
+.stat-item:first-child { border-left: none; }
 .stat-number {
   font-family: var(--font-heading);
-  font-size: clamp(2.5rem, 5vw, 4.5rem);
-  font-weight: 900;
-  font-style: italic;
-  color: var(--color-accent);
+  font-size: clamp(2.5rem, 4.6vw, 4.2rem);
+  font-weight: 420;
+  color: var(--color-primary);
   line-height: 1;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.02em;
   display: block;
-  margin-bottom: var(--space-xs);
-  text-shadow: 0 2px 12px rgba(248, 229, 104, 0.25);
+  margin-bottom: var(--space-sm);
 }
 .stat-suffix {
-  font-size: 0.65em;
+  font-size: 0.55em;
   vertical-align: super;
-  font-style: normal;
+  font-style: italic;
+  color: var(--lux-gold-deep);
 }
 .stat-label {
   font-family: var(--font-body);
-  font-size: var(--fs-sm);
+  font-size: var(--fs-xs);
   font-weight: 600;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.65);
+  color: var(--color-text-light);
   display: block;
 }
 
@@ -640,8 +750,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   position: relative;
 }
 .divider-wave svg { display: block; width: 100%; height: 100%; }
-.divider-wave--dark-to-light { background: var(--color-primary); }
-.divider-wave--light-to-dark { background: var(--color-bg-alt); }
+.divider-wave--dark-to-light { background: var(--lux-ivory); }
+.divider-wave--light-to-dark { background: var(--color-bg); }
 .divider-angle {
   display: block;
   width: 100%;
@@ -651,105 +761,91 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 }
 .divider-angle svg { display: block; width: 100%; height: 100%; }
 
-/* ── MID CTA BANNER — bold accent-yellow background ─────────────── */
+/* ── MID CTA BANNER — full-bleed photo band, deep overlay ───────── */
 .cta-banner {
-  background: var(--color-accent);
-  padding: var(--space-3xl) 0;
   position: relative;
+  padding: clamp(96px, 12vw, 160px) 0;
+  background-image: url('/assets/images/hero-custom-home-1600.webp');
+  background-size: cover;
+  background-position: center 40%;
   overflow: hidden;
+  text-align: center;
 }
-/* Diagonal stripe texture on yellow */
+/* Deep ink-to-navy scrim — darkest at the edges to blend the wave divider */
 .cta-banner::before {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: repeating-linear-gradient(
-    -55deg,
-    transparent,
-    transparent 18px,
-    rgba(15, 18, 25, 0.04) 18px,
-    rgba(15, 18, 25, 0.04) 20px
+  background: linear-gradient(
+    to bottom,
+    rgba(var(--color-primary-rgb), 0.94) 0%,
+    rgba(var(--color-secondary-rgb), 0.66) 48%,
+    rgba(var(--color-primary-rgb), 0.88) 100%
   );
   pointer-events: none;
-}
-/* Decorative large quote mark */
-.cta-banner::after {
-  content: '25';
-  position: absolute;
-  right: 4%;
-  top: 50%;
-  transform: translateY(-50%);
-  font-family: var(--font-heading);
-  font-size: clamp(8rem, 18vw, 16rem);
-  font-weight: 900;
-  font-style: italic;
-  color: rgba(15, 18, 25, 0.06);
-  line-height: 1;
-  pointer-events: none;
-  user-select: none;
-  letter-spacing: -0.06em;
 }
 .cta-banner .container { position: relative; z-index: 1; }
 .cta-banner-inner {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
   gap: var(--space-2xl);
 }
+.cta-banner-copy .lux-kicker {
+  color: var(--lux-champagne);
+  margin-bottom: var(--space-lg);
+}
 .cta-banner-copy h2 {
-  color: var(--color-primary);
-  font-size: clamp(1.5rem, 3vw, 2.4rem);
-  margin-bottom: var(--space-sm);
+  color: #fff;
+  font-family: var(--font-heading);
+  font-weight: 460;
+  font-size: clamp(1.9rem, 3.6vw, 3rem);
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  max-width: 24ch;
+  margin: 0 auto var(--space-md);
+}
+.cta-banner-copy h2 em {
+  font-style: italic;
+  font-weight: 430;
+  color: var(--lux-champagne);
 }
 .cta-banner-copy p {
-  color: rgba(15, 18, 25, 0.72);
-  font-size: clamp(0.95rem, 1.5vw, 1.05rem);
-  max-width: 50ch;
-  margin: 0;
+  color: rgba(255,255,255,0.84);
+  font-size: clamp(0.95rem, 1.5vw, 1.1rem);
+  line-height: 1.8;
+  max-width: 56ch;
+  margin: 0 auto;
 }
-/* On yellow background: override buttons to dark primary + dark-outline */
-.cta-banner .btn-secondary {
-  background: var(--color-primary);
-  color: #fff;
-  border-color: var(--color-primary);
-  box-shadow: 0 4px 0 var(--color-primary-dark);
-}
-.cta-banner .btn-secondary:hover {
-  background: var(--color-secondary);
-  border-color: var(--color-secondary);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 0 #041440;
-}
-.cta-banner .btn-outline {
-  background: transparent;
+/* On the photo band: secondary flips to crisp white */
+.cta-banner .btn.btn-lux.btn-secondary {
+  background: #fff;
+  border-color: #fff;
   color: var(--color-primary);
-  border-color: rgba(15, 18, 25, 0.40);
-  box-shadow: none;
 }
-.cta-banner .btn-outline:hover {
-  background: rgba(15, 18, 25, 0.08);
-  border-color: var(--color-primary);
+.cta-banner .btn.btn-lux.btn-secondary:hover {
+  background: var(--lux-champagne);
+  border-color: var(--lux-champagne);
   color: var(--color-primary);
-  transform: translateY(-1px);
 }
 .cta-banner-actions {
   display: flex;
   gap: var(--space-md);
-  flex-shrink: 0;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
-/* ── ABOUT / PROCESS — rich navy blue background ───────────────── */
+/* ── ABOUT / PROCESS — bright gallery white ────────────────────── */
 .about-section {
-  background: var(--color-secondary);
+  background: var(--color-bg);
   position: relative;
 }
-/* Subtle noise texture on navy */
+/* Faint warm wash behind the photo column */
 .about-section::before {
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at 80% 50%, rgba(248, 229, 104, 0.06) 0%, transparent 65%);
+  background: radial-gradient(ellipse at 85% 25%, rgba(var(--color-accent-rgb), 0.10) 0%, transparent 60%);
   pointer-events: none;
   z-index: 0;
 }
@@ -763,35 +859,40 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 }
 .about-left {}
 .about-section .eyebrow-label {
-  color: var(--color-accent);
+  color: var(--lux-gold-deep);
+  letter-spacing: 0.28em;
 }
 .about-section h2 {
-  color: #fff;
+  color: var(--color-primary);
+  font-weight: 480;
 }
 .about-section h2 em {
-  color: var(--color-accent) !important;
+  color: var(--lux-gold-deep);
+  font-style: italic;
+  font-weight: 460;
 }
 .about-tagline {
   font-family: var(--font-accent);
   font-style: italic;
+  font-weight: 400;
   font-size: clamp(1.15rem, 2vw, 1.4rem);
-  color: rgba(255,255,255,0.75);
+  color: var(--color-text-light);
   margin-bottom: var(--space-lg);
   display: block;
 }
 .about-text {
-  color: rgba(255,255,255,0.82);
+  color: var(--color-text-light);
   font-size: clamp(0.95rem, 1.3vw, 1.05rem);
-  line-height: 1.80;
+  line-height: 1.85;
   margin-bottom: var(--space-md);
 }
 .process-heading {
-  font-family: var(--font-heading);
-  font-size: 1.05rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: var(--color-accent);
+  color: var(--color-primary);
   margin: var(--space-2xl) 0 var(--space-lg);
 }
 .process-steps { display: flex; flex-direction: column; gap: var(--space-lg); }
@@ -805,30 +906,30 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   width: 44px;
   height: 44px;
   border-radius: var(--radius-full);
-  background: var(--color-accent);
-  color: var(--color-primary);
+  background: transparent;
+  border: 1px solid var(--lux-gold);
+  color: var(--lux-gold-deep);
   font-family: var(--font-heading);
   font-size: 1rem;
-  font-weight: 900;
+  font-weight: 480;
   font-style: italic;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  box-shadow: 0 3px 0 var(--color-accent-dark);
 }
 .step-body h4 {
   font-family: var(--font-heading);
   font-size: 1rem;
-  font-weight: 800;
-  color: #fff;
+  font-weight: 640;
+  color: var(--color-primary);
   margin-bottom: 4px;
 }
 .step-body p {
   font-size: var(--fs-sm);
-  color: rgba(255,255,255,0.65);
+  color: var(--color-text-light);
   margin: 0;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 /* Right side: overlapping image + stat card */
 .about-right { position: relative; }
@@ -847,70 +948,77 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   transition: transform 0.6s ease;
 }
 .about-image-wrap:hover img { transform: scale(1.04); }
-/* Overlapping stat card (broken-grid technique) */
+/* Overlapping stat card (broken-grid technique) — white with gold trim */
 .about-stat-card {
   position: absolute;
   bottom: var(--space-xl);
   left: calc(-1 * var(--space-xl));
-  background: var(--color-accent);
-  border-radius: var(--radius-lg);
+  background: var(--color-bg);
+  border-top: 3px solid var(--lux-gold);
+  border-radius: var(--radius);
   padding: var(--space-lg) var(--space-xl);
-  box-shadow: 0 8px 0 var(--color-accent-dark), var(--shadow-xl);
+  box-shadow: var(--shadow-xl);
   min-width: 200px;
 }
 .about-stat-card .stat-num-big {
   font-family: var(--font-heading);
   font-size: 3rem;
-  font-weight: 900;
-  font-style: italic;
+  font-weight: 440;
   color: var(--color-primary);
   line-height: 1;
   display: block;
 }
-.about-stat-card .stat-num-big em { color: var(--color-primary); }
+.about-stat-card .stat-num-big em {
+  color: var(--lux-gold-deep);
+  font-style: italic;
+}
 .about-stat-card .stat-lbl {
   font-family: var(--font-body);
-  font-size: var(--fs-sm);
-  font-weight: 700;
-  color: rgba(15, 18, 25, 0.72);
-  letter-spacing: 0.04em;
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  color: var(--color-text-light);
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   display: block;
-  margin-top: 4px;
+  margin-top: 6px;
 }
 
-/* ── REVIEWS ──────────────────────────────────────────────────── */
+/* ── REVIEWS — bright ivory, gallery-white cards ───────────────── */
 .reviews-section {
-  background: var(--color-bg-dark);
+  background: var(--lux-ivory);
   position: relative;
 }
-.reviews-section .section-title h2 { color: #fff; }
-.reviews-section .section-subtitle-accent { color: rgba(var(--color-accent-rgb), 0.80); }
-.reviews-section .eyebrow-label { color: var(--color-accent); }
+.reviews-section .section-title h2 { color: var(--color-primary); }
+.reviews-section .section-subtitle-accent { color: var(--lux-gold-deep); }
+.reviews-section .eyebrow-label { color: var(--lux-gold-deep); letter-spacing: 0.28em; }
 .reviews-swiper { overflow: hidden; }
 .swiper-wrapper { display: flex; }
 .review-card {
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.09);
+  background: var(--color-bg);
+  border: 1px solid var(--lux-line);
   border-radius: var(--radius-lg);
   padding: var(--space-2xl);
   height: auto;
   display: flex;
   flex-direction: column;
   gap: var(--space-md);
-  transition: background var(--transition-base), border-color var(--transition-base);
+  box-shadow: var(--shadow-card);
+  transition: box-shadow var(--transition-base), border-color var(--transition-base), transform var(--transition-base);
 }
 .review-card:hover {
-  background: rgba(255,255,255,0.08);
-  border-color: rgba(var(--color-accent-rgb), 0.25);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(var(--color-accent-rgb), 0.55);
+  transform: translateY(-3px);
 }
 .review-stars { display: flex; gap: 3px; }
 .review-stars i,
-.review-stars svg { width: 16px; height: 16px; color: var(--color-star); }
+.review-stars svg { width: 16px; height: 16px; color: var(--lux-gold); }
 .review-text {
-  color: rgba(255,255,255,0.78);
+  font-family: var(--font-heading);
+  color: var(--color-text);
   font-size: var(--fs-sm);
-  line-height: 1.75;
+  font-weight: 380;
+  line-height: 1.85;
   flex: 1;
   font-style: italic;
 }
@@ -921,31 +1029,32 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   align-items: center;
   gap: var(--space-md);
   padding-top: var(--space-md);
-  border-top: 1px solid rgba(255,255,255,0.08);
+  border-top: 1px solid var(--lux-line);
 }
 .review-avatar {
   width: 42px;
   height: 42px;
   border-radius: var(--radius-full);
-  background: rgba(var(--color-accent-rgb), 0.15);
+  background: var(--lux-ivory);
+  border: 1px solid rgba(var(--color-accent-rgb), 0.55);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-accent);
+  color: var(--lux-gold-deep);
   font-family: var(--font-heading);
   font-size: 1rem;
-  font-weight: 900;
+  font-weight: 500;
   flex-shrink: 0;
 }
 .review-author strong {
   display: block;
-  color: #fff;
+  color: var(--color-primary);
   font-size: var(--fs-sm);
   font-weight: 700;
 }
 .review-author span {
   display: block;
-  color: rgba(255,255,255,0.45);
+  color: var(--color-text-light);
   font-size: var(--fs-xs);
   margin-top: 2px;
 }
@@ -957,31 +1066,31 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   flex-wrap: wrap;
   margin-top: var(--space-3xl);
   padding-top: var(--space-2xl);
-  border-top: 1px solid rgba(255,255,255,0.08);
+  border-top: 1px solid var(--lux-line);
 }
 .review-platform {
   display: flex;
   align-items: center;
   gap: var(--space-sm);
-  color: rgba(255,255,255,0.45);
+  color: var(--color-text-light);
   font-size: var(--fs-sm);
   font-weight: 600;
 }
 .review-platform i,
-.review-platform svg { width: 18px; height: 18px; color: var(--color-accent); }
+.review-platform svg { width: 18px; height: 18px; color: var(--lux-gold-deep); }
 .swiper-pagination { margin-top: var(--space-2xl); text-align: center; }
 .swiper-pagination-bullet {
   display: inline-block;
   width: 8px;
   height: 8px;
-  background: rgba(255,255,255,0.25);
+  background: rgba(var(--color-primary-rgb), 0.18);
   border-radius: var(--radius-full);
   margin: 0 4px;
   cursor: pointer;
   transition: background var(--transition-fast), width var(--transition-fast);
 }
 .swiper-pagination-bullet-active {
-  background: var(--color-accent);
+  background: var(--lux-gold-deep);
   width: 24px;
   border-radius: var(--radius-full);
 }
@@ -1002,7 +1111,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   transition: box-shadow var(--transition-base);
 }
 .faq-item:hover { box-shadow: var(--shadow); }
-.faq-item.open { border-color: rgba(var(--color-secondary-rgb), 0.30); box-shadow: var(--shadow); }
+.faq-item.open { border-color: rgba(var(--color-accent-rgb), 0.70); box-shadow: var(--shadow); }
 .faq-question {
   display: flex;
   align-items: flex-start;
@@ -1012,12 +1121,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   user-select: none;
   transition: background var(--transition-fast);
 }
-.faq-question:hover { background: var(--color-bg-alt); }
+.faq-question:hover { background: var(--lux-ivory); }
 .faq-question i,
 .faq-question svg {
   width: 18px;
   height: 18px;
-  color: var(--color-secondary);
+  color: var(--lux-gold-deep);
   flex-shrink: 0;
   margin-top: 3px;
   transition: transform var(--transition-base);
@@ -1096,16 +1205,16 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   position: absolute;
   top: var(--space-md);
   left: var(--space-md);
-  background: rgba(var(--color-primary-rgb), 0.82);
+  background: rgba(255,255,255,0.92);
   backdrop-filter: blur(6px);
-  color: var(--color-accent);
+  color: var(--color-primary);
   font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
+  font-weight: 600;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   padding: 4px 12px;
   border-radius: var(--radius-full);
-  border: 1px solid rgba(var(--color-accent-rgb), 0.3);
+  border: 1px solid var(--lux-line);
 }
 .blog-preview-card__body {
   padding: var(--space-2xl) var(--space-2xl) var(--space-2xl) 0;
@@ -1139,7 +1248,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 .blog-preview-card__title a {
   transition: color var(--transition-fast);
 }
-.blog-preview-card__title a:hover { color: var(--color-secondary); }
+.blog-preview-card__title a:hover { color: var(--lux-gold-deep); }
 .blog-preview-card__excerpt {
   font-size: var(--fs-sm);
   color: var(--color-text-light);
@@ -1151,9 +1260,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   display: inline-flex;
   align-items: center;
   gap: var(--space-sm);
-  font-weight: 700;
-  font-size: var(--fs-sm);
-  color: var(--color-secondary);
+  font-weight: 600;
+  font-size: var(--fs-xs);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--lux-gold-deep);
   transition: color var(--transition-fast), gap var(--transition-fast);
 }
 .blog-preview-card__cta:hover {
@@ -1169,11 +1280,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
 /* ── CLOSING CTA ─────────────────────────────────────────────── */
 .closing-cta {
-  background: var(--color-bg-alt);
+  background: var(--lux-ivory);
+  border-top: 1px solid var(--lux-line);
   padding: var(--space-4xl) 0;
   text-align: center;
 }
-.closing-cta h2 { margin-bottom: var(--space-md); }
+.closing-cta .eyebrow-label { color: var(--lux-gold-deep); letter-spacing: 0.28em; }
+.closing-cta h2 { margin-bottom: var(--space-md); font-weight: 480; }
 .closing-cta p {
   color: var(--color-text-light);
   max-width: 52ch;
@@ -1198,9 +1311,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   .hero-form-card         { max-width: 520px; margin: 0 auto; }
   .services-grid          { grid-template-columns: repeat(2, 1fr); }
   .stats-grid             { grid-template-columns: repeat(2, 1fr); gap: var(--space-lg); }
-  .cta-banner-inner       { flex-direction: column; text-align: center; }
-  .cta-banner-copy p      { margin: 0 auto; }
-  .cta-banner-actions     { justify-content: center; }
+  .stat-item              { border-left: none; }
   .about-layout           { grid-template-columns: 1fr; }
   .about-right            { display: none; }
   .faq-grid               { grid-template-columns: 1fr; }
@@ -1216,6 +1327,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   .trust-divider  { display: none; }
   .services-grid  { grid-template-columns: 1fr; }
   .stats-grid     { grid-template-columns: repeat(2, 1fr); }
+  .lux-kicker::before,
+  .lux-kicker::after { width: 24px; }
   .review-badge-strip { gap: var(--space-lg); }
 }
 </style>
@@ -1240,36 +1353,31 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
         <!-- LEFT: Copy block -->
         <div class="hero-text">
-          <span class="hero-eyebrow">
-            <?php echo lucide_icon('shield-check'); ?>
-            <?= $yearsInBusiness ?>+ Years Serving Eastern Oregon
-          </span>
+          <span class="hero-eyebrow">The Trusted Choice in Eastern Oregon Custom Builds</span>
 
           <h1 class="hero-title">
-            Eastern Oregon&rsquo;s<br>
-            Custom Builders<br>
-            <em>Built Right.</em>
+            Bringing Your Dream Home<br>
+            to Life in <em>Eastern Oregon</em>
           </h1>
 
           <p class="hero-subtitle">
-            Superior Home Builders has been constructing and remodeling homes across
-            Mount Vernon, John Day, and Grant County for over <?= $yearsInBusiness ?> years.
-            From ground-up custom builds to full kitchen and bathroom renovations, we
-            bring the same craftsmanship to every project, large or small.
+            Superior Home Builders is Mount Vernon&rsquo;s trusted custom home builder
+            and general contractor — crafting new homes, kitchens, baths, decks, and
+            commercial spaces across Grant County for over <?= $yearsInBusiness ?> years.
+            One crew, one standard, on every project large or small.
           </p>
 
           <div class="hero-actions">
-            <a href="#estimate-form" class="btn btn-secondary btn-lg">
-              <?php echo lucide_icon('clipboard-list'); ?>
+            <a href="#estimate-form" class="btn btn-lux btn-secondary btn-lg">
               Get a Free Estimate
             </a>
             <?php if (!empty($phone)): ?>
-            <a href="tel:<?= preg_replace('/\D/', '', $phone) ?>" class="btn btn-outline btn-lg">
+            <a href="tel:<?= preg_replace('/\D/', '', $phone) ?>" class="btn btn-lux btn-outline btn-lg">
               <?php echo lucide_icon('phone'); ?>
               Call <?= htmlspecialchars($phone) ?>
             </a>
             <?php else: ?>
-            <a href="/contact/" class="btn btn-outline btn-lg">
+            <a href="/contact/" class="btn btn-lux btn-outline btn-lg">
               <?php echo lucide_icon('calendar'); ?>
               Schedule Consultation
             </a>
@@ -1328,8 +1436,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
                 <?php endforeach; ?>
               </select>
             </div>
-            <button type="submit" class="btn btn-secondary btn-block">
-              <?php echo lucide_icon('send'); ?>
+            <button type="submit" class="btn btn-lux btn-secondary btn-block">
               Get My Free Estimate
             </button>
             <label class="form-footnote hero-consent">
@@ -1396,8 +1503,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <span class="eyebrow-label">What We Do</span>
       <h2>
         What construction services does
-        <span style="color:var(--color-secondary)">Superior Home Builders</span>
-        offer in <em style="color:var(--color-secondary);font-style:italic">Mount Vernon?</em>
+        Superior Home Builders
+        offer in <em>Mount Vernon?</em>
       </h2>
       <p class="hero-answer">
         Superior Home Builders handles every phase of residential and commercial
@@ -1447,8 +1554,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     </div><!-- /.services-grid -->
 
     <div class="services-cta-row reveal-up">
-      <a href="/services/" class="btn btn-primary">
-        <?php echo lucide_icon('grid-3x3'); ?>
+      <a href="/services/" class="btn btn-lux btn-primary">
         View All Services
       </a>
     </div>
@@ -1456,17 +1562,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </div><!-- /.container -->
 </section>
 
-<!-- ── SVG WAVE DIVIDER — light to dark ──────────────────────── -->
+<!-- ── SVG WAVE DIVIDER — white into ivory stats band ─────────── -->
 <div class="divider-wave divider-wave--light-to-dark" aria-hidden="true">
   <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0,40 C240,80 480,0 720,40 C960,80 1200,0 1440,40 L1440,80 L0,80 Z" fill="#0f1219"/>
+    <path d="M0,40 C240,80 480,0 720,40 C960,80 1200,0 1440,40 L1440,80 L0,80 Z" style="fill:var(--lux-ivory)"/>
   </svg>
 </div>
 
 <!-- ════════════════════════════════════════════════════
      STATS SECTION
 ════════════════════════════════════════════════════ -->
-<section class="stats-section" data-watermark="25" aria-label="Superior Home Builders by the numbers">
+<section class="stats-section" data-watermark="<?= $yearsInBusiness ?>" aria-label="Superior Home Builders by the numbers">
   <div class="container">
     <div class="stats-grid">
       <div class="stat-item reveal-scale">
@@ -1497,10 +1603,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </div>
 </section>
 
-<!-- ── SVG WAVE DIVIDER — dark to light ──────────────────────── -->
-<div class="divider-wave divider-wave--dark-to-light" aria-hidden="true" style="background:var(--color-bg-alt)">
+<!-- ── SVG WAVE DIVIDER — ivory into the photo CTA band ───────── -->
+<div class="divider-wave divider-wave--dark-to-light" aria-hidden="true" style="background:var(--color-primary)">
   <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0,40 C360,0 720,80 1080,40 C1260,20 1350,60 1440,40 L1440,0 L0,0 Z" fill="#0f1219"/>
+    <path d="M0,40 C360,0 720,80 1080,40 C1260,20 1350,60 1440,40 L1440,0 L0,0 Z" style="fill:var(--lux-ivory)"/>
   </svg>
 </div>
 
@@ -1510,20 +1616,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <section class="cta-banner" aria-label="Get a free estimate">
   <div class="container">
     <div class="cta-banner-inner">
-      <div class="cta-banner-copy reveal-left">
-        <h2>Ready to build something that lasts?</h2>
+      <div class="cta-banner-copy reveal-up">
+        <span class="lux-kicker">Since <?= $yearEstablished ?> &middot; Mount Vernon, Oregon</span>
+        <h2>Ready to build something <em>that lasts?</em></h2>
         <p>
           Eastern Oregon homeowners have trusted Superior Home Builders for over <?= $yearsInBusiness ?> years.
           Get your free, no-obligation estimate — we typically respond within one business day.
         </p>
       </div>
-      <div class="cta-banner-actions reveal-right">
-        <a href="#estimate-form" class="btn btn-secondary btn-lg">
-          <?php echo lucide_icon('clipboard-list'); ?>
+      <div class="cta-banner-actions reveal-up reveal-delay-1">
+        <a href="#estimate-form" class="btn btn-lux btn-secondary btn-lg">
           Get a Free Estimate
         </a>
-        <a href="/contact/" class="btn btn-outline btn-lg">
-          <?php echo lucide_icon('mail'); ?>
+        <a href="/contact/" class="btn btn-lux btn-outline btn-lg">
           Contact Us
         </a>
       </div>
@@ -1544,7 +1649,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="about-left reveal-left">
         <span class="eyebrow-label">About Us</span>
         <h2>
-          Building <em style="color:var(--color-secondary);font-style:italic">Eastern Oregon</em><br>
+          Building <em>Eastern Oregon</em><br>
           homes since <?= $yearEstablished ?>
         </h2>
 
@@ -1600,8 +1705,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         </div>
 
         <div style="margin-top:var(--space-2xl)">
-          <a href="/about/" class="btn btn-primary">
-            <?php echo lucide_icon('users'); ?>
+          <a href="/about/" class="btn btn-lux btn-outline-dark">
             Learn More About Us
           </a>
         </div>
@@ -1628,10 +1732,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </div><!-- /.container -->
 </section>
 
-<!-- ── ANGLED SVG DIVIDER ─────────────────────────────────────── -->
-<div class="divider-angle" aria-hidden="true" style="background:var(--color-bg-alt)">
+<!-- ── ANGLED SVG DIVIDER — white into ivory reviews ──────────── -->
+<div class="divider-angle" aria-hidden="true" style="background:var(--lux-ivory)">
   <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-    <polygon points="0,0 1440,60 1440,0" fill="#0f1219"/>
+    <polygon points="0,0 1440,60 1440,0" style="fill:var(--color-bg)"/>
   </svg>
 </div>
 
@@ -1639,12 +1743,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
      SECTION 03 — REVIEWS
 ════════════════════════════════════════════════════ -->
 <section class="numbered-section reviews-section" id="reviews" aria-label="Customer reviews">
-  <span class="section-num" aria-hidden="true" style="color:rgba(255,255,255,0.03)">03</span>
+  <span class="section-num" aria-hidden="true">03</span>
   <div class="container">
 
     <div class="section-title reveal-up">
       <span class="eyebrow-label">What Clients Say</span>
-      <h2>Built on word-of-mouth across <em style="color:var(--color-accent);font-style:italic">Grant County</em></h2>
+      <h2>Built on word-of-mouth across <em>Grant County</em></h2>
       <span class="section-subtitle-accent">Real projects. Real Eastern Oregon homeowners.</span>
     </div>
 
@@ -1692,10 +1796,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </div>
 </section>
 
-<!-- ── WAVE DIVIDER — dark to light ──────────────────────────── -->
+<!-- ── WAVE DIVIDER — ivory reviews into white FAQ ────────────── -->
 <div class="divider-wave" aria-hidden="true" style="background:var(--color-bg)">
   <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0,40 C320,80 640,0 960,40 C1120,60 1280,20 1440,40 L1440,0 L0,0 Z" fill="#0f1219"/>
+    <path d="M0,40 C320,80 640,0 960,40 C1120,60 1280,20 1440,40 L1440,0 L0,0 Z" style="fill:var(--lux-ivory)"/>
   </svg>
 </div>
 
@@ -1708,7 +1812,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
     <div class="section-title reveal-up">
       <span class="eyebrow-label">Common Questions</span>
-      <h2>What homeowners ask before hiring a <em style="color:var(--color-secondary);font-style:italic">builder in Mount Vernon</em></h2>
+      <h2>What homeowners ask before hiring a <em>builder in Mount Vernon</em></h2>
     </div>
 
     <div class="faq-grid">
@@ -1726,8 +1830,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     </div>
 
     <div style="text-align:center;margin-top:var(--space-2xl)" class="reveal-up">
-      <a href="/contact/" class="btn btn-primary">
-        <?php echo lucide_icon('message-circle'); ?>
+      <a href="/contact/" class="btn btn-lux btn-primary">
         Ask Us Your Question
       </a>
     </div>
@@ -1755,7 +1858,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
     <div class="section-title reveal-up">
       <span class="eyebrow-label">From the Blog</span>
-      <h2>Building Knowledge for <em style="color:var(--color-secondary);font-style:italic">Eastern Oregon</em> Homeowners</h2>
+      <h2>Building Knowledge for <em>Eastern Oregon</em> Homeowners</h2>
     </div>
 
     <!-- Featured post card — auto-pulls the latest post from includes/blog-data.php -->
@@ -1805,8 +1908,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     </article><!-- /.blog-preview-card -->
 
     <div class="blog-preview-all reveal-up">
-      <a href="/blog/" class="btn btn-secondary">
-        <?php echo lucide_icon('book-open'); ?>
+      <a href="/blog/" class="btn btn-lux btn-outline-dark">
         View All Articles
       </a>
     </div>
@@ -1814,10 +1916,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </div>
 </section>
 
-<!-- ── WAVE DIVIDER — blog preview to closing CTA ─────────────── -->
+<!-- ── WAVE DIVIDER — blog preview into ivory closing CTA ─────── -->
 <div class="divider-wave" aria-hidden="true" style="background:var(--color-bg-alt)">
   <svg viewBox="0 0 1440 50" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0,25 C360,50 1080,0 1440,25 L1440,50 L0,50 Z" fill="var(--color-bg-alt)"/>
+    <path d="M0,25 C360,50 1080,0 1440,25 L1440,50 L0,50 Z" style="fill:var(--lux-ivory)"/>
   </svg>
 </div>
 
@@ -1837,12 +1939,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         and a free written estimate, no strings attached.
       </p>
       <div class="closing-cta-actions">
-        <a href="#estimate-form" class="btn btn-primary btn-lg">
-          <?php echo lucide_icon('clipboard-list'); ?>
+        <a href="#estimate-form" class="btn btn-lux btn-primary btn-lg">
           Get a Free Estimate
         </a>
-        <a href="/services/" class="btn btn-secondary btn-lg">
-          <?php echo lucide_icon('grid-3x3'); ?>
+        <a href="/services/" class="btn btn-lux btn-outline-dark btn-lg">
           Browse All Services
         </a>
       </div>

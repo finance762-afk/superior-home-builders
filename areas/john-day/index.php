@@ -304,7 +304,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <p class="area-hero-answer">Superior Home Builders serves John Day homeowners and business owners with custom home construction, kitchen and bathroom remodeling, decks, framing, and commercial builds. Based in Mount Vernon just 20 minutes away, we bring 25+ years of Grant County construction experience to every project near the John Day River valley — no travel fees, no strangers to the area.</p>
       <div class="area-hero-trust">
         <span class="area-hero-trust-item"><?php echo lucide_icon('map-pin'); ?> 20 min from Mount Vernon</span>
-        <span class="area-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Oregon Licensed</span>
+        <span class="area-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Oregon Licensed &middot; CCB# <?php echo htmlspecialchars($licenseNumber); ?></span>
         <span class="area-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Written Estimate</span>
       </div>
       <div class="area-hero-actions">

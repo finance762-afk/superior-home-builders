@@ -116,7 +116,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             <h1>Bathroom Remodeling in<br><em>Mount Vernon, OR</em></h1>
             <p class="hero-answer">A bathroom remodel in Mount Vernon requires understanding our region's unique climate and building codes. Superior Home Builders brings deep local expertise to every project, with personalized design consultation that incorporates energy-efficient solutions and sustainable practices. Our bathroom remodels typically range from $10,000–$35,000, with transparent pricing and detailed written estimates after our on-site assessment. You'll benefit from our commitment to quality beyond completion—including comprehensive warranty coverage and dedicated post-build support.</p>
             <div class="sp-hero-trust">
-              <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured &middot; CCB# <?php echo htmlspecialchars($licenseNumber); ?></span>
               <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2001</span>
               <span class="sp-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Written Estimate</span>
             </div>

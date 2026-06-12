@@ -135,7 +135,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             <h1>Home Remodeling in<br><em>Mount Vernon, OR</em></h1>
             <p class="hero-answer">We handle every scope of home remodeling in Mount Vernon—from single-room updates to whole-house renovations—with the local expertise that matters. Unlike generic contractors, we design projects specifically for Mount Vernon's unique climate and building codes, ensuring your remodeling performs reliably in our environment. As your general contractor of record, we combine transparent pricing and timeline communication with sustainable building practices that increase your home's energy efficiency. We back every project with comprehensive post-construction support and warranty coverage, because your investment deserves more than a contractor—it deserves a local partner committed to your home's long-term quality.</p>
             <div class="sp-hero-trust">
-              <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured &middot; CCB# <?php echo htmlspecialchars($licenseNumber); ?></span>
               <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2001</span>
               <span class="sp-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Written Estimate</span>
             </div>

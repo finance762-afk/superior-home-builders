@@ -239,7 +239,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <p class="area-hero-answer">Superior Home Builders serves Canyon City homeowners and business owners with custom home construction, kitchen and bathroom remodeling, framing, decks, windows and doors, and commercial builds. Our Mount Vernon headquarters is just 6 miles from Canyon City — we're the local contractor for this community, familiar with the historic housing stock along Canyon Creek and the permit processes at the Grant County Building Department right here in town.</p>
       <div class="area-hero-trust">
         <span class="area-hero-trust-item"><?php echo lucide_icon('map-pin'); ?> 6 miles from Canyon City</span>
-        <span class="area-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Oregon Licensed</span>
+        <span class="area-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Oregon Licensed &middot; CCB# <?php echo htmlspecialchars($licenseNumber); ?></span>
         <span class="area-hero-trust-item"><?php echo lucide_icon('building'); ?> Historic Home Experience</span>
       </div>
       <div class="area-hero-actions">

@@ -444,7 +444,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <p>
       Reach out to <?php echo htmlspecialchars($siteName); ?> for a free, honest estimate on your project
       in <?php echo htmlspecialchars($address['city']); ?>, OR or anywhere across Eastern Oregon.
-      We respond within one business day.
+      We respond within one business day. Oregon CCB# <?php echo htmlspecialchars($licenseNumber); ?> — licensed and insured.
     </p>
     <nav class="contact-hero-breadcrumb" aria-label="Breadcrumb">
       <a href="/">Home</a>

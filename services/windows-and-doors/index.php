@@ -131,7 +131,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             <h1>Windows &amp; Doors in<br><em>Mount Vernon, OR</em></h1>
             <p class="hero-answer">Mount Vernon windows face demanding Pacific Northwest weather—heavy rain, temperature swings, and moisture challenges unique to our region. Rather than cookie-cutter replacements, Superior Home Builders customizes each window solution for your home's specific orientation, climate exposure, and architectural style. We pair energy-efficient frames suited to Mount Vernon's climate with personalized design consultation, so your windows reduce heating costs year-round while matching your home's character. Our on-site measurement and transparent per-window pricing means no surprises, and our post-installation support ensures your investment performs for decades in our challenging local conditions.</p>
             <div class="sp-hero-trust">
-              <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured &middot; CCB# <?php echo htmlspecialchars($licenseNumber); ?></span>
               <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2001</span>
               <span class="sp-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Written Estimate</span>
             </div>

@@ -134,7 +134,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             <h1>Custom Home Building in<br><em>Mount Vernon, OR</em></h1>
             <p class="hero-answer">Custom home construction in Mount Vernon presents unique challenges—our region's heavy rainfall, clay-rich soil, and specific building code requirements demand expertise most general contractors simply don't have. Superior Home Builders specializes in Mount Vernon's climate and conditions, designing homes that perform in our weather while meeting local standards. Our transparent approach includes a detailed site assessment to understand your property's specific needs, followed by a written estimate that reflects the true cost of building right in Mount Vernon—whether that's reinforced foundations for our soil conditions, premium weatherproofing, or energy-efficient systems that cut heating costs in our cool Pacific Northwest climate. We don't just build; we partner with you through construction and beyond with ongoing support and warranty coverage specific to Mount Vernon's environmental demands.</p>
             <div class="sp-hero-trust">
-              <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured &middot; CCB# <?php echo htmlspecialchars($licenseNumber); ?></span>
               <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2001</span>
               <span class="sp-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Written Estimate</span>
             </div>

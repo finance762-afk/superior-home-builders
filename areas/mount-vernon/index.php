@@ -526,7 +526,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <p class="area-hero-answer">Superior Home Builders is based right here in Mount Vernon, OR — making us the local contractor Grant County homeowners and business owners call first for custom homes, kitchen and bathroom remodels, decks, framing, windows and doors, and commercial construction. We've built and remodeled throughout the Canyon Creek corridor and South Fork John Day River valley for over 25 years.</p>
       <div class="area-hero-trust">
         <span class="area-hero-trust-item"><?php echo lucide_icon('map-pin'); ?> Based in Mount Vernon</span>
-        <span class="area-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured</span>
+        <span class="area-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured &middot; CCB# <?php echo htmlspecialchars($licenseNumber); ?></span>
         <span class="area-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2001</span>
         <span class="area-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Written Estimate</span>
       </div>

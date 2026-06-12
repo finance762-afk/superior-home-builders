@@ -216,7 +216,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             <h1>Kitchen Remodeling in<br><em>Mount Vernon, OR</em></h1>
             <p class="hero-answer">Kitchen remodeling in Mount Vernon demands more than standard design—it requires understanding our region's unique climate challenges and building codes. At Superior Home Builders, we pair personalized design consultation with sustainable, energy-efficient solutions specifically engineered for Mount Vernon homes. Whether you're investing in essential updates or a complete high-end transformation, our transparent pricing and detailed timelines ensure you know exactly what to expect. We back every remodel with comprehensive warranty coverage and dedicated post-build support—because your kitchen should serve your family for decades to come.</p>
             <div class="sp-hero-trust">
-              <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured</span>
+              <span class="sp-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Licensed &amp; Insured &middot; CCB# <?php echo htmlspecialchars($licenseNumber); ?></span>
               <span class="sp-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Est. 2001</span>
               <span class="sp-hero-trust-item"><?php echo lucide_icon('file-text'); ?> Free Written Estimate</span>
             </div>

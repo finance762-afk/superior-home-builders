@@ -235,7 +235,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <p class="area-hero-answer">Superior Home Builders serves Prairie City with custom home construction, kitchen and bathroom remodeling, deck installations, framing, and window replacements near the Strawberry Mountain Wilderness corridor. Our crew is based in Mount Vernon and knows Prairie City's agricultural ranch properties, older farmhouse inventory along Prairie Creek, and the demanding construction conditions at 3,500 feet in Grant County.</p>
       <div class="area-hero-trust">
         <span class="area-hero-trust-item"><?php echo lucide_icon('mountain'); ?> 3,500 ft elevation expertise</span>
-        <span class="area-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Oregon Licensed</span>
+        <span class="area-hero-trust-item"><?php echo lucide_icon('shield-check'); ?> Oregon Licensed &middot; CCB# <?php echo htmlspecialchars($licenseNumber); ?></span>
         <span class="area-hero-trust-item"><?php echo lucide_icon('calendar'); ?> Serving since 2001</span>
       </div>
       <div class="area-hero-actions">
