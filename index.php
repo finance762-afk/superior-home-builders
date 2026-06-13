@@ -91,6 +91,17 @@ $servicePhotos = [
     'custom-home-building'   => 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
     'general-remodeling'     => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604102234-3xpgf4-20221109_161614.jpg',
     'commercial-construction' => '/assets/images/commercial-construction-eastern-oregon.webp',
+    'roofing'                => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604305411-iws3zu-467311955_10160913944502734_1381678653232378695_n.jpg',
+    'pole-barns'             => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604089870-onrdei-20220414_073700.jpg',
+    'gutters'                => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604110512-hpeyxa-20230904_195415.jpg',
+    'excavation'             => 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80',
+    'siding'                 => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604111859-dai6kd-20230910_202910.jpg',
+    'fencing'                => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604098293-gywzxu-20220724_152529.jpg',
+    'painting'               => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604157333-7yq7b6-image_7_.jpg',
+    'insulation'             => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604131715-gsv7qf-20250819_192028.jpg',
+    'electrical-plumbing-hvac' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604094227-1d9fl5-20220724_151623.jpg',
+    'garages'                => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604157610-hamrrh-image_8_.jpg',
+    'storm-damage-repair'    => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604097152-jcl4h7-20220724_152509.jpg',
 ];
 
 $serviceIcons = [
@@ -101,7 +112,18 @@ $serviceIcons = [
     'framing'                => 'hammer',
     'custom-home-building'   => 'home',
     'general-remodeling'     => 'wrench',
-    'commercial-construction' => 'building-2',
+    'commercial-construction' => 'building',
+    'roofing'                => 'hard-hat',
+    'pole-barns'             => 'tractor',
+    'gutters'                => 'droplets',
+    'excavation'             => 'shovel',
+    'siding'                 => 'layers',
+    'fencing'                => 'shield',
+    'painting'               => 'tool',
+    'insulation'             => 'thermometer-snowflake',
+    'electrical-plumbing-hvac' => 'zap',
+    'garages'                => 'truck',
+    'storm-damage-repair'    => 'alert-triangle',
 ];
 
 $serviceBullets = [
@@ -113,6 +135,17 @@ $serviceBullets = [
     'custom-home-building'   => ['Design-to-completion builds', 'Site prep & foundation', '25+ years local expertise'],
     'general-remodeling'     => ['Single rooms to whole homes', 'Additions & conversions', 'Interior finish work'],
     'commercial-construction' => ['Shops, offices & warehouses', 'Ground-up & tenant build-out', 'On schedule, on budget'],
+    'roofing'                => ['Metal roofing & mobile home overs', 'Snow-load engineered panels', '40–70 year service life'],
+    'pole-barns'             => ['Horse barns & hay sheds', 'RV barns & barndominiums', 'Built for Eastern OR ranching'],
+    'gutters'                => ['Homes & commercial buildings', 'Snowmelt & rain diversion', 'Foundation protection'],
+    'excavation'             => ['Foundation dig-outs & grading', 'Land clearing & site prep', 'Agricultural & custom builds'],
+    'siding'                 => ['Hardie, T1-11 & log siding', 'Mobile home skirting', 'High-desert climate engineered'],
+    'fencing'                => ['Cedar privacy & shadow box', 'Good neighbor fence styles', 'Low-maintenance cedar build'],
+    'painting'               => ['Interior & exterior painting', 'Grant & Harney County homes', 'Quality paints for high-desert UV'],
+    'insulation'             => ['New construction & remodels', 'Drywall & sheetrock work', 'Spec\'d for Grant County elevation'],
+    'electrical-plumbing-hvac' => ['All trades under one contract', 'Mini-split AC installation', 'Residential & commercial systems'],
+    'garages'                => ['Detached & attached garages', 'Garage additions & tack rooms', 'Matched to your property & budget'],
+    'storm-damage-repair'    => ['Storm, water & wind damage', 'Insurance coordination available', 'Restored to pre-loss condition'],
 ];
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';

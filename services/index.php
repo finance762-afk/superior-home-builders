@@ -510,11 +510,26 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           'custom-home-building'   => ['url'=>'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80','alt'=>'Custom home being built in Grant County Oregon'],
           'general-remodeling'     => ['url'=>'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604102234-3xpgf4-20221109_161614.jpg',   'alt'=>'General remodeling work by Superior Home Builders Mount Vernon OR'],
           'commercial-construction'=> ['url'=>'/assets/images/commercial-construction-eastern-oregon.webp',   'alt'=>'Commercial construction project in Eastern Oregon'],
+          'roofing'                => ['url'=>'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604305411-iws3zu-467311955_10160913944502734_1381678653232378695_n.jpg', 'alt'=>'Metal roofing installation in Eastern Oregon by Superior Home Builders'],
+          'pole-barns'             => ['url'=>'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604089870-onrdei-20220414_073700.jpg', 'alt'=>'Pole barn construction in Grant County OR by Superior Home Builders'],
+          'gutters'                => ['url'=>'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604110512-hpeyxa-20230904_195415.jpg', 'alt'=>'Gutter installation on an Eastern Oregon home by Superior Home Builders'],
+          'excavation'             => ['url'=>'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80', 'alt'=>'Excavation and site work project in Eastern Oregon'],
+          'siding'                 => ['url'=>'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604111859-dai6kd-20230910_202910.jpg', 'alt'=>'Siding installation in Eastern Oregon by Superior Home Builders'],
+          'fencing'                => ['url'=>'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604098293-gywzxu-20220724_152529.jpg', 'alt'=>'Cedar fencing built in Grant County OR by Superior Home Builders'],
+          'painting'               => ['url'=>'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604157333-7yq7b6-image_7_.jpg', 'alt'=>'Interior and exterior painting in Eastern Oregon by Superior Home Builders'],
+          'insulation'             => ['url'=>'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604131715-gsv7qf-20250819_192028.jpg', 'alt'=>'Insulation and drywall work in Eastern Oregon by Superior Home Builders'],
+          'electrical-plumbing-hvac' => ['url'=>'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604094227-1d9fl5-20220724_151623.jpg', 'alt'=>'Electrical and HVAC work in Eastern Oregon by Superior Home Builders'],
+          'garages'                => ['url'=>'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604157610-hamrrh-image_8_.jpg', 'alt'=>'Garage construction in Eastern Oregon by Superior Home Builders'],
+          'storm-damage-repair'    => ['url'=>'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604097152-jcl4h7-20220724_152509.jpg', 'alt'=>'Storm damage repair project in Eastern Oregon by Superior Home Builders'],
         ];
         $serviceIcons = [
           'bathroom-remodeling'=>'bath','kitchen-remodeling'=>'utensils','windows-and-doors'=>'door-open',
           'decks'=>'tree-pine','framing'=>'hammer','custom-home-building'=>'home',
-          'general-remodeling'=>'wrench','commercial-construction'=>'building-2',
+          'general-remodeling'=>'wrench','commercial-construction'=>'building',
+          'roofing'=>'hard-hat','pole-barns'=>'tractor','gutters'=>'droplets',
+          'excavation'=>'shovel','siding'=>'layers','fencing'=>'shield',
+          'painting'=>'tool','insulation'=>'thermometer-snowflake',
+          'electrical-plumbing-hvac'=>'zap','garages'=>'truck','storm-damage-repair'=>'alert-triangle',
         ];
         $serviceBullets = [
           'bathroom-remodeling'    => ['Tile, fixtures &amp; plumbing','Custom walk-in showers','Full vanity &amp; lighting'],
@@ -525,6 +540,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           'custom-home-building'   => ['Design-to-completion builds','Site prep &amp; foundation','25+ years local expertise'],
           'general-remodeling'     => ['Single rooms to whole homes','Additions &amp; conversions','Interior finish work'],
           'commercial-construction'=> ['Shops, offices &amp; warehouses','Ground-up &amp; tenant build-out','On schedule, on budget'],
+          'roofing'                => ['Metal roofing &amp; mobile home overs','Snow-load engineered panels','40–70 year service life'],
+          'pole-barns'             => ['Horse barns &amp; hay sheds','RV barns &amp; barndominiums','Built for Eastern OR ranching'],
+          'gutters'                => ['Homes &amp; commercial buildings','Snowmelt &amp; rain diversion','Foundation protection'],
+          'excavation'             => ['Foundation dig-outs &amp; grading','Land clearing &amp; site prep','Agricultural &amp; custom builds'],
+          'siding'                 => ['Hardie, T1-11 &amp; log siding','Mobile home skirting','High-desert climate engineered'],
+          'fencing'                => ['Cedar privacy &amp; shadow box','Good neighbor fence styles','Low-maintenance cedar build'],
+          'painting'               => ['Interior &amp; exterior painting','Grant &amp; Harney County homes','Quality paints for high-desert UV'],
+          'insulation'             => ['New construction &amp; remodels','Drywall &amp; sheetrock work','Spec\'d for Grant County elevation'],
+          'electrical-plumbing-hvac' => ['All trades under one contract','Mini-split AC installation','Residential &amp; commercial systems'],
+          'garages'                => ['Detached &amp; attached garages','Garage additions &amp; tack rooms','Matched to your property &amp; budget'],
+          'storm-damage-repair'    => ['Storm, water &amp; wind damage','Insurance coordination available','Restored to pre-loss condition'],
         ];
         foreach ($services as $i => $svc):
           $tint   = $tints[$i % 3];
@@ -552,6 +578,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
                 'custom-home-building'   => 'Full custom home construction, design to completion.',
                 'general-remodeling'     => 'Whole-home or single-room renovations.',
                 'commercial-construction'=> 'Commercial builds for Grant County businesses.',
+                'roofing'                => 'Metal roofing and mobile home roof-overs in Eastern Oregon.',
+                'pole-barns'             => 'Pole barns, hay sheds, barndominiums & agricultural structures.',
+                'gutters'                => 'Gutter installation on homes and commercial buildings.',
+                'excavation'             => 'Excavation, foundation dig-outs & site prep across Eastern Oregon.',
+                'siding'                 => 'Hardie, T1-11, log & metal siding for Eastern Oregon conditions.',
+                'fencing'                => 'Cedar fencing — privacy, shadow box & good neighbor styles.',
+                'painting'               => 'Interior and exterior painting for homes across Grant County.',
+                'insulation'             => 'Insulation and drywall for new builds and remodels.',
+                'electrical-plumbing-hvac'=> 'Electrical, plumbing & HVAC under one contractor.',
+                'garages'                => 'Garages, garage additions & tack rooms in Eastern Oregon.',
+                'storm-damage-repair'    => 'Storm, water & wind damage repair with insurance coordination.',
               ];
               echo htmlspecialchars($descs[$svc['slug']] ?? $svc['description']);
             ?></p>
