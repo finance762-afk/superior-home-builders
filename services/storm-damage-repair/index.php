@@ -387,7 +387,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         </article>
         <article class="service-card-with-image card-tint-2 reveal-up reveal-delay-2">
           <div class="service-card__image">
-            <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604097152-jcl4h7-20220724_152509.jpg"
+            <img src="https://i.imgur.com/F8nscr8.jpeg"
                  alt="Insulation installation in Eastern Oregon by Superior Home Builders"
                  width="600" height="360" loading="lazy">
           </div>

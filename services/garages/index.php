@@ -8,7 +8,7 @@ $pageTitle        = 'Garages & Outbuildings in Mount Vernon, OR | Superior Home 
 $pageDescription  = 'Garage construction, garage additions, and tack rooms in Eastern Oregon. Built for snow loads and local permit requirements. CCB# 147123, serving Grant and Harney Counties since 2001.';
 $canonicalUrl     = $siteUrl . '/services/garages/';
 $currentPage      = 'services';
-$heroImageUrl     = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604131715-gsv7qf-20250819_192028.jpg';
+$heroImageUrl     = 'https://i.imgur.com/PQBdMnZ.jpeg';
 $heroImagePreload = $heroImageUrl;
 $ogImage          = $heroImageUrl;
 

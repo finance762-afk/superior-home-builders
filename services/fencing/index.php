@@ -8,7 +8,7 @@ $pageTitle        = 'Cedar Fencing in Mount Vernon, OR | Superior Home Builders'
 $pageDescription  = 'Cedar fencing installation across Eastern Oregon — shadow box, privacy & good neighbor styles. Posts set below frost depth. Licensed CCB# 147123 serving Grant & Harney Counties since 2001.';
 $canonicalUrl     = $siteUrl . '/services/fencing/';
 $currentPage      = 'services';
-$heroImageUrl     = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604111859-dai6kd-20230910_202910.jpg';
+$heroImageUrl     = 'https://i.imgur.com/cPZwJbk.jpeg';
 $heroImagePreload = $heroImageUrl;
 $ogImage          = $heroImageUrl;
 

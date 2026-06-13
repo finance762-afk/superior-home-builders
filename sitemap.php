@@ -196,7 +196,7 @@ $pages = [
         'changefreq' => 'monthly',
         'priority'   => '0.8',
         'images'     => [
-            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604110512-hpeyxa-20230904_195415.jpg', 'caption' => 'Gutter installation by Superior Home Builders in Eastern Oregon'],
+            ['src' => 'https://images.unsplash.com/photo-1652235312800-697a66e10393?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', 'caption' => 'Gutter installation by Superior Home Builders in Eastern Oregon'],
         ],
     ],
     [
@@ -223,7 +223,7 @@ $pages = [
         'changefreq' => 'monthly',
         'priority'   => '0.8',
         'images'     => [
-            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604111859-dai6kd-20230910_202910.jpg', 'caption' => 'Cedar fencing installation by Superior Home Builders in Grant County Oregon'],
+            ['src' => 'https://i.imgur.com/cPZwJbk.jpeg', 'caption' => 'Cedar fencing installation by Superior Home Builders in Grant County Oregon'],
         ],
     ],
     [

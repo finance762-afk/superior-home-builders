@@ -8,7 +8,7 @@ $pageTitle        = 'Insulation & Drywall in Mount Vernon, OR | Superior Home Bu
 $pageDescription  = 'Insulation installation and drywall services in Mount Vernon, OR. Batt, blown-in, and rigid insulation spec\'d for Eastern Oregon\'s climate. CCB# 147123, serving Grant and Harney Counties since 2001.';
 $canonicalUrl     = $siteUrl . '/services/insulation/';
 $currentPage      = 'services';
-$heroImageUrl     = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604097152-jcl4h7-20220724_152509.jpg';
+$heroImageUrl     = 'https://i.imgur.com/F8nscr8.jpeg';
 $heroImagePreload = $heroImageUrl;
 $ogImage          = $heroImageUrl;
 

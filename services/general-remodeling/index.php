@@ -501,7 +501,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
         <article class="service-card-with-image card-tint-3 reveal-up reveal-delay-3">
           <div class="service-card__image">
-            <img src="https://i.imgur.com/TrafTG2.jpeg"
+            <img src="https://i.imgur.com/fyz865n.jpeg"
                  alt="Custom home wall framing being raised in Mount Vernon OR by Superior Home Builders"
                  width="600" height="360" loading="lazy">
           </div>

@@ -8,9 +8,9 @@ $pageTitle        = 'Windows and Doors in Mount Vernon, OR | Superior Home Build
 $pageDescription  = 'Window replacement and door installation in Mount Vernon, OR. Energy-efficient vinyl, wood, and fiberglass windows for Eastern Oregon\'s climate. Licensed contractor serving Grant County since 2001. Free estimates.';
 $canonicalUrl     = $siteUrl . '/services/windows-and-doors/';
 $currentPage      = 'services';
-$heroImage        = '/assets/images/window-installation-mount-vernon.webp';
+$heroImage        = 'https://i.imgur.com/QU4ipyE.jpeg';
 $heroImagePreload = $heroImage;
-$ogImage          = $siteUrl . $heroImage;  // og:image stays absolute
+$ogImage          = $heroImage;
 
 $faqs = [
   ['q' => 'How much does window replacement cost in Mount Vernon, OR?',
@@ -530,7 +530,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         </article>
         <article class="service-card-with-image card-tint-3 reveal-up reveal-delay-3">
           <div class="service-card__image">
-            <img src="https://i.imgur.com/TrafTG2.jpeg"
+            <img src="https://i.imgur.com/fyz865n.jpeg"
                  alt="Custom home wall framing in progress in Mount Vernon Oregon by Superior Home Builders"
                  width="600" height="360" loading="lazy">
           </div>

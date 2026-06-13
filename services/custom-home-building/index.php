@@ -8,7 +8,7 @@ $pageTitle        = 'Custom Home Building in Mount Vernon, OR | Superior Home Bu
 $pageDescription  = 'Build your custom home in Mount Vernon, OR with Superior Home Builders. Full design-to-completion construction in Grant County since 2001. New builds, site prep, foundation to finish. Free estimates.';
 $canonicalUrl     = $siteUrl . '/services/custom-home-building/';
 $currentPage      = 'services';
-$heroImage        = 'https://i.imgur.com/TrafTG2.jpeg';
+$heroImage        = 'https://i.imgur.com/fyz865n.jpeg';
 $heroImagePreload = $heroImage;
 $ogImage          = $heroImage;
 

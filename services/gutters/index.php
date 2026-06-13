@@ -8,7 +8,7 @@ $pageTitle        = 'Gutter Installation in Mount Vernon, OR | Superior Home Bui
 $pageDescription  = 'Gutter installation on homes & commercial buildings across Grant & Harney Counties. Snowmelt & rain management critical in Eastern Oregon. Licensed CCB# 147123. Free estimates.';
 $canonicalUrl     = $siteUrl . '/services/gutters/';
 $currentPage      = 'services';
-$heroImageUrl     = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604110512-hpeyxa-20230904_195415.jpg';
+$heroImageUrl     = 'https://images.unsplash.com/photo-1652235312800-697a66e10393?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
 $heroImagePreload = $heroImageUrl;
 $ogImage          = $heroImageUrl;
 
