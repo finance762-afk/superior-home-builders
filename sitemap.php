@@ -171,6 +171,161 @@ $pages = [
             ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604131715-gsv7qf-20250819_192028.jpg', 'caption' => 'High-elevation construction project in Prairie City, OR — built for Grant County snowloads'],
         ],
     ],
+    // ── New service pages (added June 2026) ──────────────────────────────────
+    [
+        'path'       => '/services/roofing/',
+        'file'       => '/services/roofing/index.php',
+        'changefreq' => 'monthly',
+        'priority'   => '0.8',
+        'images'     => [
+            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604305411-iws3zu-467311955_10160913944502734_1381678653232378695_n.jpg', 'caption' => 'Metal roofing installation by Superior Home Builders in Eastern Oregon'],
+        ],
+    ],
+    [
+        'path'       => '/services/pole-barns/',
+        'file'       => '/services/pole-barns/index.php',
+        'changefreq' => 'monthly',
+        'priority'   => '0.8',
+        'images'     => [
+            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604089870-onrdei-20220414_073700.jpg', 'caption' => 'Pole barn and agricultural building construction by Superior Home Builders in Grant County Oregon'],
+        ],
+    ],
+    [
+        'path'       => '/services/gutters/',
+        'file'       => '/services/gutters/index.php',
+        'changefreq' => 'monthly',
+        'priority'   => '0.8',
+        'images'     => [
+            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604110512-hpeyxa-20230904_195415.jpg', 'caption' => 'Gutter installation by Superior Home Builders in Eastern Oregon'],
+        ],
+    ],
+    [
+        'path'       => '/services/excavation/',
+        'file'       => '/services/excavation/index.php',
+        'changefreq' => 'monthly',
+        'priority'   => '0.8',
+        'images'     => [
+            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604094227-1d9fl5-20220724_151623.jpg', 'caption' => 'Excavation and site work by Superior Home Builders in Grant County Oregon'],
+        ],
+    ],
+    [
+        'path'       => '/services/siding/',
+        'file'       => '/services/siding/index.php',
+        'changefreq' => 'monthly',
+        'priority'   => '0.8',
+        'images'     => [
+            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604304191-9h3673-466678023_10160894523422734_2342757114398857707_n.jpg', 'caption' => 'Hardie siding and exterior cladding installation by Superior Home Builders in Eastern Oregon'],
+        ],
+    ],
+    [
+        'path'       => '/services/fencing/',
+        'file'       => '/services/fencing/index.php',
+        'changefreq' => 'monthly',
+        'priority'   => '0.8',
+        'images'     => [
+            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604111859-dai6kd-20230910_202910.jpg', 'caption' => 'Cedar fencing installation by Superior Home Builders in Grant County Oregon'],
+        ],
+    ],
+    [
+        'path'       => '/services/painting/',
+        'file'       => '/services/painting/index.php',
+        'changefreq' => 'monthly',
+        'priority'   => '0.8',
+        'images'     => [
+            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604270979-4l74wp-468299739_10161024404097734_2434409497451082464_n.jpg', 'caption' => 'Interior and exterior painting services by Superior Home Builders in Eastern Oregon'],
+        ],
+    ],
+    [
+        'path'       => '/services/insulation/',
+        'file'       => '/services/insulation/index.php',
+        'changefreq' => 'monthly',
+        'priority'   => '0.8',
+        'images'     => [
+            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604271465-dqvg3l-468352707_10161044504572734_7925629043452829949_n.jpg', 'caption' => 'Insulation and drywall installation by Superior Home Builders in Grant County Oregon'],
+        ],
+    ],
+    [
+        'path'       => '/services/electrical-plumbing-hvac/',
+        'file'       => '/services/electrical-plumbing-hvac/index.php',
+        'changefreq' => 'monthly',
+        'priority'   => '0.8',
+        'images'     => [
+            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604272736-wpmbnz-468453996_10161079313307734_5962081137845027174_n.jpg', 'caption' => 'Electrical plumbing and HVAC services by Superior Home Builders in Eastern Oregon'],
+        ],
+    ],
+    [
+        'path'       => '/services/garages/',
+        'file'       => '/services/garages/index.php',
+        'changefreq' => 'monthly',
+        'priority'   => '0.8',
+        'images'     => [
+            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604273137-ksvcbn-518240531_10161958113367734_8953895085965006897_n.jpg', 'caption' => 'Garage construction and additions by Superior Home Builders in Grant County Oregon'],
+        ],
+    ],
+    [
+        'path'       => '/services/storm-damage-repair/',
+        'file'       => '/services/storm-damage-repair/index.php',
+        'changefreq' => 'monthly',
+        'priority'   => '0.8',
+        'images'     => [
+            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604169523-2ffusu-image_13_.jpg', 'caption' => 'Storm damage and wind damage repair by Superior Home Builders in Eastern Oregon'],
+        ],
+    ],
+    // ── New area pages (Grant County + Harney County, added June 2026) ────────
+    [
+        'path'       => '/areas/dayville/',
+        'file'       => '/areas/dayville/index.php',
+        'changefreq' => 'monthly',
+        'priority'   => '0.7',
+        'images'     => [
+            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604094227-1d9fl5-20220724_151623.jpg', 'caption' => 'Construction and remodeling services in Dayville Oregon along the John Day River corridor'],
+        ],
+    ],
+    [
+        'path'       => '/areas/long-creek/',
+        'file'       => '/areas/long-creek/index.php',
+        'changefreq' => 'monthly',
+        'priority'   => '0.7',
+        'images'     => [
+            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604105979-qifw3f-20230813_180947.jpg', 'caption' => 'Home construction services in Long Creek Oregon northern Grant County'],
+        ],
+    ],
+    [
+        'path'       => '/areas/monument/',
+        'file'       => '/areas/monument/index.php',
+        'changefreq' => 'monthly',
+        'priority'   => '0.7',
+        'images'     => [
+            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604110512-hpeyxa-20230904_195415.jpg', 'caption' => 'Building and remodeling services in Monument Oregon North Fork John Day River area'],
+        ],
+    ],
+    [
+        'path'       => '/areas/seneca/',
+        'file'       => '/areas/seneca/index.php',
+        'changefreq' => 'monthly',
+        'priority'   => '0.7',
+        'images'     => [
+            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604111859-dai6kd-20230910_202910.jpg', 'caption' => 'High-elevation construction in Seneca Oregon Bear Valley at 4676 feet'],
+        ],
+    ],
+    [
+        'path'       => '/areas/burns/',
+        'file'       => '/areas/burns/index.php',
+        'changefreq' => 'monthly',
+        'priority'   => '0.7',
+        'images'     => [
+            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604131715-gsv7qf-20250819_192028.jpg', 'caption' => 'Construction and remodeling services in Burns Oregon Harney County seat'],
+        ],
+    ],
+    [
+        'path'       => '/areas/hines/',
+        'file'       => '/areas/hines/index.php',
+        'changefreq' => 'monthly',
+        'priority'   => '0.7',
+        'images'     => [
+            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604127216-zp2jli-20240723_114655.jpg', 'caption' => 'Home building and additions in Hines Oregon gateway to the Harney Basin'],
+        ],
+    ],
 
     [
         'path'       => '/about/',

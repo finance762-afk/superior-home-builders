@@ -62,7 +62,68 @@ $areas = [
     'photo'   => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604099376-0r19op-20220724_154635.jpg',
     'photoAlt'=> 'Deck and remodel project near Prairie City Oregon',
   ],
-
+  // Grant County — additional communities
+  [
+    'city'    => 'Dayville',
+    'state'   => 'OR',
+    'slug'    => 'dayville',
+    'primary' => false,
+    'tagline' => 'John Day River Corridor',
+    'desc'    => 'Home remodeling, framing, and construction along the Hwy 26 corridor through the Dayville area of the John Day River valley.',
+    'photo'   => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604104586-837vw8-20221127_142618.jpg',
+    'photoAlt'=> 'Construction project in Dayville Oregon along the John Day River corridor',
+  ],
+  [
+    'city'    => 'Long Creek',
+    'state'   => 'OR',
+    'slug'    => 'long-creek',
+    'primary' => false,
+    'tagline' => 'Northern Grant County',
+    'desc'    => 'Custom builds and remodeling for Long Creek homeowners and ranchers in northern Grant County along the Hwy 395 corridor.',
+    'photo'   => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604105979-qifw3f-20230813_180947.jpg',
+    'photoAlt'=> 'Home construction project in Long Creek Oregon northern Grant County',
+  ],
+  [
+    'city'    => 'Monument',
+    'state'   => 'OR',
+    'slug'    => 'monument',
+    'primary' => false,
+    'tagline' => 'North Fork John Day',
+    'desc'    => 'Remodeling, framing, and custom construction for Monument community members along the North Fork of the John Day River.',
+    'photo'   => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604110512-hpeyxa-20230904_195415.jpg',
+    'photoAlt'=> 'Construction work near Monument Oregon along the North Fork John Day River',
+  ],
+  [
+    'city'    => 'Seneca',
+    'state'   => 'OR',
+    'slug'    => 'seneca',
+    'primary' => false,
+    'tagline' => 'Bear Valley — 4,676 ft',
+    'desc'    => 'High-elevation construction in Seneca — insulation upgrades, structural repairs, and new builds spec\'d for Bear Valley\'s extreme winter conditions.',
+    'photo'   => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604111859-dai6kd-20230910_202910.jpg',
+    'photoAlt'=> 'High-elevation construction project in Seneca Oregon Bear Valley',
+  ],
+  // Harney County
+  [
+    'city'    => 'Burns',
+    'state'   => 'OR',
+    'slug'    => 'burns',
+    'primary' => false,
+    'tagline' => 'Harney County Seat',
+    'desc'    => 'Custom homes, commercial remodeling, and remodeling services in Burns — the largest community in Harney County and the region\'s commercial hub.',
+    'photo'   => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604131715-gsv7qf-20250819_192028.jpg',
+    'photoAlt'=> 'Construction and remodeling project in Burns Oregon Harney County seat',
+  ],
+  [
+    'city'    => 'Hines',
+    'state'   => 'OR',
+    'slug'    => 'hines',
+    'primary' => false,
+    'tagline' => 'Gateway to Harney Basin',
+    'desc'    => 'Home building, additions, and remodeling in Hines and the greater Burns–Hines area along the Silvies River in Harney County.',
+    'photo'   => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604127216-zp2jli-20240723_114655.jpg',
+    'photoAlt'=> 'Home addition and remodeling project in Hines Oregon gateway to Harney Basin',
+  ],
 ];
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
@@ -657,11 +718,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           <span>Years Serving<br>Eastern Oregon</span>
         </div>
         <div class="sa-hero-stat">
-          <strong>5</strong>
-          <span>Primary<br>Service Areas</span>
+          <strong>10</strong>
+          <span>Service Areas<br>Across Eastern Oregon</span>
         </div>
         <div class="sa-hero-stat">
-          <strong>8</strong>
+          <strong>19</strong>
           <span>Construction<br>Services</span>
         </div>
         <div class="sa-hero-stat">
