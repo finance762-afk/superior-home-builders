@@ -92,16 +92,16 @@ $servicePhotos = [
     'general-remodeling'     => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604102234-3xpgf4-20221109_161614.jpg',
     'commercial-construction' => '/assets/images/commercial-construction-eastern-oregon.webp',
     'roofing'                => 'https://images.unsplash.com/photo-1632759145351-1d592919f522?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    'pole-barns'             => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604089870-onrdei-20220414_073700.jpg',
+    'pole-barns'             => 'https://i.imgur.com/SI9FzbL.jpeg',
     'gutters'                => 'https://images.unsplash.com/photo-1652235312800-697a66e10393?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     'excavation'             => 'https://i.imgur.com/fyz865n.jpeg',
-    'siding'                 => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604111859-dai6kd-20230910_202910.jpg',
+    'siding'                 => 'https://images.unsplash.com/photo-1612451850869-87c3c039c72e?q=80&w=685&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     'fencing'                => 'https://i.imgur.com/cPZwJbk.jpeg',
     'painting'               => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604157333-7yq7b6-image_7_.jpg',
     'insulation'             => 'https://i.imgur.com/F8nscr8.jpeg',
-    'electrical-plumbing-hvac' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604094227-1d9fl5-20220724_151623.jpg',
+    'electrical-plumbing-hvac' => 'https://i.imgur.com/EZpdULZ.png',
     'garages'                => 'https://i.imgur.com/PQBdMnZ.jpeg',
-    'storm-damage-repair'    => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604097152-jcl4h7-20220724_152509.jpg',
+    'storm-damage-repair'    => 'https://plus.unsplash.com/premium_photo-1733317358329-654fca76f29a?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
 ];
 
 $serviceIcons = [

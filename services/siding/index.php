@@ -8,7 +8,7 @@ $pageTitle        = 'Siding Installation in Mount Vernon, OR | Superior Home Bui
 $pageDescription  = 'Hardie Board, T1-11, log siding, metal siding & mobile home skirting across Eastern Oregon. Engineered for UV, freeze-thaw & high desert conditions. Licensed CCB# 147123. Free estimates.';
 $canonicalUrl     = $siteUrl . '/services/siding/';
 $currentPage      = 'services';
-$heroImageUrl     = 'https://i.imgur.com/PQBdMnZ.jpeg';
+$heroImageUrl     = 'https://images.unsplash.com/photo-1612451850869-87c3c039c72e?q=80&w=685&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
 $heroImagePreload = $heroImageUrl;
 $ogImage          = $heroImageUrl;
 

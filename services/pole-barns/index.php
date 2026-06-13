@@ -8,7 +8,7 @@ $pageTitle        = 'Pole Barns & Agricultural Buildings in Eastern Oregon | Sup
 $pageDescription  = 'Pole barns, horse barns, hay sheds, barndominiums & RV storage garages across Grant & Harney Counties. Licensed CCB# 147123. Built for Eastern Oregon ranching since 2001. Free estimates.';
 $canonicalUrl     = $siteUrl . '/services/pole-barns/';
 $currentPage      = 'services';
-$heroImageUrl     = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604089870-onrdei-20220414_073700.jpg';
+$heroImageUrl     = 'https://i.imgur.com/SI9FzbL.jpeg';
 $heroImagePreload = $heroImageUrl;
 $ogImage          = $heroImageUrl;
 

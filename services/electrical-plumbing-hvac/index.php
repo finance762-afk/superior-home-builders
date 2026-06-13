@@ -8,7 +8,7 @@ $pageTitle        = 'Electrical, Plumbing & HVAC in Mount Vernon, OR | Superior 
 $pageDescription  = 'Electrical, plumbing, and HVAC services including mini-split AC installation in Eastern Oregon. One contractor for all three trades. CCB# 147123, serving Grant and Harney Counties since 2001.';
 $canonicalUrl     = $siteUrl . '/services/electrical-plumbing-hvac/';
 $currentPage      = 'services';
-$heroImageUrl     = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604098293-gywzxu-20220724_152529.jpg';
+$heroImageUrl     = 'https://i.imgur.com/EZpdULZ.png';
 $heroImagePreload = $heroImageUrl;
 $ogImage          = $heroImageUrl;
 

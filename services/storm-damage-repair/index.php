@@ -8,7 +8,7 @@ $pageTitle        = 'Storm Damage Repair in Mount Vernon, OR | Superior Home Bui
 $pageDescription  = 'Storm damage, wind damage, and water damage repair in Eastern Oregon. Structural assessment, insurance documentation support, and full restoration. CCB# 147123, serving Grant and Harney Counties since 2001.';
 $canonicalUrl     = $siteUrl . '/services/storm-damage-repair/';
 $currentPage      = 'services';
-$heroImageUrl     = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604157610-hamrrh-image_8_.jpg';
+$heroImageUrl     = 'https://plus.unsplash.com/premium_photo-1733317358329-654fca76f29a?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
 $heroImagePreload = $heroImageUrl;
 $ogImage          = $heroImageUrl;
 
