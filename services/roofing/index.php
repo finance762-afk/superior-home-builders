@@ -8,7 +8,7 @@ $pageTitle        = 'Roofing in Mount Vernon, OR | Superior Home Builders';
 $pageDescription  = 'Metal roofing and mobile home roof-overs in Mount Vernon, OR. Engineered for Eastern Oregon snow loads. Licensed CCB# 147123 serving Grant County since 2001. Free written estimates.';
 $canonicalUrl     = $siteUrl . '/services/roofing/';
 $currentPage      = 'services';
-$heroImageUrl     = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604305411-iws3zu-467311955_10160913944502734_1381678653232378695_n.jpg';
+$heroImageUrl     = 'https://images.unsplash.com/photo-1632759145351-1d592919f522?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
 $heroImagePreload = $heroImageUrl;
 $ogImage          = $heroImageUrl;
 

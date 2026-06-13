@@ -91,7 +91,7 @@ $servicePhotos = [
     'custom-home-building'   => 'https://i.imgur.com/TrafTG2.jpeg',
     'general-remodeling'     => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604102234-3xpgf4-20221109_161614.jpg',
     'commercial-construction' => '/assets/images/commercial-construction-eastern-oregon.webp',
-    'roofing'                => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604305411-iws3zu-467311955_10160913944502734_1381678653232378695_n.jpg',
+    'roofing'                => 'https://images.unsplash.com/photo-1632759145351-1d592919f522?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     'pole-barns'             => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604089870-onrdei-20220414_073700.jpg',
     'gutters'                => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604110512-hpeyxa-20230904_195415.jpg',
     'excavation'             => 'https://i.imgur.com/fyz865n.jpeg',
