@@ -88,7 +88,7 @@ $servicePhotos = [
     'windows-and-doors'      => '/assets/images/window-installation-mount-vernon.webp',
     'decks'                  => '/assets/images/custom-deck-construction.webp',
     'framing'                => '/assets/images/custom-home-framing.webp',
-    'custom-home-building'   => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604304191-9h3673-466678023_10160894523422734_2342757114398857707_n.jpg',
+    'custom-home-building'   => 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
     'general-remodeling'     => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604102234-3xpgf4-20221109_161614.jpg',
     'commercial-construction' => '/assets/images/commercial-construction-eastern-oregon.webp',
 ];

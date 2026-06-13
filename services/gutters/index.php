@@ -478,7 +478,7 @@ p.hero-answer { font-size: clamp(1rem, 1.25vw, 1.1rem); color: rgba(255,255,255,
         </article>
         <article class="service-card-with-image card-tint-2 reveal-up reveal-delay-2">
           <div class="service-card__image">
-            <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604304191-9h3673-466678023_10160894523422734_2342757114398857707_n.jpg"
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
                  alt="Siding installation on a home in Eastern Oregon by Superior Home Builders"
                  width="600" height="360" loading="lazy">
           </div>

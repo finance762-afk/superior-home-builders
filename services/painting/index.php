@@ -376,7 +376,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <div class="services-grid">
         <article class="service-card-with-image card-tint-1 reveal-up reveal-delay-1">
           <div class="service-card__image">
-            <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604304191-9h3673-466678023_10160894523422734_2342757114398857707_n.jpg"
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
                  alt="Siding installation by Superior Home Builders in Eastern Oregon"
                  width="600" height="360" loading="lazy">
           </div>

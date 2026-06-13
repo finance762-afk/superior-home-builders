@@ -449,7 +449,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <div class="area-why-grid">
       <div class="reveal-scale">
         <div class="area-why-photo">
-          <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604304191-9h3673-466678023_10160894523422734_2342757114398857707_n.jpg"
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=480&q=80"
                alt="Superior Home Builders crew on a project in Eastern Oregon"
                width="480" height="600" loading="lazy">
           <div class="area-why-badge">Hines &amp; Harney County's Local Builder</div>

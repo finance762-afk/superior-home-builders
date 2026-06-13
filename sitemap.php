@@ -41,7 +41,7 @@ $pages = [
         'changefreq' => 'monthly',
         'priority'   => '0.9',
         'images'     => [
-            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604304191-9h3673-466678023_10160894523422734_2342757114398857707_n.jpg', 'caption' => 'Custom home build completed by Superior Home Builders in Mount Vernon, Oregon'],
+            ['src' => 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80', 'caption' => 'Custom home build completed by Superior Home Builders in Mount Vernon, Oregon'],
             ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604304797-ovpay8-466679242_10160894523457734_3638487413345304516_n.jpg', 'caption' => 'New custom home construction in Eastern Oregon with mountain views'],
             ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604305411-iws3zu-467311955_10160913944502734_1381678653232378695_n.jpg', 'caption' => 'Custom home exterior and siding work in Grant County, Oregon'],
             ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604306051-1cn5ph-467748149_10161026648862734_1486565757297760050_n.jpg', 'caption' => 'Newly completed custom build near Mount Vernon, Oregon by Superior Home Builders'],
@@ -214,7 +214,7 @@ $pages = [
         'changefreq' => 'monthly',
         'priority'   => '0.8',
         'images'     => [
-            ['src' => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604304191-9h3673-466678023_10160894523422734_2342757114398857707_n.jpg', 'caption' => 'Hardie siding and exterior cladding installation by Superior Home Builders in Eastern Oregon'],
+            ['src' => 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1200&q=80', 'caption' => 'Hardie siding and exterior cladding installation by Superior Home Builders in Eastern Oregon'],
         ],
     ],
     [

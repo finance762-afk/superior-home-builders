@@ -507,7 +507,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           'windows-and-doors'      => ['url'=>'/assets/images/window-installation-mount-vernon.webp',   'alt'=>'Window installation on a Mount Vernon OR home'],
           'decks'                  => ['url'=>'/assets/images/custom-deck-construction.webp',   'alt'=>'Custom deck built in Eastern Oregon by Superior Home Builders'],
           'framing'                => ['url'=>'/assets/images/custom-home-framing.webp',   'alt'=>'Residential framing project in Mount Vernon Oregon'],
-          'custom-home-building'   => ['url'=>'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604304191-9h3673-466678023_10160894523422734_2342757114398857707_n.jpg','alt'=>'Custom home being built in Grant County Oregon'],
+          'custom-home-building'   => ['url'=>'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80','alt'=>'Custom home being built in Grant County Oregon'],
           'general-remodeling'     => ['url'=>'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604102234-3xpgf4-20221109_161614.jpg',   'alt'=>'General remodeling work by Superior Home Builders Mount Vernon OR'],
           'commercial-construction'=> ['url'=>'/assets/images/commercial-construction-eastern-oregon.webp',   'alt'=>'Commercial construction project in Eastern Oregon'],
         ];

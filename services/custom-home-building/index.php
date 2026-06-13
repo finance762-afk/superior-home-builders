@@ -8,7 +8,7 @@ $pageTitle        = 'Custom Home Building in Mount Vernon, OR | Superior Home Bu
 $pageDescription  = 'Build your custom home in Mount Vernon, OR with Superior Home Builders. Full design-to-completion construction in Grant County since 2001. New builds, site prep, foundation to finish. Free estimates.';
 $canonicalUrl     = $siteUrl . '/services/custom-home-building/';
 $currentPage      = 'services';
-$heroImage        = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604304191-9h3673-466678023_10160894523422734_2342757114398857707_n.jpg';
+$heroImage        = 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80';
 $heroImagePreload = $heroImage;
 $ogImage          = $heroImage;
 
@@ -365,7 +365,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
              alt="Custom home build completed by Superior Home Builders in Grant County Oregon" width="600" height="440" loading="lazy">
         <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604306051-1cn5ph-467748149_10161026648862734_1486565757297760050_n.jpg"
              alt="Exterior of a newly completed Superior Home Builders custom home in Eastern Oregon" width="300" height="220" loading="lazy">
-        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604304191-9h3673-466678023_10160894523422734_2342757114398857707_n.jpg"
+        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604270195-cqt47w-468298780_10161035683197734_2359719916650256082_n.jpg"
              alt="Custom home construction by Superior Home Builders in Mount Vernon Oregon" width="300" height="220" loading="lazy">
       </div>
     </div>

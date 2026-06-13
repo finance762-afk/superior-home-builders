@@ -501,7 +501,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
         <article class="service-card-with-image card-tint-3 reveal-up reveal-delay-3">
           <div class="service-card__image">
-            <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/superior-home-builders/photos/1780604304191-9h3673-466678023_10160894523422734_2342757114398857707_n.jpg"
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80"
                  alt="Custom home building in Mount Vernon OR by Superior Home Builders"
                  width="600" height="360" loading="lazy">
           </div>
