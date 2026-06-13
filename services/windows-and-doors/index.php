@@ -530,8 +530,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         </article>
         <article class="service-card-with-image card-tint-3 reveal-up reveal-delay-3">
           <div class="service-card__image">
-            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80"
-                 alt="Custom home construction in Mount Vernon Oregon by Superior Home Builders"
+            <img src="https://i.imgur.com/TrafTG2.jpeg"
+                 alt="Custom home wall framing in progress in Mount Vernon Oregon by Superior Home Builders"
                  width="600" height="360" loading="lazy">
           </div>
           <div class="service-card__body">
