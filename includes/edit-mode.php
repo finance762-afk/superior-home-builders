@@ -56,8 +56,13 @@ if (!empty($_GET['edit']) && $__p1_isPreview):
   var SOFT = (<?php echo json_encode($__p1_soft); ?> || []).filter(atLeast4);
 
   var SELECTOR = "h1,h2,h3,h4,h5,h6,p,li,blockquote,figcaption,span,em,strong";
-  // Ancestors that make an element off-limits: structure, links, CTAs, forms.
-  var SKIP_ANCESTOR = "nav,header,footer,a,button,form,select,option,textarea,script,style,[data-p1-editable]";
+  // Ancestors that make an element off-limits: structure, links, CTAs, forms,
+  // and PHP-loop content. [data-p1-dynamic] is stamped by the build on loop
+  // containers (service cards, reviews, FAQ, ticker, blog) — their text comes
+  // from arrays the server can't match against, so it must never be marked
+  // editable. The marker sits on the loop container, not the section, so the
+  // section's own headings/intro prose stay editable.
+  var SKIP_ANCESTOR = "nav,header,footer,a,button,form,select,option,textarea,script,style,[data-p1-dynamic],[data-p1-editable]";
 
   function hasElementChild(el) {
     for (var n = el.firstChild; n; n = n.nextSibling) if (n.nodeType === 1) return true;
