@@ -1498,7 +1498,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
 <!-- ── TICKER STRIP ─────────────────────────────────────────────── -->
 <div class="ticker-strip" aria-hidden="true">
-  <div class="ticker-inner">
+  <div class="ticker-inner" data-p1-dynamic>
     <?php
     $tickerItems = [
       ['icon' => 'home',         'text' => 'Custom Home Building'],
@@ -1549,7 +1549,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <span class="section-subtitle-accent"><?= htmlspecialchars($tagline) ?></span>
     </div>
 
-    <div class="services-grid">
+    <div class="services-grid" data-p1-dynamic>
       <?php
       $tints   = ['card-tint-1','card-tint-2','card-tint-3'];
       $delays  = ['reveal-delay-1','reveal-delay-2','reveal-delay-3','reveal-delay-4'];
@@ -1787,7 +1787,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
     <!-- Swiper reviews carousel -->
     <div class="swiper reviews-swiper" id="reviews-swiper">
-      <div class="swiper-wrapper">
+      <div class="swiper-wrapper" data-p1-dynamic>
         <?php foreach ($siteReviews as $rev): ?>
         <div class="swiper-slide">
           <div class="review-card">
@@ -1848,7 +1848,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <h2>What homeowners ask before hiring a <em>builder in Mount Vernon</em></h2>
     </div>
 
-    <div class="faq-grid">
+    <div class="faq-grid" data-p1-dynamic>
       <?php foreach ($homeFaqs as $faq): ?>
       <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
@@ -1899,7 +1899,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/blog-data.php';
     $latestPost = $blogPosts[0];
     ?>
-    <article class="blog-preview-card reveal-up" aria-label="<?php echo htmlspecialchars($latestPost['title']); ?>">
+    <article class="blog-preview-card reveal-up" data-p1-dynamic aria-label="<?php echo htmlspecialchars($latestPost['title']); ?>">
 
       <div class="blog-preview-card__img-wrap">
         <img
