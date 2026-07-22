@@ -329,9 +329,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 }
 .hero-layout {
   display: grid;
-  grid-template-columns: 60fr 40fr;
+  grid-template-columns: 1fr;
   gap: var(--space-3xl);
   align-items: center;
+  max-width: 780px;
 }
 .hero-eyebrow {
   display: inline-flex;
@@ -1333,6 +1334,126 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   flex-wrap: wrap;
 }
 
+/* ── BOTTOM CONTACT FORM SECTION ────────────────────────────── */
+.bottom-form-section {
+  background: var(--lux-ivory);
+  border-top: 1px solid var(--lux-line);
+  padding: var(--space-4xl) 0;
+}
+.bottom-form-section .eyebrow-label { color: var(--lux-gold-deep); letter-spacing: 0.28em; }
+.bottom-form-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-4xl);
+  align-items: start;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.bottom-form-copy h2 {
+  font-weight: 480;
+  margin-bottom: var(--space-md);
+}
+.bottom-form-copy p {
+  color: var(--color-text-light);
+  font-size: clamp(0.95rem, 1.4vw, 1.05rem);
+  line-height: 1.8;
+  margin-bottom: var(--space-lg);
+}
+.bottom-form-trust {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  margin-top: var(--space-xl);
+}
+.bottom-trust-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  font-size: var(--fs-sm);
+  color: var(--color-text);
+  font-weight: 500;
+}
+.bottom-trust-item i,
+.bottom-trust-item svg {
+  width: 18px;
+  height: 18px;
+  color: var(--lux-gold-deep);
+  flex-shrink: 0;
+}
+.bottom-form-card {
+  background: var(--color-bg);
+  border: 1px solid rgba(255,255,255,0.65);
+  border-top: 3px solid var(--lux-gold);
+  border-radius: var(--radius-lg);
+  padding: var(--space-2xl);
+  box-shadow: 0 20px 56px rgba(var(--color-primary-rgb), 0.12);
+}
+.bottom-form-card h3 {
+  font-family: var(--font-heading);
+  color: var(--color-primary);
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  font-weight: 560;
+  letter-spacing: -0.01em;
+  margin-bottom: var(--space-xs);
+}
+.bottom-form-tagline {
+  color: var(--color-text-light);
+  font-size: var(--fs-sm);
+  margin-bottom: var(--space-lg);
+}
+.bottom-form input,
+.bottom-form select {
+  width: 100%;
+  padding: 14px var(--space-md);
+  background: var(--color-bg);
+  border: 1px solid var(--lux-line);
+  border-radius: var(--radius-sm);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: var(--fs-sm);
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+  -webkit-appearance: none;
+}
+.bottom-form input::placeholder { color: var(--color-text-light); opacity: 0.75; }
+.bottom-form select { cursor: pointer; }
+.bottom-form select option { background: var(--color-bg); color: var(--color-text); }
+.bottom-form input:focus,
+.bottom-form select:focus {
+  outline: none;
+  border-color: var(--lux-gold-deep);
+  box-shadow: 0 0 0 3px rgba(var(--color-accent-rgb), 0.30);
+}
+.bottom-form .form-row { margin-bottom: var(--space-md); }
+.bottom-form-consent {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-sm);
+  text-align: left;
+  cursor: pointer;
+  font-size: var(--fs-xs);
+  color: var(--color-text-light);
+  line-height: 1.55;
+  margin-top: var(--space-md);
+}
+.bottom-form-consent input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  margin-top: 2px;
+  accent-color: var(--lux-gold-deep);
+  cursor: pointer;
+}
+.bottom-form-consent a {
+  color: var(--color-text-light);
+  text-decoration: underline;
+}
+.bottom-form-consent a:hover { color: var(--lux-gold-deep); }
+@media (max-width: 860px) {
+  .bottom-form-layout { grid-template-columns: 1fr; }
+  .bottom-form-copy { text-align: center; }
+  .bottom-form-trust { align-items: center; }
+}
+
 /* ── MOBILE CTA BAR OFFSET ──────────────────────────────────── */
 @media (max-width: 767px) {
   body { padding-bottom: 66px; }
@@ -1340,8 +1461,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
 /* ── RESPONSIVE ─────────────────────────────────────────────── */
 @media (max-width: 1024px) {
-  .hero-layout            { grid-template-columns: 1fr; gap: var(--space-2xl); }
-  .hero-form-card         { max-width: 520px; margin: 0 auto; }
+  .hero-layout            { gap: var(--space-2xl); }
   .services-grid          { grid-template-columns: repeat(2, 1fr); }
   .stats-grid             { grid-template-columns: repeat(2, 1fr); gap: var(--space-lg); }
   .stat-item              { border-left: none; }
@@ -1435,49 +1555,6 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             </span>
           </div>
         </div><!-- /.hero-text -->
-
-        <!-- RIGHT: Lead-capture form card -->
-        <aside class="hero-form-card" id="estimate-form">
-          <h2>Get Your Free Estimate</h2>
-          <p class="hero-form-tagline">No obligation. Same-day response.</p>
-          <form action="<?= htmlspecialchars($formAction) ?>" method="POST" class="hero-form">
-            <!-- Honeypot (field name per leads edge function) -->
-            <input type="text" name="_honey" style="display:none !important" tabindex="-1" autocomplete="off" aria-hidden="true">
-            <!-- Hidden tracking -->
-            <input type="hidden" name="_next" value="/thank-you">
-            <input type="hidden" name="_form_location" value="hero">
-            <input type="hidden" name="_consent_version" value="<?= htmlspecialchars($consentVersion) ?>">
-            <input type="hidden" name="_consent_page" value="<?= htmlspecialchars($_SERVER['REQUEST_URI']) ?>">
-
-            <div class="form-row">
-              <input type="text" name="name" placeholder="Your full name" required autocomplete="name">
-            </div>
-            <div class="form-row">
-              <input type="email" name="email" placeholder="Email address" required autocomplete="email">
-            </div>
-            <div class="form-row">
-              <input type="tel" name="phone" placeholder="Phone number" required autocomplete="tel">
-            </div>
-            <div class="form-row">
-              <input type="text" name="zip" placeholder="ZIP code" pattern="[0-9]{5}" maxlength="5" autocomplete="postal-code" required>
-            </div>
-            <div class="form-row">
-              <select name="service">
-                <option value="">What do you need?</option>
-                <?php foreach ($services as $svc): ?>
-                <option value="<?= htmlspecialchars($svc['name']) ?>"><?= htmlspecialchars($svc['name']) ?></option>
-                <?php endforeach; ?>
-              </select>
-            </div>
-            <button type="submit" class="btn btn-lux btn-secondary btn-block">
-              Get My Free Estimate
-            </button>
-            <label class="form-footnote hero-consent">
-              <input type="checkbox" name="terms_accepted" value="yes" required>
-              <span>I agree to the <a href="/terms/">Terms</a> and <a href="/privacy-policy/">Privacy Policy</a>.</span>
-            </label>
-          </form>
-        </aside><!-- /.hero-form-card -->
 
       </div><!-- /.hero-layout -->
     </div><!-- /.container -->
@@ -1949,10 +2026,113 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </div>
 </section>
 
-<!-- ── WAVE DIVIDER — blog preview into ivory closing CTA ─────── -->
+<!-- ── WAVE DIVIDER — blog preview into contact form ──────────── -->
 <div class="divider-wave" aria-hidden="true" style="background:var(--color-bg-alt)">
   <svg viewBox="0 0 1440 50" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M0,25 C360,50 1080,0 1440,25 L1440,50 L0,50 Z" style="fill:var(--lux-ivory)"/>
+  </svg>
+</div>
+
+<!-- ════════════════════════════════════════════════════
+     CONTACT FORM SECTION
+════════════════════════════════════════════════════ -->
+<section class="bottom-form-section" id="estimate-form" aria-label="Get a free estimate">
+  <div class="container">
+    <div class="bottom-form-layout">
+
+      <!-- LEFT: Copy + trust signals -->
+      <div class="bottom-form-copy reveal-left">
+        <span class="eyebrow-label" style="display:block;margin-bottom:var(--space-md)">Free Estimates</span>
+        <h2>Ready to Start Your Project in <em>Eastern Oregon?</em></h2>
+        <p>
+          Fill out the form and a member of the Superior Home Builders team will get
+          back to you — typically within one business day. No obligation, no pressure,
+          just a straightforward conversation about your project.
+        </p>
+        <p>
+          Prefer to talk right away? Call us directly. We serve Mount Vernon, John Day,
+          Canyon City, Prairie City, and communities throughout Grant County.
+        </p>
+        <div class="bottom-form-trust">
+          <span class="bottom-trust-item">
+            <?php echo lucide_icon('shield-check'); ?> Licensed &amp; insured &mdash; Oregon CCB# <?= htmlspecialchars($licenseNumber) ?>
+          </span>
+          <span class="bottom-trust-item">
+            <?php echo lucide_icon('calendar'); ?> <?= $yearsInBusiness ?>+ years building in Eastern Oregon
+          </span>
+          <span class="bottom-trust-item">
+            <?php echo lucide_icon('clock'); ?> Typical response within one business day
+          </span>
+          <span class="bottom-trust-item">
+            <?php echo lucide_icon('star'); ?> Free written estimates on every project
+          </span>
+        </div>
+        <?php if (!empty($phone)): ?>
+        <div style="margin-top:var(--space-2xl)">
+          <a href="tel:<?= preg_replace('/\D/', '', $phone) ?>" class="btn btn-lux btn-outline-dark">
+            <?php echo lucide_icon('phone'); ?>
+            Call <?= htmlspecialchars($phone) ?>
+          </a>
+        </div>
+        <?php endif; ?>
+      </div><!-- /.bottom-form-copy -->
+
+      <!-- RIGHT: Contact form card -->
+      <div class="bottom-form-card reveal-right">
+        <h3>Get Your Free Estimate</h3>
+        <p class="bottom-form-tagline">No obligation. Same-day response.</p>
+        <form action="<?= htmlspecialchars($formAction) ?>" method="POST" class="bottom-form">
+          <input type="text" name="_honey" style="display:none !important" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <input type="hidden" name="_next" value="/thank-you">
+          <input type="hidden" name="_form_location" value="homepage-bottom">
+          <input type="hidden" name="_consent_version" value="<?= htmlspecialchars($consentVersion) ?>">
+          <input type="hidden" name="_consent_page" value="<?= htmlspecialchars($_SERVER['REQUEST_URI']) ?>">
+
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Your full name" required autocomplete="name">
+          </div>
+          <div class="form-row">
+            <input type="email" name="email" placeholder="Email address" required autocomplete="email">
+          </div>
+          <div class="form-row">
+            <input type="tel" name="phone" placeholder="Phone number" required autocomplete="tel">
+          </div>
+          <div class="form-row">
+            <input type="text" name="zip" placeholder="ZIP code" pattern="[0-9]{5}" maxlength="5" autocomplete="postal-code" required>
+          </div>
+          <div class="form-row">
+            <select name="service">
+              <option value="">What do you need?</option>
+              <?php foreach ($services as $svc): ?>
+              <option value="<?= htmlspecialchars($svc['name']) ?>"><?= htmlspecialchars($svc['name']) ?></option>
+              <?php endforeach; ?>
+            </select>
+          </div>
+          <!-- spam shield: signed render timestamp + JS interaction signal -->
+          <?php $__ft_ts = (string) time(); ?>
+          <input type="hidden" name="_ft" value="<?php echo $__ft_ts . '.' . hash_hmac('sha256', $__ft_ts, $leadsFormSecret); ?>">
+          <input type="hidden" name="_js" value="" class="js-shield-field">
+          <?php if (empty($GLOBALS['__js_shield'])) { $GLOBALS['__js_shield'] = 1; ?>
+          <script>(function(){var d=document,f=function(){var i,e=d.querySelectorAll('.js-shield-field');for(i=0;i<e.length;i++)e[i].value='1';d.removeEventListener('pointerdown',f);d.removeEventListener('keydown',f);};d.addEventListener('pointerdown',f);d.addEventListener('keydown',f);})();</script>
+          <?php } ?>
+          <button type="submit" class="btn btn-lux btn-secondary btn-block">
+            Get My Free Estimate
+          </button>
+          <label class="bottom-form-consent">
+            <input type="checkbox" name="terms_accepted" value="yes" required>
+            <span>I agree to the <a href="/terms/">Terms</a> and <a href="/privacy-policy/">Privacy Policy</a>.</span>
+          </label>
+        </form>
+      </div><!-- /.bottom-form-card -->
+
+    </div><!-- /.bottom-form-layout -->
+  </div><!-- /.container -->
+</section>
+
+<!-- ── DIVIDER — contact form into closing CTA ─────────────────── -->
+<div class="divider-wave" aria-hidden="true" style="background:var(--closing-cta-bg,var(--lux-ivory))">
+  <svg viewBox="0 0 1440 50" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,25 C480,50 960,0 1440,25 L1440,50 L0,50 Z" style="fill:var(--lux-ivory)"/>
   </svg>
 </div>
 
