@@ -39,7 +39,7 @@ $yearsInBusiness = (int) date('Y') - $yearEstablished;
 
 // ── Analytics & Verification ─────────────────────────────────
 $googleAnalyticsId = 'G-XXXXXXXXXX';   // Replace after launch
-$gscVerification   = '';               // Replace after GSC setup
+$gscVerification = 'I-VCI0K5ql-_2wHPn8SdapRumbb4RHG2IDK892i_OrU';               // Replace after GSC setup
 
 // ── Brand Colors ─────────────────────────────────────────────
 $colors = [
