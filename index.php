@@ -1244,7 +1244,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             </button>
             <label class="form-footnote hero-consent">
               <input type="checkbox" name="terms_accepted" value="yes" required>
-              <span>I agree to the <a href="/terms/">Terms</a> and <a href="/privacy-policy/">Privacy Policy</a>.</span>
+              <span>I agree to the <a href="/terms/" target="_blank" rel="noopener">Terms</a> and <a href="/privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a>.</span>
             </label>
           </form>
         </aside><!-- /.hero-form-card -->
