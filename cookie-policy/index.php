@@ -218,8 +218,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       </ul>
 
       <div class="legal-disclaimer">
-        <strong>Attorney Review Recommended:</strong> This Cookie Policy is provided as a general template.
-        We recommend reviewing this document with a licensed <?php echo htmlspecialchars($companyState); ?> attorney before publication.
+        <strong>Attorney Review Recommended:</strong> 
       </div>
 
     </div>
